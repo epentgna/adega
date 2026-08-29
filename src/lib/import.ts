@@ -27,6 +27,7 @@ export interface ImportWine {
   prateleira?: string
   posicao?: string
   garrafas?: number
+  historia?: string
   notasDegustacao?: string
   harmonizacoes?: string[]
   guardaDe?: number | null
@@ -264,6 +265,7 @@ export async function runImport(
       myRating: null,
       myNotes: '',
       favorite: false,
+      story: (entry.historia ?? '').trim(),
       tastingNotes: (entry.notasDegustacao ?? '').trim(),
       body: null,
       pairings: (entry.harmonizacoes ?? []).map((p) => p.trim()).filter(Boolean),

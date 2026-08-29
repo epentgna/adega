@@ -161,6 +161,13 @@ export function WineForm({
 
       <Section title="Ficha técnica" />
       <TextField
+        label="História"
+        value={wine.story ?? ''}
+        onChange={(v) => patch({ story: v })}
+        multiline
+        hint="Aparece ao tocar no vinho dentro do cardápio."
+      />
+      <TextField
         label="Notas de degustação"
         value={wine.tastingNotes ?? ''}
         onChange={(v) => patch({ tastingNotes: v })}

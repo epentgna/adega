@@ -15,6 +15,7 @@ export interface WineDraft {
   grapes: string[]
   abv: number | null
   volumeMl: number | null
+  story: string
   tastingNotes: string
   body: 'Leve' | 'Médio' | 'Encorpado' | null
   pairings: string[]
@@ -90,6 +91,11 @@ const WINE_TOOL: Anthropic.Tool = {
       uvas: { type: 'array', items: { type: 'string' } },
       teor_alcoolico: { type: ['number', 'null'], description: 'Em % vol.' },
       volume_ml: { type: ['integer', 'null'], description: '750 na maioria.' },
+      historia: {
+        type: 'string',
+        description:
+          'História do rótulo, do produtor ou do vinhedo, em 2 a 4 frases. Só o que for verificável.'
+      },
       notas_degustacao: { type: 'string' },
       corpo: { type: ['string', 'null'], enum: ['Leve', 'Médio', 'Encorpado', null] },
       harmonizacoes: { type: 'array', items: { type: 'string' } },
@@ -397,6 +403,7 @@ function toDraft(input: Record<string, unknown>, model: string): WineDraft {
     grapes: strArray(input.uvas),
     abv: num(input.teor_alcoolico),
     volumeMl: int(input.volume_ml),
+    story: str(input.historia),
     tastingNotes: str(input.notas_degustacao),
     body:
       corpo === 'Leve' || corpo === 'Médio' || corpo === 'Encorpado'

@@ -101,6 +101,8 @@ export interface Wine {
   favorite: boolean
 
   // Ficha técnica
+  /** História do rótulo, do produtor ou do vinhedo. Aparece no cardápio. */
+  story?: string
   tastingNotes?: string
   body?: BodyLevel | null
   pairings: string[]

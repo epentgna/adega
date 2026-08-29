@@ -36,6 +36,11 @@ Leia a foto com a ferramenta Read. Depois pesquise na web pelo produtor + nome
 **O rótulo manda.** O que está impresso vale mais que sua memória: produtor,
 nome, safra, denominação, teor alcoólico e volume costumam estar lá.
 
+**Escreva a `historia`**: de 2 a 4 frases sobre o nome, o produtor ou o
+vinhedo — o que se conta antes de servir. É o que aparece ao tocar no vinho
+dentro do cardápio, então vale pesquisar de verdade. Vale a mesma regra de
+tudo o mais: só o que a busca sustenta; sem nada verificável, deixe de fora.
+
 **Nunca invente nota, número de avaliações ou preço.** Sem número encontrado na
 busca, o campo fica de fora. Uma ficha com lacuna é útil; uma ficha com nota
 inventada envenena o catálogo. Vivino é escala 5; Parker, Wine Spectator,

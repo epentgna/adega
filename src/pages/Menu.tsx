@@ -6,12 +6,14 @@ import { headlineRating, money, ratingLabel, vintageLabel } from '../lib/format'
 import { Empty, Header, IconButton } from '../components/Layout'
 import { BottomSheet } from '../components/BottomSheet'
 import { TextField, Toggle } from '../components/Field'
+import { MenuWineSheet } from '../components/MenuWineSheet'
 import { IconGear, IconPrint, IconStar } from '../components/icons'
 
 export default function Menu() {
   const wines = useLiveQuery(() => db.wines.toArray(), [])
   const settings = useLiveQuery(() => db.settings.get(1), [])
   const [config, setConfig] = useState(false)
+  const [aberto, setAberto] = useState<Wine | null>(null)
   const [showRatings, setShowRatings] = useState(true)
 
   const groups = useMemo(() => {
@@ -75,6 +77,9 @@ export default function Menu() {
               <p className="text-muted text-sm mt-1.5">{settings.menuSubtitle}</p>
             )}
             <div className="mx-auto mt-4 h-px w-16 bg-gold/60" />
+            <p className="text-[11px] text-muted mt-3 no-print">
+              Toque em um vinho para ver a história e a ficha completa.
+            </p>
           </div>
 
           {groups.map((group) => (
@@ -89,6 +94,11 @@ export default function Menu() {
                   const rating = showRatings ? headlineRating(w) : null
                   return (
                     <article key={w.id} className="break-inside-avoid">
+                      <button
+                        type="button"
+                        onClick={() => setAberto(w)}
+                        className="w-full text-left active:opacity-70 transition-opacity"
+                      >
                       <div className="flex items-baseline gap-3">
                         <h4 className="font-display text-[19px] leading-tight font-semibold flex-1 min-w-0">
                           {w.name || w.producer}
@@ -128,6 +138,7 @@ export default function Menu() {
                           </span>
                         </div>
                       )}
+                      </button>
                     </article>
                   )
                 })}
@@ -140,6 +151,13 @@ export default function Menu() {
           </p>
         </div>
       )}
+
+      <MenuWineSheet
+        wine={aberto}
+        onClose={() => setAberto(null)}
+        currency={currency}
+        showPrice={showPrices}
+      />
 
       <BottomSheet open={config} onClose={() => setConfig(false)} title="Ajustes do cardápio">
         <TextField
