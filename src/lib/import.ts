@@ -1,5 +1,5 @@
 import { db, getSettings } from '../db/db'
-import { formatCode } from './code'
+import { formatCode, parseSeq } from './code'
 import { savePhoto } from './photos'
 import type { Cellar, Rating, Wine, WineType } from '../types'
 import { WINE_TYPES } from '../types'
@@ -10,6 +10,8 @@ import { WINE_TYPES } from '../types'
  * precisar saber nada sobre ids ou IndexedDB.
  */
 export interface ImportWine {
+  /** Numeração já atribuída. Sem ela, o app numera na sequência. */
+  codigo?: string
   fotos?: string[]
   nome?: string
   produtor?: string
@@ -54,10 +56,16 @@ export interface ImportFile {
   vinhos: ImportWine[]
 }
 
+/** Uma foto disponível para o import, venha de onde vier. */
+export interface NamedPhoto {
+  name: string
+  blob: Blob
+}
+
 export interface ImportPlan {
   wines: ImportWine[]
-  /** Nome de arquivo (minúsculo) → arquivo escolhido. */
-  photos: Map<string, File>
+  /** Nome de arquivo (minúsculo) → conteúdo. */
+  photos: Map<string, Blob>
   /** Fotos citadas no JSON que não estavam na seleção. */
   missingPhotos: string[]
   /** Fotos selecionadas que nenhum vinho cita. */
@@ -69,6 +77,8 @@ export interface ImportResult {
   wines: number
   photos: number
   cellars: number
+  /** Vinhos ignorados porque a numeração já existia no catálogo. */
+  skipped: number
   firstCode: string
   lastCode: string
 }
@@ -90,10 +100,10 @@ export function parseImportFile(raw: unknown): ImportWine[] {
 /** Cruza o JSON com as fotos escolhidas e diz o que vai acontecer. */
 export async function planImport(
   wines: ImportWine[],
-  files: File[]
+  files: NamedPhoto[]
 ): Promise<ImportPlan> {
-  const photos = new Map<string, File>()
-  for (const file of files) photos.set(baseName(file.name), file)
+  const photos = new Map<string, Blob>()
+  for (const file of files) photos.set(baseName(file.name), file.blob)
 
   const cited = new Set<string>()
   const missingPhotos: string[] = []
@@ -203,16 +213,30 @@ export async function runImport(
     }
   }
 
+  // Numeração já usada: uma garrafa que chega com código repetido é a mesma
+  // garrafa chegando de novo, não uma nova.
+  const taken = new Set((await db.wines.toArray()).map((w) => w.code))
   const last = await db.wines.orderBy('seq').last()
   let seq = (last?.seq ?? 0) + 1
-  const firstCode = formatCode(settings.codePrefix, settings.codeDigits, seq)
 
   let savedPhotos = 0
-  let lastCode = firstCode
+  let skipped = 0
+  let firstCode = ''
+  let lastCode = ''
   const total = plan.wines.length
 
   for (const [i, entry] of plan.wines.entries()) {
-    const code = formatCode(settings.codePrefix, settings.codeDigits, seq)
+    const given = entry.codigo?.trim()
+    if (given && taken.has(given)) {
+      skipped++
+      onProgress?.(i, total, `${given} · já estava no catálogo`)
+      continue
+    }
+
+    const code = given || formatCode(settings.codePrefix, settings.codeDigits, seq)
+    // Com código vindo pronto, a sequência continua a partir do maior número.
+    const codeSeq = given ? (parseSeq(given) ?? seq) : seq
+    taken.add(code)
     onProgress?.(i, total, `${code} · ${entry.nome ?? entry.produtor ?? 'sem nome'}`)
 
     const cellar = entry.adega ? byName.get(entry.adega.trim()) : undefined
@@ -220,7 +244,7 @@ export async function runImport(
 
     const wine: Wine = {
       code,
-      seq,
+      seq: codeSeq,
       name: (entry.nome ?? '').trim(),
       producer: (entry.produtor ?? '').trim(),
       country: (entry.pais ?? '').trim(),
@@ -285,16 +309,18 @@ export async function runImport(
     }
     if (photoIds.length) await db.wines.update(wineId, { photoIds })
 
+    if (!firstCode) firstCode = code
     lastCode = code
-    seq++
+    seq = Math.max(seq, codeSeq) + 1
   }
 
   onProgress?.(total, total, 'Concluído')
 
   return {
-    wines: plan.wines.length,
+    wines: plan.wines.length - skipped,
     photos: savedPhotos,
     cellars: created,
+    skipped,
     firstCode,
     lastCode
   }

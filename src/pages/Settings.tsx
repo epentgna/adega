@@ -160,6 +160,13 @@ export default function Settings() {
         options={CURRENCIES.map((c) => ({ value: c as string, label: c }))}
       />
 
+      <Toggle
+        label="Buscar garrafas novas ao abrir"
+        hint="Traz sozinho o que você catalogou conversando com o Claude."
+        checked={settings.autoRepoImport ?? true}
+        onChange={(autoRepoImport) => updateSettings({ autoRepoImport })}
+      />
+
       <Section title="Numeração" />
       <div className="grid grid-cols-2 gap-3">
         <TextField

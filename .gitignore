@@ -7,6 +7,8 @@ dist-ssr
 .tsbuild
 *.tsbuildinfo
 
-# Fotos para catalogação em lote (nunca vão para o repositório).
-fotos/
-catalogo.json
+# Pasta de trabalho da catalogação em lote, na raiz: nunca vai para o
+# repositório. As barras iniciais importam — sem elas isto também esconderia
+# public/fotos/ e public/catalogo.json, que precisam ser publicados.
+/fotos/
+/catalogo.json

@@ -187,6 +187,8 @@ export interface Settings {
   menuSubtitle: string
   /** Mostrar preços no cardápio. */
   menuShowPrices: boolean
+  /** Buscar sozinho as garrafas catalogadas por conversa. */
+  autoRepoImport: boolean
   onboarded: boolean
 }
 

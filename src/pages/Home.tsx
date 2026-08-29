@@ -5,8 +5,9 @@ import { db } from '../db/db'
 import { computeStats } from '../lib/stats'
 import { drinkability, money } from '../lib/format'
 import { Empty, Header, IconButton } from '../components/Layout'
+import { useRepoImport } from '../hooks/useRepoImport'
 import { WineCard } from '../components/WineCard'
-import { IconGear, IconSearch, IconSparkle } from '../components/icons'
+import { IconGear, IconSearch, IconSparkle, IconX } from '../components/icons'
 
 export default function Home() {
   const navigate = useNavigate()
@@ -14,6 +15,7 @@ export default function Home() {
   const wines = useLiveQuery(() => db.wines.toArray(), [])
   const cellars = useLiveQuery(() => db.cellars.toArray(), [])
   const settings = useLiveQuery(() => db.settings.get(1), [])
+  const repo = useRepoImport(settings?.autoRepoImport ?? true)
 
   const stats = useMemo(() => computeStats(wines ?? []), [wines])
 
@@ -49,11 +51,41 @@ export default function Home() {
         }
       />
 
-      <button
-        onClick={() => navigate(`/catalogo?q=${encodeURIComponent(query)}`)}
-        className="hidden"
-        aria-hidden
-      />
+      {repo.running && (
+        <div className="card p-3.5 mb-4 flex items-center gap-3">
+          <span className="h-2 w-2 rounded-full bg-gold animate-pulse shrink-0" />
+          <span className="text-[13px] text-muted truncate">
+            {repo.label || 'Buscando garrafas novas…'}
+          </span>
+        </div>
+      )}
+
+      {repo.result && (
+        <div className="card p-4 mb-4 border-gold/50 flex items-start gap-3">
+          <IconSparkle width={19} height={19} className="text-gold shrink-0 mt-0.5" />
+          <div className="min-w-0 flex-1">
+            <div className="text-[15px]">
+              {repo.result.wines} garrafa{repo.result.wines === 1 ? '' : 's'} nova
+              {repo.result.wines === 1 ? '' : 's'}
+            </div>
+            <div className="text-[12px] text-muted mt-0.5">
+              {repo.result.firstCode}
+              {repo.result.firstCode !== repo.result.lastCode
+                ? ` a ${repo.result.lastCode}`
+                : ''}{' '}
+              · catalogadas por conversa
+            </div>
+          </div>
+          <button
+            onClick={repo.dismiss}
+            aria-label="Dispensar"
+            className="text-muted shrink-0"
+          >
+            <IconX width={17} height={17} />
+          </button>
+        </div>
+      )}
+
       <form
         onSubmit={(e) => {
           e.preventDefault()

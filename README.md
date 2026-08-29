@@ -40,6 +40,16 @@ Detalhes que importam:
 - O que você digitou à mão nunca é sobrescrito pela IA.
 - Sem chave configurada, o app funciona inteiro — só o preenchimento é manual.
 
+## Catalogar conversando (o jeito mais simples)
+
+Abra uma sessão do Claude neste repositório, mande a foto do rótulo e diga a
+prateleira. Ele identifica o vinho, pesquisa as notas, atribui o número, guarda
+a foto e faz o push — e o app **busca sozinho** na próxima vez que abrir.
+Não consome crédito de API: quem identifica é o Claude da conversa.
+
+Guia em [CATALOGAR-CONVERSANDO.md](CATALOGAR-CONVERSANDO.md); a skill está em
+`.claude/skills/catalogar/`.
+
 ## Catalogar o acervo inteiro de uma vez
 
 Preencher 300 garrafas uma a uma pelo app consome crédito de API a cada rótulo.

@@ -38,6 +38,7 @@ export const DEFAULT_SETTINGS: Settings = {
   menuTitle: 'Carta de Vinhos',
   menuSubtitle: '',
   menuShowPrices: false,
+  autoRepoImport: true,
   onboarded: false
 }
 

@@ -7,9 +7,10 @@ import {
   type ImportPlan,
   type ImportResult
 } from '../lib/import'
+import { checkRepoCatalog, importFromRepo } from '../lib/repoCatalog'
 import { BackBar, Sheet } from '../components/Layout'
 import { Toggle } from '../components/Field'
-import { IconCheck, IconSparkle } from '../components/icons'
+import { IconCheck } from '../components/icons'
 
 /**
  * Importa de uma vez o catálogo que o Claude Code montou a partir de uma pasta
@@ -29,13 +30,41 @@ export default function Import() {
     null
   )
   const [result, setResult] = useState<ImportResult | null>(null)
+  const [repoStatus, setRepoStatus] = useState('')
+
+  const pullFromRepo = async () => {
+    setRepoStatus('Procurando…')
+    try {
+      const check = await checkRepoCatalog()
+      if (!check) {
+        setRepoStatus('Nenhum catálogo publicado no repositório ainda.')
+        return
+      }
+      if (check.novos === 0) {
+        setRepoStatus(`Já está tudo aqui (${check.total} garrafas no arquivo).`)
+        return
+      }
+      const done = await importFromRepo((d, total, label) =>
+        setRepoStatus(`${label} (${d}/${total})`)
+      )
+      if (done) setResult(done)
+      else setRepoStatus('Nada novo para trazer.')
+    } catch (err) {
+      setRepoStatus(err instanceof Error ? err.message : 'Falhou.')
+    }
+  }
 
   const rebuildPlan = async (
     nextWines: ImportPlan['wines'] | null,
     nextFiles: File[]
   ) => {
     if (!nextWines) return
-    setPlan(await planImport(nextWines, nextFiles))
+    setPlan(
+      await planImport(
+        nextWines,
+        nextFiles.map((f) => ({ name: f.name, blob: f }))
+      )
+    )
   }
 
   const loadJson = async (file: File) => {
@@ -80,7 +109,8 @@ export default function Import() {
           <p className="text-[13px] text-muted leading-relaxed mb-5">
             {result.photos} foto{result.photos === 1 ? '' : 's'} guardada
             {result.photos === 1 ? '' : 's'}
-            {result.cellars ? `, ${result.cellars} adega(s) criada(s)` : ''}.
+            {result.cellars ? `, ${result.cellars} adega(s) criada(s)` : ''}
+            {result.skipped ? `, ${result.skipped} já estavam no catálogo` : ''}.
             Numeração de <span className="code-tag">{result.firstCode}</span> a{' '}
             <span className="code-tag">{result.lastCode}</span>.
           </p>
@@ -101,18 +131,25 @@ export default function Import() {
     <Sheet>
       <BackBar title="Importar em lote" to="/gestao" />
 
-      <div className="card p-4 mb-5">
-        <div className="flex items-start gap-3">
-          <IconSparkle width={20} height={20} className="text-gold shrink-0 mt-0.5" />
-          <p className="text-[13px] text-muted leading-relaxed">
-            Para catalogar centenas de garrafas sem pagar a API por foto: deixe o
-            Claude Code processar a pasta de fotos no computador e gerar um JSON.
-            Aqui você junta esse JSON com as fotos. O passo a passo está no
-            arquivo <span className="text-ink">CATALOGO-EM-LOTE.md</span> do
-            repositório.
-          </p>
-        </div>
+      <div className="eyebrow mb-3">Catalogadas por conversa</div>
+      <div className="card p-4 mb-6">
+        <p className="text-[13px] text-muted leading-relaxed mb-3.5">
+          As garrafas que você catalogou conversando com o Claude chegam sozinhas
+          quando o app abre. Use o botão se quiser buscar agora.
+        </p>
+        <button className="btn-gold" onClick={pullFromRepo}>
+          Buscar garrafas novas
+        </button>
+        {repoStatus && (
+          <p className="text-[12px] text-muted mt-3 leading-relaxed">{repoStatus}</p>
+        )}
       </div>
+
+      <div className="eyebrow mb-3">Ou: arquivo montado no computador</div>
+      <p className="text-[12px] text-muted leading-relaxed mb-4">
+        Para o acervo inteiro de uma vez, com o Claude Code processando uma pasta
+        de fotos. Passo a passo em CATALOGO-EM-LOTE.md.
+      </p>
 
       <div className="eyebrow mb-3">1 · Arquivo do catálogo</div>
       <button className="btn-ghost w-full mb-2" onClick={() => jsonRef.current?.click()}>
