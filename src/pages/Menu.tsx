@@ -7,7 +7,8 @@ import { Empty, Header, IconButton } from '../components/Layout'
 import { BottomSheet } from '../components/BottomSheet'
 import { TextField, Toggle } from '../components/Field'
 import { MenuWineSheet } from '../components/MenuWineSheet'
-import { IconGear, IconPrint, IconStar } from '../components/icons'
+import { availableFamilies, matchesFamily, matchesText } from '../lib/pairings'
+import { IconGear, IconPrint, IconSearch, IconStar, IconX } from '../components/icons'
 
 export default function Menu() {
   const wines = useLiveQuery(() => db.wines.toArray(), [])
@@ -16,10 +17,31 @@ export default function Menu() {
   const [aberto, setAberto] = useState<Wine | null>(null)
   const [showRatings, setShowRatings] = useState(true)
 
-  const groups = useMemo(() => {
-    const listed = (wines ?? []).filter(
-      (w) => w.inMenu && w.status === 'estoque' && w.quantity > 0
+  const [tipo, setTipo] = useState<string | null>(null)
+  const [prato, setPrato] = useState<string | null>(null)
+  const [busca, setBusca] = useState('')
+
+  /** Tudo o que está na carta, antes de qualquer filtro. */
+  const naCarta = useMemo(
+    () =>
+      (wines ?? []).filter(
+        (w) => w.inMenu && w.status === 'estoque' && w.quantity > 0
+      ),
+    [wines]
+  )
+
+  const familias = useMemo(() => availableFamilies(naCarta), [naCarta])
+
+  const filtrar = (lista: Wine[], comTipo: boolean) =>
+    lista.filter(
+      (w) =>
+        (!comTipo || !tipo || w.type === tipo) &&
+        (!prato || matchesFamily(w, prato)) &&
+        matchesText(w, busca)
     )
+
+  const groups = useMemo(() => {
+    const listed = filtrar(naCarta, true)
     const byType = new Map<string, Wine[]>()
     for (const w of listed) {
       const list = byType.get(w.type) ?? []
@@ -39,16 +61,28 @@ export default function Menu() {
       type: t,
       wines: byType.get(t)!
     }))
-  }, [wines])
+  }, [naCarta, tipo, prato, busca])
 
   const total = groups.reduce((n, g) => n + g.wines.length, 0)
+  const filtrando = tipo !== null || prato !== null || busca.trim() !== ''
+  // Quando o tipo escolhido não dá em nada, vale saber se sem ele daria.
+  const semTipo = filtrar(naCarta, false).length
+  const limpar = () => {
+    setTipo(null)
+    setPrato(null)
+    setBusca('')
+  }
   const currency = settings?.currency ?? 'BRL'
   const showPrices = settings?.menuShowPrices ?? false
 
   return (
     <>
       <Header
-        eyebrow={`${total} rótulos na carta`}
+        eyebrow={
+          filtrando
+            ? `${total} de ${naCarta.length} rótulos`
+            : `${total} rótulos na carta`
+        }
         title="Cardápio"
         right={
           <>
@@ -62,7 +96,94 @@ export default function Menu() {
         }
       />
 
-      {total === 0 ? (
+      {naCarta.length > 0 && (
+        <div className="no-print mb-6">
+          <div className="field flex items-center gap-2.5 mb-3">
+            <IconSearch width={18} height={18} className="text-muted shrink-0" />
+            <input
+              className="flex-1 min-w-0"
+              value={busca}
+              onChange={(e) => setBusca(e.target.value)}
+              placeholder="Uva, região, prato…"
+              aria-label="Buscar na carta"
+            />
+            {busca && (
+              <button
+                onClick={() => setBusca('')}
+                aria-label="Limpar busca"
+                className="text-muted shrink-0"
+              >
+                <IconX width={16} height={16} />
+              </button>
+            )}
+          </div>
+
+          <div className="sys-label mb-2">Tipo</div>
+          <div className="flex flex-wrap gap-2 mb-4">
+            {MENU_TYPE_ORDER.filter((t) =>
+              naCarta.some((w) => w.type === t)
+            ).map((t) => (
+              <button
+                key={t}
+                onClick={() => setTipo(tipo === t ? null : t)}
+                className={`chip ${tipo === t ? 'chip-active' : ''}`}
+              >
+                {t}
+              </button>
+            ))}
+          </div>
+
+          {familias.length > 0 && (
+            <>
+              <div className="sys-label mb-2">Para comer com</div>
+              <div className="flex flex-wrap gap-2">
+                {familias.map((f) => (
+                  <button
+                    key={f.id}
+                    onClick={() => setPrato(prato === f.id ? null : f.id)}
+                    className={`chip ${prato === f.id ? 'chip-active' : ''}`}
+                  >
+                    {f.label}
+                  </button>
+                ))}
+              </div>
+            </>
+          )}
+
+          {filtrando && (
+            <button
+              onClick={limpar}
+              className="mt-4 font-mono text-[10px] tracking-[0.14em] text-wine"
+            >
+              LIMPAR FILTROS
+            </button>
+          )}
+        </div>
+      )}
+
+      {total === 0 && naCarta.length > 0 && filtrando ? (
+        <Empty
+          title="Nada com esses filtros"
+          hint={
+            tipo && semTipo > 0
+              ? `Nenhum ${tipo.toLowerCase()} do seu acervo combina com isso. Sem o filtro de tipo, ${semTipo} ${
+                  semTipo === 1 ? 'vinho combina' : 'vinhos combinam'
+                }.`
+              : 'Nenhum vinho da carta combina. Afrouxe a busca ou tire um filtro.'
+          }
+          action={
+            tipo && semTipo > 0 ? (
+              <button className="btn-primary" onClick={() => setTipo(null)}>
+                Ver os {semTipo} de qualquer tipo
+              </button>
+            ) : (
+              <button className="btn-ghost" onClick={limpar}>
+                Limpar filtros
+              </button>
+            )
+          }
+        />
+      ) : total === 0 ? (
         <Empty
           title="Nenhum vinho na carta"
           hint="Todo vinho catalogado entra no cardápio por padrão. Se a carta está vazia, é porque não há garrafas em estoque ou todas foram marcadas como fora do cardápio."
