@@ -8,6 +8,13 @@ export default defineConfig(({ command }) => {
   const base = command === 'build' ? '/adega/' : '/'
   return {
     base,
+    define: {
+      // Carimbo da versão publicada — aparece em Configurações e serve para
+      // saber se o aparelho já pegou o build novo.
+      __BUILD__: JSON.stringify(
+        new Date().toISOString().slice(0, 16).replace('T', ' ')
+      )
+    },
     plugins: [
       react(),
       VitePWA({

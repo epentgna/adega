@@ -4,6 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db, updateSettings, wipeDatabase } from '../db/db'
 import { CURRENCIES, MODELS, WEB_SEARCH_MODELS } from '../types'
 import { formatCode } from '../lib/code'
+import { ultimaBusca } from '../hooks/useRepoImport'
 import { testApiKey } from '../lib/enrich'
 import { downloadBackup, downloadCSV, importBundle, toCSV } from '../lib/export'
 import { BackBar, Sheet } from '../components/Layout'
@@ -243,6 +244,52 @@ export default function Settings() {
         Restaurar substitui tudo o que está aqui.
       </p>
 
+      <Section title="Versão do app" />
+      <div className="card p-4 mb-4">
+        <Linha label="Build" value={__BUILD__} />
+        <Linha
+          label="Última busca"
+          value={
+            ultimaBusca()
+              ? new Date(ultimaBusca()!).toLocaleString('pt-BR', {
+                  day: '2-digit',
+                  month: '2-digit',
+                  hour: '2-digit',
+                  minute: '2-digit'
+                })
+              : 'nunca'
+          }
+        />
+        <p className="text-[12px] text-muted leading-relaxed mt-3">
+          Instalado na tela de início, o app pode ficar preso numa versão antiga
+          por causa do cache offline. Se algo que eu disse estar pronto não
+          aparece, force a atualização aqui.
+        </p>
+        <button
+          className="btn-ghost w-full mt-3"
+          onClick={async () => {
+            setImporting('Atualizando…')
+            try {
+              const regs = await navigator.serviceWorker?.getRegistrations?.()
+              await Promise.all((regs ?? []).map((r) => r.unregister()))
+              if (window.caches) {
+                const nomes = await caches.keys()
+                await Promise.all(nomes.map((n) => caches.delete(n)))
+              }
+            } catch {
+              /* segue mesmo assim: o reload já ajuda */
+            }
+            window.location.reload()
+          }}
+        >
+          Forçar atualização do app
+        </button>
+        <p className="text-[11px] text-muted/70 mt-2 leading-relaxed">
+          Só recarrega o programa. Seus vinhos, fotos e a chave da API não são
+          tocados.
+        </p>
+      </div>
+
       <Section title="Zona de risco" />
       <button className="btn-danger w-full" onClick={() => setConfirmWipe(true)}>
         Apagar tudo
@@ -265,6 +312,15 @@ export default function Settings() {
         ADEGA · {wines?.length ?? 0} RÓTULOS
       </p>
     </Sheet>
+  )
+}
+
+function Linha({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="flex items-baseline gap-3 py-1.5 border-b border-border last:border-0">
+      <span className="sys-label shrink-0 w-[104px]">{label}</span>
+      <span className="font-mono text-[12px] flex-1 min-w-0">{value}</span>
+    </div>
   )
 }
 
