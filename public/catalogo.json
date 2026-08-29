@@ -222,7 +222,8 @@
     {
       "codigo": "AD-0005",
       "fotos": [
-        "AD-0005-1.webp"
+        "AD-0005-1.webp",
+        "AD-0005-2.webp"
       ],
       "nome": "Bramare Malbec Valle de Uco",
       "produtor": "Viña Cobos (Paul Hobbs)",
@@ -234,11 +235,11 @@
       "pais": "Argentina",
       "regiao": "Mendoza",
       "subRegiao": "Valle de Uco",
-      "teorAlcoolico": null,
+      "teorAlcoolico": 14.4,
       "volumeMl": 750,
       "adega": "Adega principal",
       "prateleira": "Prateleira 1",
-      "garrafas": 1,
+      "garrafas": 10,
       "notasDegustacao": "Dezoito meses em barrica de carvalho francês. Ameixa, mirtilo e amora, com madeira, canela e chocolate; final longo e persistente.",
       "harmonizacoes": [
         "Carne vermelha grelhada",
@@ -290,7 +291,7 @@
         "grandcru.com.br",
         "onivino.com.br"
       ],
-      "observacoes": "Preço: lojas brasileiras entre R$ 437 e R$ 546 (Grand Cru R$ 546 na safra 2018); registrei a mediana R$ 490. Janela de guarda é estimativa.",
+      "observacoes": "Teor alcoólico 14,4% vem do contrarrótulo (lote L-BVUMB17, engarrafado por Viña Cobos em Perdriel, Luján de Cuyo). Mesmo rótulo e safra do AD-0031, que é o lote de 14 garrafas do armário; esta entrada é o lote da Adega principal. Preço: lojas brasileiras entre R$ 437 e R$ 546 (Grand Cru R$ 546 na safra 2018); registrei a mediana R$ 490. Janela de guarda é estimativa.",
       "historia": "Bramare é palavra italiana para desejar com ardor, ansiar. Paul Hobbs escolheu o nome para a linha que nasceu nos anos duros do começo da Viña Cobos, quando, nas palavras dele, ninguém tinha dinheiro — só vontade. É a linha que explora o lado mais fino do Malbec, vinhedo por vinhedo, entre Luján de Cuyo e o Valle de Uco."
     },
     {
@@ -1734,7 +1735,7 @@
       "pais": "Argentina",
       "regiao": "Mendoza",
       "subRegiao": "Valle de Uco",
-      "teorAlcoolico": null,
+      "teorAlcoolico": 14.4,
       "volumeMl": 750,
       "adega": "Armário",
       "prateleira": "",
@@ -1790,7 +1791,7 @@
         "grandcru.com.br",
         "onivino.com.br"
       ],
-      "observacoes": "Mesmo rótulo e mesma safra do AD-0005, que é a garrafa da Adega principal; esta entrada é o lote de 14 garrafas do armário. Preço: lojas brasileiras entre R$ 437 e R$ 546 (Grand Cru R$ 546 na safra 2018); registrei a mediana R$ 490. Janela de guarda é estimativa.",
+      "observacoes": "Teor alcoólico 14,4% vem do contrarrótulo fotografado no AD-0005. Mesmo rótulo e mesma safra do AD-0005, que é o lote da Adega principal; esta entrada é o lote de 14 garrafas do armário. Preço: lojas brasileiras entre R$ 437 e R$ 546 (Grand Cru R$ 546 na safra 2018); registrei a mediana R$ 490. Janela de guarda é estimativa.",
       "historia": "Bramare é palavra italiana para desejar com ardor, ansiar. Paul Hobbs escolheu o nome para a linha que nasceu nos anos duros do começo da Viña Cobos, quando, nas palavras dele, ninguém tinha dinheiro — só vontade. É a linha que explora o lado mais fino do Malbec, vinhedo por vinhedo, entre Luján de Cuyo e o Valle de Uco."
     },
     {
