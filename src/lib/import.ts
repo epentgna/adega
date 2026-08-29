@@ -1,6 +1,7 @@
 import { db, getSettings } from '../db/db'
 import { formatCode, parseSeq } from './code'
 import { savePhoto } from './photos'
+import { purgeRemotePhotos, remotePathsOf } from './photoSync'
 import type { Cellar, Rating, Wine, WineType } from '../types'
 import { WINE_TYPES } from '../types'
 
@@ -182,6 +183,10 @@ export async function runImport(
   const settings = await getSettings()
 
   if (options.replace) {
+    // As fotos que vão embora daqui também precisam sair da nuvem, senão
+    // ficam ocupando espaço sem nenhum vinho apontando para elas.
+    const antigas = await db.photos.toArray()
+    await purgeRemotePhotos(await remotePathsOf(antigas))
     await db.transaction('rw', db.wines, db.photos, db.consumption, async () => {
       await Promise.all([db.wines.clear(), db.photos.clear(), db.consumption.clear()])
     })

@@ -94,9 +94,77 @@ export async function countRemoteOnly(): Promise<number> {
   return (await db.photos.toArray()).filter((p) => !p.blob && p.path).length
 }
 
-/** Apaga da nuvem os arquivos que não pertencem mais a nenhuma foto. */
+// Fila de arquivos a apagar na nuvem. Apagar foto estando deslogado não pode
+// simplesmente falhar: o arquivo ficaria lá para sempre, pago e invisível.
+// Fica anotado aqui e sai na próxima vez que houver sessão.
+const FILA_KEY = 'adega:fotosParaApagar'
+
+function lerFila(): string[] {
+  try {
+    const v = localStorage.getItem(FILA_KEY)
+    return v ? (JSON.parse(v) as string[]) : []
+  } catch {
+    return []
+  }
+}
+
+function gravarFila(paths: string[]) {
+  try {
+    if (paths.length) localStorage.setItem(FILA_KEY, JSON.stringify([...new Set(paths)]))
+    else localStorage.removeItem(FILA_KEY)
+  } catch {
+    /* ignore */
+  }
+}
+
+export function pendingRemoteDeletions(): number {
+  return lerFila().length
+}
+
+async function temSessao(): Promise<boolean> {
+  if (!supabase) return false
+  const { data } = await supabase.auth.getSession()
+  return Boolean(data.session)
+}
+
+/**
+ * Apaga da nuvem os arquivos que não pertencem mais a nenhuma foto.
+ * Sem sessão — ou se a remoção falhar — os caminhos ficam na fila.
+ */
 export async function purgeRemotePhotos(paths: string[]): Promise<void> {
-  if (!supabase || paths.length === 0) return
-  const { error } = await supabase.storage.from(PHOTO_BUCKET).remove(paths)
-  if (error) console.error('[sync] remoção de fotos falhou', error.message)
+  const alvos = paths.filter(Boolean)
+  if (!supabase || alvos.length === 0) return
+
+  if (!(await temSessao())) {
+    gravarFila([...lerFila(), ...alvos])
+    return
+  }
+
+  const { error } = await supabase.storage.from(PHOTO_BUCKET).remove(alvos)
+  if (error) {
+    console.error('[sync] remoção de fotos falhou, ficou na fila', error.message)
+    gravarFila([...lerFila(), ...alvos])
+  }
+}
+
+/** Drena a fila. Chamada quando a sincronização começa e a cada envio. */
+export async function flushRemoteDeletions(): Promise<number> {
+  const fila = lerFila()
+  if (!supabase || fila.length === 0) return 0
+  if (!(await temSessao())) return 0
+
+  const { error } = await supabase.storage.from(PHOTO_BUCKET).remove(fila)
+  if (error) {
+    console.error('[sync] fila de remoção falhou', error.message)
+    return 0
+  }
+  gravarFila([])
+  return fila.length
+}
+
+/** Caminhos remotos de um conjunto de fotos, para apagar em lote. */
+export async function remotePathsOf(
+  photos: { path?: string }[]
+): Promise<string[]> {
+  return photos.map((p) => p.path).filter((p): p is string => Boolean(p))
 }

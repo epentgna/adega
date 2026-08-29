@@ -2,7 +2,7 @@ import type { RealtimeChannel } from '@supabase/supabase-js'
 import { STATE_TABLE, supabase } from './supabase'
 import { db } from '../db/db'
 import { applySyncBundle, buildSyncBundle, type SyncBundle } from './export'
-import { uploadPendingPhotos } from './photoSync'
+import { flushRemoteDeletions, uploadPendingPhotos } from './photoSync'
 
 // De quem é o estado que está neste navegador agora.
 const OWNER_KEY = 'adega:ownerId'
@@ -132,6 +132,9 @@ async function pushNow() {
   }
   try {
     setStatus('syncing')
+
+    // Fotos apagadas enquanto não havia sessão saem agora da nuvem.
+    await flushRemoteDeletions()
 
     // As fotos vão primeiro: o estado precisa sair com os caminhos já gravados.
     const sent = await uploadPendingPhotos(userId)
@@ -279,6 +282,12 @@ export async function startSync(uid: string) {
   conflict = null
   pendingRemote = null
   setStatus('syncing')
+
+  // Entrou sessão: o que ficou pendente de apagar na nuvem sai agora.
+  const apagadas = await flushRemoteDeletions()
+  if (apagadas > 0) {
+    console.info(`[sync] ${apagadas} foto(s) pendentes foram apagadas da nuvem.`)
+  }
 
   try {
     const remote = await fetchRemote()

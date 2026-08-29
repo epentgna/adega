@@ -60,6 +60,11 @@ export async function updateSettings(patch: Partial<Settings>): Promise<void> {
 
 /** Apaga tudo (vinhos, fotos, adegas, histórico) e recomeça. */
 export async function wipeDatabase(): Promise<void> {
+  // Com a sincronização ligada, o estado vazio vai para a nuvem de qualquer
+  // jeito; sem isto, os arquivos das fotos ficariam órfãos lá. Import dinâmico
+  // para não criar ciclo entre o banco e a camada de sincronização.
+  const { purgeRemotePhotos, remotePathsOf } = await import('../lib/photoSync')
+  await purgeRemotePhotos(await remotePathsOf(await db.photos.toArray()))
   await db.delete()
   await db.open()
   await ensureSeed()
