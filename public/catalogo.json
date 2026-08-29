@@ -19,7 +19,7 @@
       "pais": "Portugal",
       "regiao": "Alentejo",
       "subRegiao": "Évora",
-      "teorAlcoolico": null,
+      "teorAlcoolico": 13.0,
       "volumeMl": 750,
       "adega": "Adega principal",
       "prateleira": "Prateleira 1",
@@ -41,6 +41,12 @@
           "nota": 4.7,
           "escala": 5,
           "safra": 2018
+        },
+        {
+          "fonte": "CellarTracker",
+          "nota": 91.6,
+          "escala": 100,
+          "safra": 2018
         }
       ],
       "precoMercado": 800,
@@ -54,7 +60,7 @@
         "1001vinhos.com",
         "wine-searcher.com"
       ],
-      "observacoes": "Teor alcoólico não estava legível no rótulo nem confirmado em fonte. Janela de guarda é estimativa, não achei indicação do produtor. Preço: lojas brasileiras vão de R$ 690 a R$ 1.050 (Casa da Bebida R$ 730, Família Scopel R$ 899, Duarte R$ 1.050; Empório do Mundo R$ 689 cheio, R$ 299 em promoção). Registrei R$ 800, a mediana da faixa. Confere com o preço em Portugal (~€78) convertido e dobrado pelos impostos de importação. Ofertas abaixo de R$ 300 costumam ser o Cartuxa Branco, da linha básica, e não o Pêra-Manca. Não encontrei nota de crítico (Parker, Suckling, Wine Spectator) para o branco 2018 — só a do Vivino, que é a melhor safra do rótulo e está no 1% melhor avaliado do mundo.",
+      "observacoes": "TEOR ALCOÓLICO PREENCHIDO: 13%, lido no contrarrótulo das garrafas AD-0052, mesma safra. Era a lacuna mais antiga do catálogo. A safra 2016, do AD-0051, tem 13,5%. Outras quatro garrafas desta mesma safra estão na Prateleira 6, sob o código AD-0052. O 91,6 do CellarTracker é média de 18 avaliações da comunidade, não de crítico. Não encontrei nota de crítico (Parker, Suckling, Wine Spectator) para o branco 2018 — a Decanter provou, mas não recuperei a pontuação. A safra 2016 tem 92 de Parker. Preço: lojas brasileiras vão de R$ 690 a R$ 1.050 (Casa da Bebida R$ 729,90, Família Scopel R$ 899, Duarte R$ 1.050). Registrei R$ 800, a mediana da faixa. Confere com o preço em Portugal (~€78) convertido e dobrado pelos impostos de importação. Ofertas abaixo de R$ 300 costumam ser o Cartuxa Branco, da linha básica, e não o Pêra-Manca. Janela de guarda é estimativa, não achei indicação do produtor.",
       "historia": "O nome vem de uma encosta de pedras soltas em Évora, terra dos monges do Convento do Espinheiro. Reza a história que foi um Pêra-Manca que Pedro Álvares Cabral levou nas naus e serviu no encontro com os indígenas em 1500. O rótulo desapareceu com a extinção da Casa Soares e só voltou quando o herdeiro cedeu o nome à Fundação Eugénio de Almeida, em 1987; o primeiro Pêra-Manca da Fundação saiu em 1990. O vinho estagia na adega de um mosteiro jesuíta de 1580, e só é engarrafado nos anos em que a colheita justifica."
     },
     {
@@ -3084,6 +3090,69 @@
       ],
       "observacoes": "Mesmo rótulo do AD-0001, que é a garrafa de 2018 na Prateleira 1 — esta é a safra 2016, com quatro garrafas na Prateleira 6. O CONTRARRÓTULO DESTA GARRAFA RENDEU MUITO: teor alcoólico 13,5%, a vinificação parcial em barrica de carvalho francês, os doze meses sobre borra fina e os seis meses de garrafa antes da venda, e o histórico de que o Pêra-Manca remonta ao século XV e que a Fundação Eugénio de Almeida fez a primeira colheita em 1990. Importado com exclusividade pela Adega Alentejana, de Mauá, São Paulo, em contêiner refrigerado. NÃO PREENCHI O TEOR DO AD-0001 com este número: grau alcoólico muda de safra para safra, e aquela é 2018. O 92,6 do CellarTracker é média da comunidade, não de crítico. A nota do Vivino veio da página filtrada por 2016, mas o número de avaliações sugere que pode estar somando o rótulo inteiro. PREÇO: R$ 800 é a mediana da faixa brasileira deste rótulo, de R$ 690 a R$ 1.050 — a Casa da Bebida pede R$ 729,90 e a Beale tem a própria safra 2016. Mantive o mesmo número do AD-0001 porque a faixa é a mesma. Ofertas abaixo de R$ 300 costumam ser o Cartuxa Branco, da linha básica, e não o Pêra-Manca. JANELA DE GUARDA É ESTIMATIVA e vale um aviso: branco de dez anos ainda é Pêra-Manca, que aguenta, mas não é para deixar rolando. Com quatro garrafas dá para abrir uma e ver como está.",
       "historia": "O nome vem de uma encosta de pedras soltas em Évora, terra dos monges do Convento do Espinheiro. Reza a história que foi um Pêra-Manca que Pedro Álvares Cabral levou nas naus e serviu no encontro com os indígenas em 1500. O rótulo desapareceu com a extinção da Casa Soares e só voltou quando o herdeiro cedeu o nome à Fundação Eugénio de Almeida, em 1987; a primeira colheita da Fundação, como diz o próprio contrarrótulo, é de 1990. O vinho estagia na adega de um mosteiro jesuíta de 1580, e só é engarrafado nos anos em que a colheita justifica."
+    },
+    {
+      "codigo": "AD-0052",
+      "fotos": [
+        "AD-0052-1.webp",
+        "AD-0052-2.webp",
+        "AD-0052-3.webp"
+      ],
+      "nome": "Pêra-Manca Branco",
+      "produtor": "Fundação Eugénio de Almeida (Adega Cartuxa)",
+      "safra": 2018,
+      "tipo": "Branco",
+      "uvas": [
+        "Antão Vaz",
+        "Arinto"
+      ],
+      "pais": "Portugal",
+      "regiao": "Alentejo",
+      "subRegiao": "Évora",
+      "teorAlcoolico": 13.0,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 6",
+      "garrafas": 4,
+      "notasDegustacao": "Arinto e Antão Vaz, vinificados em parte em barrica de carvalho francês e em parte em inox. O lote inteiro estagiou doze meses sobre borra fina e mais seis meses em garrafa antes de sair. Cor citrina, aroma fino e complexo de fruta madura com o tostado discreto da barrica; boca cheia, de acidez firme e final longo e mineral.",
+      "harmonizacoes": [
+        "Peixes grelhados",
+        "Frutos do mar",
+        "Aves assadas",
+        "Queijos curados de ovelha"
+      ],
+      "guardaDe": 2021,
+      "guardaAte": 2032,
+      "temperatura": "10–12 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.7,
+          "escala": 5,
+          "safra": 2018
+        },
+        {
+          "fonte": "CellarTracker",
+          "nota": 91.6,
+          "escala": 100,
+          "safra": 2018
+        }
+      ],
+      "precoMercado": 800,
+      "descricaoCardapio": "Branco de guarda do Alentejo, de Antão Vaz e Arinto: fruta madura, acidez firme e final longo.",
+      "confianca": 0.95,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "cartuxa.pt",
+        "vivino.com",
+        "cellartracker.com",
+        "decanter.com",
+        "casadabebida.com.br",
+        "wine-searcher.com"
+      ],
+      "observacoes": "Mesma safra do AD-0001, que é a garrafa avulsa da Prateleira 1 — esta entrada é o lote de quatro garrafas da Prateleira 6. O CONTRARRÓTULO FECHOU UMA LACUNA ANTIGA: teor alcoólico 13%, que estava vazio no AD-0001 desde o primeiro dia do catálogo. Preenchi lá também. Repare que a safra 2016, do AD-0051, tem 13,5% — foi por isso que eu não copiei o número de uma safra para a outra. TODAS AS GARRAFAS SÃO NUMERADAS: esta é a de número 43.261. Do contrarrótulo vêm ainda a vinificação em barrica de carvalho francês e depósito de inox, os doze meses de estágio e os seis meses de garrafa, e o registro de que o Pêra-Manca remonta ao século XV e que a Fundação fez a primeira colheita em 1990. Importado com exclusividade pela Adega Alentejana, de Mauá, São Paulo, em contêiner refrigerado. O 91,6 do CellarTracker é média de 18 avaliações da comunidade, não de crítico. CONTINUO SEM NOTA DE CRÍTICO PARA A SAFRA 2018: a Decanter tem prova registrada, mas não recuperei a pontuação; Parker, Suckling e Wine Enthusiast não aparecem para este ano. A 2016 tem 92 de Parker, a 2018 não tem. PREÇO: R$ 800 é a mediana da faixa brasileira do rótulo, de R$ 690 a R$ 1.050. Ofertas abaixo de R$ 300 costumam ser o Cartuxa Branco, da linha básica, e não o Pêra-Manca. Janela de guarda é estimativa.",
+      "historia": "O nome vem de uma encosta de pedras soltas em Évora, terra dos monges do Convento do Espinheiro. Reza a história que foi um Pêra-Manca que Pedro Álvares Cabral levou nas naus e serviu no encontro com os indígenas em 1500. O rótulo desapareceu com a extinção da Casa Soares e só voltou quando o herdeiro cedeu o nome à Fundação Eugénio de Almeida, em 1987; o primeiro Pêra-Manca da Fundação saiu em 1990. O vinho estagia na adega de um mosteiro jesuíta de 1580, e só é engarrafado nos anos em que a colheita justifica."
     }
   ]
 }
