@@ -45,6 +45,27 @@ achar a do rótulo em geral, deixe `safra` da avaliação como `null`.
 Rótulo ilegível: cadastre assim mesmo com o que dá para ler, `confianca` baixa
 e o motivo em `observacoes`. O usuário precisa saber que a garrafa existe.
 
+### Preço de mercado
+
+O que interessa é o **preço de prateleira no Brasil**, em reais.
+
+1. **Procure primeiro em lojas brasileiras.** Busque nome + safra + `preço R$`.
+   Olhe três ou quatro lojas, não uma.
+2. **Cuidado com o homônimo.** Muitos produtores têm uma linha básica com nome
+   parecido com a de topo (Cartuxa × Pêra-Manca, por exemplo). Preço muito
+   abaixo dos demais quase sempre é outro vinho, outra safra ou outro formato —
+   confira antes de usar.
+3. **Descarte promoções e pontas soltas** e use a **mediana** do que sobrar.
+4. **Só achou preço em euro ou dólar?** Converta pela cotação do dia e
+   **multiplique por 2**: imposto de importação, ICMS e margem praticamente
+   dobram o preço aqui. Busque a cotação, não chute. Se também houver alguma
+   loja brasileira, use-a para conferir se a conta bateu.
+5. **Registre a faixa em `observacoes`**, não só o número: de quanto a quanto as
+   lojas pedem e como você chegou ao valor. Quando as lojas discordam muito,
+   um número sozinho na ficha vira dado falso.
+6. Se o usuário disser quanto pagou, isso vai em `precoPago` — é fato, não
+   estimativa.
+
 ### 3. Gravar
 
 1. Leia `public/catalogo.json` e descubra o **maior código** já usado. O próximo
@@ -101,6 +122,7 @@ mantendo o mesmo local.
     { "fonte": "Robert Parker", "nota": 97, "escala": 100, "safra": 2018 }
   ],
   "precoMercado": 890,
+  "precoPago": null,
   "descricaoCardapio": "Cabernet Franc de altitude, floral e de taninos finos.",
   "confianca": 0.92,
   "fontes": ["vivino.com", "robertparker.com"],

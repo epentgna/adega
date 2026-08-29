@@ -43,15 +43,18 @@
           "safra": 2018
         }
       ],
-      "precoMercado": null,
+      "precoMercado": 800,
       "descricaoCardapio": "Branco de guarda do Alentejo, de Antão Vaz e Arinto: fruta madura, acidez firme e final longo.",
       "confianca": 0.95,
       "fontes": [
         "vivino.com",
-        "bestofwines.com",
+        "familiascopel.com.br",
+        "casadabebida.com.br",
+        "duartevinhos.com.br",
+        "1001vinhos.com",
         "wine-searcher.com"
       ],
-      "observacoes": "Teor alcoólico não estava legível no rótulo nem confirmado em fonte. Janela de guarda é estimativa, não achei indicação do produtor. Preço de mercado em reais não confirmado — a tela ao fundo da foto citava R$ 299, mas não dava para saber se era deste vinho, então deixei em branco."
+      "observacoes": "Teor alcoólico não estava legível no rótulo nem confirmado em fonte. Janela de guarda é estimativa, não achei indicação do produtor. Preço: lojas brasileiras vão de R$ 690 a R$ 1.050 (Casa da Bebida R$ 730, Família Scopel R$ 899, Duarte R$ 1.050; Empório do Mundo R$ 689 cheio, R$ 299 em promoção). Registrei R$ 800, a mediana da faixa. Confere com o preço em Portugal (~€78) convertido e dobrado pelos impostos de importação. Ofertas abaixo de R$ 300 costumam ser o Cartuxa Branco, da linha básica, e não o Pêra-Manca."
     }
   ]
 }
