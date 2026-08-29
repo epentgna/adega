@@ -2484,6 +2484,115 @@
       ],
       "observacoes": "Mesmo rótulo e mesma safra do AD-0027, que é o lote de 14 garrafas do armário; esta entrada é o lote da Adega principal. Agora com contrarrótulo: teor alcoólico 13,7%, vinhedo de mais de 80 anos no sudeste de Mendoza, parcela pequena de rendimento muito baixo, 18 meses em barricas pequenas de carvalho francês. Preenchi o teor também no AD-0027. James Suckling chamou este vinho de \"o melhor Bonarda da Argentina\". A nota 4,5 do Vivino é do rótulo, não da safra 2017 isolada. ATENÇÃO — O AD-0002 CONTINUA SEM SAFRA: é a garrafa avulsa da Prateleira 1, cujo rótulo não estava legível na foto. Se for 2017 como estas, me diga que eu completo a ficha dela. Preço R$ 499 vem de loja brasileira.",
       "historia": "O rótulo é uma carta de família. Laura Catena, bisneta, bióloga especialista em solos, conta que o bisavô Nicola preferia a Bonarda enquanto o filho mais velho, o avô Domingo Vicente, puxava para o Malbec. Os bisnetos decidiram homenagear o antepassado com uma parcela excepcional de Bonarda — a uva que os imigrantes italianos trouxeram no fim do século XIX e que chegou a ser, nos anos 1990, a tinta mais plantada da Argentina, antes de o Malbec tomar o lugar. No alto do rótulo está de onde vieram: Del Forte del Chienti, 1882."
+    },
+    {
+      "codigo": "AD-0043",
+      "fotos": [
+        "AD-0043-1.webp",
+        "AD-0043-2.webp"
+      ],
+      "nome": "Brunello di Montalcino",
+      "produtor": "Talenti",
+      "safra": 2014,
+      "tipo": "Tinto",
+      "uvas": [
+        "Sangiovese"
+      ],
+      "pais": "Itália",
+      "regiao": "Toscana",
+      "subRegiao": "Sant'Angelo in Colle, Montalcino",
+      "teorAlcoolico": 14.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 5",
+      "garrafas": 1,
+      "notasDegustacao": "Sangiovese puro, fermentado em inox e trinta meses em madeira de Eslavônia e Allier. Cereja madura e fruta vermelha em compota sobre couro, alcatrão e terra; taninos de Brunello, firmes e polidos, com acidez que segura o final.",
+      "harmonizacoes": [
+        "Massa com ragu",
+        "Carne vermelha assada",
+        "Caça",
+        "Queijos curados"
+      ],
+      "guardaDe": 2019,
+      "guardaAte": 2028,
+      "temperatura": "17–18 °C",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Robert Parker",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "CellarTracker",
+          "nota": 89.6,
+          "escala": 100,
+          "safra": 2014
+        }
+      ],
+      "precoMercado": 720,
+      "descricaoCardapio": "Brunello de Sant'Angelo in Colle: cereja madura, couro e alcatrão, com taninos firmes.",
+      "confianca": 0.8,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "talentimontalcino.it",
+        "cellartracker.com",
+        "decanter.com",
+        "wine-searcher.com"
+      ],
+      "observacoes": "CONFLITO DE SAFRA ENTRE OS DOIS RÓTULOS — repare nisto. O rótulo da frente, o italiano original, diz 2014 em dourado. O contrarrótulo brasileiro, colado pela importadora Grand Cru, diz SAFRA 2015. Registrei 2014 porque o rótulo do produtor manda, e etiqueta de importador costuma repetir dado da remessa anterior. Se a caixa ou a nota fiscal disser 2015, me avise que eu corrijo. Isso importa: 2014 foi safra difícil em Montalcino, com chuva na colheita, e o próprio Riccardo Talenti fez cerca de 45% menos Brunello naquele ano, de tão rigorosa a seleção. 2015 foi safra bem melhor. As notas que registrei são da 2014. O 89,6 do CellarTracker é média de apenas 10 avaliações da comunidade, base pequena. A Decanter resenhou a safra mas não recuperei a pontuação. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. PREÇO ESTIMADO: não achei oferta brasileira. Média internacional de US$ 70 sem impostos no wine-searcher, a R$ 5,15, dobrados: ~R$ 720. Lote 18.285, do contrarrótulo. Janela de guarda é estimativa, encurtada por ser safra fraca.",
+      "historia": "Pierluigi Talenti chegou a Montalcino da Romagna nos anos 1950 para tocar a Fattoria dei Barbi e ficou conhecido como um dos enólogos que redesenharam o Brunello moderno. Só em 1980 comprou terra própria, a Pian di Conte, em Sant'Angelo in Colle — a sul de Montalcino, onde faz mais calor e o Sangiovese amadurece cedo. Hoje quem assina é o neto, Riccardo, cujo nome está impresso neste rótulo."
+    },
+    {
+      "codigo": "AD-0044",
+      "fotos": [
+        "AD-0044-1.webp",
+        "AD-0044-2.webp"
+      ],
+      "nome": "Ravasqueira Premium",
+      "produtor": "Monte da Ravasqueira",
+      "safra": 2014,
+      "tipo": "Tinto",
+      "uvas": [],
+      "pais": "Portugal",
+      "regiao": "Alentejo",
+      "subRegiao": "Arraiolos (Vinho Regional Alentejano)",
+      "teorAlcoolico": 14.0,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 5",
+      "garrafas": 1,
+      "notasDegustacao": "Vinte e sete meses em barricas novas de carvalho francês. Fruta preta densa, taninos ricos e especiaria potente, com textura arredondada e concentração impressionante. Maduro, mas ainda com vida e frescor.",
+      "harmonizacoes": [
+        "Carne vermelha assada",
+        "Cordeiro",
+        "Caça",
+        "Queijos curados"
+      ],
+      "guardaDe": 2018,
+      "guardaAte": 2030,
+      "temperatura": "16–18 °C",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2014
+        }
+      ],
+      "precoMercado": 620,
+      "descricaoCardapio": "Seleção planta a planta no Alentejo: fruta preta densa, especiaria e textura redonda.",
+      "confianca": 0.8,
+      "fontes": [
+        "contrarrótulo da garrafa",
+        "wineenthusiast.com",
+        "ravasqueira.com",
+        "vinhosdoalentejo.pt"
+      ],
+      "observacoes": "AS UVAS ESTÃO VAZIAS PORQUE O RÓTULO NÃO AS DECLARA. O contrarrótulo diz apenas que em 2014 foram identificadas plantas com características específicas entre todas as castas tintas da propriedade, e que a seleção foi feita planta a planta. A Ravasqueira cultiva Syrah, Touriga Nacional, Touriga Franca, Aragonez e Alicante Bouschet, mas listar isso seria supor a composição desta garrafa, e não vou supor. CUIDADO COM OS HOMÔNIMOS: a casa tem Premium Tinto, Premium Alicante Bouschet, MR Premium Rosé, Reserva e Vinha das Romãs, todos na safra 2014. O 94 do Wine Enthusiast que registrei é da ficha do Ravasqueira Premium Red, que bate com esta garrafa também no teor de 14%. O 93 que circula pertence ao Premium Alicante Bouschet, outro vinho. Garrafa numerada: 3.466 de 12.349, além de 260 magnums e 50 double magnums, tudo do contrarrótulo, junto com os 27 meses em carvalho novo. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. PREÇO ESTIMADO: não achei oferta brasileira. O Wine Enthusiast registra US$ 60; a R$ 5,15, dobrados, dá ~R$ 620.",
+      "historia": "O desenho dourado no rótulo é José Manuel de Mello conduzindo uma das suas atrelagens. Ele foi empresário e apaixonado por vinho, mas o que está ilustrado ali é a outra paixão: os cavalos lusitanos da casa, campeões do mundo de atrelagem em 1996. Este vinho é homenagem a ele. Em 2014 a equipe percorreu a propriedade identificando planta a planta as videiras com as características que queriam, entre todas as castas tintas da Ravasqueira, e fez com elas uma seleção única. Saíram 12.349 garrafas; a sua é a 3.466."
     }
   ]
 }
