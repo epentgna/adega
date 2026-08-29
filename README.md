@@ -40,6 +40,15 @@ Detalhes que importam:
 - O que você digitou à mão nunca é sobrescrito pela IA.
 - Sem chave configurada, o app funciona inteiro — só o preenchimento é manual.
 
+## Catalogar o acervo inteiro de uma vez
+
+Preencher 300 garrafas uma a uma pelo app consome crédito de API a cada rótulo.
+Para a carga inicial sai muito mais barato deixar o **Claude Code** processar a
+pasta de fotos no computador (consumo da assinatura, não da API) e importar o
+resultado em **Gestão › Importar em lote**. Passo a passo em
+[CATALOGO-EM-LOTE.md](CATALOGO-EM-LOTE.md); a skill que faz o trabalho está em
+`.claude/skills/catalogar-fotos/`.
+
 ## Numeração
 
 Cada garrafa recebe um código sequencial (`AD-0001`, `AD-0002`…) reservado assim

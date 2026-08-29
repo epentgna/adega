@@ -6,3 +6,7 @@ dist-ssr
 .vite
 .tsbuild
 *.tsbuildinfo
+
+# Fotos para catalogação em lote (nunca vão para o repositório).
+fotos/
+catalogo.json

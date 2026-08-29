@@ -12,6 +12,7 @@ import Manage from './pages/Manage'
 import Cellars from './pages/Cellars'
 import Consumption from './pages/Consumption'
 import Labels from './pages/Labels'
+import Import from './pages/Import'
 import Settings from './pages/Settings'
 import Onboarding from './pages/Onboarding'
 
@@ -51,6 +52,7 @@ export default function App() {
       <Route path="/gestao/adegas" element={<Cellars />} />
       <Route path="/gestao/consumo" element={<Consumption />} />
       <Route path="/gestao/etiquetas" element={<Labels />} />
+      <Route path="/gestao/importar" element={<Import />} />
       <Route path="/gestao/config" element={<Settings />} />
 
       {/* Com a adega já aberta, /inicio cai na home: reabrir o onboarding

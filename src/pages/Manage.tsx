@@ -10,7 +10,8 @@ import {
   IconChevron,
   IconGear,
   IconGlass,
-  IconPrint
+  IconPrint,
+  IconSparkle
 } from '../components/icons'
 
 export default function Manage() {
@@ -118,6 +119,12 @@ export default function Manage() {
           icon={<IconGlass width={20} height={20} />}
           title="Histórico de consumo"
           hint={`${drunk ?? 0} garrafa${drunk === 1 ? '' : 's'} aberta${drunk === 1 ? '' : 's'}`}
+        />
+        <NavRow
+          to="/gestao/importar"
+          icon={<IconSparkle width={20} height={20} />}
+          title="Importar em lote"
+          hint="Catálogo montado no computador pelo Claude Code"
         />
         <NavRow
           to="/gestao/etiquetas"
