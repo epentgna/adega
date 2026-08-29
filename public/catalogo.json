@@ -1303,6 +1303,52 @@
         "meuvinhobh.com.br"
       ],
       "observacoes": "0,0% de álcool — é a garrafa para quem está dirigindo, grávida ou simplesmente não bebe. Por isso entrou no tipo \"Sem álcool\" e não em \"Espumante\": numa carta, quem procura isso não pode ter que ler a letra miúda. Sem nota do Vivino nem de crítico: essas fontes praticamente não avaliam desalcoolizado. Preço de loja brasileira, de R$ 65 a R$ 142; registrei R$ 85, que é onde a maioria fica — não apliquei a regra do dobro porque os preços já são daqui. Uma fonte citava 13 °C de serviço, o que parece erro: espumante desalcoolizado se serve bem gelado, 6–8 °C."
+    },
+    {
+      "codigo": "AD-0023",
+      "fotos": [
+        "AD-0023-1.webp"
+      ],
+      "nome": "La Roche Brut",
+      "produtor": "Les Grands Chais de France",
+      "safra": null,
+      "tipo": "Espumante",
+      "uvas": [
+        "Airén",
+        "Ugni Blanc"
+      ],
+      "pais": "França",
+      "regiao": "Landiras",
+      "subRegiao": "Gironde",
+      "teorAlcoolico": 11.0,
+      "volumeMl": 750,
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 4,
+      "historia": "\"Vin mousseux\" é a categoria mais simples do espumante francês: sem denominação de origem, o que significa que a uva não precisa vir de uma região demarcada — nem sequer da França. Este traz Airén, casta espanhola, junto da Ugni Blanc. Vem da Les Grands Chais de France, uma das maiores engarrafadoras do país, e é feito pelo método Charmat, com a segunda fermentação em tanque. É o espumante de servir em volume, sem cerimônia.",
+      "notasDegustacao": "Leve e direto. Fruta branca e cítrico, sem complexidade nem notas de autólise; borbulha solta e final curto e seco.",
+      "harmonizacoes": [
+        "Aperitivo",
+        "Petiscos",
+        "Frutos do mar",
+        "Peixes",
+        "Coquetéis"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "5–7 °C",
+      "decantarMin": null,
+      "avaliacoes": [],
+      "precoMercado": 50,
+      "descricaoCardapio": "Espumante francês leve e direto, de fruta branca e final seco.",
+      "confianca": 0.95,
+      "fontes": [
+        "carpevinum.com.br",
+        "videvino.com.br",
+        "cacadordevinhos.com.br",
+        "wxvinhos.com.br"
+      ],
+      "observacoes": "É o item mais barato da adega, e de propósito: \"vin mousseux\" não tem denominação de origem, então a uva pode vir de qualquer lugar — a Airén é espanhola. Método Charmat. Serve para coquetel, brinde de muita gente e para não abrir champagne à toa. Sem nota do Vivino nem de crítico: rótulo de volume, essas fontes não cobrem. Preço: lojas brasileiras de R$ 38 a R$ 104 — spread grande demais, o topo parece loja cara. Registrei R$ 50, que é onde a maioria fica. Sem a regra do dobro: preços já daqui. Teor de 11% veio de ficha de loja, não do rótulo, que não estava legível na foto."
     }
   ]
 }
