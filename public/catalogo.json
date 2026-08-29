@@ -315,7 +315,7 @@
       "pais": "Itália",
       "regiao": "Toscana",
       "subRegiao": "Bolgheri",
-      "teorAlcoolico": null,
+      "teorAlcoolico": 13.5,
       "volumeMl": 750,
       "adega": "Adega principal",
       "prateleira": "Prateleira 1",
@@ -384,7 +384,7 @@
         "cellartracker.com",
         "99bottlzblog.wordpress.com"
       ],
-      "observacoes": "2014 foi safra difícil na Toscana — daí a dispersão das notas (90 a 95). Preço: média internacional de US$ 234 sem impostos, convertida (US$1≈R$5,16) e dobrada, dá ~R$2.415; arredondei para R$2.500, dentro da faixa que as importadoras brasileiras praticam.",
+      "observacoes": "Teor alcoólico 13,5% veio do contrarrótulo das garrafas AD-0045 e AD-0046, mesma safra. Outros dois lotes do mesmo vinho estão na Prateleira 5: o AD-0046, de rótulo comum, e o AD-0045, com o rótulo de artista de Ernesto Neto. 2014 foi safra difícil na Toscana — daí a dispersão das notas (90 a 95). Preço: média internacional de US$ 234 sem impostos, convertida (US$1≈R$5,16) e dobrada, dá ~R$ 2.415; arredondei para R$ 2.500, dentro da faixa que as importadoras brasileiras praticam.",
       "historia": "Ornellaia nasceu em Bolgheri, na costa toscana, por obra do Marquês Lodovico Antinori, com primeira safra em 1985. Era a época em que um punhado de produtores decidiu plantar castas bordalesas na Toscana e ficou fora da denominação oficial — o que lhes valeu o apelido de Super Toscanos, e mais tarde uma denominação própria, a Bolgheri DOC. A cada safra a casa encomenda a um artista contemporâneo o rótulo da Vendemmia d'Artista. A 2014 foi ano difícil na Toscana, chuvoso e frio, e é justamente por isso que os críticos se dividiram tanto."
     },
     {
@@ -2593,6 +2593,191 @@
       ],
       "observacoes": "AS UVAS ESTÃO VAZIAS PORQUE O RÓTULO NÃO AS DECLARA. O contrarrótulo diz apenas que em 2014 foram identificadas plantas com características específicas entre todas as castas tintas da propriedade, e que a seleção foi feita planta a planta. A Ravasqueira cultiva Syrah, Touriga Nacional, Touriga Franca, Aragonez e Alicante Bouschet, mas listar isso seria supor a composição desta garrafa, e não vou supor. CUIDADO COM OS HOMÔNIMOS: a casa tem Premium Tinto, Premium Alicante Bouschet, MR Premium Rosé, Reserva e Vinha das Romãs, todos na safra 2014. O 94 do Wine Enthusiast que registrei é da ficha do Ravasqueira Premium Red, que bate com esta garrafa também no teor de 14%. O 93 que circula pertence ao Premium Alicante Bouschet, outro vinho. Garrafa numerada: 3.466 de 12.349, além de 260 magnums e 50 double magnums, tudo do contrarrótulo, junto com os 27 meses em carvalho novo. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. PREÇO ESTIMADO: não achei oferta brasileira. O Wine Enthusiast registra US$ 60; a R$ 5,15, dobrados, dá ~R$ 620.",
       "historia": "O desenho dourado no rótulo é José Manuel de Mello conduzindo uma das suas atrelagens. Ele foi empresário e apaixonado por vinho, mas o que está ilustrado ali é a outra paixão: os cavalos lusitanos da casa, campeões do mundo de atrelagem em 1996. Este vinho é homenagem a ele. Em 2014 a equipe percorreu a propriedade identificando planta a planta as videiras com as características que queriam, entre todas as castas tintas da Ravasqueira, e fez com elas uma seleção única. Saíram 12.349 garrafas; a sua é a 3.466."
+    },
+    {
+      "codigo": "AD-0045",
+      "fotos": [
+        "AD-0045-1.webp",
+        "AD-0045-2.webp"
+      ],
+      "nome": "Ornellaia Bolgheri Superiore — Vendemmia d'Artista L'Essenza",
+      "produtor": "Tenuta dell'Ornellaia",
+      "safra": 2014,
+      "tipo": "Tinto",
+      "uvas": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Petit Verdot",
+        "Cabernet Franc"
+      ],
+      "pais": "Itália",
+      "regiao": "Toscana",
+      "subRegiao": "Bolgheri",
+      "teorAlcoolico": 13.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 5",
+      "garrafas": 1,
+      "notasDegustacao": "Corte de 34% Cabernet Sauvignon, 32% Merlot, 20% Petit Verdot e 14% Cabernet Franc. Fruta escura, grafite e ervas mediterrâneas, com taninos polidos e final salino.",
+      "harmonizacoes": [
+        "Cordeiro",
+        "Carne de caça",
+        "Massas com ragu",
+        "Queijos curados"
+      ],
+      "guardaDe": 2019,
+      "guardaAte": 2032,
+      "temperatura": "17–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.6,
+          "escala": 5,
+          "safra": 2014
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 95,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Jeb Dunnuck",
+          "nota": 95,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Robert Parker",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Decanter",
+          "nota": 91,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 91,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Wine Spectator",
+          "nota": 90,
+          "escala": 100,
+          "safra": 2014
+        }
+      ],
+      "precoMercado": 2500,
+      "descricaoCardapio": "O clássico de Bolgheri com o rótulo que Ernesto Neto desenhou: uma garrafa a cada caixa de seis.",
+      "confianca": 0.97,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "ornellaia.com",
+        "decanter.com",
+        "thedrinksbusiness.com",
+        "wine-searcher.com",
+        "cellartracker.com"
+      ],
+      "observacoes": "GARRAFA DE RÓTULO DE ARTISTA, e é isso que a separa do AD-0046 e do AD-0006, que são o mesmo vinho com o rótulo comum. A cada safra a Ornellaia batiza a colheita com uma palavra e encomenda a um artista contemporâneo a interpretação dela — é o projeto Vendemmia d'Artista. A 2014 se chamou L'Essenza e coube ao brasileiro Ernesto Neto, na nona edição do projeto. Foram feitas 111 garrafas de formato grande, numeradas e assinadas pelo artista (100 Double Magnums, 10 Imperiais e 1 Salmanazar), e, além disso, UMA garrafa de 750 ml com o rótulo dele entrou em cada caixa de seis. É por isso que você tem uma de cada: a sua caixa trazia cinco comuns e esta. Teor alcoólico 13,5% e o importador americano Folio Fine Wine Partners, da família Michael Mondavi, vêm do contrarrótulo — preenchi o teor também no AD-0006. O vinho dentro é o mesmo do rótulo comum; as notas registradas são as da safra. 2014 foi safra difícil na Toscana — daí a dispersão das notas, de 90 a 95. Preço: média internacional de US$ 234 sem impostos, convertida (US$1≈R$5,16) e dobrada, dá ~R$ 2.415; arredondei para R$ 2.500, dentro da faixa que as importadoras brasileiras praticam. NÃO CONSIDEREI PRÊMIO DE COLECIONADOR: garrafa de rótulo de artista costuma valer mais que a comum, mas não achei número que sustentasse quanto, então mantive o mesmo preço.",
+      "historia": "Ornellaia nasceu em Bolgheri, na costa toscana, por obra do Marquês Lodovico Antinori, com primeira safra em 1985 — a época em que um punhado de produtores plantou castas bordalesas na Toscana, ficou fora da denominação oficial e ganhou o apelido de Super Toscanos. Desde 2009 a casa dá um nome a cada colheita e chama um artista para interpretá-lo. A 2014 foi L'Essenza, e o escolhido foi o carioca Ernesto Neto, que cobriu as garrafas com o entrelaçado de fios que marca a obra dele — a ideia de equilíbrio natural amarrando a sociedade moderna. É o traço preto que você vê no rótulo, com a assinatura dele ao lado."
+    },
+    {
+      "codigo": "AD-0046",
+      "fotos": [
+        "AD-0046-1.webp",
+        "AD-0046-2.webp"
+      ],
+      "nome": "Ornellaia Bolgheri Superiore",
+      "produtor": "Tenuta dell'Ornellaia",
+      "safra": 2014,
+      "tipo": "Tinto",
+      "uvas": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Petit Verdot",
+        "Cabernet Franc"
+      ],
+      "pais": "Itália",
+      "regiao": "Toscana",
+      "subRegiao": "Bolgheri",
+      "teorAlcoolico": 13.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 5",
+      "garrafas": 1,
+      "notasDegustacao": "Corte de 34% Cabernet Sauvignon, 32% Merlot, 20% Petit Verdot e 14% Cabernet Franc. Fruta escura, grafite e ervas mediterrâneas, com taninos polidos e final salino.",
+      "harmonizacoes": [
+        "Cordeiro",
+        "Carne de caça",
+        "Massas com ragu",
+        "Queijos curados"
+      ],
+      "guardaDe": 2019,
+      "guardaAte": 2032,
+      "temperatura": "17–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.6,
+          "escala": 5,
+          "safra": 2014
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 95,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Jeb Dunnuck",
+          "nota": 95,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Robert Parker",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Decanter",
+          "nota": 91,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 91,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Wine Spectator",
+          "nota": 90,
+          "escala": 100,
+          "safra": 2014
+        }
+      ],
+      "precoMercado": 2500,
+      "descricaoCardapio": "O clássico de Bolgheri: corte bordalês mediterrâneo, de taninos polidos e final salino.",
+      "confianca": 0.97,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "ornellaia.com",
+        "wine-searcher.com",
+        "cellartracker.com",
+        "99bottlzblog.wordpress.com"
+      ],
+      "observacoes": "Mesmo vinho do AD-0006, que é a garrafa da Prateleira 1, e do AD-0045, que é a irmã de rótulo de artista guardada na mesma prateleira que esta. O contrarrótulo desta garrafa também fala do L'Essenza e de Ernesto Neto, porque o nome vale para a colheita inteira; só o rótulo da frente é que muda. Teor alcoólico 13,5% e o importador Folio Fine Wine Partners vêm do contrarrótulo. 2014 foi safra difícil na Toscana — daí a dispersão das notas, de 90 a 95. Preço: média internacional de US$ 234 sem impostos, convertida (US$1≈R$5,16) e dobrada, dá ~R$ 2.415; arredondei para R$ 2.500, dentro da faixa que as importadoras brasileiras praticam.",
+      "historia": "Ornellaia nasceu em Bolgheri, na costa toscana, por obra do Marquês Lodovico Antinori, com primeira safra em 1985. Era a época em que um punhado de produtores decidiu plantar castas bordalesas na Toscana e ficou fora da denominação oficial — o que lhes valeu o apelido de Super Toscanos, e mais tarde uma denominação própria, a Bolgheri DOC. A cada safra a casa encomenda a um artista contemporâneo o rótulo da Vendemmia d'Artista. A 2014 foi ano difícil na Toscana, chuvoso e frio, e é justamente por isso que os críticos se dividiram tanto."
     }
   ]
 }
