@@ -152,7 +152,10 @@ mantendo o mesmo local.
 ```
 
 `tipo` aceita: `Tinto`, `Branco`, `Rosé`, `Espumante`, `Sobremesa`,
-`Fortificado`, `Laranja`, `Licor`.
+`Fortificado`, `Laranja`, `Licor`, `Sem álcool`.
+
+Desalcoolizado vai em `Sem álcool`, nunca em `Espumante` ou `Branco`: quem
+procura isso numa carta não pode ter que ler a letra miúda para descobrir.
 
 A adega guarda mais que vinho. Limoncello, grappa e licor de ervas entram como
 `Licor` — sem nota do Vivino nem de crítico, porque essas fontes não avaliam

@@ -1259,6 +1259,50 @@
         "wine-searcher.com"
       ],
       "observacoes": "NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO — o rótulo está lá (Chandon Brazil Réserve Brut), mas nenhuma fonte trazia o número. Vale conferir no app e acrescentar à mão. Espumante não safrado, então também não há nota de crítico aplicável. PREÇO SEM A REGRA DO DOBRO: é produto brasileiro, não paga importação. R$ 110 vem direto de loja (Evino, Pão de Açúcar) — dobrar aqui seria errado. As uvas variam de lote: a própria Chandon publica 40% Pinot Noir / 30% Riesling Itálico / 30% Chardonnay, e outra fonte traz 35/35/30 — por isso registrei as castas sem os percentuais. Método Charmat, não tradicional. Teor alcoólico não estava legível na foto."
+    },
+    {
+      "codigo": "AD-0022",
+      "fotos": [
+        "AD-0022-1.webp"
+      ],
+      "nome": "0,0% Alcohol Free",
+      "produtor": "Freixenet",
+      "safra": null,
+      "tipo": "Sem álcool",
+      "uvas": [
+        "Moscatel"
+      ],
+      "pais": "Espanha",
+      "regiao": "Catalunha",
+      "subRegiao": "Sant Sadurní d'Anoia",
+      "teorAlcoolico": 0.0,
+      "volumeMl": 750,
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 2,
+      "historia": "A Freixenet é de Sant Sadurní d'Anoia, capital do cava, e existe desde 1861 — a data está impressa no rótulo. Este aqui não é suco de uva: é espumante de verdade, feito de Moscatel e depois desalcoolizado, com o álcool retirado ao final. A casa lançou a linha na Europa em 2011, quando praticamente não existia mercado para isso.",
+      "notasDegustacao": "Feito de Moscatel. Cítrico e tropical, com o floral típico da uva; leve, adocicado e de borbulha fina. Sem álcool nenhum.",
+      "harmonizacoes": [
+        "Aperitivo",
+        "Sobremesas",
+        "Frutas",
+        "Brinde sem álcool"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "6–8 °C",
+      "decantarMin": null,
+      "avaliacoes": [],
+      "precoMercado": 85,
+      "descricaoCardapio": "Espumante espanhol de Moscatel, desalcoolizado: cítrico, floral e leve, sem álcool.",
+      "confianca": 0.97,
+      "fontes": [
+        "freixenet.com.br",
+        "zaffari.com.br",
+        "casadabebida.com.br",
+        "meuvinhobh.com.br"
+      ],
+      "observacoes": "0,0% de álcool — é a garrafa para quem está dirigindo, grávida ou simplesmente não bebe. Por isso entrou no tipo \"Sem álcool\" e não em \"Espumante\": numa carta, quem procura isso não pode ter que ler a letra miúda. Sem nota do Vivino nem de crítico: essas fontes praticamente não avaliam desalcoolizado. Preço de loja brasileira, de R$ 65 a R$ 142; registrei R$ 85, que é onde a maioria fica — não apliquei a regra do dobro porque os preços já são daqui. Uma fonte citava 13 °C de serviço, o que parece erro: espumante desalcoolizado se serve bem gelado, 6–8 °C."
     }
   ]
 }
