@@ -35,7 +35,10 @@ export function useRepoImport(enabled: boolean) {
         const result = await importFromRepo((done, total, label) => {
           if (alive) setState((s) => ({ ...s, label: `${label} (${done}/${total})` }))
         })
-        if (alive) setState({ running: false, label: '', result, error: '' })
+        // Sem garrafa nova nem ficha completada, não há o que avisar.
+        const vale = result && (result.wines > 0 || result.updated > 0)
+        if (alive)
+          setState({ running: false, label: '', result: vale ? result : null, error: '' })
       } catch (err) {
         if (alive)
           setState({

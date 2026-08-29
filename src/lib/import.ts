@@ -78,8 +78,8 @@ export interface ImportResult {
   wines: number
   photos: number
   cellars: number
-  /** Vinhos ignorados porque a numeração já existia no catálogo. */
-  skipped: number
+  /** Vinhos que já existiam e receberam campos que estavam em branco. */
+  updated: number
   firstCode: string
   lastCode: string
 }
@@ -322,8 +322,68 @@ export async function runImport(
     wines: plan.wines.length - skipped,
     photos: savedPhotos,
     cellars: created,
-    skipped,
+    updated: 0,
     firstCode,
     lastCode
   }
+}
+
+/**
+ * Completa um vinho que já está no aparelho com o que veio do catálogo.
+ *
+ * Regra: o que você escreveu à mão nunca é sobrescrito, e nada de gestão é
+ * tocado — prateleira, estoque, sua nota, favorito e preço pago ficam como
+ * estão. Serve para quando a ficha ganha um campo novo (a história, por
+ * exemplo) depois que a garrafa já entrou.
+ */
+export function mergeRepoEntry(wine: Wine, entry: ImportWine): Partial<Wine> | null {
+  const patch: Partial<Wine> = {}
+  const vazio = (v: string | undefined | null) => !v || v.trim() === ''
+
+  const texto: [keyof Wine, string | undefined][] = [
+    ['story', entry.historia],
+    ['tastingNotes', entry.notasDegustacao],
+    ['menuNote', entry.descricaoCardapio],
+    ['country', entry.pais],
+    ['region', entry.regiao],
+    ['subregion', entry.subRegiao],
+    ['servingTempC', entry.temperatura]
+  ]
+  for (const [campo, valor] of texto) {
+    if (!vazio(valor) && vazio(wine[campo] as string | undefined)) {
+      ;(patch as Record<string, unknown>)[campo] = valor!.trim()
+    }
+  }
+
+  const numero: [keyof Wine, number | null | undefined][] = [
+    ['vintage', int(entry.safra)],
+    ['abv', num(entry.teorAlcoolico)],
+    ['drinkFrom', int(entry.guardaDe)],
+    ['drinkTo', int(entry.guardaAte)],
+    ['decantMin', int(entry.decantarMin)],
+    ['marketPrice', num(entry.precoMercado)]
+  ]
+  for (const [campo, valor] of numero) {
+    if (valor !== null && valor !== undefined && wine[campo] == null) {
+      ;(patch as Record<string, unknown>)[campo] = valor
+    }
+  }
+
+  if (!wine.grapes.length && entry.uvas?.length) patch.grapes = entry.uvas
+  if (!wine.pairings.length && entry.harmonizacoes?.length)
+    patch.pairings = entry.harmonizacoes
+
+  // Avaliações: as pesquisadas são substituídas pelas do catálogo, as que
+  // você digitou continuam.
+  const pesquisadas = toRatings(entry.avaliacoes)
+  if (pesquisadas.length) {
+    const minhas = wine.ratings.filter((r) => r.origin === 'manual')
+    const antes = JSON.stringify(wine.ratings)
+    const depois = [...minhas, ...pesquisadas]
+    if (JSON.stringify(depois) !== antes) patch.ratings = depois
+  }
+
+  if (Object.keys(patch).length === 0) return null
+  patch.updatedAt = Date.now()
+  return patch
 }

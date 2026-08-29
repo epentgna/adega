@@ -64,17 +64,35 @@ export default function Home() {
         <div className="card p-4 mb-4 border-gold/50 flex items-start gap-3">
           <IconSparkle width={19} height={19} className="text-gold shrink-0 mt-0.5" />
           <div className="min-w-0 flex-1">
-            <div className="text-[15px]">
-              {repo.result.wines} garrafa{repo.result.wines === 1 ? '' : 's'} nova
-              {repo.result.wines === 1 ? '' : 's'}
-            </div>
-            <div className="text-[12px] text-muted mt-0.5">
-              {repo.result.firstCode}
-              {repo.result.firstCode !== repo.result.lastCode
-                ? ` a ${repo.result.lastCode}`
-                : ''}{' '}
-              · catalogadas por conversa
-            </div>
+            {repo.result.wines > 0 ? (
+              <>
+                <div className="text-[15px]">
+                  {repo.result.wines} garrafa{repo.result.wines === 1 ? '' : 's'} nova
+                  {repo.result.wines === 1 ? '' : 's'}
+                </div>
+                <div className="text-[12px] text-muted mt-0.5">
+                  {repo.result.firstCode}
+                  {repo.result.firstCode !== repo.result.lastCode
+                    ? ` a ${repo.result.lastCode}`
+                    : ''}{' '}
+                  · catalogadas por conversa
+                  {repo.result.updated
+                    ? ` · ${repo.result.updated} ficha(s) completada(s)`
+                    : ''}
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="text-[15px]">
+                  {repo.result.updated} ficha
+                  {repo.result.updated === 1 ? '' : 's'} completada
+                  {repo.result.updated === 1 ? '' : 's'}
+                </div>
+                <div className="text-[12px] text-muted mt-0.5">
+                  Chegou informação nova para garrafas que você já tinha.
+                </div>
+              </>
+            )}
           </div>
           <button
             onClick={repo.dismiss}

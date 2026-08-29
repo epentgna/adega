@@ -54,7 +54,7 @@
         "1001vinhos.com",
         "wine-searcher.com"
       ],
-      "observacoes": "Teor alcoólico não estava legível no rótulo nem confirmado em fonte. Janela de guarda é estimativa, não achei indicação do produtor. Preço: lojas brasileiras vão de R$ 690 a R$ 1.050 (Casa da Bebida R$ 730, Família Scopel R$ 899, Duarte R$ 1.050; Empório do Mundo R$ 689 cheio, R$ 299 em promoção). Registrei R$ 800, a mediana da faixa. Confere com o preço em Portugal (~€78) convertido e dobrado pelos impostos de importação. Ofertas abaixo de R$ 300 costumam ser o Cartuxa Branco, da linha básica, e não o Pêra-Manca.",
+      "observacoes": "Teor alcoólico não estava legível no rótulo nem confirmado em fonte. Janela de guarda é estimativa, não achei indicação do produtor. Preço: lojas brasileiras vão de R$ 690 a R$ 1.050 (Casa da Bebida R$ 730, Família Scopel R$ 899, Duarte R$ 1.050; Empório do Mundo R$ 689 cheio, R$ 299 em promoção). Registrei R$ 800, a mediana da faixa. Confere com o preço em Portugal (~€78) convertido e dobrado pelos impostos de importação. Ofertas abaixo de R$ 300 costumam ser o Cartuxa Branco, da linha básica, e não o Pêra-Manca. Não encontrei nota de crítico (Parker, Suckling, Wine Spectator) para o branco 2018 — só a do Vivino, que é a melhor safra do rótulo e está no 1% melhor avaliado do mundo.",
       "historia": "O nome vem de uma encosta de pedras soltas em Évora, terra dos monges do Convento do Espinheiro. Reza a história que foi um Pêra-Manca que Pedro Álvares Cabral levou nas naus e serviu no encontro com os indígenas em 1500. O rótulo desapareceu com a extinção da Casa Soares e só voltou quando o herdeiro cedeu o nome à Fundação Eugénio de Almeida, em 1987; o primeiro Pêra-Manca da Fundação saiu em 1990. O vinho estagia na adega de um mosteiro jesuíta de 1580, e só é engarrafado nos anos em que a colheita justifica."
     },
     {
@@ -92,12 +92,14 @@
           "fonte": "Vivino",
           "nota": 4.5,
           "escala": 5,
-          "votos": 41
+          "votos": 41,
+          "safra": 2020
         },
         {
           "fonte": "Wine-Searcher (média de críticos)",
           "nota": 92,
-          "escala": 100
+          "escala": 100,
+          "safra": 2020
         }
       ],
       "precoMercado": 460,
@@ -144,6 +146,11 @@
       "decantarMin": 90,
       "avaliacoes": [
         {
+          "fonte": "Vivino",
+          "nota": 4.7,
+          "escala": 5
+        },
+        {
           "fonte": "Robert Parker",
           "nota": 96,
           "escala": 100,
@@ -158,7 +165,7 @@
         "southamericawineguide.com",
         "hitimewine.net"
       ],
-      "observacoes": "Rótulo 'Nico', nome antigo do corte uNico — hoje chamado Volturno. Preço: média internacional de US$ 279 sem impostos, convertida (US$1≈R$5,16) e dobrada, dá ~R$2.880; não achei à venda no Brasil, é safra antiga e rara. Janela de guarda é estimativa. Garrafa de 2006: pode já estar no fim da janela, vale abrir.",
+      "observacoes": "Rótulo 'Nico', nome antigo do corte uNico — hoje chamado Volturno. Preço: média internacional de US$ 279 sem impostos, convertida (US$1≈R$5,16) e dobrada, dá ~R$2.880; não achei à venda no Brasil, é safra antiga e rara. Janela de guarda é estimativa. Garrafa de 2006: pode já estar no fim da janela, vale abrir. A nota 4,7 do Vivino é do rótulo Corte uNico como um todo, não da safra 2006 isolada — o Vivino não separa essa safra.",
       "historia": "Em 1999 o californiano Paul Hobbs se juntou a Andrea Marchiori e Luis Barraud para fazer Malbec em Mendoza. O vinhedo Marchiori, em Perdriel, era da família dela. Deste corte, tirado dos quadrantes mais velhos do vinhedo, saiu o vinho batizado em homenagem ao patriarca Don Nico Marchiori. Chamou-se Corte uNico e, em algumas safras, apenas Nico — como nesta garrafa. Hoje o mesmo vinho leva o nome do meio de Don Nico: Volturno."
     },
     {
@@ -209,7 +216,7 @@
         "vivino.com",
         "paodeacucar.com"
       ],
-      "observacoes": "Sem safra (não safrado), como é padrão do Yellow Label. Teor de 12% lido no próprio rótulo. Preço R$ 450 é de loja brasileira (Pão de Açúcar), não estimativa.",
+      "observacoes": "Sem safra (não safrado), como é padrão do Yellow Label. Teor de 12% lido no próprio rótulo. Preço R$ 450 é de loja brasileira (Pão de Açúcar), não estimativa. Champagne não safrado: as notas de críticos variam conforme o lote e o ano-base do corte, e não dá para saber qual vale para esta garrafa. Por isso registrei só a do Vivino, que é do rótulo como um todo.",
       "historia": "Barbe-Nicole Ponsardin ficou viúva aos 27 anos, em 1805, e assumiu a casa do marido numa época em que mulher não dirigia negócio na França. Virou a Veuve — a viúva — Clicquot. Em 1816 inventou a mesa de remuage, que permite retirar as borras sem perder o gás e é usada até hoje em toda a Champagne. O rótulo amarelo, que ela adotou em 1877 para distinguir o Brut, virou a marca visual mais reconhecível da região."
     },
     {
@@ -247,6 +254,30 @@
           "fonte": "Vivino",
           "nota": 4.4,
           "escala": 5,
+          "safra": 2017
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "Vinous",
+          "nota": 92,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "Wine Spectator",
+          "nota": 91,
+          "escala": 100,
           "safra": 2017
         }
       ],
@@ -297,6 +328,12 @@
       "temperatura": "17–18 °C",
       "decantarMin": 90,
       "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.6,
+          "escala": 5,
+          "safra": 2014
+        },
         {
           "fonte": "James Suckling",
           "nota": 95,

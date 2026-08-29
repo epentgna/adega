@@ -40,15 +40,15 @@ export default function Import() {
         setRepoStatus('Nenhum catálogo publicado no repositório ainda.')
         return
       }
-      if (check.novos === 0) {
-        setRepoStatus(`Já está tudo aqui (${check.total} garrafas no arquivo).`)
-        return
-      }
       const done = await importFromRepo((d, total, label) =>
         setRepoStatus(`${label} (${d}/${total})`)
       )
-      if (done) setResult(done)
-      else setRepoStatus('Nada novo para trazer.')
+      if (done?.wines) setResult(done)
+      else if (done?.updated)
+        setRepoStatus(
+          `${done.updated} ficha(s) já existentes foram completadas com o que faltava.`
+        )
+      else setRepoStatus(`Já está tudo aqui (${check.total} garrafas no arquivo).`)
     } catch (err) {
       setRepoStatus(err instanceof Error ? err.message : 'Falhou.')
     }
@@ -110,7 +110,7 @@ export default function Import() {
             {result.photos} foto{result.photos === 1 ? '' : 's'} guardada
             {result.photos === 1 ? '' : 's'}
             {result.cellars ? `, ${result.cellars} adega(s) criada(s)` : ''}
-            {result.skipped ? `, ${result.skipped} já estavam no catálogo` : ''}.
+            {result.updated ? `, ${result.updated} atualizado(s)` : ''}.
             Numeração de <span className="code-tag">{result.firstCode}</span> a{' '}
             <span className="code-tag">{result.lastCode}</span>.
           </p>

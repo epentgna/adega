@@ -1,9 +1,11 @@
 import { db } from '../db/db'
 import {
+  mergeRepoEntry,
   parseImportFile,
   planImport,
   runImport,
   type ImportResult,
+  type ImportWine,
   type NamedPhoto
 } from './import'
 
@@ -47,9 +49,26 @@ export async function importFromRepo(
   const all = await fetchCatalog()
   if (!all) return null
 
-  const taken = new Set((await db.wines.toArray()).map((w) => w.code))
-  const wines = all.filter((w) => !w.codigo || !taken.has(w.codigo.trim()))
-  if (wines.length === 0) return null
+  const local = await db.wines.toArray()
+  const byCode = new Map(local.map((w) => [w.code, w]))
+  const wines = all.filter((w) => !w.codigo || !byCode.has(w.codigo.trim()))
+
+  // Garrafa que já está aqui não entra de novo, mas pode ter ganhado campos
+  // novos no catálogo (a história, por exemplo) depois de importada.
+  const updated = await completarExistentes(all, byCode)
+
+  if (wines.length === 0) {
+    return updated > 0
+      ? {
+          wines: 0,
+          photos: 0,
+          cellars: 0,
+          updated,
+          firstCode: '',
+          lastCode: ''
+        }
+      : null
+  }
 
   const wanted = new Set<string>()
   for (const wine of wines) for (const name of wine.fotos ?? []) wanted.add(name)
@@ -71,5 +90,26 @@ export async function importFromRepo(
   }
 
   const plan = await planImport(wines, photos)
-  return runImport(plan, { replace: false }, onProgress)
+  const result = await runImport(plan, { replace: false }, onProgress)
+  return { ...result, updated }
+}
+
+/** Preenche o que estava em branco nas garrafas já importadas. */
+async function completarExistentes(
+  all: ImportWine[],
+  byCode: Map<string, { id?: number } & Parameters<typeof mergeRepoEntry>[0]>
+): Promise<number> {
+  let n = 0
+  for (const entry of all) {
+    const code = entry.codigo?.trim()
+    if (!code) continue
+    const wine = byCode.get(code)
+    if (!wine?.id) continue
+    const patch = mergeRepoEntry(wine, entry)
+    if (patch) {
+      await db.wines.update(wine.id, patch)
+      n++
+    }
+  }
+  return n
 }

@@ -41,11 +41,24 @@ vinhedo — o que se conta antes de servir. É o que aparece ao tocar no vinho
 dentro do cardápio, então vale pesquisar de verdade. Vale a mesma regra de
 tudo o mais: só o que a busca sustenta; sem nada verificável, deixe de fora.
 
+**A nota do Vivino é obrigatória, e vão todas as que existirem.** Procure
+sempre o Vivino primeiro — é a nota que o usuário olha antes de qualquer outra
+— e depois Robert Parker, Wine Spectator, James Suckling, Vinous, Decanter,
+Jeb Dunnuck e Wine Enthusiast. Registre **todas** as que a busca sustentar, não
+só a melhor. Se não achar a do Vivino, diga isso em `observacoes` em vez de
+simplesmente omitir: sem essa linha o usuário não sabe se a nota não existe ou
+se você não procurou.
+
 **Nunca invente nota, número de avaliações ou preço.** Sem número encontrado na
 busca, o campo fica de fora. Uma ficha com lacuna é útil; uma ficha com nota
 inventada envenena o catálogo. Vivino é escala 5; Parker, Wine Spectator,
 Suckling e Decanter são escala 100. Prefira a nota da safra da garrafa; se só
-achar a do rótulo em geral, deixe `safra` da avaliação como `null`.
+achar a do rótulo em geral, deixe `safra` da avaliação como `null` e registre
+em `observacoes` que a nota é do rótulo, não daquela safra.
+
+Espumante não safrado é caso à parte: as notas de críticos mudam conforme o
+lote e o ano-base do corte, e não há como saber qual vale para a garrafa em
+mãos. Registre a do Vivino, que é do rótulo, e explique isso em `observacoes`.
 
 Rótulo ilegível: cadastre assim mesmo com o que dá para ler, `confianca` baixa
 e o motivo em `observacoes`. O usuário precisa saber que a garrafa existe.
