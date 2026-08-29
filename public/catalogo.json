@@ -2,5 +2,56 @@
   "app": "adega",
   "formato": "importacao",
   "versao": 1,
-  "vinhos": []
+  "vinhos": [
+    {
+      "codigo": "AD-0001",
+      "fotos": [
+        "AD-0001-1.webp"
+      ],
+      "nome": "Pêra-Manca Branco",
+      "produtor": "Fundação Eugénio de Almeida (Adega Cartuxa)",
+      "safra": 2018,
+      "tipo": "Branco",
+      "uvas": [
+        "Antão Vaz",
+        "Arinto"
+      ],
+      "pais": "Portugal",
+      "regiao": "Alentejo",
+      "subRegiao": "Évora",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 1",
+      "garrafas": 1,
+      "notasDegustacao": "Branco de guarda do Alentejo. Cor cítrica, aroma fino e complexo de fruta madura com notas tostadas da barrica; boca cheia, com acidez firme e final longo e mineral.",
+      "harmonizacoes": [
+        "Peixes grelhados",
+        "Frutos do mar",
+        "Aves assadas",
+        "Queijos curados de ovelha"
+      ],
+      "guardaDe": 2021,
+      "guardaAte": 2032,
+      "temperatura": "10–12 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.7,
+          "escala": 5,
+          "safra": 2018
+        }
+      ],
+      "precoMercado": null,
+      "descricaoCardapio": "Branco de guarda do Alentejo, de Antão Vaz e Arinto: fruta madura, acidez firme e final longo.",
+      "confianca": 0.95,
+      "fontes": [
+        "vivino.com",
+        "bestofwines.com",
+        "wine-searcher.com"
+      ],
+      "observacoes": "Teor alcoólico não estava legível no rótulo nem confirmado em fonte. Janela de guarda é estimativa, não achei indicação do produtor. Preço de mercado em reais não confirmado — a tela ao fundo da foto citava R$ 299, mas não dava para saber se era deste vinho, então deixei em branco."
+    }
+  ]
 }
