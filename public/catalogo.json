@@ -4601,6 +4601,52 @@
       ],
       "observacoes": "PRIMEIRO MARGAUX DO ACERVO. É o segundo Bordeaux tinto, depois do Clos des Jacobins do AD-0066, mas do outro lado do rio: Margaux fica no Médoc, margem esquerda, onde manda o Cabernet Sauvignon; Saint-Émilion é margem direita, terra de Merlot. Ter os dois é ter as duas metades de Bordeaux. Falstaff 94, CellarTracker 92,9 de 8 avaliações e Wine-Searcher 92, que é média de críticos. Wine Spectator e Wine Enthusiast resenharam a safra — é do Spectator a descrição de fumaça de amieiro que usei — mas não recuperei as pontuações. Vivino também não. Vi um 95 anunciado por loja sem dizer de quem era; não registrei nota sem crítico identificado. AS CASTAS vêm do corte habitual da propriedade, não do rótulo, que não declara. 2022 FOI SAFRA MUITO QUENTE EM BORDEAUX e mesmo assim bem avaliada — daí os 14% de álcool, altos para Margaux. É garrafa nova, de guarda: registrei a janela começando só em 2027, e é estimativa. Não tem pressa nenhuma. Teor de 14% e o engarrafamento no château vêm do rótulo. Veio pelos Estados Unidos, importada pela Saranty Imports, de Stamford, Connecticut. PREÇO ESTIMADO: média internacional de US$ 45 sem impostos, a R$ 5,15, dobrados: ~R$ 465. Lojas americanas pedem cerca de US$ 35. Não achei oferta brasileira.",
       "historia": "Labégorce fica em Margaux, no Médoc, e é uma daquelas propriedades grandes que ficaram fora da classificação de 1855 e passaram o século seguinte provando que a lista estava incompleta. O desenho no rótulo é o próprio château. Margaux é a comuna mais perfumada do Médoc — a que dá vinhos de aroma floral sobre estrutura firme —, e é isso que se procura numa garrafa destas."
+    },
+    {
+      "codigo": "AD-0079",
+      "fotos": [
+        "AD-0079-1.webp",
+        "AD-0079-2.webp",
+        "AD-0079-3.webp"
+      ],
+      "nome": "Malbec Argentino",
+      "produtor": "Bodega Catena Zapata",
+      "safra": null,
+      "tipo": "Tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "pais": "Argentina",
+      "regiao": "Mendoza",
+      "subRegiao": "Viñedo Angélica (Lunlunta) e Viñedo Nicasia (Altamira)",
+      "teorAlcoolico": 14.0,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 9",
+      "garrafas": 1,
+      "notasDegustacao": "Malbec puro, de vinhas velhas dos vinhedos históricos da família — o Angélica, em Lunlunta, e o Nicasia, em Altamira. É o Malbec de topo da casa, e a crítica trata este rótulo como referência da casta no mundo.",
+      "harmonizacoes": [
+        "Bife alto na brasa",
+        "Costela assada",
+        "Cordeiro",
+        "Queijos duros"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "17–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [],
+      "precoMercado": 1200,
+      "descricaoCardapio": "O Malbec de topo da Catena Zapata, com o rótulo que conta dez séculos da casta.",
+      "confianca": 0.6,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "catenazapata.com",
+        "jamessuckling.com",
+        "oasisbebidas.com.br"
+      ],
+      "observacoes": "SAFRA NÃO IDENTIFICADA — e aqui isso pesa mais que de costume. Nenhuma das três fotos mostra o ano: o rótulo é todo tomado pela gravura, e o contrarrótulo traz só o lote (L-K065 08:43 3-20195, INV.M-1711732). Numa garrafa deste nível a safra muda tudo, inclusive a nota. Uma foto do gargalo, da cápsula ou do pé do rótulo resolve. POR ISSO NÃO REGISTREI NENHUMA PONTUAÇÃO, apesar de existirem e serem altíssimas. Veja o que está em jogo: a safra 2019 levou 99 de James Suckling; a 2021, 96 de Suckling e 96 do Wine Advocate; a 2022, 98 de Suckling e 93 do Wine Advocate. São notas muito diferentes entre si — colar qualquer uma sem saber o ano seria inventar. Me diga a safra e eu completo a ficha na hora. O RÓTULO É UMA OBRA, e ganhou prêmio por isso: Best Wine Design & Packaging no The Drinks Business Awards de 2018. A gravura conta a história da uva em faixas — Eleanor of Aquitaine, the immigrant, early 1800's, phylloxera late 1800's, e o renascimento — sob a legenda de dez séculos de vida, morte e renascimento do Malbec. Teor alcoólico 14% e o engarrafamento em Vista Flores, Tunuyán, vêm do contrarrótulo. Os vinhedos Angélica e Nicasia vêm da casa, não do rótulo. Repare que o Angélica é o mesmo vinhedo de onde sai o Malbec do seu D.V. Catena, no AD-0062 — o vinhedo batizado com o nome de Angélica Zapata. PREÇO COM RESSALVA: R$ 1.200 vem da Oásis Bebidas, a partir de R$ 1.201,75, e é a única oferta brasileira que encontrei — sem faixa para tirar mediana, e sem safra declarada. Produto vendido no Brasil, sem dobrar. JANELA DE GUARDA VAZIA de propósito: sem saber a safra, qualquer intervalo seria chute. SÉTIMO RÓTULO DA CATENA ZAPATA NO ACERVO, a família mais numerosa da sua adega.",
+      "historia": "O rótulo é uma gravura que conta dez séculos de Malbec em faixas: Eleanor da Aquitânia no começo, quando a uva era do sudoeste da França; o imigrante que a levou para a Argentina no início do século XIX; a filoxera que a matou na Europa no fim daquele século, desenhada como um esqueleto coroado; e o renascimento do outro lado do Atlântico. A legenda resume: vida, morte e renascimento. É a tese da casa impressa na garrafa — que o Malbec só sobreviveu porque atravessou o oceano, e que a Argentina é hoje a casa dele."
     }
   ]
 }
