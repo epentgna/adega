@@ -3280,6 +3280,103 @@
       ],
       "observacoes": "PRIMEIRO VINHO DOCE DO CATÁLOGO. Até aqui o acervo era só tinto, branco, espumante e licor. REPARE NUMA CONTRADIÇÃO APARENTE DO RÓTULO: em cima está escrito 'Grand Vin de Sauternes', mas a denominação declarada é Barsac. Não é erro. Barsac fica dentro do Sauternais, e o produtor pode escolher rotular como Barsac ou como Sauternes; o Climens usa as duas coisas no mesmo rótulo. Barsac costuma dar vinhos com mais acidez e menos peso que o Sauternes propriamente dito. Sémillon puro, sem Sauvignon — o que é incomum entre os grandes de Sauternes e Barsac, e é assinatura da casa. Teor alcoólico 14,5% e o importador americano Wine Warehouse, de Los Angeles, vêm do rótulo. É a segunda garrafa da casa que veio pelos Estados Unidos, como as Vega Sicilia. AS NOTAS DIVERGEM MUITO: Wine Spectator deu 96, Robert Parker deu 90. Seis pontos de diferença no mesmo vinho. 2003 foi ano de calor extremo em Bordeaux e dividiu a crítica em toda a região — o seu Tignanello 2003 é da mesma safra escaldante, do outro lado dos Alpes. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO nem uma média fechada do CellarTracker desta safra. PREÇO ESTIMADO: não achei oferta brasileira. Média internacional de US$ 89 sem impostos, a R$ 5,15, dobrados: ~R$ 920. GUARDA: Barsac de primeira ordem atravessa décadas. Vinte e três anos não é velhice aqui, é meia-idade. Registrei até 2040, e mesmo isso é conservador. São seis garrafas — corrigido de cinco, que foi o que eu registrei primeiro. Dá bem para abrir uma agora e guardar as outras sem pressa.",
       "historia": "Climens é 1er Cru Classé de Barsac desde a classificação de 1855 e faz o vinho só com Sémillon, sem a pitada de Sauvignon que quase todos os vizinhos usam. A uva é colhida bago a bago, em várias passagens pela vinha, conforme a podridão nobre vai pegando. Bérénice Lurton assumiu a propriedade aos vinte e poucos anos e assina o rótulo — é o nome dela impresso abaixo da denominação."
+    },
+    {
+      "codigo": "AD-0055",
+      "fotos": [
+        "AD-0055-1.webp",
+        "AD-0055-2.webp"
+      ],
+      "nome": "Antica Formula",
+      "produtor": "Carpano",
+      "safra": null,
+      "tipo": "Fortificado",
+      "uvas": [],
+      "pais": "Itália",
+      "regiao": "Piemonte",
+      "subRegiao": "Turim",
+      "teorAlcoolico": 16.5,
+      "volumeMl": 375,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 7",
+      "garrafas": 1,
+      "notasDegustacao": "Vinho branco italiano fortificado e aromatizado com ervas e especiarias, açafrão entre elas. No nariz, baunilha com especiaria, cítrico, amêndoa, passas e cravo. Na boca a baunilha domina, rica e doce, e o final vira laranja amarga e tâmara, com cacau e açafrão no fundo.",
+      "harmonizacoes": [
+        "Puro, com gelo",
+        "Negroni",
+        "Manhattan",
+        "Americano"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "Bem gelado, sobre gelo",
+      "decantarMin": null,
+      "avaliacoes": [],
+      "precoMercado": 210,
+      "descricaoCardapio": "O vermute que inventou a categoria, em Turim: baunilha, cravo e um final de laranja amarga.",
+      "confianca": 0.75,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "wine.com",
+        "imigrantesbebidas.com.br",
+        "bebidasemcasa.com.br"
+      ],
+      "observacoes": "CLASSIFIQUEI COMO FORTIFICADO, não como licor. Vermute é vinho: vinho branco fortificado e aromatizado com ervas. No cardápio ele aparece junto do Porto, antes dos licores. MEIA GARRAFA: 375 ml, metade do formato normal. O rótulo declara 16,5% e traz dois números manuscritos, bottiglia numerata 02179 e confezionato 16137. UMA COISA QUE NÃO CONSEGUI RECONCILIAR: o rótulo diz 'Vermouth di Giuseppe B. Carpano', mas as fontes creditam a invenção do vermute moderno a Antonio Benedetto Carpano, em Turim, em 1786 — o mesmo 1786 impresso na garrafa. Podem ser dois membros da família em épocas diferentes. Registro a divergência em vez de escolher um dos dois. NENHUMA PONTUAÇÃO: vermute não é avaliado por crítico de vinho nem tem página de safra no Vivino como os outros. Não é omissão. AS UVAS ESTÃO VAZIAS: o rótulo não declara castas, só que é feito de uvas italianas. PREÇO CALCULADO, não observado: não achei o formato de 375 ml à venda no Brasil. As lojas brasileiras pedem R$ 532,99 e R$ 578,99 pela garrafa de 1 litro; a proporção direta para 375 ml dá ~R$ 210. Meia garrafa costuma custar um pouco mais por mililitro, então o valor real provavelmente é um tico acima. Importado pela Infinium Spirits, de Aliso Viejo, Califórnia — mais uma que veio pelos Estados Unidos. O contrarrótulo manda beber puro, bem gelado, sobre gelo.",
+      "historia": "Em 1786, em Turim, um licorista chamado Carpano macerou ervas e especiarias em vinho branco fortificado e criou o que hoje se chama vermute. A casa real de Savoia adotou a bebida, e o hábito do aperitivo italiano nasceu em torno dela. Este rótulo é a receita original — antica formula quer dizer exatamente isso. No brasão está o lema da casa: Tempus Judex, o tempo é quem julga."
+    },
+    {
+      "codigo": "AD-0056",
+      "fotos": [
+        "AD-0056-1.webp",
+        "AD-0056-2.webp"
+      ],
+      "nome": "Late Bottled Vintage Port",
+      "produtor": "W. & J. Graham's (Symington Family Estates)",
+      "safra": 2014,
+      "tipo": "Fortificado",
+      "uvas": [
+        "Touriga Nacional",
+        "Touriga Franca",
+        "Tinta Barroca",
+        "Tinta Roriz"
+      ],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Porto DOC",
+      "teorAlcoolico": 20.0,
+      "volumeMl": 200,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 7",
+      "garrafas": 1,
+      "notasDegustacao": "Cinco anos em cascos de carvalho no armazém de 1890 da Graham's, antes de engarrafar já pronto para beber. Vermelho-púrpura opaco. Frutas vermelhas e pretas do bosque, ameixa, chocolate ao leite, especiaria e laranja sanguínea. Doce e encorpado, de taninos arredondados e final longo e aveludado.",
+      "harmonizacoes": [
+        "Queijos variados",
+        "Chocolate amargo"
+      ],
+      "guardaDe": 2019,
+      "guardaAte": 2030,
+      "temperatura": "14–16 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Wine-Searcher",
+          "nota": 89,
+          "escala": 100,
+          "safra": 2014
+        }
+      ],
+      "descricaoCardapio": "Porto LBV de cinco anos em casco: fruta do bosque, chocolate ao leite e final aveludado.",
+      "precoMercado": null,
+      "confianca": 0.75,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "grahams-port.com",
+        "wineenthusiast.com",
+        "wine-searcher.com",
+        "divinho.com.br"
+      ],
+      "observacoes": "GARRAFA PEQUENA: 20 cl, ou 200 ml. É pouco mais de um quarto do formato normal — duas taças de Porto. O rótulo declara 20% de álcool. LBV quer dizer Late Bottled Vintage: é vinho de uma safra só, mas engarrafado depois de envelhecer no casco, e por isso sai pronto para beber, sem a espera de um Vintage clássico. O contrarrótulo diz isso com todas as letras, e ainda sugere a harmonização que eu registrei — queijos variados e chocolate amargo — direto da casa. Avisa também que Porto é produto natural e pode formar depósito. AS CASTAS NÃO ESTÃO NO RÓTULO: Touriga Nacional, Touriga Franca, Tinta Barroca e Tinta Roriz vêm da descrição do LBV pela importadora, não da garrafa. Só achei uma pontuação, o 89 do Wine-Searcher, que é média de críticos. O Wine Enthusiast resenhou a safra — chamou de perfumado e elegante, no estilo da casa — mas não recuperei o número. Vivino também não. PREÇO EM BRANCO DE PROPÓSITO: não achei nenhuma oferta brasileira nem do formato de 200 ml, nem da garrafa cheia desta safra, e não quis calcular um valor em cima de nada. Se você souber quanto custou, eu completo. Mesma família Symington do seu Chryseia, no AD-0040. Janela de guarda é estimativa: LBV sai pronto e não pede espera.",
+      "historia": "A Graham's foi fundada em 1820 por dois escoceses e hoje pertence aos Symington, a mesma família que faz o seu Chryseia. O armazém onde este vinho descansou cinco anos, em Vila Nova de Gaia, é de 1890 e está desenhado na tarja de cima da garrafa — aquele prédio comprido de telhado escuro à beira do Douro é o próprio lodge que o rótulo cita."
     }
   ]
 }
