@@ -1160,6 +1160,57 @@
         "imigrantesbebidas.com.br"
       ],
       "observacoes": "\"Brut La Française\" e \"Brut Réserve\" são o mesmo vinho — a casa usa nomes diferentes por mercado e por época. Champagne não safrado, então só a nota do Vivino. Teor alcoólico não estava legível na foto. Preço: a garrafa de 750 ml sai por R$ 428 a R$ 577 no Brasil; não achei o magnum à venda, então apliquei 2,2× sobre a mediana. Preço de magnum: no Brasil o Veuve Clicquot Brut de 1,5 L sai por R$ 850 a R$ 1.310, contra R$ 450 na garrafa de 750 ml — um multiplicador de cerca de 2,2×, que usei para os magnums sem preço próprio encontrado."
+    },
+    {
+      "codigo": "AD-0020",
+      "fotos": [
+        "AD-0020-1.webp"
+      ],
+      "nome": "Brut Yellow Label",
+      "produtor": "Veuve Clicquot Ponsardin",
+      "safra": null,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Pinot Meunier",
+        "Chardonnay"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Reims",
+      "teorAlcoolico": 12.0,
+      "volumeMl": 750,
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 27,
+      "notasDegustacao": "Champagne não safrado, com cerca de 35% de vinhos de reserva. Fruta cítrica e maçã, brioche e amêndoa, com perlage fina e final seco.",
+      "harmonizacoes": [
+        "Ostras",
+        "Frutos do mar",
+        "Salgadinhos fritos",
+        "Aperitivo"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "8–10 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.3,
+          "escala": 5
+        }
+      ],
+      "precoMercado": 450,
+      "descricaoCardapio": "O champagne de rótulo amarelo: cítrico, com brioche e perlage fina.",
+      "confianca": 0.98,
+      "fontes": [
+        "veuveclicquot.com",
+        "vivino.com",
+        "paodeacucar.com"
+      ],
+      "observacoes": "Mesmo Yellow Label do AD-0004 (1 garrafa na adega principal) e do AD-0017 (magnum). Estas 27 estão fora da geladeira, no armário — sem prateleira definida. Você disse apenas \"fora da geladeira\"; assumi o armário, como no Moët e no Perrier-Jouët. Esta leva o selo \"250 ANS\" no gargalo, do aniversário de 250 anos da casa em 2022 — é o mesmo vinho, só datando o engarrafamento. Sem safra (não safrado), como é padrão do Yellow Label. Teor de 12% lido no próprio rótulo. Preço R$ 450 é de loja brasileira (Pão de Açúcar), não estimativa.",
+      "historia": "Barbe-Nicole Ponsardin ficou viúva aos 27 anos, em 1805, e assumiu a casa do marido numa época em que mulher não dirigia negócio na França. Virou a Veuve — a viúva — Clicquot. Em 1816 inventou a mesa de remuage, que permite retirar as borras sem perder o gás e é usada até hoje em toda a Champagne. O rótulo amarelo, que ela adotou em 1877 para distinguir o Brut, virou a marca visual mais reconhecível da região."
     }
   ]
 }
