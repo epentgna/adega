@@ -1792,6 +1792,87 @@
       ],
       "observacoes": "Mesmo rótulo e mesma safra do AD-0005, que é a garrafa da Adega principal; esta entrada é o lote de 14 garrafas do armário. Preço: lojas brasileiras entre R$ 437 e R$ 546 (Grand Cru R$ 546 na safra 2018); registrei a mediana R$ 490. Janela de guarda é estimativa.",
       "historia": "Bramare é palavra italiana para desejar com ardor, ansiar. Paul Hobbs escolheu o nome para a linha que nasceu nos anos duros do começo da Viña Cobos, quando, nas palavras dele, ninguém tinha dinheiro — só vontade. É a linha que explora o lado mais fino do Malbec, vinhedo por vinhedo, entre Luján de Cuyo e o Valle de Uco."
+    },
+    {
+      "codigo": "AD-0032",
+      "fotos": [
+        "AD-0032-1.webp",
+        "AD-0032-2.webp"
+      ],
+      "nome": "Quinta da Leda",
+      "produtor": "Casa Ferreirinha (Sogrape)",
+      "safra": 2017,
+      "tipo": "Tinto",
+      "uvas": [
+        "Touriga Franca",
+        "Touriga Nacional",
+        "Tinto Cão",
+        "Tinta Roriz"
+      ],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Douro Superior, Almendra (Vila Nova de Foz Côa)",
+      "teorAlcoolico": 13.5,
+      "volumeMl": 750,
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 10,
+      "notasDegustacao": "Dezoito meses em carvalho francês, metade barrica nova. Aroma complexo em que os balsâmicos — resina, cedro e caixa de tabaco — se sobrepõem, com especiaria de pimenta, violeta e frutos vermelhos; a madeira aparece bem integrada. Encorpado e macio ao mesmo tempo, de taninos costurados e final longo.",
+      "harmonizacoes": [
+        "Carne vermelha assada",
+        "Caça",
+        "Cabrito",
+        "Queijos curados"
+      ],
+      "guardaDe": 2024,
+      "guardaAte": 2037,
+      "temperatura": "16–18 °C",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.4,
+          "escala": 5,
+          "safra": null
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 95,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "Falstaff",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "Wine-Searcher",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "CellarTracker",
+          "nota": 90.5,
+          "escala": 100,
+          "safra": 2017
+        }
+      ],
+      "precoMercado": 820,
+      "descricaoCardapio": "Douro Superior da quinta que dá origem ao Barca Velha: balsâmico, especiado e de final longo.",
+      "confianca": 0.9,
+      "fontes": [
+        "wineenthusiast.com",
+        "falstaff.com",
+        "cellartracker.com",
+        "wine-searcher.com",
+        "publico.pt",
+        "winebody.com.br"
+      ],
+      "observacoes": "A nota 4,4 do Vivino é do rótulo Quinta da Leda como um todo, não da safra 2017 isolada. O 95 do Wine Enthusiast é de Roger Voss, que pedia para não abrir antes de 2024 — já passou. O 90,5 do CellarTracker é média de 8 avaliações da comunidade, não de crítico. PREÇO: lojas brasileiras pedem R$ 799 (Wine Body, 750 ml), R$ 849,90 (safra 2018) e R$ 1.128,95 em safras mais novas; registrei R$ 820, a mediana dessa faixa. Descartei R$ 109,90 do Caçador de Vinhos (esse valor é da linha básica da Casa Ferreirinha, não do Quinta da Leda) e R$ 1.499,99 de marketplace. Confere com o caminho do dólar: US$ 75 sem impostos no wine-searcher, a R$ 5,15, dobrados, dão ~R$ 772. Existe anúncio de R$ 488 para a própria safra 2017 em marketplace, provavelmente listagem antiga. Teor alcoólico 13,5% e 'deve ser decantado' vêm do contrarrótulo. Janela de guarda é estimativa. As percentagens do corte variam de fonte para fonte, por isso registrei só as castas.",
+      "historia": "A Quinta da Leda fica em Almendra, Vila Nova de Foz Côa, no Douro Superior, quase na fronteira com a Espanha — terra dura, de verões escaldantes, onde a Ferreira comprou terreno em 1979 e plantou vinha no mesmo ano. É dali que sai o coração do Barca Velha, o vinho mais mítico de Portugal, e a adega de gravidade construída na propriedade em 2001 existe para tratar dessas uvas. Este engarrafamento leva o nome da própria quinta: é o Barca Velha visto de perto, todo ano. Casa Ferreirinha, no rótulo, é homenagem a Dona Antónia Adelaide Ferreira, a Ferreirinha, matriarca que ergueu o Douro no século XIX."
     }
   ]
 }
