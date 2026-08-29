@@ -149,7 +149,11 @@ mantendo o mesmo local.
 ```
 
 `tipo` aceita: `Tinto`, `Branco`, `Rosé`, `Espumante`, `Sobremesa`,
-`Fortificado`, `Laranja`. Campo sem informação: omita, ou `null` nos numéricos.
+`Fortificado`, `Laranja`, `Licor`.
+
+A adega guarda mais que vinho. Limoncello, grappa e licor de ervas entram como
+`Licor` — sem nota do Vivino nem de crítico, porque essas fontes não avaliam
+licor; diga isso em `observacoes` e preencha o resto normalmente. Campo sem informação: omita, ou `null` nos numéricos.
 `descricaoCardapio` é uma frase curta e elegante (até 160 caracteres) para a
 carta, sem repetir o produtor.
 

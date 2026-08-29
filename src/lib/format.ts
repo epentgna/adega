@@ -119,7 +119,12 @@ const SIGLAS: Record<string, string> = {
   'revista adega': 'RA',
   'wine-searcher': 'W-S',
   'gilbert & gaillard': 'GG',
-  'falstaff': 'FS'
+  'falstaff': 'FS',
+  // Sem estas, "Wine & Spirits" e "Wine Spectator" caem os dois em "WS".
+  'wine & spirits': 'W&S',
+  cellartracker: 'CT',
+  'john gilman': 'JG',
+  'jancis robinson': 'JR'
 }
 
 export function ratingInitials(source: string): string {
@@ -131,7 +136,10 @@ export function ratingInitials(source: string): string {
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
   if (SIGLAS[base]) return SIGLAS[base]
-  const palavras = base.split(/[\s-]+/).filter(Boolean)
+  // Descarta "&", "de", "da" e afins: senão "Wine & Spirits" vira "W&".
+  const palavras = base
+    .split(/[\s-]+/)
+    .filter((p) => /^[a-z0-9]/.test(p) && !['de', 'da', 'do', 'the'].includes(p))
   return palavras
     .slice(0, 2)
     .map((p) => p[0]?.toUpperCase() ?? '')

@@ -487,7 +487,7 @@
       "volumeMl": 750,
       "adega": "Geladeira externa",
       "prateleira": "Prateleira 1",
-      "garrafas": 4,
+      "garrafas": 5,
       "historia": "O nome é o do monge Pierre Pérignon, que cuidou da adega da abadia de Hautvillers entre 1668 e 1715 e é lembrado como quem levou o método da região a sério muito antes de existir champagne como conhecemos. \"Altum Villare\", impresso no alto do rótulo, é o nome latino de Hautvillers. A casa só engarrafa em anos que considera à altura — nunca faz corte de safras —, e a 2004 veio de um ciclo longo e frio, na colheita mais abundante já registrada na Champagne.",
       "notasDegustacao": "Corte de 52% Pinot Noir e 48% Chardonnay. Cítrico e mineral na abertura, com brioche, amêndoa e um fundo tostado da maturidade; boca tensa, de acidez firme e final longo.",
       "harmonizacoes": [
@@ -533,6 +533,209 @@
         "emporiosolera.com.br"
       ],
       "observacoes": "NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra — o rótulo tem mais de 22 mil avaliações lá, mas nenhuma fonte que encontrei trazia o número da 2004. Vale conferir no app do Vivino e acrescentar à mão. Teor de 12,5% lido no próprio rótulo. É a garrafa Vintage padrão, não a P2 (a P2 traz P2 impresso no rótulo e tem notas mais altas). Preço: a 2004 sai por ~US$ 400 em loja americana; convertida (US$1≈R$5,16) e dobrada dá ~R$4.100, e registrei R$4.000. Para comparar: a safra atual custa R$ 1.700 a R$ 2.500 no Brasil — safra madura de 20 anos vale bem mais. Janela de guarda é estimativa."
+    },
+    {
+      "codigo": "AD-0009",
+      "fotos": [
+        "AD-0009-1.webp"
+      ],
+      "nome": "La Grande Dame",
+      "produtor": "Veuve Clicquot Ponsardin",
+      "safra": 1998,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Reims",
+      "teorAlcoolico": 12.5,
+      "volumeMl": 750,
+      "adega": "Geladeira externa",
+      "prateleira": "Prateleira 1",
+      "garrafas": 1,
+      "historia": "La Grande Dame é a homenagem da casa a Barbe-Nicole Ponsardin, a viúva que assumiu o negócio aos 27 anos em 1805 e inventou a mesa de remuage. O rótulo nasceu em 1972, nos 200 anos da maison, e sai só em safras excepcionais, feito com uvas dos oito Grands Crus históricos que ela própria comprou. A 1998 é lembrada como o ponto em que o vinho atinge o máximo de refinamento sem perder a estrutura, com quase dois terços de Pinot Noir.",
+      "notasDegustacao": "Dominado por Pinot Noir. Fruta madura e casca de cítrico, com brioche, avelã tostada e notas terciárias de mel e cogumelo da maturidade; boca larga, de acidez viva e final muito longo.",
+      "harmonizacoes": [
+        "Lagosta",
+        "Frutos do mar",
+        "Aves assadas",
+        "Queijos curados",
+        "Cogumelos"
+      ],
+      "guardaDe": 2006,
+      "guardaAte": 2028,
+      "temperatura": "11–13 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Decanter",
+          "nota": 97,
+          "escala": 100,
+          "safra": 1998
+        },
+        {
+          "fonte": "Wine Spectator",
+          "nota": 95,
+          "escala": 100,
+          "safra": 1998
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 94,
+          "escala": 100,
+          "safra": 1998
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 92,
+          "escala": 100,
+          "safra": 1998
+        },
+        {
+          "fonte": "Robert Parker",
+          "nota": 90,
+          "escala": 100,
+          "safra": 1998
+        }
+      ],
+      "precoMercado": 4000,
+      "descricaoCardapio": "A homenagem à viúva Clicquot na safra 1998: Pinot Noir dominante, mel e avelã da maturidade.",
+      "confianca": 0.96,
+      "fontes": [
+        "wine.com",
+        "wine-searcher.com",
+        "veuveclicquot.com"
+      ],
+      "observacoes": "NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra — nenhuma fonte trazia o número da 1998. Vale conferir no app do Vivino e acrescentar à mão. Teor de 12,5% lido no rótulo. É a versão Brut branca, não a Rosé (a Rosé de 1998 vale o dobro: US$ 800 contra US$ 348). Preço: US$ 348 sem impostos lá fora; convertido (US$1≈R$5,16) e dobrado dá ~R$3.600, e pelo multiplicador real de 2,5× que observei em champagne no Brasil daria ~R$4.500. Registrei R$4.000, no meio. Janela de guarda é estimativa: com 28 anos, é garrafa para beber, não para guardar mais."
+    },
+    {
+      "codigo": "AD-0010",
+      "fotos": [
+        "AD-0010-1.webp"
+      ],
+      "nome": "Vintage Brut",
+      "produtor": "Veuve Clicquot Ponsardin",
+      "safra": 2008,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Pinot Meunier"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Reims",
+      "teorAlcoolico": 12.0,
+      "volumeMl": 750,
+      "adega": "Geladeira externa",
+      "prateleira": "Prateleira 1",
+      "garrafas": 1,
+      "historia": "O Vintage da Veuve Clicquot só é engarrafado nos anos que a casa julga à altura — cerca de três vezes por década. A 2008 entrou para a história da Champagne como uma das grandes safras da região: ciclo fresco e acidez alta, o tipo de ano que rende vinhos tensos e de guarda longa. A maison foi fundada em 1772, como diz o próprio rótulo.",
+      "notasDegustacao": "Cítrico e mineral, com maçã verde, brioche e um fundo de amêndoa; acidez cortante, típica da safra, e final seco e persistente.",
+      "harmonizacoes": [
+        "Ostras",
+        "Frutos do mar",
+        "Peixes grelhados",
+        "Aves",
+        "Aperitivo"
+      ],
+      "guardaDe": 2015,
+      "guardaAte": 2032,
+      "temperatura": "10–12 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Decanter",
+          "nota": 96,
+          "escala": 100,
+          "safra": 2008
+        },
+        {
+          "fonte": "Wine Spectator",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2008
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2008
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2008
+        },
+        {
+          "fonte": "Robert Parker",
+          "nota": 92,
+          "escala": 100,
+          "safra": 2008
+        },
+        {
+          "fonte": "CellarTracker (média da comunidade)",
+          "nota": 91.4,
+          "escala": 100,
+          "safra": 2008,
+          "votos": 312
+        }
+      ],
+      "precoMercado": 1400,
+      "descricaoCardapio": "Uma das grandes safras da Champagne: cítrico, mineral e de acidez cortante.",
+      "confianca": 0.96,
+      "fontes": [
+        "wine.com",
+        "wine-searcher.com",
+        "cellartracker.com"
+      ],
+      "observacoes": "NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra. Preço: US$ 120 sem impostos lá fora; convertido e dobrado dá ~R$1.240, e pelo multiplicador de 2,5× daria ~R$1.550. Registrei R$1.400. Janela de guarda é estimativa."
+    },
+    {
+      "codigo": "AD-0011",
+      "fotos": [
+        "AD-0011-1.webp"
+      ],
+      "nome": "Limoncello",
+      "produtor": "Bacio di Latte",
+      "safra": null,
+      "tipo": "Licor",
+      "uvas": [
+        "Limão siciliano"
+      ],
+      "pais": "Brasil",
+      "regiao": "",
+      "subRegiao": "",
+      "teorAlcoolico": 25.0,
+      "volumeMl": 500,
+      "adega": "Geladeira externa",
+      "prateleira": "Prateleira 1",
+      "garrafas": 1,
+      "historia": "A Bacio di Latte é uma gelateria brasileira de receituário italiano. O limoncello nasceu de um aproveitamento: da fruta sai o gelato de limão siciliano, e da casca — que sobrava — veio o licor, feito pela receita tradicional de infusão em álcool.",
+      "notasDegustacao": "Licor de casca de limão siciliano. Cítrico intenso e doce, encorpado e sedoso, com o amargor da casca fechando o final.",
+      "harmonizacoes": [
+        "Digestivo",
+        "Sobremesas cítricas",
+        "Gelato",
+        "Panetone"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "Gelado, 4–6 °C",
+      "decantarMin": null,
+      "avaliacoes": [],
+      "precoMercado": 140,
+      "descricaoCardapio": "Limoncello de casca de limão siciliano, servido bem gelado ao fim da refeição.",
+      "confianca": 0.98,
+      "fontes": [
+        "baciodilatte.com.br",
+        "mercadolivre.com.br",
+        "varanda.com.br"
+      ],
+      "observacoes": "Não é vinho: é licor, e por isso não tem nota do Vivino nem de crítico — essas fontes não avaliam licor. Teor de 25% e volume de 500 ml lidos no próprio rótulo. Preço de loja brasileira, entre R$ 114 e R$ 157; registrei a mediana R$ 140. Sem safra e sem janela de guarda: licor não evolui na garrafa, mas depois de aberto vale manter na geladeira."
     }
   ]
 }

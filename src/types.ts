@@ -7,6 +7,8 @@ export type WineType =
   | 'Sobremesa'
   | 'Fortificado'
   | 'Laranja'
+  /** A adega guarda mais que vinho: limoncello, grappa, licor de ervas. */
+  | 'Licor'
 
 export const WINE_TYPES: WineType[] = [
   'Tinto',
@@ -15,7 +17,8 @@ export const WINE_TYPES: WineType[] = [
   'Espumante',
   'Sobremesa',
   'Fortificado',
-  'Laranja'
+  'Laranja',
+  'Licor'
 ]
 
 /** Ordem em que os tipos aparecem no cardápio. */
@@ -26,7 +29,9 @@ export const MENU_TYPE_ORDER: WineType[] = [
   'Rosé',
   'Tinto',
   'Sobremesa',
-  'Fortificado'
+  'Fortificado',
+  // Licor fecha a carta, como digestivo.
+  'Licor'
 ]
 
 export type WineStatus = 'estoque' | 'consumido' | 'presenteado'

@@ -85,7 +85,8 @@ const WINE_TOOL: Anthropic.Tool = {
           'Espumante',
           'Sobremesa',
           'Fortificado',
-          'Laranja'
+          'Laranja',
+          'Licor'
         ]
       },
       uvas: { type: 'array', items: { type: 'string' } },
@@ -356,7 +357,8 @@ const TYPES = new Set<string>([
   'Espumante',
   'Sobremesa',
   'Fortificado',
-  'Laranja'
+  'Laranja',
+  'Licor'
 ])
 
 function toRatings(v: unknown): Rating[] {
