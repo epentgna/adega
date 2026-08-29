@@ -2,7 +2,14 @@ import { useMemo, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db, updateSettings } from '../db/db'
 import { MENU_TYPE_ORDER, type Wine } from '../types'
-import { headlineRating, money, ratingLabel, vintageLabel } from '../lib/format'
+import {
+  money,
+  ratingInitials,
+  ratingLabel,
+  ratingShort,
+  sortedRatings,
+  vintageLabel
+} from '../lib/format'
 import { Empty, Header, IconButton } from '../components/Layout'
 import { BottomSheet } from '../components/BottomSheet'
 import { TextField, Toggle } from '../components/Field'
@@ -64,6 +71,15 @@ export default function Menu() {
   }, [naCarta, tipo, prato, busca])
 
   const total = groups.reduce((n, g) => n + g.wines.length, 0)
+  /** Siglas usadas na carta filtrada, para a legenda do rodapé. */
+  const legenda = useMemo(() => {
+    const mapa = new Map<string, string>()
+    for (const g of groups)
+      for (const w of g.wines)
+        for (const r of w.ratings) mapa.set(ratingInitials(r.source), r.source)
+    return [...mapa.entries()].sort((a, b) => a[0].localeCompare(b[0]))
+  }, [groups])
+
   const filtrando = tipo !== null || prato !== null || busca.trim() !== ''
   // Quando o tipo escolhido não dá em nada, vale saber se sem ele daria.
   const semTipo = filtrar(naCarta, false).length
@@ -212,7 +228,7 @@ export default function Menu() {
 
               <div className="grid gap-5">
                 {group.wines.map((w) => {
-                  const rating = showRatings ? headlineRating(w) : null
+                  const notas = showRatings ? sortedRatings(w) : []
                   return (
                     <article key={w.id} className="break-inside-avoid">
                       <button
@@ -251,12 +267,19 @@ export default function Menu() {
                         </p>
                       )}
 
-                      {rating && (
-                        <div className="flex items-center gap-1.5 mt-1.5 text-gold">
-                          <IconStar width={12} height={12} filled />
-                          <span className="font-mono text-[11px]">
-                            {ratingLabel(rating)} {rating.source}
-                          </span>
+                      {notas.length > 0 && (
+                        <div className="flex items-center flex-wrap gap-x-2 gap-y-1 mt-1.5 text-gold">
+                          <IconStar width={12} height={12} filled className="shrink-0" />
+                          {notas.map((r, i) => (
+                            <span
+                              key={`${r.source}-${i}`}
+                              title={`${r.source} ${ratingLabel(r)}`}
+                              className="font-mono text-[11px] tabular-nums"
+                            >
+                              <span className="text-muted">{ratingInitials(r.source)}</span>{' '}
+                              {ratingShort(r)}
+                            </span>
+                          ))}
                         </div>
                       )}
                       </button>
@@ -267,7 +290,13 @@ export default function Menu() {
             </section>
           ))}
 
-          <p className="text-center text-[10px] text-muted/60 font-mono tracking-[0.14em] mt-10">
+          {showRatings && legenda.length > 0 && (
+            <p className="text-center text-[10px] text-muted/70 leading-relaxed mt-10">
+              {legenda.map(([sigla, fonte]) => `${sigla} ${fonte}`).join(' · ')}
+            </p>
+          )}
+
+          <p className="text-center text-[10px] text-muted/60 font-mono tracking-[0.14em] mt-4">
             {total} RÓTULOS · {new Date().toLocaleDateString('pt-BR')}
           </p>
         </div>

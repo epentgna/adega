@@ -50,8 +50,16 @@ export function headlineRating(w: Wine): Rating | null {
 }
 
 export function ratingLabel(r: Rating): string {
-  const score = r.scale === 5 ? r.score.toFixed(1) : String(Math.round(r.score))
+  const score =
+    r.scale === 5 ? r.score.toFixed(1).replace('.', ',') : String(Math.round(r.score))
   return `${score}${r.scale === 5 ? '' : `/${r.scale}`}`
+}
+
+/** Só o número, para a carta: "4,7" ou "95". A escala fica implícita. */
+export function ratingShort(r: Rating): string {
+  return r.scale === 5
+    ? r.score.toFixed(1).replace('.', ',')
+    : String(Math.round(r.score))
 }
 
 export function grapesLabel(g: string[] | undefined): string {
@@ -88,4 +96,54 @@ export const DRINKABILITY_LABEL: Record<Drinkability, string> = {
   pronto: 'Pronto para beber',
   passando: 'Beber já',
   desconhecido: 'Sem janela'
+}
+
+/**
+ * Sigla da fonte, para a carta não virar um paredão de texto.
+ * As siglas conhecidas são fixas; o resto cai nas iniciais das palavras.
+ */
+const SIGLAS: Record<string, string> = {
+  vivino: 'V',
+  'robert parker': 'RP',
+  'wine advocate': 'WA',
+  'wine spectator': 'WS',
+  'james suckling': 'JS',
+  'wine enthusiast': 'WE',
+  decanter: 'DC',
+  'jeb dunnuck': 'JD',
+  vinous: 'VN',
+  'antonio galloni': 'AG',
+  'tim atkin': 'TA',
+  descorchados: 'DS',
+  'guia penin': 'GP',
+  'revista adega': 'RA',
+  'wine-searcher': 'W-S',
+  'gilbert & gaillard': 'GG',
+  'falstaff': 'FS'
+}
+
+export function ratingInitials(source: string): string {
+  // "Wine-Searcher (média de críticos)" casa por "wine-searcher".
+  const base = source
+    .split('(')[0]
+    .trim()
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+  if (SIGLAS[base]) return SIGLAS[base]
+  const palavras = base.split(/[\s-]+/).filter(Boolean)
+  return palavras
+    .slice(0, 2)
+    .map((p) => p[0]?.toUpperCase() ?? '')
+    .join('')
+}
+
+/** Vivino primeiro — é a que se olha antes —, depois as maiores notas. */
+export function sortedRatings(w: Wine): Rating[] {
+  return [...(w.ratings ?? [])].sort((a, b) => {
+    const av = /vivino/i.test(a.source) ? 1 : 0
+    const bv = /vivino/i.test(b.source) ? 1 : 0
+    if (av !== bv) return bv - av
+    return normalizedScore(b) - normalizedScore(a)
+  })
 }
