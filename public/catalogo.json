@@ -2839,6 +2839,124 @@
       ],
       "observacoes": "ABRA ESTA GARRAFA. É de 2003, safra escaldante na Toscana, e já tem mais de vinte anos; o próprio rótulo mostra o granada nas bordas. A crítica da época dizia para beber ao longo da década seguinte — essa década passou. A janela que registrei reflete isso, e é estimativa. Teor alcoólico 13,5%, o 'non filtrato' e o engarrafamento em San Casciano Val di Pesa vêm do rótulo. A tira de importação é britânica, da Allyn & Scott Wines, de Londres: esta garrafa não entrou no Brasil pelo caminho comum. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra. PREÇO ESTIMADO: não achei oferta brasileira. Média internacional entre US$ 259 no Reino Unido e US$ 300 nos Estados Unidos; usei US$ 280 a R$ 5,15, dobrados, o que dá ~R$ 2.900. É preço de garrafa madura, não de lançamento. Mesma casa do seu AD-0036, o Guado al Tasso — Antinori.",
       "historia": "Em 1971 os Antinori fizeram uma heresia: puseram Cabernet num Sangiovese do Chianti, envelheceram em barrica francesa pequena e engarrafaram fora da denominação, como vinho de mesa. Nascia o Tignanello, e com ele a ideia inteira dos Super Toscanos — sem ele não existiriam Ornellaia nem Guado al Tasso como os conhecemos. O rótulo conta o resto: a vinha fica em colina, entre 350 e 400 metros, sobre a rocha calcária local chamada alberese, no coração da Toscana, e a família planta uva desde 1385. O lema no brasão, Te duce proficio, é deles: sob a tua condução, eu prospero."
+    },
+    {
+      "codigo": "AD-0048",
+      "fotos": [
+        "AD-0048-1.webp",
+        "AD-0048-2.webp"
+      ],
+      "nome": "Valbuena 5º",
+      "produtor": "Bodegas Vega Sicilia",
+      "safra": 2008,
+      "tipo": "Tinto",
+      "uvas": [
+        "Tempranillo",
+        "Merlot"
+      ],
+      "pais": "Espanha",
+      "regiao": "Castela e Leão",
+      "subRegiao": "Ribera del Duero",
+      "teorAlcoolico": 13.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 5",
+      "garrafas": 1,
+      "notasDegustacao": "Cerca de dezoito meses em barricas de carvalho francês e americano e mais dezoito em tonéis grandes, antes da garrafa. Safra fria e chuvosa, de colheita tardia: deu um Valbuena de traço afiado, com fruta vermelha, especiaria e um lado rústico que a casa não esconde. Longo e cortante.",
+      "harmonizacoes": [
+        "Cordeiro assado",
+        "Carne vermelha na brasa",
+        "Caça",
+        "Queijos curados"
+      ],
+      "guardaDe": 2013,
+      "guardaAte": 2030,
+      "temperatura": "16–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "Robert Parker",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2008
+        },
+        {
+          "fonte": "CellarTracker",
+          "nota": 92.5,
+          "escala": 100,
+          "safra": 2008
+        }
+      ],
+      "precoMercado": 2550,
+      "descricaoCardapio": "O Valbuena de safra fria: afiado, especiado, com a rusticidade elegante da Ribera.",
+      "confianca": 0.8,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "vega-sicilia.com",
+        "cellartracker.com",
+        "vinous.com",
+        "wine-searcher.com"
+      ],
+      "observacoes": "ERRO NO RÓTULO DE IMPORTAÇÃO — vale saber. A tira americana colada nesta garrafa diz 'Product of Italy'. É engano do importador: o vinho é espanhol, de Valbuena de Duero, como o próprio rótulo da frente e o selo da Denominación de Origen Ribera del Duero deixam claro. A tira da irmã 2012 diz 'Product of Spain', certo. Não muda nada no vinho, mas se alguém estranhar, a explicação é essa. PROVENIÊNCIA INCOMUM: as tiras de importação são americanas, da Connoisseur Wines, de Port Washington, Nova York, e trazem impresso 'Obtained from a Private Collection'. Ou seja, esta garrafa saiu de uma adega particular nos Estados Unidos antes de chegar até você. Garrafa numerada 012.912. A colheita 2008 rendeu 179.295 bordelesas, 3.436 magnums e 154 double magnums, tudo declarado no rótulo. TEOR ALCOÓLICO 13,5% LIDO COM RESSALVA: o número não aparece na foto de frente desta garrafa; peguei do rótulo dela que aparece de lado, ao fundo da foto da 2012. Se puder conferir, confirmo. AS CASTAS ACOMPANHANTES NÃO BATEM ENTRE AS FONTES: umas dizem Tempranillo com Merlot e Malbec, outras Tempranillo com Cabernet Sauvignon. O rótulo não declara. Registrei Tempranillo e Merlot, que é a dupla habitual da casa, mas fica o aviso. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra. O 92,5 do CellarTracker é média de 84 avaliações da comunidade, não de crítico. PREÇO ESTIMADO: média internacional de US$ 248 sem impostos, a R$ 5,15, dobrados: ~R$ 2.550. Não achei oferta brasileira.",
+      "historia": "Vega Sicilia fica em Valbuena de Duero, na Ribera del Duero, e é a casa mais reverenciada da Espanha. O carro-chefe é o Único, que passa uma década em madeira e garrafa antes de sair. O Valbuena é o outro vinho da propriedade, e o 5º do nome é isso: ele só é lançado no quinto ano depois da colheita, contando barrica e garrafa. Não é vinho de segunda linha, é vinho de outro relógio. Cada garrafa sai numerada, e o rótulo declara quantas foram feitas naquela colheita."
+    },
+    {
+      "codigo": "AD-0049",
+      "fotos": [
+        "AD-0049-1.webp",
+        "AD-0049-2.webp"
+      ],
+      "nome": "Valbuena 5º",
+      "produtor": "Bodegas Vega Sicilia",
+      "safra": 2012,
+      "tipo": "Tinto",
+      "uvas": [
+        "Tempranillo"
+      ],
+      "pais": "Espanha",
+      "regiao": "Castela e Leão",
+      "subRegiao": "Ribera del Duero",
+      "teorAlcoolico": 14.0,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 5",
+      "garrafas": 1,
+      "notasDegustacao": "Verão seco e quente, uva muito sã: taninos maduros e boca potente, mas de textura macia. Profundo e concentrado, com chocolate, café e avelã sobre a fruta, muito polido. Dezoito meses em barrica de carvalho francês e americano e mais dezoito em tonéis de 20 mil litros.",
+      "harmonizacoes": [
+        "Cordeiro assado",
+        "Carne vermelha na brasa",
+        "Caça",
+        "Queijos curados"
+      ],
+      "guardaDe": 2017,
+      "guardaAte": 2035,
+      "temperatura": "16–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "Robert Parker",
+          "nota": 95,
+          "escala": 100,
+          "safra": 2012
+        },
+        {
+          "fonte": "Wine-Searcher",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2012
+        }
+      ],
+      "precoMercado": 2320,
+      "descricaoCardapio": "O primeiro Valbuena inteiramente Tempranillo: chocolate, café e avelã, potente e polido.",
+      "confianca": 0.85,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "vega-sicilia.com",
+        "cellartracker.com",
+        "wine-searcher.com"
+      ],
+      "observacoes": "SAFRA COM UMA PRIMEIRA VEZ: a 2012 é o primeiro Valbuena feito só de Tempranillo. Nas outras safras entra Merlot, em proporção que muda conforme o ano — inclusive na sua irmã 2008. PROVENIÊNCIA INCOMUM: as tiras de importação são americanas, da Connoisseur Wines, de Port Washington, Nova York, e trazem impresso 'Obtained from a Private Collection'. Ou seja, esta garrafa saiu de uma adega particular nos Estados Unidos antes de chegar até você. Garrafa numerada 015.114. A colheita rendeu 174.545 bordelesas, 5.487 magnums, 262 double magnums e 12 imperiais. O rótulo é assinado por Marta Álvarez, a presidenta da casa. Teor alcoólico 14% e o engarrafamento na propriedade vêm do rótulo. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra. O 93 do Wine-Searcher é média de críticos, não nota de um crítico só. PREÇO ESTIMADO: média internacional de US$ 225 sem impostos, a R$ 5,15, dobrados: ~R$ 2.320. Não achei oferta brasileira. Repare que a 2012, mais nova e mais bem pontuada, custa menos que a 2008 — safra antiga fica rara e sobe.",
+      "historia": "Vega Sicilia fica em Valbuena de Duero, na Ribera del Duero, e é a casa mais reverenciada da Espanha. O carro-chefe é o Único, que passa uma década em madeira e garrafa antes de sair. O Valbuena é o outro vinho da propriedade, e o 5º do nome é isso: ele só é lançado no quinto ano depois da colheita, contando barrica e garrafa. Não é vinho de segunda linha, é vinho de outro relógio. Cada garrafa sai numerada, e o rótulo declara quantas foram feitas naquela colheita."
     }
   ]
 }
