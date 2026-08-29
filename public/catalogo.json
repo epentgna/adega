@@ -1443,6 +1443,109 @@
         "wine-searcher.com"
       ],
       "observacoes": "MESMO VINHO do AD-0021 (7 garrafas), mas com rótulo personalizado: traz \"A.A\", \"L'Allume\" e florzinhas desenhadas. Cadastrei separado de propósito — garrafa de evento não é garrafa de estoque, e somar as duas faria você abrir a comemorativa sem perceber. Se preferir juntar, é só dizer. Não pesquisei o que é \"L'Allume\": rótulo personalizado costuma ser de casamento ou evento particular, e isso você sabe melhor que qualquer busca — me conta que eu registro na história. O resto da ficha é o do AD-0021: espumante brasileiro de Garibaldi, método Charmat, sem nota do Vivino confirmada, preço de loja daqui sem a regra do dobro."
+    },
+    {
+      "codigo": "AD-0026",
+      "fotos": [
+        "AD-0026-1.webp"
+      ],
+      "nome": "Cuvée Brut",
+      "produtor": "Piper-Heidsieck",
+      "safra": null,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Pinot Meunier",
+        "Chardonnay"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Reims",
+      "teorAlcoolico": 12.0,
+      "volumeMl": 750,
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 1,
+      "historia": "A casa é de 1785 — a data está no selo vermelho do gargalo —, fundada em Reims por Florens-Louis Heidsieck; o nome Piper veio depois, do sócio que herdou o negócio. É o champagne oficial do Oscar, servido na cerimônia há décadas, e está entre os dez mais vendidos do mundo. O corte é dominado por Pinot Noir, com Meunier em peso e uma parcela menor de Chardonnay.",
+      "notasDegustacao": "Cerca de metade Pinot Noir, um terço Meunier e o restante Chardonnay. Maçã e pera com brioche; vibrante e direto, de acidez firme e final seco.",
+      "harmonizacoes": [
+        "Aperitivo",
+        "Frutos do mar",
+        "Peixes",
+        "Aves",
+        "Queijos frescos"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "8–10 °C",
+      "decantarMin": null,
+      "avaliacoes": [],
+      "precoMercado": 500,
+      "descricaoCardapio": "O champagne do Oscar: Pinot Noir dominante, maçã, brioche e final seco.",
+      "confianca": 0.96,
+      "fontes": [
+        "piper-heidsieck.com",
+        "adegatotalwine.com.br",
+        "mondowine.com.br",
+        "vivino.com"
+      ],
+      "observacoes": "NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. Champagne não safrado, então também não há nota de crítico aplicável — mudam conforme o lote e o ano-base. Teor de 12% e o \"1785\" lidos no próprio rótulo. Preço: R$ 480 na Total Wine para o Cuvée Brut comum; edições especiais do mesmo rótulo passam de R$ 630. Registrei R$ 500, sem a regra do dobro, porque o preço já é de loja brasileira."
+    },
+    {
+      "codigo": "AD-0027",
+      "fotos": [
+        "AD-0027-1.webp"
+      ],
+      "nome": "Parcela Nicola Catena Bonarda",
+      "produtor": "Bodega Catena Zapata",
+      "safra": 2017,
+      "tipo": "Tinto",
+      "uvas": [
+        "Bonarda"
+      ],
+      "pais": "Argentina",
+      "regiao": "Mendoza",
+      "subRegiao": "Leste de Mendoza",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 14,
+      "notasDegustacao": "Bonarda de vinhas com mais de 80 anos e rendimento muito baixo, 18 meses em barrica de carvalho francês. Frutas vermelhas maduras, amora e especiarias; boca cheia e aveludada, com baunilha e um fundo de carvalho.",
+      "harmonizacoes": [
+        "Carnes assadas",
+        "Massas com molho de tomate",
+        "Queijos meia-cura"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "16–18 °C",
+      "decantarMin": 45,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.5,
+          "escala": 5,
+          "votos": 41
+        },
+        {
+          "fonte": "CellarTracker (média da comunidade)",
+          "nota": 92.4,
+          "escala": 100,
+          "safra": 2017,
+          "votos": 17
+        }
+      ],
+      "precoMercado": 499,
+      "descricaoCardapio": "Bonarda de vinhas velhas, homenagem ao bisavô italiano da família Catena.",
+      "confianca": 0.85,
+      "fontes": [
+        "catenazapata.com",
+        "vivino.com",
+        "wine-searcher.com"
+      ],
+      "observacoes": "Mesmo rótulo do AD-0002, agora com a safra legível: 2017. James Suckling chamou este vinho de \"o melhor Bonarda da Argentina\". ATENÇÃO — O AD-0002 CONTINUA SEM SAFRA: é a garrafa avulsa na adega principal, cujo rótulo não estava legível na foto. Se for 2017 como estas, me diga que eu completo a ficha dela. A nota 4,5 do Vivino é do rótulo (41 avaliações), não da safra 2017 isolada; a do CellarTracker é da 2017. Preço R$ 499 vem de loja brasileira, o que é melhor que a estimativa que eu tinha no AD-0002 (R$ 460, calculada a partir de €38 dobrados). Vale corrigir aquela também.",
+      "historia": "Nicola Catena nasceu em Belforte del Chienti, nas Marcas italianas, em 1882 — é o que está escrito no alto do rótulo, sobre o retrato dele. Emigrou para a Argentina e plantou seu primeiro vinhedo em Mendoza, às margens do rio Tunuyán, em 1902. Gerações depois, ao descobrirem que a uva predileta do bisavô era a Bonarda, os descendentes foram atrás de uma parcela à altura: vinhas com mais de 80 anos no leste de Mendoza, onde o sol forte amadurece por inteiro essa casta tardia."
     }
   ]
 }
