@@ -382,6 +382,90 @@
       ],
       "observacoes": "2014 foi safra difícil na Toscana — daí a dispersão das notas (90 a 95). Preço: média internacional de US$ 234 sem impostos, convertida (US$1≈R$5,16) e dobrada, dá ~R$2.415; arredondei para R$2.500, dentro da faixa que as importadoras brasileiras praticam.",
       "historia": "Ornellaia nasceu em Bolgheri, na costa toscana, por obra do Marquês Lodovico Antinori, com primeira safra em 1985. Era a época em que um punhado de produtores decidiu plantar castas bordalesas na Toscana e ficou fora da denominação oficial — o que lhes valeu o apelido de Super Toscanos, e mais tarde uma denominação própria, a Bolgheri DOC. A cada safra a casa encomenda a um artista contemporâneo o rótulo da Vendemmia d'Artista. A 2014 foi ano difícil na Toscana, chuvoso e frio, e é justamente por isso que os críticos se dividiram tanto."
+    },
+    {
+      "codigo": "AD-0007",
+      "fotos": [
+        "AD-0007-1.webp"
+      ],
+      "nome": "Cristal",
+      "produtor": "Louis Roederer",
+      "safra": 2005,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Reims",
+      "teorAlcoolico": 12.0,
+      "volumeMl": 750,
+      "adega": "Geladeira externa",
+      "prateleira": "Prateleira 1",
+      "garrafas": 4,
+      "historia": "Cristal nasceu em 1876 a pedido do czar Alexandre II, que queria um champagne só seu. Daí a garrafa de vidro transparente e fundo chato, diferente de todas as outras da região — conta a casa que o czar não queria fundo côncavo onde se pudesse esconder alguma coisa. O vidro claro deixa o vinho exposto à luz, e é por isso que a garrafa vem embrulhada no celofane dourado que virou a marca do rótulo. Só é engarrafado em safras que a casa considera à altura, e a 2005 se destaca das demais pela abertura aromática e pelo caráter de Chardonnay.",
+      "notasDegustacao": "Corte de 55% Pinot Noir e 45% Chardonnay. Cítrico e floral na abertura, com brioche, avelã e um toque de mel da maturidade; perlage fina e final longo e salino.",
+      "harmonizacoes": [
+        "Ostras",
+        "Caviar",
+        "Frutos do mar",
+        "Peixes grelhados",
+        "Aves",
+        "Aperitivo"
+      ],
+      "guardaDe": 2013,
+      "guardaAte": 2030,
+      "temperatura": "10–12 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.6,
+          "escala": 5
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 99,
+          "escala": 100,
+          "safra": 2005
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 97,
+          "escala": 100,
+          "safra": 2005
+        },
+        {
+          "fonte": "Wine & Spirits",
+          "nota": 95,
+          "escala": 100,
+          "safra": 2005
+        },
+        {
+          "fonte": "Wine Spectator",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2005
+        },
+        {
+          "fonte": "Robert Parker",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2005
+        }
+      ],
+      "precoMercado": 6000,
+      "descricaoCardapio": "O champagne dos czares, na safra 2005: cítrico, brioche e um final longo e salino.",
+      "confianca": 0.97,
+      "fontes": [
+        "louis-roederer.com",
+        "jamessuckling.com",
+        "vivino.com",
+        "wine-searcher.com",
+        "familiascopel.com.br"
+      ],
+      "observacoes": "Teor de 12% lido no próprio rótulo. A nota 4,6 do Vivino é do rótulo Cristal Millésimé como um todo, não da safra 2005 isolada. Preço: a média internacional da safra 2005 é de US$ 542 sem impostos; convertida (US$1≈R$5,16) e dobrada dá ~R$5.600. A safra atual custa R$ 4.290 no Brasil contra ~US$ 335 lá fora, o que dá um multiplicador real de 2,5× — aplicado à 2005, daria ~R$6.900. Registrei R$6.000, no meio da faixa. Não achei a safra 2005 à venda no Brasil: é safra madura e rara. Janela de guarda é estimativa."
     }
   ]
 }
