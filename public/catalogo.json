@@ -1718,6 +1718,80 @@
         "wineenthusiast.com"
       ],
       "observacoes": "Mesma Touriga Franca do AD-0028, safra anterior. O 18,5 é do Guia de Vinhos do Douro de João Paulo Martins, em escala 20. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. PREÇO ESTIMADO pelo mesmo caminho do AD-0028 (~US$ 45 dobrados): ~R$480, estimativa frágil. Janela de guarda é estimativa. Teor alcoólico não estava legível na foto."
+    },
+    {
+      "codigo": "AD-0031",
+      "fotos": [
+        "AD-0031-1.webp"
+      ],
+      "nome": "Bramare Malbec Valle de Uco",
+      "produtor": "Viña Cobos (Paul Hobbs)",
+      "safra": 2017,
+      "tipo": "Tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "pais": "Argentina",
+      "regiao": "Mendoza",
+      "subRegiao": "Valle de Uco",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 14,
+      "notasDegustacao": "Dezoito meses em barrica de carvalho francês. Ameixa, mirtilo e amora, com madeira, canela e chocolate; final longo e persistente.",
+      "harmonizacoes": [
+        "Carne vermelha grelhada",
+        "Cordeiro",
+        "Queijos curados"
+      ],
+      "guardaDe": 2020,
+      "guardaAte": 2030,
+      "temperatura": "16–18 °C",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.4,
+          "escala": 5,
+          "safra": 2017
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "Vinous",
+          "nota": 92,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "Wine Spectator",
+          "nota": 91,
+          "escala": 100,
+          "safra": 2017
+        }
+      ],
+      "precoMercado": 490,
+      "descricaoCardapio": "Malbec de altitude do Valle de Uco, com fruta escura e carvalho bem integrado.",
+      "confianca": 0.95,
+      "fontes": [
+        "vinacobos.com",
+        "vivino.com",
+        "grandcru.com.br",
+        "onivino.com.br"
+      ],
+      "observacoes": "Mesmo rótulo e mesma safra do AD-0005, que é a garrafa da Adega principal; esta entrada é o lote de 14 garrafas do armário. Preço: lojas brasileiras entre R$ 437 e R$ 546 (Grand Cru R$ 546 na safra 2018); registrei a mediana R$ 490. Janela de guarda é estimativa.",
+      "historia": "Bramare é palavra italiana para desejar com ardor, ansiar. Paul Hobbs escolheu o nome para a linha que nasceu nos anos duros do começo da Viña Cobos, quando, nas palavras dele, ninguém tinha dinheiro — só vontade. É a linha que explora o lado mais fino do Malbec, vinhedo por vinhedo, entre Luján de Cuyo e o Valle de Uco."
     }
   ]
 }
