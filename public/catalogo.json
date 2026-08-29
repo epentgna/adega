@@ -3531,6 +3531,47 @@
       ],
       "observacoes": "TERCEIRO PORTO DA CASA, E O TERCEIRO ESTILO. Vale entender a diferença entre os três: o Graham's do AD-0056 é LBV filtrado, pronto para beber, em garrafa de 200 ml; o Noval do AD-0058 é LBV NÃO filtrado, deposita borra e precisa de decantação; este Taylor's é o LBV clássico filtrado, de garrafa cheia — abre e serve, sem decantar. O rótulo declara a data do engarrafamento, 2012, cinco anos depois da colheita. A crítica precisa mais: janeiro de 2012. TEOR ALCOÓLICO EM BRANCO: o contrarrótulo brasileiro remete ao rótulo principal, e a parte de baixo do rótulo principal ficou fora do enquadramento da foto. Uma foto do pé do rótulo resolve, e eu completo. AS CASTAS NÃO ESTÃO NO RÓTULO, que diz apenas 'uvas viníferas europeias'. A casa informa que o vinho vem de vinhedos próprios e de outras propriedades de topo no Cima Corgo e no Douro Superior, sem listar as castas. Preferi deixar vazio a supor. SÓ UMA PONTUAÇÃO: o 90 do Wine-Searcher, que é média de críticos. O Wine Enthusiast resenhou a safra — é dele a descrição de geleia de amora e cereja preta que usei — mas não recuperei o número. Vivino e CellarTracker também não. PREÇO COM RESSALVA: R$ 259 é a mediana de duas ofertas brasileiras, Casa da Bebida a R$ 220,11 e Sommelier a R$ 298. As duas são da safra corrente, não da 2007; safra antiga costuma custar mais. Produto vendido no Brasil, importado pela Carballo Faro, de Salvador, então nada de dobrar. Lote L2512. Janela de guarda é estimativa: LBV filtrado sai pronto e não pede espera, mas dezenove anos não o estragaram.",
       "historia": "Taylor Fladgate & Yeatman faz Porto desde 1692 — o brasão com o leão e a data está gravado no vidro do gargalo, não impresso no papel. A casa é uma das poucas que atravessou três séculos sem sair da mesma linhagem de sócios, e foi ela que popularizou o próprio conceito de Late Bottled Vintage nos anos 1970. O rótulo não é modesto quanto a isso: chama a si mesmo de o LBV do Porto."
+    },
+    {
+      "codigo": "AD-0060",
+      "fotos": [
+        "AD-0060-1.webp",
+        "AD-0060-2.webp"
+      ],
+      "nome": "Porto Valadão Ruby",
+      "produtor": "Quarles Harris & Ca",
+      "safra": null,
+      "tipo": "Fortificado",
+      "uvas": [],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Porto DOC — Alto Douro",
+      "teorAlcoolico": 19.0,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 7",
+      "garrafas": 1,
+      "notasDegustacao": "Das melhores castas do Vale do Alto Douro, com estágio em pipas de carvalho — é dele que vêm a tonalidade rubi e a textura delicada dos sabores frutados. Porto jovem, de fruta viva, no estilo mais direto da casta.",
+      "harmonizacoes": [
+        "Chocolate",
+        "Queijos azuis",
+        "Sobremesas de frutas vermelhas"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "Temperatura ambiente, como pede o rótulo",
+      "decantarMin": null,
+      "avaliacoes": [],
+      "precoMercado": null,
+      "descricaoCardapio": "Porto Ruby de fruta viva, para servir à temperatura ambiente, como manda a casa.",
+      "confianca": 0.7,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "vivino.com",
+        "delectable.com"
+      ],
+      "observacoes": "CUIDADO COM TRÊS NOMES QUE SE PARECEM E NÃO SÃO A MESMA COISA. Esta garrafa é VALADÃO, engarrafada pela Quarles Harris em Vila Nova de Gaia. Existe também a Quinta do VALLADO, casa diferente do Douro — e é dela a garrafa de Tawny 40 anos que aparece ao fundo da sua foto. E existe ainda a marca VALDOURO, que é o que quase toda busca por preço me devolveu. Três casas, três produtos. Não misturei nada, mas fica o aviso para quando você for procurar. ESTILO RUBY: é o Porto mais jovem e mais direto, feito para beber já, sem guarda. Não é caso de decantar como o Noval não filtrado do AD-0058. Deixei a janela de guarda vazia de propósito. SERVIR À TEMPERATURA AMBIENTE — é instrução do próprio contrarrótulo, não minha. O rótulo também registra que o Instituto dos Vinhos do Douro e Porto atribuiu o Selo de Garantia após controlo. Teor alcoólico 19%. NENHUMA PONTUAÇÃO ENCONTRADA: as páginas do rótulo existem no Vivino e no Delectable, mas nenhuma busca devolveu número. Porto Ruby de linha raramente é pontuado por crítico. AS CASTAS NÃO ESTÃO NO RÓTULO, que diz só 'as melhores castas do Vale do Alto Douro'. PREÇO EM BRANCO DE PROPÓSITO: não achei uma única oferta deste rótulo. Todas as buscas por preço caíram no Valdouro, que é outra marca, e usar aquele número seria erro. Se você souber quanto custou, eu completo.",
+      "historia": "Quarles Harris é uma das casas antigas de Vila Nova de Gaia, e o Valadão é a linha de Porto que ela engarrafa. O brasão dourado no rótulo, com a coroa e os dois animais segurando o escudo, é o tipo de armaria que as casas inglesas do Porto adotaram no século XIX para marcar presença no mercado britânico — a mesma lógica do leão gravado no gargalo do seu Taylor's."
     }
   ]
 }
