@@ -2198,6 +2198,127 @@
       ],
       "observacoes": "VINHO SEM SAFRA, e isso muda tudo aqui. O rótulo da frente lista as safras que entram no corte, de 1962 a 2012, e a marca da edição, '+4'. A linha nasceu em 2012 para os cinquenta anos da cooperativa — daí Cinquanta — e cada edição posterior traz um '+' com um número. NÃO CONSEGUI CONFIRMAR O QUE O '+4' DESIGNA: achei descrição da edição +5, mas nada que explicasse a numeração com fonte firme, e não quis chutar. NÃO REGISTREI NENHUMA PONTUAÇÃO, de propósito. Luca Maroni pontua esta etiqueta há anos, mas as fontes trazem 95, 97 e 98 para edições diferentes, e não há como saber qual vale para esta garrafa — nota de vinho sem safra muda a cada corte. Escolher um número seria inventar. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO: a página do rótulo sem safra existe e tem mais de 5.000 avaliações, mas nenhuma busca devolveu a média. Teor alcoólico 14,5%, o importador Timbro Trading e a distribuição pela Grand Cru vêm do contrarrótulo — vale notar que a San Marzano anuncia a Mistral como importadora oficial, então esta garrafa veio por outro caminho. O contrarrótulo brasileiro classifica como 'meio seco', o que combina com a fruta doce do estilo. PREÇO: R$ 330 é a mediana de cinco lojas brasileiras (R$ 258, R$ 299,90, R$ 329,80, R$ 344 e R$ 475). Produto vendido no Brasil, então nada de dobrar. Sem janela de guarda: é vinho para beber agora, não de guarda.",
       "historia": "San Marzano é uma cooperativa fundada em 1962 por dezenove viticultores do Salento, no salto da bota italiana. Em 2012, nos cinquenta anos da casa, eles fizeram este corte reunindo as melhores safras da história da cooperativa — daí o nome, e daí a fileira de anos impressa no rótulo. O contrarrótulo ainda traz o brinde original em italiano: que cada gota deste tinto celebre a esperança, a audácia e a inteligência da terra."
+    },
+    {
+      "codigo": "AD-0038",
+      "fotos": [
+        "AD-0038-1.webp",
+        "AD-0038-2.webp"
+      ],
+      "nome": "Eisele Vineyard Cabernet Sauvignon",
+      "produtor": "Araujo Estate Wines",
+      "safra": 2000,
+      "tipo": "Tinto",
+      "uvas": [
+        "Cabernet Sauvignon",
+        "Cabernet Franc",
+        "Petit Verdot",
+        "Merlot"
+      ],
+      "pais": "Estados Unidos",
+      "regiao": "Califórnia",
+      "subRegiao": "Calistoga, Napa Valley",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 3",
+      "garrafas": 1,
+      "notasDegustacao": "Corte de 84% Cabernet Sauvignon, 9% Cabernet Franc e o resto entre Petit Verdot e Merlot, 22 meses em carvalho. Rubi profundo; cassis, terra e lilás, num registro que a crítica comparou ao Château Margaux. Corpo médio, textura fina, leve austeridade — mas pureza e equilíbrio notáveis. Safra mais leve, de perfil bordalês.",
+      "harmonizacoes": [
+        "Costela",
+        "Cordeiro",
+        "Carne vermelha assada",
+        "Queijos curados"
+      ],
+      "guardaDe": 2006,
+      "guardaAte": 2028,
+      "temperatura": "17–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "Robert Parker",
+          "nota": 91,
+          "escala": 100,
+          "safra": 2000
+        },
+        {
+          "fonte": "CellarTracker",
+          "nota": 92,
+          "escala": 100,
+          "safra": 2000
+        }
+      ],
+      "precoMercado": null,
+      "descricaoCardapio": "Cabernet do Eisele Vineyard, em Calistoga: cassis, terra e lilás, de corte quase bordalês.",
+      "confianca": 0.85,
+      "fontes": [
+        "contrarrótulo da garrafa",
+        "eiselevineyard.com",
+        "cellartracker.com",
+        "vinous.com",
+        "wine-searcher.com"
+      ],
+      "observacoes": "Garrafa histórica: o Eisele Vineyard é um dos vinhedos mais célebres da Califórnia, e a família Araujo o comprou em 1990. Em 2013 vendeu para a Artémis, dos Pinault, dona do Château Latour, e o rótulo passou a se chamar Eisele Vineyard Estate — ou seja, o nome Araujo não existe mais. Esta é uma safra da fase Araujo. Produção de 1.700 caixas apenas. O 92 do CellarTracker é média de 85 avaliações da comunidade, não de crítico. Vinous tem resenha de Stephen Tanzer para esta safra, mas não consegui recuperar a nota. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. TEOR ALCOÓLICO EM BRANCO: o número está no rótulo da frente, mas não deu para ler na foto. PREÇO EM BRANCO DE PROPÓSITO: a safra 2000 circula em leilão, não em prateleira. O único número que achei foi US$ 530 no wine-searcher para 'Eisele Vineyard Cabernet', que não distingue esta safra da Araujo do rótulo atual dos Pinault — por esse caminho daria uns R$ 5.500, mas seria assentar um valor alto numa base frágil. Se você souber quanto pagou, eu completo. Janela de guarda é estimativa: safra leve, provavelmente já no auge ou passando dele.",
+      "historia": "O contrarrótulo conta a coisa toda. Desde 1971 saem do Eisele Vineyard alguns dos Cabernets mais longevos da Califórnia: quarenta acres num terraço ao norte do Napa Valley, a leste de Calistoga, protegidos pelas montanhas Palisades e resfriados pela brisa que entra pelo Chalk Hill Gap, sobre solo quente e pedregoso que dá pouca uva e muita concentração. Bart e Daphne Araujo compraram o vinhedo em 1990, converteram para biodinâmica e chamaram Françoise Peschon para fazer o vinho, com Michel Rolland consultando. Assinam os dois, de próprio punho, no rótulo. Em 2013 venderam para os Pinault, do Château Latour — e o nome Araujo saiu da garrafa para sempre."
+    },
+    {
+      "codigo": "AD-0039",
+      "fotos": [
+        "AD-0039-1.webp",
+        "AD-0039-2.webp"
+      ],
+      "nome": "Sessantanni Old Vines",
+      "produtor": "Cantine San Marzano",
+      "safra": 2017,
+      "tipo": "Tinto",
+      "uvas": [
+        "Primitivo"
+      ],
+      "pais": "Itália",
+      "regiao": "Puglia",
+      "subRegiao": "Primitivo di Manduria DOP",
+      "teorAlcoolico": 14.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 3",
+      "garrafas": 1,
+      "notasDegustacao": "Primitivo de pé-franco em alberello com mais de sessenta anos. Aroma amplo, de ameixa e geleia de cereja, com couro, folha de tabaco e um toque de especiaria. Encorpado e rico, de taninos macios e retrogosto de cacau, café e baunilha.",
+      "harmonizacoes": [
+        "Carne de panela",
+        "Cordeiro assado",
+        "Massa com ragu",
+        "Queijos curados"
+      ],
+      "guardaDe": 2019,
+      "guardaAte": 2029,
+      "temperatura": "16–18 °C",
+      "decantarMin": 45,
+      "avaliacoes": [
+        {
+          "fonte": "CellarTracker",
+          "nota": 90.5,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 89,
+          "escala": 100,
+          "safra": 2017
+        }
+      ],
+      "precoMercado": 459,
+      "descricaoCardapio": "Primitivo de vinhas com mais de sessenta anos: ameixa, tabaco e um final de cacau e café.",
+      "confianca": 0.8,
+      "fontes": [
+        "contrarrótulo da garrafa",
+        "cellartracker.com",
+        "wineenthusiast.com",
+        "onivino.com.br",
+        "wine-searcher.com"
+      ],
+      "observacoes": "Sessantanni quer dizer sessenta anos — é a idade mínima das vinhas, não do vinho. Mesma casa do AD-0037, o Collezione Cinquanta, e veio pelo mesmo caminho: importado pela Timbro Trading, distribuído pela Grand Cru, tudo do contrarrótulo, junto com o teor de 14,5% e o endereço em San Marzano di San Giuseppe, na província de Taranto. O 90,5 do CellarTracker é média de 102 avaliações da comunidade, não de crítico. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO nem nenhuma pontuação de Luca Maroni para esta safra. PREÇO: R$ 459 é oferta brasileira observada para a safra 2017 (de R$ 509 com desconto). A faixa que encontrei no Brasil é larga, de R$ 150 a R$ 510 — o extremo baixo quase certamente é outro produto ou outro volume. Produto vendido no Brasil, então nada de dobrar; o caminho do dólar (US$ 32 sem impostos, dobrados) daria ~R$ 330, um pouco abaixo. Existe também uma Limited Edition e formatos maiores deste mesmo rótulo — esta é a garrafa comum de 750 ml. Janela de guarda é estimativa. O contrarrótulo brasileiro classifica como 'meio seco'.",
+      "historia": "Manduria é o coração do Primitivo, no salto da bota, e ali ainda restam vinhas conduzidas em alberello — o arbusto baixo, sem arame, que se planta uma a uma e se colhe à mão. As que dão este vinho passaram dos sessenta anos, e é isso que o nome anuncia. Produzem pouco e concentrado. É o carro-chefe da San Marzano, a mesma cooperativa fundada em 1962 por dezenove viticultores que assina o seu Collezione Cinquanta."
     }
   ]
 }
