@@ -1877,6 +1877,89 @@
       ],
       "observacoes": "A nota 4,4 do Vivino é do rótulo Quinta da Leda como um todo, não da safra 2017 isolada. O 95 do Wine Enthusiast é de Roger Voss, que pedia para não abrir antes de 2024 — já passou. O 90,5 do CellarTracker é média de 8 avaliações da comunidade, não de crítico. PREÇO: lojas brasileiras pedem R$ 799 (Wine Body, 750 ml), R$ 849,90 (safra 2018) e R$ 1.128,95 em safras mais novas; registrei R$ 820, a mediana dessa faixa. Descartei R$ 109,90 do Caçador de Vinhos (esse valor é da linha básica da Casa Ferreirinha, não do Quinta da Leda) e R$ 1.499,99 de marketplace. Confere com o caminho do dólar: US$ 75 sem impostos no wine-searcher, a R$ 5,15, dobrados, dão ~R$ 772. Existe anúncio de R$ 488 para a própria safra 2017 em marketplace, provavelmente listagem antiga. Teor alcoólico 13,5% e 'deve ser decantado' vêm do contrarrótulo. Janela de guarda é estimativa. As percentagens do corte variam de fonte para fonte, por isso registrei só as castas.",
       "historia": "A Quinta da Leda fica em Almendra, Vila Nova de Foz Côa, no Douro Superior, quase na fronteira com a Espanha — terra dura, de verões escaldantes, onde a Ferreira comprou terreno em 1979 e plantou vinha no mesmo ano. É dali que sai o coração do Barca Velha, o vinho mais mítico de Portugal, e a adega de gravidade construída na propriedade em 2001 existe para tratar dessas uvas. Este engarrafamento leva o nome da própria quinta: é o Barca Velha visto de perto, todo ano. Casa Ferreirinha, no rótulo, é homenagem a Dona Antónia Adelaide Ferreira, a Ferreirinha, matriarca que ergueu o Douro no século XIX."
+    },
+    {
+      "codigo": "AD-0033",
+      "fotos": [
+        "AD-0033-1.webp",
+        "AD-0033-2.webp"
+      ],
+      "nome": "Cobos Malbec Marchiori Vineyard (Block C2)",
+      "produtor": "Viña Cobos (Paul Hobbs)",
+      "safra": 2014,
+      "tipo": "Tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "pais": "Argentina",
+      "regiao": "Mendoza",
+      "subRegiao": "Perdriel, Luján de Cuyo",
+      "teorAlcoolico": 15.3,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 2",
+      "garrafas": 4,
+      "notasDegustacao": "Rubi intenso de reflexos violeta. Cassis, ameixa vermelha suculenta e amora silvestre, com cardamomo e tabaco; a crítica também acha figo e passa, sinal de fruta muito madura, sobre carvalho achocolatado. Concentrado e cheio, de acidez firme e final longo.",
+      "harmonizacoes": [
+        "Bife de chorizo",
+        "Costela assada",
+        "Cordeiro",
+        "Queijos duros"
+      ],
+      "guardaDe": 2018,
+      "guardaAte": 2030,
+      "temperatura": "17–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.7,
+          "escala": 5,
+          "safra": null
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 97,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Robert Parker",
+          "nota": 95,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Wine-Searcher",
+          "nota": 95,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Stephen Tanzer",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2014
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2014
+        }
+      ],
+      "precoMercado": 1650,
+      "descricaoCardapio": "O Malbec de topo da Viña Cobos, de um único bloco do vinhedo Marchiori: fruta escura, cardamomo e tabaco.",
+      "confianca": 0.85,
+      "fontes": [
+        "contrarrótulo da garrafa",
+        "wineenthusiast.com",
+        "wine-searcher.com",
+        "vinacobos.com",
+        "winespectator.com"
+      ],
+      "observacoes": "Este é o Cobos, o rótulo de topo da casa — não confundir com o Bramare Marchiori Vineyard, que é a linha abaixo e tem nome parecido. Teor alcoólico 15,3%, o bloco C2 e o lote L-COMB14 vêm do contrarrótulo. A nota 4,7 do Vivino é do rótulo como um todo, não da safra 2014 isolada. PREÇO ESTIMADO, frágil: não achei nenhuma oferta brasileira. Parti da média internacional de ~US$ 160 sem impostos para a safra 2014, convertida a R$ 5,15 e dobrada, o que dá ~R$ 1.650. O Wine Enthusiast registrou preço de lançamento de US$ 225 nos EUA; por esse caminho o valor seria ~R$ 2.300. Fiquei no número menor por ser o de mercado, não o de lançamento. ATENÇÃO À JANELA: o Wine Enthusiast recomendava beber até 2023, prazo já vencido; James Suckling, com 97 pontos, via fôlego bem maior. Registrei até 2030 como estimativa, mas é garrafa para abrir sem muita espera. Mesmo vinhedo do AD-0003, o Cobos Nico 2006.",
+      "historia": "O vinhedo Marchiori, em Perdriel, era da família de Andrea Marchiori, que em 1999 se juntou a Luis Barraud e ao californiano Paul Hobbs para fundar a Viña Cobos. Deste vinhedo saiu o Cobos Malbec, primeiro vinho da América do Sul a receber 95 pontos de Robert Parker — e, na safra 2011, o primeiro do continente a receber 100 pontos de James Suckling. Esta garrafa vai além do vinhedo: o contrarrótulo aponta o bloco C2, uma parcela específica dentro dele."
     }
   ]
 }
