@@ -21,6 +21,27 @@ export interface RepoCheck {
   /** Garrafas do arquivo que ainda não estão neste aparelho. */
   novos: number
   total: number
+  /** Entradas descartadas por não terem código. */
+  semCodigo: number
+}
+
+/**
+ * O catálogo publicado é lido de novo a cada volta ao primeiro plano, então a
+ * única coisa que impede reimportar a mesma garrafa é o código. Entrada sem
+ * código seria vista como nova para sempre e duplicaria o acervo a cada busca —
+ * some com ela aqui. (No import por arquivo, que é ação única, ela é aceita e o
+ * app atribui a numeração.)
+ */
+function comCodigo(all: ImportWine[]): { validos: ImportWine[]; semCodigo: number } {
+  const validos = all.filter((w) => w.codigo?.trim())
+  const semCodigo = all.length - validos.length
+  if (semCodigo > 0) {
+    console.warn(
+      `[repo] ${semCodigo} entrada(s) do catálogo publicado estão sem "codigo" e foram ` +
+        'ignoradas: sem ele, seriam reimportadas a cada busca.'
+    )
+  }
+  return { validos, semCodigo }
 }
 
 async function fetchCatalog() {
@@ -32,11 +53,12 @@ async function fetchCatalog() {
 
 /** Quantas garrafas novas existem lá, sem importar nada. */
 export async function checkRepoCatalog(): Promise<RepoCheck | null> {
-  const wines = await fetchCatalog()
-  if (!wines) return null
+  const all = await fetchCatalog()
+  if (!all) return null
+  const { validos, semCodigo } = comCodigo(all)
   const taken = new Set((await db.wines.toArray()).map((w) => w.code))
-  const novos = wines.filter((w) => !w.codigo || !taken.has(w.codigo.trim()))
-  return { novos: novos.length, total: wines.length }
+  const novos = validos.filter((w) => !taken.has(w.codigo!.trim()))
+  return { novos: novos.length, total: validos.length, semCodigo }
 }
 
 /**
@@ -46,12 +68,13 @@ export async function checkRepoCatalog(): Promise<RepoCheck | null> {
 export async function importFromRepo(
   onProgress?: (done: number, total: number, label: string) => void
 ): Promise<ImportResult | null> {
-  const all = await fetchCatalog()
-  if (!all) return null
+  const bruto = await fetchCatalog()
+  if (!bruto) return null
+  const { validos: all } = comCodigo(bruto)
 
   const local = await db.wines.toArray()
   const byCode = new Map(local.map((w) => [w.code, w]))
-  const wines = all.filter((w) => !w.codigo || !byCode.has(w.codigo.trim()))
+  const wines = all.filter((w) => !byCode.has(w.codigo!.trim()))
 
   // Garrafa que já está aqui não entra de novo, mas pode ter ganhado campos
   // novos no catálogo (a história, por exemplo) depois de importada.

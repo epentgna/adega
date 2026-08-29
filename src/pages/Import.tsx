@@ -40,15 +40,18 @@ export default function Import() {
         setRepoStatus('Nenhum catálogo publicado no repositório ainda.')
         return
       }
+      const aviso = check.semCodigo
+        ? ` ${check.semCodigo} entrada(s) do arquivo estão sem código e foram ignoradas.`
+        : ''
       const done = await importFromRepo((d, total, label) =>
         setRepoStatus(`${label} (${d}/${total})`)
       )
       if (done?.wines) setResult(done)
       else if (done?.updated)
         setRepoStatus(
-          `${done.updated} ficha(s) já existentes foram completadas com o que faltava.`
+          `${done.updated} ficha(s) já existentes foram completadas com o que faltava.` + aviso
         )
-      else setRepoStatus(`Já está tudo aqui (${check.total} garrafas no arquivo).`)
+      else setRepoStatus(`Já está tudo aqui (${check.total} garrafas no arquivo).` + aviso)
     } catch (err) {
       setRepoStatus(err instanceof Error ? err.message : 'Falhou.')
     }
