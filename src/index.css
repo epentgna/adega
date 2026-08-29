@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-base text-ink font-sans antialiased;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: none;
+  }
+
+  /* Área segura do iPhone (notch / home indicator). */
+  #root {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  h1,
+  h2,
+  .serif {
+    @apply font-display;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font-family: inherit;
+  }
+
+  input,
+  textarea,
+  select {
+    @apply bg-transparent outline-none;
+  }
+
+  ::placeholder {
+    @apply text-muted/60;
+  }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-wine/70 ring-offset-2 ring-offset-base;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-card border border-border rounded-card;
+  }
+
+  .eyebrow {
+    @apply font-mono text-[11px] tracking-[0.22em] text-wine uppercase;
+  }
+
+  .sys-label {
+    @apply font-mono text-[10px] tracking-[0.2em] text-muted uppercase;
+  }
+
+  /* A numeração da garrafa: sempre em mono, sempre destacada. */
+  .code-tag {
+    @apply font-mono text-[11px] tracking-[0.12em] text-gold;
+  }
+
+  .btn-primary {
+    @apply w-full rounded-xl border border-wine/70 bg-wine/20 text-ink font-medium
+      py-3.5 px-4 shadow-glow transition-transform active:scale-[0.99]
+      flex items-center justify-center gap-2 min-h-[50px]
+      disabled:opacity-40 disabled:shadow-none;
+  }
+
+  .btn-gold {
+    @apply w-full rounded-xl border border-gold/70 bg-gold/15 text-gold font-medium
+      py-3.5 px-4 shadow-glow-gold transition-transform active:scale-[0.99]
+      flex items-center justify-center gap-2 min-h-[50px]
+      disabled:opacity-40 disabled:shadow-none;
+  }
+
+  .btn-ghost {
+    @apply rounded-xl border border-border bg-white/[0.02] text-ink py-3 px-4
+      transition-colors active:bg-white/[0.06] min-h-[46px] flex items-center
+      justify-center gap-2 disabled:opacity-40;
+  }
+
+  .btn-danger {
+    @apply rounded-xl border border-danger/50 bg-danger/10 text-danger py-3 px-4
+      min-h-[46px] flex items-center justify-center gap-2;
+  }
+
+  .chip {
+    @apply font-mono text-[11px] tracking-wider uppercase px-3 py-2 rounded-lg
+      border border-border text-muted transition-colors min-h-[38px]
+      flex items-center justify-center gap-1.5 whitespace-nowrap;
+  }
+
+  .chip-active {
+    @apply border-wine/70 bg-wine/15 text-ink shadow-glow-sm;
+  }
+
+  .field {
+    @apply w-full rounded-xl border border-border bg-white/[0.02] px-4 py-3
+      text-ink min-h-[48px];
+  }
+
+  .field-label {
+    @apply font-mono text-[10px] tracking-[0.18em] text-muted uppercase mb-1.5 block;
+  }
+
+  .divider {
+    @apply h-px bg-border my-5;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* O cardápio impresso sai em papel branco, sem navegação. */
+@media print {
+  @page {
+    margin: 16mm;
+  }
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-sheet {
+    max-width: none !important;
+    color: #111 !important;
+    background: #fff !important;
+  }
+  .print-sheet * {
+    color: #111 !important;
+    border-color: #ccc !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
