@@ -2264,7 +2264,7 @@
         "vinous.com",
         "wine-searcher.com"
       ],
-      "observacoes": "Garrafa histórica: o Eisele Vineyard é um dos vinhedos mais célebres da Califórnia, e a família Araujo o comprou em 1990. Em 2013 vendeu para a Artémis, dos Pinault, dona do Château Latour, e o rótulo passou a se chamar Eisele Vineyard Estate — ou seja, o nome Araujo não existe mais. Esta é uma safra da fase Araujo. Produção de 1.700 caixas apenas. O 92 do CellarTracker é média de 85 avaliações da comunidade, não de crítico. Vinous tem resenha de Stephen Tanzer para esta safra, mas não consegui recuperar a nota. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. TEOR ALCOÓLICO EM BRANCO: o número está no rótulo da frente, mas não deu para ler na foto. PREÇO EM BRANCO DE PROPÓSITO: a safra 2000 circula em leilão, não em prateleira. O único número que achei foi US$ 530 no wine-searcher para 'Eisele Vineyard Cabernet', que não distingue esta safra da Araujo do rótulo atual dos Pinault — por esse caminho daria uns R$ 5.500, mas seria assentar um valor alto numa base frágil. Se você souber quanto pagou, eu completo. Janela de guarda é estimativa: safra leve, provavelmente já no auge ou passando dele.",
+      "observacoes": "Outra garrafa deste mesmo vinho está na Prateleira 8, sob o código AD-0072, e o contrarrótulo dela saiu legível, confirmando toda a história que eu tinha escrito aqui. Garrafa histórica: o Eisele Vineyard é um dos vinhedos mais célebres da Califórnia, e a família Araujo o comprou em 1990. Em 2013 vendeu para a Artémis, dos Pinault, dona do Château Latour, e o rótulo passou a se chamar Eisele Vineyard Estate — ou seja, o nome Araujo não existe mais. Esta é uma safra da fase Araujo. Produção de 1.700 caixas apenas. O 92 do CellarTracker é média de 85 avaliações da comunidade, não de crítico. Vinous tem resenha de Stephen Tanzer para esta safra, mas não consegui recuperar a nota. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. TEOR ALCOÓLICO EM BRANCO: o número está no rótulo da frente, mas não deu para ler na foto. PREÇO EM BRANCO DE PROPÓSITO: a safra 2000 circula em leilão, não em prateleira. O único número que achei foi US$ 530 no wine-searcher para 'Eisele Vineyard Cabernet', que não distingue esta safra da Araujo do rótulo atual dos Pinault — por esse caminho daria uns R$ 5.500, mas seria assentar um valor alto numa base frágil. Se você souber quanto pagou, eu completo. Janela de guarda é estimativa: safra leve, provavelmente já no auge ou passando dele.",
       "historia": "O contrarrótulo conta a coisa toda. Desde 1971 saem do Eisele Vineyard alguns dos Cabernets mais longevos da Califórnia: quarenta acres num terraço ao norte do Napa Valley, a leste de Calistoga, protegidos pelas montanhas Palisades e resfriados pela brisa que entra pelo Chalk Hill Gap, sobre solo quente e pedregoso que dá pouca uva e muita concentração. Bart e Daphne Araujo compraram o vinhedo em 1990, converteram para biodinâmica e chamaram Françoise Peschon para fazer o vinho, com Michel Rolland consultando. Assinam os dois, de próprio punho, no rótulo. Em 2013 venderam para os Pinault, do Château Latour — e o nome Araujo saiu da garrafa para sempre."
     },
     {
@@ -4221,6 +4221,68 @@
       ],
       "observacoes": "TERCEIRO CHILENO DA CASA e o segundo da Viña El Principal, ao lado do Andetelmo 2011 do AD-0070. Os dois rótulos dessa casa contam a mesma ideia por caminhos diferentes: o Andetelmo homenageia o cacique picunche, e este homenageia os ancestrais da terra. A ESPIRAL DO RÓTULO TEM SIGNIFICADO, e o contrarrótulo explica: é um dos símbolos mais antigos que existem e representa o ciclo da vida — nascimento, desenvolvimento, morte e reencarnação. Memorias é tributo aos ancestrais destas terras, que ano a ano se reencarnam nas uvas. AS CINCO CASTAS VÊM DO RÓTULO: Cabernet Sauvignon, Petit Verdot, Syrah, Carménère e Cabernet Franc. Uma fonte externa detalha a safra 2012 como 60% Cabernet Sauvignon, 20% Syrah, 14% Cabernet Franc e 6% Petit Verdot — sem Carménère. Provavelmente o rótulo lista a composição habitual da linha e a fonte o corte daquele ano. Registrei as cinco do rótulo, em ordem de proporção segundo a fonte, com a Carménère por último. A NOTA 90 É DO WINE ENTHUSIAST para esta safra, e a descrição de degustação que usei é deles — e não é elogiosa em tudo: falam em abertura áspera, pó de café e balsâmico. Registrei como está, sem suavizar. Não achei nota do Vivino, de Suckling nem do Descorchados para a 2012. Teor alcoólico 15%, lotes L15258 e L-14013, importado com exclusividade pela Decanter Vinhos Finos, de Blumenau — mesma importadora do Andetelmo. PREÇO: R$ 500 é a mediana arredondada de quatro ofertas brasileiras — R$ 389,90, R$ 440, R$ 564 e R$ 890 — todas de safras que não a 2012. A faixa é larga; produto vendido no Brasil, sem dobrar. Janela de guarda é estimativa.",
       "historia": "A Viña El Principal fica em Pirque, encostada nos Andes, e batizou seus vinhos com o que veio antes dela. Se o Andetelmo é o cacique que governava estas terras no século XVII, Memorias é o tributo aos ancestrais em geral: a espiral desenhada em cobre no rótulo é o símbolo do ciclo da vida, e a ideia impressa no verso é que essa gente se reencarna, ano após ano, nas uvas que dão este vinho. Por trás da espiral, no papel, há uma caligrafia rabiscada que parece manuscrito antigo."
+    },
+    {
+      "codigo": "AD-0072",
+      "fotos": [
+        "AD-0072-1.webp",
+        "AD-0072-2.webp"
+      ],
+      "nome": "Eisele Vineyard Cabernet Sauvignon",
+      "produtor": "Araujo Estate Wines",
+      "safra": 2000,
+      "tipo": "Tinto",
+      "uvas": [
+        "Cabernet Sauvignon",
+        "Cabernet Franc",
+        "Petit Verdot",
+        "Merlot"
+      ],
+      "pais": "Estados Unidos",
+      "regiao": "Califórnia",
+      "subRegiao": "Calistoga, Napa Valley",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 8",
+      "garrafas": 1,
+      "notasDegustacao": "Corte de 84% Cabernet Sauvignon, 9% Cabernet Franc e o resto entre Petit Verdot e Merlot, 22 meses em carvalho. Rubi profundo; cassis, terra e lilás, num registro que a crítica comparou ao Château Margaux. Corpo médio, textura fina, leve austeridade — mas pureza e equilíbrio notáveis. Safra mais leve, de perfil bordalês.",
+      "harmonizacoes": [
+        "Costela",
+        "Cordeiro",
+        "Carne vermelha assada",
+        "Queijos curados"
+      ],
+      "guardaDe": 2006,
+      "guardaAte": 2028,
+      "temperatura": "17–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "Robert Parker",
+          "nota": 91,
+          "escala": 100,
+          "safra": 2000
+        },
+        {
+          "fonte": "CellarTracker",
+          "nota": 92,
+          "escala": 100,
+          "safra": 2000
+        }
+      ],
+      "precoMercado": null,
+      "descricaoCardapio": "Cabernet do Eisele Vineyard, em Calistoga: cassis, terra e lilás, de corte quase bordalês.",
+      "confianca": 0.85,
+      "fontes": [
+        "contrarrótulo da garrafa",
+        "eiselevineyard.com",
+        "cellartracker.com",
+        "vinous.com",
+        "wine-searcher.com"
+      ],
+      "observacoes": "SEGUNDA GARRAFA DE ARAUJO EISELE VINEYARD 2000 DA CASA. A primeira é o AD-0038, na Prateleira 3; esta ficou na Prateleira 8, e por isso tem entrada própria. SE FOR A MESMA GARRAFA fotografada de novo, me diga que eu apago esta. ESTE CONTRARRÓTULO SAIU MUITO MAIS LEGÍVEL que o da primeira e confirmou tudo, palavra por palavra: desde 1971 saem do Eisele Vineyard alguns dos Cabernets mais longevos da Califórnia; quarenta acres num terraço ao norte do Napa Valley, a leste de Calistoga, protegidos pelas montanhas Palisades e resfriados pela brisa do Chalk Hill Gap, sobre solo quente e pedregoso de baixo rendimento; a compra do vinhedo pelos Araujo em 1990; a construção de uma adega nova; a agricultura sustentável e biodinâmica; os três vinhos da propriedade (Cabernet Sauvignon, Sauvignon Blanc e Syrah); e a dupla Françoise Peschon na vinificação com Michel Rolland consultando. Bart e Daphne Araujo assinam de próprio punho. Garrafa histórica: em 2013 a família vendeu para a Artémis, dos Pinault, dona do Château Latour, e o rótulo passou a se chamar Eisele Vineyard Estate — o nome Araujo não existe mais. Produção de 1.700 caixas apenas. O 92 do CellarTracker é média de 85 avaliações da comunidade, não de crítico. Vinous tem resenha de Stephen Tanzer para esta safra, mas não consegui recuperar a nota. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. TEOR ALCOÓLICO CONTINUA EM BRANCO: o número não aparece em nenhuma das fotos das duas garrafas — deve estar no pé do rótulo da frente, fora do enquadramento. Uma foto daquele canto resolve para as duas fichas de uma vez. PREÇO EM BRANCO DE PROPÓSITO: a safra 2000 circula em leilão, não em prateleira. O único número que achei foi US$ 530 no wine-searcher para 'Eisele Vineyard Cabernet', que não distingue esta safra da Araujo do rótulo atual dos Pinault — por esse caminho daria uns R$ 5.500, mas seria assentar um valor alto numa base frágil. Janela de guarda é estimativa: safra leve, provavelmente já no auge ou passando dele.",
+      "historia": "O contrarrótulo conta a coisa toda. Desde 1971 saem do Eisele Vineyard alguns dos Cabernets mais longevos da Califórnia: quarenta acres num terraço ao norte do Napa Valley, a leste de Calistoga, protegidos pelas montanhas Palisades e resfriados pela brisa que entra pelo Chalk Hill Gap, sobre solo quente e pedregoso que dá pouca uva e muita concentração. Bart e Daphne Araujo compraram o vinhedo em 1990, converteram para biodinâmica e chamaram Françoise Peschon para fazer o vinho, com Michel Rolland consultando. Assinam os dois, de próprio punho, no rótulo. Em 2013 venderam para os Pinault, do Château Latour — e o nome Araujo saiu da garrafa para sempre."
     }
   ]
 }
