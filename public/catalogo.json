@@ -1960,6 +1960,59 @@
       ],
       "observacoes": "Este é o Cobos, o rótulo de topo da casa — não confundir com o Bramare Marchiori Vineyard, que é a linha abaixo e tem nome parecido. Teor alcoólico 15,3%, o bloco C2 e o lote L-COMB14 vêm do contrarrótulo. A nota 4,7 do Vivino é do rótulo como um todo, não da safra 2014 isolada. PREÇO ESTIMADO, frágil: não achei nenhuma oferta brasileira. Parti da média internacional de ~US$ 160 sem impostos para a safra 2014, convertida a R$ 5,15 e dobrada, o que dá ~R$ 1.650. O Wine Enthusiast registrou preço de lançamento de US$ 225 nos EUA; por esse caminho o valor seria ~R$ 2.300. Fiquei no número menor por ser o de mercado, não o de lançamento. ATENÇÃO À JANELA: o Wine Enthusiast recomendava beber até 2023, prazo já vencido; James Suckling, com 97 pontos, via fôlego bem maior. Registrei até 2030 como estimativa, mas é garrafa para abrir sem muita espera. Mesmo vinhedo do AD-0003, o Cobos Nico 2006.",
       "historia": "O vinhedo Marchiori, em Perdriel, era da família de Andrea Marchiori, que em 1999 se juntou a Luis Barraud e ao californiano Paul Hobbs para fundar a Viña Cobos. Deste vinhedo saiu o Cobos Malbec, primeiro vinho da América do Sul a receber 95 pontos de Robert Parker — e, na safra 2011, o primeiro do continente a receber 100 pontos de James Suckling. Esta garrafa vai além do vinhedo: o contrarrótulo aponta o bloco C2, uma parcela específica dentro dele."
+    },
+    {
+      "codigo": "AD-0034",
+      "fotos": [
+        "AD-0034-1.webp",
+        "AD-0034-2.webp"
+      ],
+      "nome": "Cobos Malbec Chañares Estate",
+      "produtor": "Viña Cobos (Paul Hobbs)",
+      "safra": 2015,
+      "tipo": "Tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "pais": "Argentina",
+      "regiao": "Mendoza",
+      "subRegiao": "Los Árboles, Valle de Uco",
+      "teorAlcoolico": 14.8,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 2",
+      "garrafas": 3,
+      "notasDegustacao": "Cor quase preta. Amora madura e ameixa seca com tomilho e um toque defumado; na boca é enorme, de taninos aveludados e acidez firme, com amora tostada, café e carvão. Final escuro e demorado.",
+      "harmonizacoes": [
+        "Bife de chorizo",
+        "Carne de panela",
+        "Cordeiro",
+        "Queijos duros"
+      ],
+      "guardaDe": 2019,
+      "guardaAte": 2028,
+      "temperatura": "17–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "James Suckling",
+          "nota": 98,
+          "escala": 100,
+          "safra": 2015
+        }
+      ],
+      "precoMercado": 1058,
+      "descricaoCardapio": "Malbec de vinhedo único em Los Árboles, no alto do Valle de Uco: fruta escura, tomilho e defumado.",
+      "confianca": 0.8,
+      "fontes": [
+        "contrarrótulo da garrafa",
+        "lcbo.com",
+        "wineenthusiast.com",
+        "vinacobos.com",
+        "grandcru.com.br"
+      ],
+      "observacoes": "Este é o Cobos, linha de topo — existe também um Bramare Chañares Estate, que é a linha abaixo e aparece muito nas buscas; tomei cuidado para não misturar as notas dos dois. Teor alcoólico 14,8%, Los Árboles e o lote L-COCMB15 vêm do contrarrótulo. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO para este rótulo nesta safra — a página existe, mas nenhuma busca me devolveu o número; não é omissão, é falta de fonte. O Wine Enthusiast resenhou a safra (é dele a descrição de amora tostada, café e carvão, com recomendação de beber até 2028), mas também não consegui recuperar a pontuação. A própria Viña Cobos anunciou 96 pontos para esta safra sem dizer de quem — por isso não registrei como avaliação. O 98 de James Suckling vem da lista de produtos da LCBO Vintages, onde a garrafa saía por CA$ 385. PREÇO: R$ 1.058 é a mediana de duas ofertas brasileiras — Grand Cru R$ 1.027 (safra 2018) e De La Tierra R$ 1.089,90. Descartei um anúncio de R$ 419,90 em marketplace, valor de Bramare, não de Cobos. O caminho do dólar dobrado cai na mesma faixa.",
+      "historia": "Chañares é o nome de uma árvore espinhosa do semiárido argentino, comum em Los Árboles, no alto do Valle de Uco — e é dela que a propriedade tirou o nome. É o contraponto ao vinhedo Marchiori, que fica lá embaixo em Perdriel: aqui a altitude e o solo aluvial dão um Malbec mais tenso e perfumado. A safra 2015 foi das mais difíceis de Mendoza, com chuva na colheita; ainda assim esta foi a garrafa que a Viña Cobos escolheu mostrar daquele ano."
     }
   ]
 }
