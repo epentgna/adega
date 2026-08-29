@@ -116,7 +116,9 @@
     {
       "codigo": "AD-0003",
       "fotos": [
-        "AD-0003-1.webp"
+        "AD-0003-1.webp",
+        "AD-0003-2.webp",
+        "AD-0003-3.webp"
       ],
       "nome": "Cobos Nico (uNico) Marchiori Vineyard",
       "produtor": "Viña Cobos (Paul Hobbs)",
@@ -132,9 +134,9 @@
       "teorAlcoolico": null,
       "volumeMl": 750,
       "adega": "Adega principal",
-      "prateleira": "Prateleira 1",
-      "garrafas": 1,
-      "notasDegustacao": "Corte de 67% Cabernet Sauvignon e 33% Malbec dos quadrantes mais velhos do vinhedo Marchiori. Cassis, grafite e tabaco, com taninos densos e final muito longo.",
+      "prateleira": "Prateleira 2",
+      "garrafas": 3,
+      "notasDegustacao": "Corte de 63% Cabernet Sauvignon e 37% Malbec dos quadrantes mais velhos do vinhedo Marchiori. Cassis, grafite e tabaco, com taninos densos e final muito longo.",
       "harmonizacoes": [
         "Cordeiro",
         "Bife de chorizo",
@@ -161,11 +163,12 @@
       "descricaoCardapio": "Corte histórico de Cabernet e Malbec do vinhedo Marchiori, denso e de final longo.",
       "confianca": 0.9,
       "fontes": [
+        "contrarrótulo da garrafa",
         "wine-searcher.com",
         "southamericawineguide.com",
         "hitimewine.net"
       ],
-      "observacoes": "Rótulo 'Nico', nome antigo do corte uNico — hoje chamado Volturno. Preço: média internacional de US$ 279 sem impostos, convertida (US$1≈R$5,16) e dobrada, dá ~R$2.880; não achei à venda no Brasil, é safra antiga e rara. Janela de guarda é estimativa. Garrafa de 2006: pode já estar no fim da janela, vale abrir. A nota 4,7 do Vivino é do rótulo Corte uNico como um todo, não da safra 2006 isolada — o Vivino não separa essa safra.",
+      "observacoes": "CORTE CORRIGIDO PELO CONTRARRÓTULO: 63% Cabernet Sauvignon e 37% Malbec (eu tinha registrado 67/33 a partir de fonte secundária). O contrarrótulo também confirma a dedicação — 'In honor of Don Nico Marchiori' — e traz o importador americano Paul Hobbs Imports, de Sebastopol, Califórnia; a etiqueta de loja colada na garrafa é de 26/08/2011. NÃO CONSEGUI LER O TEOR ALCOÓLICO com segurança: o número aparece nas duas fotos mas borrado, e as duas leituras não batem entre si. Preferi deixar vazio; uma foto mais fechada no canto do contrarrótulo resolve. Rótulo 'Nico', nome antigo do corte uNico — hoje chamado Volturno. Preço: média internacional de US$ 279 sem impostos, convertida (US$1≈R$5,16) e dobrada, dá ~R$2.880; não achei à venda no Brasil, é safra antiga e rara. Janela de guarda é estimativa. Garrafa de 2006: pode já estar no fim da janela, vale abrir. A nota 4,7 do Vivino é do rótulo Corte uNico como um todo, não da safra 2006 isolada — o Vivino não separa essa safra.",
       "historia": "Em 1999 o californiano Paul Hobbs se juntou a Andrea Marchiori e Luis Barraud para fazer Malbec em Mendoza. O vinhedo Marchiori, em Perdriel, era da família dela. Deste corte, tirado dos quadrantes mais velhos do vinhedo, saiu o vinho batizado em homenagem ao patriarca Don Nico Marchiori. Chamou-se Corte uNico e, em algumas safras, apenas Nico — como nesta garrafa. Hoje o mesmo vinho leva o nome do meio de Don Nico: Volturno."
     },
     {
