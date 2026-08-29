@@ -3377,6 +3377,54 @@
       ],
       "observacoes": "GARRAFA PEQUENA: 20 cl, ou 200 ml. É pouco mais de um quarto do formato normal — duas taças de Porto. O rótulo declara 20% de álcool. LBV quer dizer Late Bottled Vintage: é vinho de uma safra só, mas engarrafado depois de envelhecer no casco, e por isso sai pronto para beber, sem a espera de um Vintage clássico. O contrarrótulo diz isso com todas as letras, e ainda sugere a harmonização que eu registrei — queijos variados e chocolate amargo — direto da casa. Avisa também que Porto é produto natural e pode formar depósito. AS CASTAS NÃO ESTÃO NO RÓTULO: Touriga Nacional, Touriga Franca, Tinta Barroca e Tinta Roriz vêm da descrição do LBV pela importadora, não da garrafa. Só achei uma pontuação, o 89 do Wine-Searcher, que é média de críticos. O Wine Enthusiast resenhou a safra — chamou de perfumado e elegante, no estilo da casa — mas não recuperei o número. Vivino também não. PREÇO EM BRANCO DE PROPÓSITO: não achei nenhuma oferta brasileira nem do formato de 200 ml, nem da garrafa cheia desta safra, e não quis calcular um valor em cima de nada. Se você souber quanto custou, eu completo. Mesma família Symington do seu Chryseia, no AD-0040. Janela de guarda é estimativa: LBV sai pronto e não pede espera.",
       "historia": "A Graham's foi fundada em 1820 por dois escoceses e hoje pertence aos Symington, a mesma família que faz o seu Chryseia. O armazém onde este vinho descansou cinco anos, em Vila Nova de Gaia, é de 1890 e está desenhado na tarja de cima da garrafa — aquele prédio comprido de telhado escuro à beira do Douro é o próprio lodge que o rótulo cita."
+    },
+    {
+      "codigo": "AD-0057",
+      "fotos": [
+        "AD-0057-1.webp",
+        "AD-0057-2.webp",
+        "AD-0057-3.webp"
+      ],
+      "nome": "Quinta da Bacalhôa Branco",
+      "produtor": "Bacalhôa Vinhos de Portugal",
+      "safra": 2021,
+      "tipo": "Branco",
+      "uvas": [
+        "Sémillon",
+        "Sauvignon Blanc",
+        "Alvarinho"
+      ],
+      "pais": "Portugal",
+      "regiao": "Península de Setúbal",
+      "subRegiao": "Vila Fresca de Azeitão",
+      "teorAlcoolico": 13.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 7",
+      "garrafas": 1,
+      "notasDegustacao": "Fermentou e estagiou em parte em barricas novas de carvalho francês, até o início do ano seguinte à colheita. Cor dourada. Aroma complexo de fruta, com maracujá e damasco, lembrando tília e mel. Na boca, elegância notável sobre uma estrutura complexa, firme e persistente.",
+      "harmonizacoes": [
+        "Peixes grelhados",
+        "Frutos do mar",
+        "Aves assadas",
+        "Queijos meia-cura"
+      ],
+      "guardaDe": 2022,
+      "guardaAte": 2028,
+      "temperatura": "10–12 °C",
+      "decantarMin": null,
+      "avaliacoes": [],
+      "precoMercado": 321,
+      "descricaoCardapio": "Branco de Azeitão com barrica: maracujá, damasco, tília e mel, firme e elegante.",
+      "confianca": 0.75,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "bacalhoa.pt",
+        "divinho.com.br",
+        "vivino.com"
+      ],
+      "observacoes": "TERCEIRO BRANCO DO ACERVO, e o primeiro que não é Pêra-Manca. CORTE INCOMUM: Sémillon com Sauvignon Blanc é dupla de Bordeaux, mas com Alvarinho no meio vira coisa só portuguesa. As proporções não estão no rótulo; a casa declara cerca de 50% Sémillon, 25% Sauvignon Blanc e 25% Alvarinho, com uma parte do Sémillon fermentada em barrica nova e cinco meses de bâtonnage. Registrei as castas na ordem da proporção, não na do rótulo. CUIDADO COM O HOMÔNIMO: o Quinta da Bacalhôa famoso é o tinto de Cabernet Sauvignon, que domina as buscas. Este é o branco, outro vinho. NENHUMA PONTUAÇÃO ENCONTRADA: não achei nota de crítico nem do Vivino para esta safra. A página do rótulo existe no Vivino, mas nenhuma busca devolveu o número. PREÇO COM RESSALVA: R$ 321 é a oferta brasileira mais barata que encontrei para a safra 2021. Não consegui reunir uma faixa para tirar mediana, como fiz nos outros, então este número puxa para baixo — o valor real deve ser um pouco maior. Produto vendido no Brasil, importado pela Épice, de Guarulhos, então nada de dobrar. Teor alcoólico 13,5% e toda a descrição de degustação vêm do contrarrótulo, que é bem detalhado. Janela de guarda é estimativa.",
+      "historia": "A Quinta da Bacalhôa fica em Vila Fresca de Azeitão, na Península de Setúbal, e o palácio desenhado no rótulo é o da própria propriedade — construção do século XV, famosa pelos azulejos e pelos jardins. A casa é conhecida mundo afora pelo tinto de Cabernet Sauvignon que leva o mesmo nome e que ajudou a mostrar, nos anos 1970, que Portugal podia fazer casta francesa a sério. Este branco é o irmão menos falado, e vai por outro caminho: junta a dupla bordalesa Sémillon e Sauvignon ao Alvarinho do noroeste português."
     }
   ]
 }
