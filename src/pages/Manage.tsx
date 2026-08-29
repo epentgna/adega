@@ -98,6 +98,15 @@ export default function Manage() {
             </div>
           )}
 
+          {m.noShelf > 0 && (
+            <Link
+              to={`/catalogo?q=${encodeURIComponent(m.cellar.name)}`}
+              className="block text-[12px] text-muted mt-3"
+            >
+              {m.noShelf} garrafa{m.noShelf > 1 ? 's' : ''} sem prateleira definida.
+            </Link>
+          )}
+
           {m.unplaced > 0 && (
             <p className="text-[12px] text-danger mt-3">
               {m.unplaced} garrafa{m.unplaced > 1 ? 's' : ''} em prateleira que não

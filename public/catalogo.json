@@ -736,6 +736,112 @@
         "varanda.com.br"
       ],
       "observacoes": "Não é vinho: é licor, e por isso não tem nota do Vivino nem de crítico — essas fontes não avaliam licor. Teor de 25% e volume de 500 ml lidos no próprio rótulo. Preço de loja brasileira, entre R$ 114 e R$ 157; registrei a mediana R$ 140. Sem safra e sem janela de guarda: licor não evolui na garrafa, mas depois de aberto vale manter na geladeira."
+    },
+    {
+      "nome": "Impérial Brut",
+      "produtor": "Moët & Chandon",
+      "safra": null,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Pinot Meunier",
+        "Chardonnay"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Épernay",
+      "teorAlcoolico": 12.0,
+      "volumeMl": 750,
+      "historia": "A Moët & Chandon foi fundada em 1743 por Claude Moët e é hoje a maior casa da Champagne. O neto dele, Jean-Rémy, fez amizade com Napoleão — que passava pela maison a caminho das campanhas — e foi em homenagem ao imperador que o rótulo ganhou o nome Impérial, em 1869. É um champagne de corte: mistura de mais de cem vinhos de safras diferentes, feito para ter sempre o mesmo perfil, ano após ano.",
+      "notasDegustacao": "Corte das três castas da região. Amarelo palha com reflexos dourados e perlage fina; maçã verde, pera e cítricos, com brioche e um toque de nozes; boca fresca e final seco.",
+      "harmonizacoes": [
+        "Aperitivo",
+        "Frutos do mar",
+        "Peixes",
+        "Salgadinhos fritos",
+        "Queijos frescos"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "8–10 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.2,
+          "escala": 5
+        }
+      ],
+      "precoMercado": 470,
+      "descricaoCardapio": "O champagne de corte da maior casa de Épernay: maçã verde, brioche e final seco.",
+      "confianca": 0.98,
+      "fontes": [
+        "moet.com",
+        "vivino.com",
+        "casadabebida.com.br",
+        "espacoprime.com.br"
+      ],
+      "codigo": "AD-0012",
+      "fotos": [
+        "AD-0012-1.webp"
+      ],
+      "adega": "Geladeira externa",
+      "prateleira": "Prateleira 2",
+      "garrafas": 16,
+      "observacoes": "Champagne não safrado: as notas de críticos mudam conforme o lote e o ano-base do corte, e não dá para saber qual vale para esta garrafa — por isso só a do Vivino, que é do rótulo. Teor de 12% e volume de 750 ml lidos no rótulo. Preço de loja brasileira, entre R$ 400 e R$ 550; registrei a mediana R$ 470. Mesmo vinho do AD-0013, que está no armário: são dois registros porque ficam em lugares diferentes, e assim o mapa de ocupação mostra cada um no seu lugar."
+    },
+    {
+      "nome": "Impérial Brut",
+      "produtor": "Moët & Chandon",
+      "safra": null,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Pinot Meunier",
+        "Chardonnay"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Épernay",
+      "teorAlcoolico": 12.0,
+      "volumeMl": 750,
+      "historia": "A Moët & Chandon foi fundada em 1743 por Claude Moët e é hoje a maior casa da Champagne. O neto dele, Jean-Rémy, fez amizade com Napoleão — que passava pela maison a caminho das campanhas — e foi em homenagem ao imperador que o rótulo ganhou o nome Impérial, em 1869. É um champagne de corte: mistura de mais de cem vinhos de safras diferentes, feito para ter sempre o mesmo perfil, ano após ano.",
+      "notasDegustacao": "Corte das três castas da região. Amarelo palha com reflexos dourados e perlage fina; maçã verde, pera e cítricos, com brioche e um toque de nozes; boca fresca e final seco.",
+      "harmonizacoes": [
+        "Aperitivo",
+        "Frutos do mar",
+        "Peixes",
+        "Salgadinhos fritos",
+        "Queijos frescos"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "8–10 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.2,
+          "escala": 5
+        }
+      ],
+      "precoMercado": 470,
+      "descricaoCardapio": "O champagne de corte da maior casa de Épernay: maçã verde, brioche e final seco.",
+      "confianca": 0.98,
+      "fontes": [
+        "moet.com",
+        "vivino.com",
+        "casadabebida.com.br",
+        "espacoprime.com.br"
+      ],
+      "codigo": "AD-0013",
+      "fotos": [
+        "AD-0013-1.webp"
+      ],
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 12,
+      "observacoes": "Champagne não safrado: as notas de críticos mudam conforme o lote e o ano-base do corte, e não dá para saber qual vale para esta garrafa — por isso só a do Vivino, que é do rótulo. Teor de 12% e volume de 750 ml lidos no rótulo. Preço de loja brasileira, entre R$ 400 e R$ 550; registrei a mediana R$ 470. Mesmo vinho do AD-0012, que está na geladeira externa. Estas 12 estão fora da geladeira, no armário — sem prateleira definida; dá para nomear as prateleiras do armário em Gestão › Adegas."
     }
   ]
 }

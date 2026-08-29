@@ -65,7 +65,10 @@ export function computeStats(wines: Wine[]): CellarStats {
 export interface ShelfOccupancy {
   cellar: Cellar
   shelves: { name: string; bottles: number; labels: number; capacity: number | null }[]
+  /** Garrafas numa prateleira que não existe mais nesta adega — é problema. */
   unplaced: number
+  /** Garrafas sem prateleira definida — não é problema, só falta indicar. */
+  noShelf: number
 }
 
 /** Ocupação por prateleira, para o mapa da adega. */
@@ -83,12 +86,12 @@ export function occupancy(cellars: Cellar[], wines: Wine[]): ShelfOccupancy[] {
       }
     })
     const known = new Set(cellar.shelves)
+    const soma = (lista: Wine[]) => lista.reduce((n, w) => n + w.quantity, 0)
     return {
       cellar,
       shelves,
-      unplaced: mine
-        .filter((w) => !known.has(w.shelf))
-        .reduce((n, w) => n + w.quantity, 0)
+      unplaced: soma(mine.filter((w) => w.shelf !== '' && !known.has(w.shelf))),
+      noShelf: soma(mine.filter((w) => w.shelf === ''))
     }
   })
 }
