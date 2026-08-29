@@ -2084,6 +2084,120 @@
       ],
       "observacoes": "É o rótulo do próprio Paul Hobbs, não o CrossBarn, que é a linha de entrada dele e aparece muito nas buscas com nome quase igual — as notas do CrossBarn 2012 são bem menores (92,3 do CellarTracker aqui contra 89,8 lá) e eu não as misturei. Também não é nenhum dos vinhedos isolados, como Beckstoffer To Kalon ou Dr. Crane. Teor alcoólico 14,7% e o engarrafamento em Sebastopol vêm do contrarrótulo. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO para esta safra — nenhuma busca devolveu o número. O 92,3 do CellarTracker é média de 93 avaliações da comunidade, não de crítico. PREÇO ESTIMADO: não achei oferta brasileira da safra 2012 — a Mistral importa o rótulo, mas tinha a safra 2014. Parti da média internacional de US$ 137 sem impostos no wine-searcher, convertida a R$ 5,15 e dobrada: ~R$ 1.410. Guarda: a crítica dava 15 a 20 anos a partir do lançamento, daí o 2032. LOCAL: você disse só 'prateleira 3', então mantive a Adega principal, que é onde estávamos. Se for a Prateleira 3 da geladeira externa, me avise que eu troco.",
       "historia": "Paul Hobbs cresceu num pomar no interior do estado de Nova York, um de onze filhos, vendendo fruta na feira antes da aula. Entrou na Robert Mondavi como estagiário em 1977 e, dois anos depois, foi escalado para a primeira equipe do Opus One, a sociedade de Mondavi com os Rothschild. Em 1988 foi para a Argentina trabalhar com Nicolás Catena e ajudou a puxar o renascimento do Malbec; em 1991 abriu a vinícola com o próprio nome em Sebastopol, e em 1999 fez a primeira safra da Viña Cobos. Este Cabernet é a casa dele em Napa — e fecha um círculo com o resto da sua adega, que já tem quatro rótulos saídos das mãos do mesmo homem."
+    },
+    {
+      "codigo": "AD-0036",
+      "fotos": [
+        "AD-0036-1.webp",
+        "AD-0036-2.webp"
+      ],
+      "nome": "Guado al Tasso",
+      "produtor": "Marchesi Antinori (Tenuta Guado al Tasso)",
+      "safra": 2009,
+      "tipo": "Tinto",
+      "uvas": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "pais": "Itália",
+      "regiao": "Toscana",
+      "subRegiao": "Bolgheri DOC Superiore",
+      "teorAlcoolico": 14.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 3",
+      "garrafas": 1,
+      "notasDegustacao": "Corte de 60% Cabernet Sauvignon, 25% Merlot, 12% Cabernet Franc e 3% Petit Verdot. Impressiona pela riqueza e pela potência: moca, especiarias doces, ameixa, amora e ervas envolvem a boca em camadas, até um final fundo e demorado.",
+      "harmonizacoes": [
+        "Carne vermelha assada",
+        "Caça",
+        "Cordeiro",
+        "Queijos curados"
+      ],
+      "guardaDe": 2014,
+      "guardaAte": 2029,
+      "temperatura": "17–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "Wine Spectator",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2009
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2009
+        },
+        {
+          "fonte": "CellarTracker",
+          "nota": 92.9,
+          "escala": 100,
+          "safra": 2009
+        }
+      ],
+      "precoMercado": null,
+      "descricaoCardapio": "O Bolgheri de topo da Antinori: moca, especiarias doces e fruta escura, em camadas.",
+      "confianca": 0.85,
+      "fontes": [
+        "contrarrótulo da garrafa",
+        "antinori.it",
+        "cellartracker.com",
+        "klwines.com",
+        "winedecider.com"
+      ],
+      "observacoes": "Não confundir com o Il Bruciato, a linha de entrada da mesma propriedade, nem com o Matarocchio, que é o Cabernet Franc puro — os três saem da Tenuta Guado al Tasso. Teor alcoólico 14,5% e o importador brasileiro Winebrands, de São Paulo, vêm do contrarrótulo. O 92,9 do CellarTracker é média de 157 avaliações da comunidade, não de crítico. A safra 2009 levou medalha de Prata no Decanter World Wine Awards — registrei aqui porque é medalha, não pontuação. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra: a página existe, mas nenhuma busca devolveu o número. PREÇO EM BRANCO DE PROPÓSITO: não achei nenhuma oferta da safra 2009, nem no Brasil nem fora, e o wine-searcher esconde a média atrás de assinatura. Preferi campo vazio a número inventado. As lojas brasileiras que encontrei têm safras recentes, que não servem de referência para uma garrafa de 2009. Se você lembrar quanto pagou, eu completo. Janela de guarda 2014–2029 é a maturidade prevista pela crítica: está no fim, vale abrir.",
+      "historia": "Guado al Tasso quer dizer vau do texugo — o ponto do riacho onde o bicho atravessava. É o nome da propriedade que os Antinori têm em Bolgheri, a faixa de mar da Toscana que em duas décadas saiu do anonimato para virar endereço de Sassicaia e Ornellaia. A primeira safra deste vinho é de 1994, e ele nasceu já como a resposta da família, que faz vinho na Toscana desde 1385, àquela vizinhança nova e barulhenta. Fica ao lado do seu Ornellaia 2014, do mesmo pedaço de costa."
+    },
+    {
+      "codigo": "AD-0037",
+      "fotos": [
+        "AD-0037-1.webp",
+        "AD-0037-2.webp"
+      ],
+      "nome": "Collezione Cinquanta +4",
+      "produtor": "Cantine San Marzano",
+      "safra": null,
+      "tipo": "Tinto",
+      "uvas": [
+        "Primitivo",
+        "Negroamaro"
+      ],
+      "pais": "Itália",
+      "regiao": "Puglia",
+      "subRegiao": "San Marzano, Salento (Taranto)",
+      "teorAlcoolico": 14.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 3",
+      "garrafas": 1,
+      "notasDegustacao": "Metade Primitivo, metade Negroamaro, de pé-franco em alberello com mais de cinquenta anos, cada uva em sua barrica. Rubi de reflexos violeta; ameixa em compota e geleia, com baunilha e alcaçuz. Encorpado, macio e doce de fruta, com retrogosto longo.",
+      "harmonizacoes": [
+        "Carne de panela",
+        "Massa com ragu",
+        "Queijos curados",
+        "Embutidos"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "16–18 °C",
+      "decantarMin": 45,
+      "avaliacoes": [],
+      "precoMercado": 330,
+      "descricaoCardapio": "Puglia sem safra: Primitivo e Negroamaro de vinhas velhas, ameixa em compota, baunilha e alcaçuz.",
+      "confianca": 0.75,
+      "fontes": [
+        "contrarrótulo da garrafa",
+        "sanmarzano.wine",
+        "vivino.com",
+        "grandcru.com.br"
+      ],
+      "observacoes": "VINHO SEM SAFRA, e isso muda tudo aqui. O rótulo da frente lista as safras que entram no corte, de 1962 a 2012, e a marca da edição, '+4'. A linha nasceu em 2012 para os cinquenta anos da cooperativa — daí Cinquanta — e cada edição posterior traz um '+' com um número. NÃO CONSEGUI CONFIRMAR O QUE O '+4' DESIGNA: achei descrição da edição +5, mas nada que explicasse a numeração com fonte firme, e não quis chutar. NÃO REGISTREI NENHUMA PONTUAÇÃO, de propósito. Luca Maroni pontua esta etiqueta há anos, mas as fontes trazem 95, 97 e 98 para edições diferentes, e não há como saber qual vale para esta garrafa — nota de vinho sem safra muda a cada corte. Escolher um número seria inventar. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO: a página do rótulo sem safra existe e tem mais de 5.000 avaliações, mas nenhuma busca devolveu a média. Teor alcoólico 14,5%, o importador Timbro Trading e a distribuição pela Grand Cru vêm do contrarrótulo — vale notar que a San Marzano anuncia a Mistral como importadora oficial, então esta garrafa veio por outro caminho. O contrarrótulo brasileiro classifica como 'meio seco', o que combina com a fruta doce do estilo. PREÇO: R$ 330 é a mediana de cinco lojas brasileiras (R$ 258, R$ 299,90, R$ 329,80, R$ 344 e R$ 475). Produto vendido no Brasil, então nada de dobrar. Sem janela de guarda: é vinho para beber agora, não de guarda.",
+      "historia": "San Marzano é uma cooperativa fundada em 1962 por dezenove viticultores do Salento, no salto da bota italiana. Em 2012, nos cinquenta anos da casa, eles fizeram este corte reunindo as melhores safras da história da cooperativa — daí o nome, e daí a fileira de anos impressa no rótulo. O contrarrótulo ainda traz o brinde original em italiano: que cada gota deste tinto celebre a esperança, a audácia e a inteligência da terra."
     }
   ]
 }
