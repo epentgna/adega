@@ -2013,6 +2013,77 @@
       ],
       "observacoes": "Este é o Cobos, linha de topo — existe também um Bramare Chañares Estate, que é a linha abaixo e aparece muito nas buscas; tomei cuidado para não misturar as notas dos dois. Teor alcoólico 14,8%, Los Árboles e o lote L-COCMB15 vêm do contrarrótulo. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO para este rótulo nesta safra — a página existe, mas nenhuma busca me devolveu o número; não é omissão, é falta de fonte. O Wine Enthusiast resenhou a safra (é dele a descrição de amora tostada, café e carvão, com recomendação de beber até 2028), mas também não consegui recuperar a pontuação. A própria Viña Cobos anunciou 96 pontos para esta safra sem dizer de quem — por isso não registrei como avaliação. O 98 de James Suckling vem da lista de produtos da LCBO Vintages, onde a garrafa saía por CA$ 385. PREÇO: R$ 1.058 é a mediana de duas ofertas brasileiras — Grand Cru R$ 1.027 (safra 2018) e De La Tierra R$ 1.089,90. Descartei um anúncio de R$ 419,90 em marketplace, valor de Bramare, não de Cobos. O caminho do dólar dobrado cai na mesma faixa.",
       "historia": "Chañares é o nome de uma árvore espinhosa do semiárido argentino, comum em Los Árboles, no alto do Valle de Uco — e é dela que a propriedade tirou o nome. É o contraponto ao vinhedo Marchiori, que fica lá embaixo em Perdriel: aqui a altitude e o solo aluvial dão um Malbec mais tenso e perfumado. A safra 2015 foi das mais difíceis de Mendoza, com chuva na colheita; ainda assim esta foi a garrafa que a Viña Cobos escolheu mostrar daquele ano."
+    },
+    {
+      "codigo": "AD-0035",
+      "fotos": [
+        "AD-0035-1.webp",
+        "AD-0035-2.webp"
+      ],
+      "nome": "Cabernet Sauvignon Napa Valley",
+      "produtor": "Paul Hobbs Winery",
+      "safra": 2012,
+      "tipo": "Tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "pais": "Estados Unidos",
+      "regiao": "Califórnia",
+      "subRegiao": "Napa Valley",
+      "teorAlcoolico": 14.7,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 3",
+      "garrafas": 5,
+      "notasDegustacao": "Púrpura denso. Cassis e amora sobre carvão e incenso, encorpado e opulento, de fruta generosa e taninos polidos. Corte de vinhedos escolhidos por todo o Napa, não de um só.",
+      "harmonizacoes": [
+        "Costela",
+        "Bife alto na brasa",
+        "Cordeiro",
+        "Queijos duros"
+      ],
+      "guardaDe": 2016,
+      "guardaAte": 2032,
+      "temperatura": "17–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "James Suckling",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2012
+        },
+        {
+          "fonte": "Robert Parker",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2012
+        },
+        {
+          "fonte": "CellarTracker",
+          "nota": 92.3,
+          "escala": 100,
+          "safra": 2012
+        },
+        {
+          "fonte": "Wine-Searcher",
+          "nota": 92,
+          "escala": 100,
+          "safra": 2012
+        }
+      ],
+      "precoMercado": 1410,
+      "descricaoCardapio": "O Cabernet de Napa do próprio Paul Hobbs: cassis, carvão e incenso, cheio e polido.",
+      "confianca": 0.85,
+      "fontes": [
+        "contrarrótulo da garrafa",
+        "wine-searcher.com",
+        "cellartracker.com",
+        "paulhobbswinery.com",
+        "leadersmag.com"
+      ],
+      "observacoes": "É o rótulo do próprio Paul Hobbs, não o CrossBarn, que é a linha de entrada dele e aparece muito nas buscas com nome quase igual — as notas do CrossBarn 2012 são bem menores (92,3 do CellarTracker aqui contra 89,8 lá) e eu não as misturei. Também não é nenhum dos vinhedos isolados, como Beckstoffer To Kalon ou Dr. Crane. Teor alcoólico 14,7% e o engarrafamento em Sebastopol vêm do contrarrótulo. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO para esta safra — nenhuma busca devolveu o número. O 92,3 do CellarTracker é média de 93 avaliações da comunidade, não de crítico. PREÇO ESTIMADO: não achei oferta brasileira da safra 2012 — a Mistral importa o rótulo, mas tinha a safra 2014. Parti da média internacional de US$ 137 sem impostos no wine-searcher, convertida a R$ 5,15 e dobrada: ~R$ 1.410. Guarda: a crítica dava 15 a 20 anos a partir do lançamento, daí o 2032. LOCAL: você disse só 'prateleira 3', então mantive a Adega principal, que é onde estávamos. Se for a Prateleira 3 da geladeira externa, me avise que eu troco.",
+      "historia": "Paul Hobbs cresceu num pomar no interior do estado de Nova York, um de onze filhos, vendendo fruta na feira antes da aula. Entrou na Robert Mondavi como estagiário em 1977 e, dois anos depois, foi escalado para a primeira equipe do Opus One, a sociedade de Mondavi com os Rothschild. Em 1988 foi para a Argentina trabalhar com Nicolás Catena e ajudou a puxar o renascimento do Malbec; em 1991 abriu a vinícola com o próprio nome em Sebastopol, e em 1999 fez a primeira safra da Viña Cobos. Este Cabernet é a casa dele em Napa — e fecha um círculo com o resto da sua adega, que já tem quatro rótulos saídos das mãos do mesmo homem."
     }
   ]
 }
