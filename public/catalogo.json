@@ -2957,6 +2957,66 @@
       ],
       "observacoes": "SAFRA COM UMA PRIMEIRA VEZ: a 2012 é o primeiro Valbuena feito só de Tempranillo. Nas outras safras entra Merlot, em proporção que muda conforme o ano — inclusive na sua irmã 2008. PROVENIÊNCIA INCOMUM: as tiras de importação são americanas, da Connoisseur Wines, de Port Washington, Nova York, e trazem impresso 'Obtained from a Private Collection'. Ou seja, esta garrafa saiu de uma adega particular nos Estados Unidos antes de chegar até você. Garrafa numerada 015.114. A colheita rendeu 174.545 bordelesas, 5.487 magnums, 262 double magnums e 12 imperiais. O rótulo é assinado por Marta Álvarez, a presidenta da casa. Teor alcoólico 14% e o engarrafamento na propriedade vêm do rótulo. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra. O 93 do Wine-Searcher é média de críticos, não nota de um crítico só. PREÇO ESTIMADO: média internacional de US$ 225 sem impostos, a R$ 5,15, dobrados: ~R$ 2.320. Não achei oferta brasileira. Repare que a 2012, mais nova e mais bem pontuada, custa menos que a 2008 — safra antiga fica rara e sobe.",
       "historia": "Vega Sicilia fica em Valbuena de Duero, na Ribera del Duero, e é a casa mais reverenciada da Espanha. O carro-chefe é o Único, que passa uma década em madeira e garrafa antes de sair. O Valbuena é o outro vinho da propriedade, e o 5º do nome é isso: ele só é lançado no quinto ano depois da colheita, contando barrica e garrafa. Não é vinho de segunda linha, é vinho de outro relógio. Cada garrafa sai numerada, e o rótulo declara quantas foram feitas naquela colheita."
+    },
+    {
+      "codigo": "AD-0050",
+      "fotos": [
+        "AD-0050-1.webp",
+        "AD-0050-2.webp"
+      ],
+      "nome": "Valbuena 5º",
+      "produtor": "Bodegas Vega Sicilia",
+      "safra": 2000,
+      "tipo": "Tinto",
+      "uvas": [
+        "Tempranillo",
+        "Merlot"
+      ],
+      "pais": "Espanha",
+      "regiao": "Castela e Leão",
+      "subRegiao": "Ribera del Duero",
+      "teorAlcoolico": 13.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 5",
+      "garrafas": 1,
+      "notasDegustacao": "Rubi médio já clareando. Ervas frescas, caixa de especiarias, lavanda e cereja preta, com ameixa, moca, tabaco e carvalho amendoado. Na boca é doce e redondo mas de estrutura firme, com framboesa e groselha; um vinho mais magro que os irmãos mais novos, e mais elegante por isso. Perfil quase bordalês, de chão de floresta e cogumelo.",
+      "harmonizacoes": [
+        "Cordeiro assado",
+        "Carne vermelha na brasa",
+        "Caça",
+        "Queijos curados"
+      ],
+      "guardaDe": 2005,
+      "guardaAte": 2026,
+      "temperatura": "16–18 °C",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Robert Parker",
+          "nota": 92,
+          "escala": 100,
+          "safra": 2000
+        },
+        {
+          "fonte": "CellarTracker",
+          "nota": 93.1,
+          "escala": 100,
+          "safra": 2000
+        }
+      ],
+      "precoMercado": 2310,
+      "descricaoCardapio": "O Valbuena da virada do século: ervas, lavanda e chão de floresta, magro e elegante.",
+      "confianca": 0.8,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "vega-sicilia.com",
+        "cellartracker.com",
+        "jancisrobinson.com",
+        "wine-searcher.com"
+      ],
+      "observacoes": "É A GARRAFA MAIS VELHA DAS TRÊS VEGA SICILIA DA CASA — 2000, 2008 e 2012 — e a mais velha de todo o acervo depois do Cobos Nico 2006 e do Araujo 2000. Vinte e seis anos. Já mostra o rubi clareando na descrição da crítica, e o registro dela é de ervas, chão de floresta e cogumelo, não mais de fruta. ABRA SEM ESPERAR MAIS: a janela que registrei termina agora e é estimativa. O selo da Denominación de Origen no verso classifica esta safra como RESERVA, com o número 4A C0169983. Garrafa numerada 170.408. A colheita 2000 rendeu 185.808 bordelesas, 3.218 magnums e 150 double magnums, tudo declarado no rótulo, junto com o teor de 13,5%. Esta não tem tira de importação americana como as outras duas, então não sei dizer por onde veio. AS CASTAS ACOMPANHANTES NÃO ESTÃO NO RÓTULO. Registrei Tempranillo e Merlot, a dupla habitual da casa; as fontes divergem sobre o que mais entra em cada safra. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. Jancis Robinson tem prova registrada desta safra, mas não recuperei a nota. O 93,1 do CellarTracker é média da comunidade, não de crítico. CUIDADO COM UMA CONFUSÃO QUE APARECE NAS BUSCAS: o 96 de Robert Parker que circula colado a este vinho é da safra 1995, não da 2000. A 2000 levou 92, na edição 159 do Wine Advocate, de junho de 2005. PREÇO ESTIMADO: média internacional de US$ 224 sem impostos, a R$ 5,15, dobrados: ~R$ 2.310. QUANTIDADE: você mandou só a prateleira, sem número. Registrei 1 garrafa. Se forem mais, me diga.",
+      "historia": "Vega Sicilia fica em Valbuena de Duero, na Ribera del Duero, e é a casa mais reverenciada da Espanha. O carro-chefe é o Único, que passa uma década em madeira e garrafa antes de sair. O Valbuena é o outro vinho da propriedade, e o 5º do nome é isso: ele só é lançado no quinto ano depois da colheita, contando barrica e garrafa. Não é vinho de segunda linha, é vinho de outro relógio. Cada garrafa sai numerada, e o rótulo declara quantas foram feitas naquela colheita."
     }
   ]
 }
