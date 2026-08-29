@@ -466,6 +466,73 @@
         "familiascopel.com.br"
       ],
       "observacoes": "Teor de 12% lido no próprio rótulo. A nota 4,6 do Vivino é do rótulo Cristal Millésimé como um todo, não da safra 2005 isolada. Preço: a média internacional da safra 2005 é de US$ 542 sem impostos; convertida (US$1≈R$5,16) e dobrada dá ~R$5.600. A safra atual custa R$ 4.290 no Brasil contra ~US$ 335 lá fora, o que dá um multiplicador real de 2,5× — aplicado à 2005, daria ~R$6.900. Registrei R$6.000, no meio da faixa. Não achei a safra 2005 à venda no Brasil: é safra madura e rara. Janela de guarda é estimativa."
+    },
+    {
+      "codigo": "AD-0008",
+      "fotos": [
+        "AD-0008-1.webp"
+      ],
+      "nome": "Vintage",
+      "produtor": "Dom Pérignon (Moët & Chandon)",
+      "safra": 2004,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Épernay",
+      "teorAlcoolico": 12.5,
+      "volumeMl": 750,
+      "adega": "Geladeira externa",
+      "prateleira": "Prateleira 1",
+      "garrafas": 4,
+      "historia": "O nome é o do monge Pierre Pérignon, que cuidou da adega da abadia de Hautvillers entre 1668 e 1715 e é lembrado como quem levou o método da região a sério muito antes de existir champagne como conhecemos. \"Altum Villare\", impresso no alto do rótulo, é o nome latino de Hautvillers. A casa só engarrafa em anos que considera à altura — nunca faz corte de safras —, e a 2004 veio de um ciclo longo e frio, na colheita mais abundante já registrada na Champagne.",
+      "notasDegustacao": "Corte de 52% Pinot Noir e 48% Chardonnay. Cítrico e mineral na abertura, com brioche, amêndoa e um fundo tostado da maturidade; boca tensa, de acidez firme e final longo.",
+      "harmonizacoes": [
+        "Ostras",
+        "Frutos do mar",
+        "Peixes grelhados",
+        "Aves",
+        "Queijos de casca mole",
+        "Aperitivo"
+      ],
+      "guardaDe": 2012,
+      "guardaAte": 2032,
+      "temperatura": "10–12 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "James Suckling",
+          "nota": 96,
+          "escala": 100,
+          "safra": 2004
+        },
+        {
+          "fonte": "John Gilman",
+          "nota": 96,
+          "escala": 100,
+          "safra": 2004
+        },
+        {
+          "fonte": "Robert Parker",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2004
+        }
+      ],
+      "precoMercado": 4000,
+      "descricaoCardapio": "Safra 2004 do rótulo de Hautvillers: cítrico e mineral, com brioche e final tenso.",
+      "confianca": 0.97,
+      "fontes": [
+        "vinovest.co",
+        "jamessuckling.com",
+        "wine.com",
+        "evino.com.br",
+        "emporiosolera.com.br"
+      ],
+      "observacoes": "NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra — o rótulo tem mais de 22 mil avaliações lá, mas nenhuma fonte que encontrei trazia o número da 2004. Vale conferir no app do Vivino e acrescentar à mão. Teor de 12,5% lido no próprio rótulo. É a garrafa Vintage padrão, não a P2 (a P2 traz P2 impresso no rótulo e tem notas mais altas). Preço: a 2004 sai por ~US$ 400 em loja americana; convertida (US$1≈R$5,16) e dobrada dá ~R$4.100, e registrei R$4.000. Para comparar: a safra atual custa R$ 1.700 a R$ 2.500 no Brasil — safra madura de 20 anos vale bem mais. Janela de guarda é estimativa."
     }
   ]
 }
