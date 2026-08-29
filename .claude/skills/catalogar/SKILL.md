@@ -74,14 +74,17 @@ O que interessa é o **preço de prateleira no Brasil**, em reais.
    abaixo dos demais quase sempre é outro vinho, outra safra ou outro formato —
    confira antes de usar.
 3. **Descarte promoções e pontas soltas** e use a **mediana** do que sobrar.
-4. **Só achou preço em euro ou dólar?** Converta pela cotação do dia e
+4. **Produto nacional não dobra.** Espumante da Serra Gaúcha, cachaça, licor
+   brasileiro: o preço de loja daqui já é o preço final, não passa por
+   importação. Dobrar seria inventar imposto que não existe.
+5. **Só achou preço em euro ou dólar?** Converta pela cotação do dia e
    **multiplique por 2**: imposto de importação, ICMS e margem praticamente
    dobram o preço aqui. Busque a cotação, não chute. Se também houver alguma
    loja brasileira, use-a para conferir se a conta bateu.
-5. **Registre a faixa em `observacoes`**, não só o número: de quanto a quanto as
+6. **Registre a faixa em `observacoes`**, não só o número: de quanto a quanto as
    lojas pedem e como você chegou ao valor. Quando as lojas discordam muito,
    um número sozinho na ficha vira dado falso.
-6. Se o usuário disser quanto pagou, isso vai em `precoPago` — é fato, não
+7. Se o usuário disser quanto pagou, isso vai em `precoPago` — é fato, não
    estimativa.
 
 ### 3. Gravar

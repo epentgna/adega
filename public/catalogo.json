@@ -1211,6 +1211,54 @@
       ],
       "observacoes": "Mesmo Yellow Label do AD-0004 (1 garrafa na adega principal) e do AD-0017 (magnum). Estas 27 estão fora da geladeira, no armário — sem prateleira definida. Você disse apenas \"fora da geladeira\"; assumi o armário, como no Moët e no Perrier-Jouët. Esta leva o selo \"250 ANS\" no gargalo, do aniversário de 250 anos da casa em 2022 — é o mesmo vinho, só datando o engarrafamento. Sem safra (não safrado), como é padrão do Yellow Label. Teor de 12% lido no próprio rótulo. Preço R$ 450 é de loja brasileira (Pão de Açúcar), não estimativa.",
       "historia": "Barbe-Nicole Ponsardin ficou viúva aos 27 anos, em 1805, e assumiu a casa do marido numa época em que mulher não dirigia negócio na França. Virou a Veuve — a viúva — Clicquot. Em 1816 inventou a mesa de remuage, que permite retirar as borras sem perder o gás e é usada até hoje em toda a Champagne. O rótulo amarelo, que ela adotou em 1877 para distinguir o Brut, virou a marca visual mais reconhecível da região."
+    },
+    {
+      "codigo": "AD-0021",
+      "fotos": [
+        "AD-0021-1.webp"
+      ],
+      "nome": "Réserve Brut",
+      "produtor": "Chandon do Brasil",
+      "safra": null,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Riesling Itálico"
+      ],
+      "pais": "Brasil",
+      "regiao": "Serra Gaúcha",
+      "subRegiao": "Garibaldi",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 7,
+      "historia": "A Chandon foi a primeira das grandes casas de champagne a produzir fora da França, e a vinícola de Garibaldi, na Serra Gaúcha, foi inaugurada em 1973 — os franceses escolheram a região pelo clima e pelo solo, e é a mesma Moët & Chandon de Épernay por trás. Não é champagne, e nem se chama assim: é espumante brasileiro, feito pelo método Charmat, com a segunda fermentação em tanque em vez de na garrafa. Daí o perfil mais frutado e direto.",
+      "notasDegustacao": "Amarelo esverdeado com reflexos dourados, borbulha fina e espuma abundante. Flores brancas, limão, maçã e abacaxi, com pão fresco ao fundo; boca leve, fresca e fácil, de final seco.",
+      "harmonizacoes": [
+        "Aperitivo",
+        "Petiscos fritos",
+        "Frutos do mar",
+        "Peixes",
+        "Queijos frescos",
+        "Sushi"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "6–8 °C",
+      "decantarMin": null,
+      "avaliacoes": [],
+      "precoMercado": 110,
+      "descricaoCardapio": "Espumante da Serra Gaúcha pelo método Charmat: flores brancas, maçã e abacaxi.",
+      "confianca": 0.97,
+      "fontes": [
+        "chandon.com.br",
+        "evino.com.br",
+        "paodeacucar.com",
+        "wine-searcher.com"
+      ],
+      "observacoes": "NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO — o rótulo está lá (Chandon Brazil Réserve Brut), mas nenhuma fonte trazia o número. Vale conferir no app e acrescentar à mão. Espumante não safrado, então também não há nota de crítico aplicável. PREÇO SEM A REGRA DO DOBRO: é produto brasileiro, não paga importação. R$ 110 vem direto de loja (Evino, Pão de Açúcar) — dobrar aqui seria errado. As uvas variam de lote: a própria Chandon publica 40% Pinot Noir / 30% Riesling Itálico / 30% Chardonnay, e outra fonte traz 35/35/30 — por isso registrei as castas sem os percentuais. Método Charmat, não tradicional. Teor alcoólico não estava legível na foto."
     }
   ]
 }
