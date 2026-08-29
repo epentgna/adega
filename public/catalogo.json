@@ -1546,6 +1546,178 @@
       ],
       "observacoes": "Mesmo rótulo do AD-0002, agora com a safra legível: 2017. James Suckling chamou este vinho de \"o melhor Bonarda da Argentina\". ATENÇÃO — O AD-0002 CONTINUA SEM SAFRA: é a garrafa avulsa na adega principal, cujo rótulo não estava legível na foto. Se for 2017 como estas, me diga que eu completo a ficha dela. A nota 4,5 do Vivino é do rótulo (41 avaliações), não da safra 2017 isolada; a do CellarTracker é da 2017. Preço R$ 499 vem de loja brasileira, o que é melhor que a estimativa que eu tinha no AD-0002 (R$ 460, calculada a partir de €38 dobrados). Vale corrigir aquela também.",
       "historia": "Nicola Catena nasceu em Belforte del Chienti, nas Marcas italianas, em 1882 — é o que está escrito no alto do rótulo, sobre o retrato dele. Emigrou para a Argentina e plantou seu primeiro vinhedo em Mendoza, às margens do rio Tunuyán, em 1902. Gerações depois, ao descobrirem que a uva predileta do bisavô era a Bonarda, os descendentes foram atrás de uma parcela à altura: vinhas com mais de 80 anos no leste de Mendoza, onde o sol forte amadurece por inteiro essa casta tardia."
+    },
+    {
+      "codigo": "AD-0028",
+      "fotos": [
+        "AD-0028-1.webp"
+      ],
+      "nome": "Touriga Franca",
+      "produtor": "Quinta do Crasto",
+      "safra": 2017,
+      "tipo": "Tinto",
+      "uvas": [
+        "Touriga Franca"
+      ],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Douro DOC",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 1,
+      "historia": "A Quinta do Crasto fica na margem direita do Douro, entre a Régua e o Pinhão: 130 hectares, 70 deles de vinha. O Touriga Franca é monovarietal da gama premium e a casa só o engarrafa nos anos em que a colheita chega ao nível que ela exige — não sai toda safra.",
+      "notasDegustacao": "Touriga Franca pura, a casta mais representativa do Douro. Cor violeta profunda, aroma puro e exuberante de fruta vermelha com violeta; boca de início fresco e intenso, bom volume e taninos de textura sedosa.",
+      "harmonizacoes": [
+        "Carne vermelha grelhada",
+        "Cordeiro",
+        "Caça",
+        "Queijos curados",
+        "Bacalhau assado"
+      ],
+      "guardaDe": 2021,
+      "guardaAte": 2032,
+      "temperatura": "16–18 °C",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Adega Magazine",
+          "nota": 95,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "Jancis Robinson",
+          "nota": 16,
+          "escala": 20,
+          "safra": 2017
+        }
+      ],
+      "precoMercado": 480,
+      "descricaoCardapio": "Touriga Franca pura do Douro: fruta vermelha, violeta e taninos sedosos.",
+      "confianca": 0.95,
+      "fontes": [
+        "quintadocrasto.wine",
+        "vivino.com",
+        "wineenthusiast.com",
+        "portugalvineyards.com"
+      ],
+      "observacoes": "Levou também Grand Gold no Wines of Portugal Challenge de 2022 — medalha, não nota, por isso não entrou na lista. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. PREÇO ESTIMADO: não achei este rótulo à venda no Brasil. Parti de ~US$ 45 lá fora, convertidos (US$1≈R$5,16) e dobrados pelos impostos, o que dá ~R$480. É estimativa frágil — se você souber quanto pagou, vale corrigir. Janela de guarda é estimativa. Teor alcoólico não estava legível na foto."
+    },
+    {
+      "codigo": "AD-0029",
+      "fotos": [
+        "AD-0029-1.webp"
+      ],
+      "nome": "Colheita Seleccionada",
+      "produtor": "Quinta do Crasto",
+      "safra": 2013,
+      "tipo": "Tinto",
+      "uvas": [],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Douro DOC",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 1,
+      "historia": "A Quinta do Crasto fica na margem direita do Douro, entre a Régua e o Pinhão: 130 hectares, 70 deles de vinha. Esta garrafa não tem rótulo de papel — o nome vem serigrafado direto no vidro, com o selo de garantia do Douro no gargalo.",
+      "notasDegustacao": "",
+      "harmonizacoes": [
+        "Carne vermelha",
+        "Cordeiro",
+        "Queijos curados"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "16–18 °C",
+      "decantarMin": 60,
+      "avaliacoes": [],
+      "precoMercado": null,
+      "descricaoCardapio": "Douro de 2013 da Quinta do Crasto, em garrafa serigrafada.",
+      "confianca": 0.6,
+      "fontes": [
+        "quintadocrasto.wine"
+      ],
+      "observacoes": "RÓTULO QUE NÃO CONSEGUI DOCUMENTAR. Procurei e não achei \"Colheita Seleccionada\" na linha publicada da Quinta do Crasto nem em loja nenhuma. Pode ser engarrafamento especial para importador ou para o mercado brasileiro. Por isso ficaram em branco as castas, as notas de degustação, as avaliações e O PREÇO — preferi deixar vazio a inventar número. O que está registrado veio do que dá para ler na garrafa: Quinta do Crasto, Colheita Seleccionada, Douro D.O.C., 2013, Produto de Portugal. Se você souber de onde veio ou quanto custou, me diga que eu completo. Com 13 anos, é garrafa para conferir o estado antes de guardar mais."
+    },
+    {
+      "codigo": "AD-0030",
+      "fotos": [
+        "AD-0030-1.webp"
+      ],
+      "nome": "Touriga Franca",
+      "produtor": "Quinta do Crasto",
+      "safra": 2016,
+      "tipo": "Tinto",
+      "uvas": [
+        "Touriga Franca"
+      ],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Douro DOC",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 1,
+      "historia": "A Quinta do Crasto fica na margem direita do Douro, entre a Régua e o Pinhão: 130 hectares, 70 deles de vinha. O Touriga Franca é monovarietal da gama premium e a casa só o engarrafa nos anos em que a colheita chega ao nível que ela exige — não sai toda safra.",
+      "notasDegustacao": "Touriga Franca pura, a casta mais representativa do Douro. Cor violeta profunda, aroma puro e exuberante de fruta vermelha com violeta; boca de início fresco e intenso, bom volume e taninos de textura sedosa.",
+      "harmonizacoes": [
+        "Carne vermelha grelhada",
+        "Cordeiro",
+        "Caça",
+        "Queijos curados",
+        "Bacalhau assado"
+      ],
+      "guardaDe": 2020,
+      "guardaAte": 2031,
+      "temperatura": "16–18 °C",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Adega Magazine",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2016
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2016
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2016
+        },
+        {
+          "fonte": "João Paulo Martins",
+          "nota": 18.5,
+          "escala": 20,
+          "safra": 2016
+        }
+      ],
+      "precoMercado": 480,
+      "descricaoCardapio": "Touriga Franca pura do Douro: fruta vermelha, violeta e taninos sedosos.",
+      "confianca": 0.95,
+      "fontes": [
+        "quintadocrasto.wine",
+        "vivino.com",
+        "jamessuckling.com",
+        "wineenthusiast.com"
+      ],
+      "observacoes": "Mesma Touriga Franca do AD-0028, safra anterior. O 18,5 é do Guia de Vinhos do Douro de João Paulo Martins, em escala 20. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. PREÇO ESTIMADO pelo mesmo caminho do AD-0028 (~US$ 45 dobrados): ~R$480, estimativa frágil. Janela de guarda é estimativa. Teor alcoólico não estava legível na foto."
     }
   ]
 }
