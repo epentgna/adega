@@ -102,7 +102,7 @@
           "safra": 2020
         }
       ],
-      "precoMercado": 460,
+      "precoMercado": 499,
       "descricaoCardapio": "Bonarda de vinhas velhas, homenagem ao bisavô italiano da família Catena.",
       "confianca": 0.85,
       "fontes": [
@@ -110,7 +110,7 @@
         "vivino.com",
         "wine-searcher.com"
       ],
-      "observacoes": "SAFRA NÃO IDENTIFICADA — a parte de baixo do rótulo não estava legível na foto. Confira na garrafa e corrija no app. Notas referem-se à safra 2020. Preço: média internacional de €38, convertida (€1≈R$6,02) e dobrada pelos impostos, dá ~R$460; não achei loja brasileira com este rótulo.",
+      "observacoes": "SAFRA NÃO IDENTIFICADA — a parte de baixo do rótulo não estava legível na foto. Confira na garrafa e corrija no app; os outros lotes deste mesmo rótulo (AD-0027 e AD-0042) são 2017. Notas referem-se à safra 2020. PREÇO CORRIGIDO para R$ 499, que é oferta de loja brasileira — melhor fonte que a estimativa anterior de R$ 460, calculada a partir de €38 dobrados. Teor alcoólico não preenchido porque depende da safra, que ainda não sei.",
       "historia": "Nicola Catena nasceu em Belforte del Chienti, nas Marcas italianas, em 1882 — é o que está escrito no alto do rótulo, sobre o retrato dele. Emigrou para a Argentina e plantou seu primeiro vinhedo em Mendoza, às margens do rio Tunuyán, em 1902. Gerações depois, ao descobrirem que a uva predileta do bisavô era a Bonarda, os descendentes foram atrás de uma parcela à altura: vinhas com mais de 80 anos no leste de Mendoza, onde o sol forte amadurece por inteiro essa casta tardia."
     },
     {
@@ -1510,7 +1510,7 @@
       "pais": "Argentina",
       "regiao": "Mendoza",
       "subRegiao": "Leste de Mendoza",
-      "teorAlcoolico": null,
+      "teorAlcoolico": 13.7,
       "volumeMl": 750,
       "adega": "Armário",
       "prateleira": "",
@@ -2319,6 +2319,171 @@
       ],
       "observacoes": "Sessantanni quer dizer sessenta anos — é a idade mínima das vinhas, não do vinho. Mesma casa do AD-0037, o Collezione Cinquanta, e veio pelo mesmo caminho: importado pela Timbro Trading, distribuído pela Grand Cru, tudo do contrarrótulo, junto com o teor de 14,5% e o endereço em San Marzano di San Giuseppe, na província de Taranto. O 90,5 do CellarTracker é média de 102 avaliações da comunidade, não de crítico. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO nem nenhuma pontuação de Luca Maroni para esta safra. PREÇO: R$ 459 é oferta brasileira observada para a safra 2017 (de R$ 509 com desconto). A faixa que encontrei no Brasil é larga, de R$ 150 a R$ 510 — o extremo baixo quase certamente é outro produto ou outro volume. Produto vendido no Brasil, então nada de dobrar; o caminho do dólar (US$ 32 sem impostos, dobrados) daria ~R$ 330, um pouco abaixo. Existe também uma Limited Edition e formatos maiores deste mesmo rótulo — esta é a garrafa comum de 750 ml. Janela de guarda é estimativa. O contrarrótulo brasileiro classifica como 'meio seco'.",
       "historia": "Manduria é o coração do Primitivo, no salto da bota, e ali ainda restam vinhas conduzidas em alberello — o arbusto baixo, sem arame, que se planta uma a uma e se colhe à mão. As que dão este vinho passaram dos sessenta anos, e é isso que o nome anuncia. Produzem pouco e concentrado. É o carro-chefe da San Marzano, a mesma cooperativa fundada em 1962 por dezenove viticultores que assina o seu Collezione Cinquanta."
+    },
+    {
+      "codigo": "AD-0040",
+      "fotos": [
+        "AD-0040-1.webp",
+        "AD-0040-2.webp"
+      ],
+      "nome": "Chryseia",
+      "produtor": "Prats & Symington (P+S)",
+      "safra": 2019,
+      "tipo": "Tinto",
+      "uvas": [
+        "Touriga Nacional",
+        "Touriga Franca"
+      ],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Quinta de Roriz",
+      "teorAlcoolico": 14.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 3",
+      "garrafas": 1,
+      "notasDegustacao": "Três quartos de Touriga Nacional e um quarto de Touriga Franca, maceração longa e 14 meses em barricas novas de 400 litros de carvalho francês, na adega de paredes de xisto de Roriz. Nervoso e retilíneo na entrada, ganha carne na boca com taninos sedosos: ameixa preta em redução, coulis de amora, erva medicinal e ferro, com alcaçuz e café expresso. Final firme e temperado.",
+      "harmonizacoes": [
+        "Carne vermelha assada",
+        "Cabrito",
+        "Caça",
+        "Queijos curados"
+      ],
+      "guardaDe": 2024,
+      "guardaAte": 2034,
+      "temperatura": "16–18 °C",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Wine Spectator",
+          "nota": 96,
+          "escala": 100,
+          "safra": 2019
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2019
+        },
+        {
+          "fonte": "Robert Parker",
+          "nota": 90,
+          "escala": 100,
+          "safra": 2019
+        }
+      ],
+      "precoMercado": 1020,
+      "descricaoCardapio": "O Douro dos Symington com Bruno Prats: nervoso, sedoso, de alcaçuz e café no final.",
+      "confianca": 0.9,
+      "fontes": [
+        "contrarrótulo da garrafa",
+        "winespectator.com",
+        "symington.com",
+        "wine-searcher.com",
+        "cellartracker.com"
+      ],
+      "observacoes": "SAFRA HISTÓRICA: o Chryseia 2019 entrou em 52º no Top 100 da Wine Spectator de 2022, com 96 pontos — o primeiro tinto português não fortificado a entrar naquela lista. Vale contar isso quando abrir. Não confundir com o Post Scriptum, que é o segundo vinho da mesma dupla e aparece muito nas buscas. Teor de 14,5%, as barricas novas de 400 litros, a adega de xisto da quinta e o lote L211035 vêm do contrarrótulo; a proporção 75/25 e o dado de 94% de carvalho novo vêm de fora. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra. PREÇO ESTIMADO: não achei oferta brasileira. Média internacional de US$ 96 a US$ 102 sem impostos; usei US$ 99 a R$ 5,15, dobrados, o que dá ~R$ 1.020. Janela 2024–2034 é a da Wine Spectator: está entrando na melhor fase agora.",
+      "historia": "Em 1998 a família Symington, dona de metade das grandes casas de Porto, chamou Bruno Prats — que fora dono do Château Cos d'Estournel, em Bordeaux — para fazer um tinto de mesa no Douro. Foi um casamento improvável e deu certo: o primeiro Chryseia é de 2000. O nome é a tradução grega de Douro, literalmente de ouro, e resume a ideia toda — herança portuguesa nobre, método bordalês. As iniciais no rótulo, P+S, são dos dois sobrenomes."
+    },
+    {
+      "codigo": "AD-0041",
+      "fotos": [
+        "AD-0041-1.webp",
+        "AD-0041-2.webp"
+      ],
+      "nome": "Alma Negra",
+      "produtor": "Ernesto Catena Vineyards",
+      "safra": 2010,
+      "tipo": "Tinto",
+      "uvas": [],
+      "pais": "Argentina",
+      "regiao": "Mendoza",
+      "subRegiao": null,
+      "teorAlcoolico": 13.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 3",
+      "garrafas": 1,
+      "notasDegustacao": "Rubi intenso. Fruta preta madura, violeta e especiaria; macio e intenso na boca, de taninos polidos e final persistente. Alma Negra é o nome da cor: densa e escura.",
+      "harmonizacoes": [
+        "Carne vermelha grelhada",
+        "Massa com molho de carne",
+        "Queijos meia-cura"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "16–17 °C",
+      "decantarMin": 45,
+      "avaliacoes": [],
+      "precoMercado": 189,
+      "descricaoCardapio": "O corte secreto de Ernesto Catena: fruta preta, violeta e especiaria, sem dizer de que uvas é feito.",
+      "confianca": 0.6,
+      "fontes": [
+        "contrarrótulo da garrafa",
+        "vineyardbrands.com",
+        "emporiodomundo.com.br",
+        "vivino.com"
+      ],
+      "observacoes": "AS UVAS ESTÃO VAZIAS DE PROPÓSITO, e isso é o vinho todo. Ernesto Catena — filho de Nicolás, o mesmo do seu AD-0002 — criou a linha em 2006 justamente para não dizer do que o vinho é feito: nem castas, nem proporções, nem ficha técnica, para que fosse julgado só pelo que se sente. A máscara do rótulo é o símbolo disso. Existe um irmão chamado M Blend, esse sim declarado como Bonarda com Malbec, mas não é este. NENHUMA PONTUAÇÃO REGISTRADA: não achei nota de crítico nem do Vivino para a safra 2010. O 4,4 que aparece no Vivino é do rótulo Alma Negra Tinto atual, outra garrafa. PREÇO: R$ 189 é o que loja brasileira pede pelo Alma Negra Mistério de safra recente — não é preço desta garrafa de 2010, é a melhor referência que existe. ATENÇÃO À IDADE: este é um tinto feito para beber jovem, e a garrafa tem quinze anos. Pode estar ótima e pode ter passado do ponto. Se for abrir, abra logo e sem expectativa de guarda. O contrarrótulo é só poesia, não traz castas nem vinhedo.",
+      "historia": "O contrarrótulo não fala de uva nem de barrica: fala de máscara. Diz que o mistério escondido atrás de uma máscara sempre pulsou, que o jogo sensual de descobrir o que ela esconde é celebrado até hoje em festas e rituais, e que este vinho guarda a sua alma negra e profunda — que você só descobre na última taça. Ernesto Catena, quarta geração de uma família italiana em Mendoza, montou a linha em 2006 sob o nome Misterio exatamente para isso: tirar do rótulo tudo que ajuda a julgar antes de beber."
+    },
+    {
+      "codigo": "AD-0042",
+      "fotos": [
+        "AD-0042-1.webp",
+        "AD-0042-2.webp"
+      ],
+      "nome": "Parcela Nicola Catena Bonarda",
+      "produtor": "Bodega Catena Zapata",
+      "safra": 2017,
+      "tipo": "Tinto",
+      "uvas": [
+        "Bonarda"
+      ],
+      "pais": "Argentina",
+      "regiao": "Mendoza",
+      "subRegiao": "Leste de Mendoza",
+      "teorAlcoolico": 13.7,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 4",
+      "garrafas": 9,
+      "notasDegustacao": "De uma parcela pequena num vinhedo de mais de 80 anos, no sudeste de Mendoza, com rendimento baixíssimo por planta — daí a concentração. Dezoito meses em barricas pequenas de carvalho francês. Fruta preta madura e especiaria, encorpado, de taninos macios.",
+      "harmonizacoes": [
+        "Carnes assadas",
+        "Massas com molho de tomate",
+        "Queijos meia-cura"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "16–18 °C",
+      "decantarMin": 45,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.5,
+          "escala": 5,
+          "votos": 41
+        },
+        {
+          "fonte": "CellarTracker (média da comunidade)",
+          "nota": 92.4,
+          "escala": 100,
+          "safra": 2017,
+          "votos": 17
+        }
+      ],
+      "precoMercado": 499,
+      "descricaoCardapio": "Bonarda de vinhas velhas, homenagem ao bisavô italiano da família Catena.",
+      "confianca": 0.85,
+      "fontes": [
+        "catenazapata.com",
+        "vivino.com",
+        "wine-searcher.com"
+      ],
+      "observacoes": "Mesmo rótulo e mesma safra do AD-0027, que é o lote de 14 garrafas do armário; esta entrada é o lote da Adega principal. Agora com contrarrótulo: teor alcoólico 13,7%, vinhedo de mais de 80 anos no sudeste de Mendoza, parcela pequena de rendimento muito baixo, 18 meses em barricas pequenas de carvalho francês. Preenchi o teor também no AD-0027. James Suckling chamou este vinho de \"o melhor Bonarda da Argentina\". A nota 4,5 do Vivino é do rótulo, não da safra 2017 isolada. ATENÇÃO — O AD-0002 CONTINUA SEM SAFRA: é a garrafa avulsa da Prateleira 1, cujo rótulo não estava legível na foto. Se for 2017 como estas, me diga que eu completo a ficha dela. Preço R$ 499 vem de loja brasileira.",
+      "historia": "O rótulo é uma carta de família. Laura Catena, bisneta, bióloga especialista em solos, conta que o bisavô Nicola preferia a Bonarda enquanto o filho mais velho, o avô Domingo Vicente, puxava para o Malbec. Os bisnetos decidiram homenagear o antepassado com uma parcela excepcional de Bonarda — a uva que os imigrantes italianos trouxeram no fim do século XIX e que chegou a ser, nos anos 1990, a tinta mais plantada da Argentina, antes de o Malbec tomar o lugar. No alto do rótulo está de onde vieram: Del Forte del Chienti, 1882."
     }
   ]
 }
