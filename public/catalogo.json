@@ -2383,13 +2383,13 @@
       "descricaoCardapio": "O Douro dos Symington com Bruno Prats: nervoso, sedoso, de alcaçuz e café no final.",
       "confianca": 0.9,
       "fontes": [
-        "contrarrótulo da garrafa",
+        "rótulo e contrarrótulo da garrafa",
         "winespectator.com",
         "symington.com",
         "wine-searcher.com",
         "cellartracker.com"
       ],
-      "observacoes": "SAFRA HISTÓRICA: o Chryseia 2019 entrou em 52º no Top 100 da Wine Spectator de 2022, com 96 pontos — o primeiro tinto português não fortificado a entrar naquela lista. Vale contar isso quando abrir. Não confundir com o Post Scriptum, que é o segundo vinho da mesma dupla e aparece muito nas buscas. Teor de 14,5%, as barricas novas de 400 litros, a adega de xisto da quinta e o lote L211035 vêm do contrarrótulo; a proporção 75/25 e o dado de 94% de carvalho novo vêm de fora. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra. PREÇO ESTIMADO: não achei oferta brasileira. Média internacional de US$ 96 a US$ 102 sem impostos; usei US$ 99 a R$ 5,15, dobrados, o que dá ~R$ 1.020. Janela 2024–2034 é a da Wine Spectator: está entrando na melhor fase agora.",
+      "observacoes": "SAFRA HISTÓRICA: o Chryseia 2019 entrou em 52º no Top 100 da Wine Spectator de 2022, com 96 pontos — o primeiro tinto português não fortificado a entrar naquela lista. Vale contar isso quando abrir. Não confundir com o Post Scriptum, que é o segundo vinho da mesma dupla e aparece muito nas buscas. Teor de 14,5%, as barricas novas de 400 litros, a adega de xisto da quinta e o lote L211035 vêm do contrarrótulo; a proporção 75/25 e o dado de 94% de carvalho novo vêm de fora. O contrarrótulo da garrafa irmã, o AD-0069, saiu legível e confirmou também a sociedade de 1998 com Bruno Prats, a maceração à moda bordalesa em Roriz, os catorze meses de barrica e a tradução do nome. Outra garrafa deste mesmo vinho está na Prateleira 8, sob o código AD-0069. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra. PREÇO ESTIMADO: não achei oferta brasileira. Média internacional de US$ 96 a US$ 102 sem impostos; usei US$ 99 a R$ 5,15, dobrados, o que dá ~R$ 1.020. Janela 2024–2034 é a da Wine Spectator: está entrando na melhor fase agora.",
       "historia": "Em 1998 a família Symington, dona de metade das grandes casas de Porto, chamou Bruno Prats — que fora dono do Château Cos d'Estournel, em Bordeaux — para fazer um tinto de mesa no Douro. Foi um casamento improvável e deu certo: o primeiro Chryseia é de 2000. O nome é a tradução grega de Douro, literalmente de ouro, e resume a ideia toda — herança portuguesa nobre, método bordalês. As iniciais no rótulo, P+S, são dos dois sobrenomes."
     },
     {
@@ -4051,6 +4051,72 @@
       ],
       "observacoes": "PRIMEIRO VINHO CHILENO DO ACERVO, e o oitavo país do catálogo. Carmenère estreia como casta. AS UVAS NÃO ESTÃO NO RÓTULO — ele só diz que usaram as castas que melhor se adaptam ao terroir da casa, sem nomear. As fontes externas divergem: umas trazem Cabernet Sauvignon, Syrah, Mourvèdre, Carmenère e Petit Verdot; outras Cabernet Sauvignon, Merlot, Petit Verdot e Carmenère. Registrei só as três em que todas concordam. A propriedade planta ainda Syrah, Mourvèdre e Cabernet Franc nos 177 hectares dela. O RÓTULO EXPLICA O PRÓPRIO NOME: encierra, em espanhol, quer dizer encerra. E pede vinte minutos de ar antes de servir — foi de lá que tirei o tempo de decantação. Teor alcoólico 14,5%. Importado pela Ana Exportação, de Lauro de Freitas, na Bahia. SÓ UMA PONTUAÇÃO: 88 do Wine-Searcher, média de críticos, para esta safra. Não achei nota do Vivino nem de crítico individual. A casa levou bronze no International Wine Challenge com a safra 2006 e ouro no Catad'Or com a 2021 — nenhuma das duas é esta, e por isso registro como contexto, não como avaliação da garrafa. PREÇO ESTIMADO: média internacional de US$ 15 sem impostos, a R$ 5,15, dobrados: ~R$ 155. Não achei oferta brasileira apesar de o vinho ter importadora aqui. ATENÇÃO SÉRIA À IDADE: é a garrafa mais frágil do acervo em relação ao tempo. Um tinto chileno desta faixa de preço, com dezessete anos, muito provavelmente já passou. Registrei a janela terminando em 2022 justamente por isso. Se abrir, abra sem expectativa — e se estiver bem, foi sorte boa.",
       "historia": "A família faz vinho no Chile desde 1756, seis gerações, mas a Encierra é nova: nasceu em 2000, quando María Ignacia Eyzaguirre, engenheira agrônoma e enóloga, resolveu retomar a herança na terra ancestral da família em Peralillo, no Valle de Colchagua. São 177 hectares plantados com Cabernet Sauvignon, Carmenère, Syrah, Petit Verdot, Mourvèdre e Cabernet Franc. O escudo de armas impresso no rótulo é o da família — a caligrafia em volta dele não deu para ler na foto."
+    },
+    {
+      "codigo": "AD-0069",
+      "fotos": [
+        "AD-0069-1.webp",
+        "AD-0069-2.webp"
+      ],
+      "nome": "Chryseia",
+      "produtor": "Prats & Symington (P+S)",
+      "safra": 2019,
+      "tipo": "Tinto",
+      "uvas": [
+        "Touriga Nacional",
+        "Touriga Franca"
+      ],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Quinta de Roriz",
+      "teorAlcoolico": 14.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 8",
+      "garrafas": 1,
+      "notasDegustacao": "Três quartos de Touriga Nacional e um quarto de Touriga Franca, macerado longamente à moda bordalesa na pequena adega de Roriz e depois catorze meses em barricas novas de 400 litros de carvalho francês, dentro do armazém de paredes de xisto da quinta. Nervoso e retilíneo na entrada, ganha carne na boca com taninos sedosos: ameixa preta em redução, coulis de amora, erva medicinal e ferro, com alcaçuz e café expresso. Final firme e temperado.",
+      "harmonizacoes": [
+        "Carne vermelha assada",
+        "Cabrito",
+        "Caça",
+        "Queijos curados"
+      ],
+      "guardaDe": 2024,
+      "guardaAte": 2034,
+      "temperatura": "16–18 °C",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Wine Spectator",
+          "nota": 96,
+          "escala": 100,
+          "safra": 2019
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2019
+        },
+        {
+          "fonte": "Robert Parker",
+          "nota": 90,
+          "escala": 100,
+          "safra": 2019
+        }
+      ],
+      "precoMercado": 1020,
+      "descricaoCardapio": "O Douro dos Symington com Bruno Prats: nervoso, sedoso, de alcaçuz e café no final.",
+      "confianca": 0.9,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "winespectator.com",
+        "symington.com",
+        "wine-searcher.com",
+        "cellartracker.com"
+      ],
+      "observacoes": "SEGUNDA GARRAFA DE CHRYSEIA 2019 DA CASA. A primeira é o AD-0040, na Prateleira 3; esta ficou na Prateleira 8, e por isso tem entrada própria, como os outros vinhos repetidos em locais diferentes. SE FOR A MESMA GARRAFA fotografada de novo, e não uma segunda, me diga que eu apago esta e mantenho só o AD-0040. Os dois têm o mesmo lote, L211035, o que é esperado no mesmo engarrafamento e não prova nem uma coisa nem outra. ESTE CONTRARRÓTULO SAIU LEGÍVEL E CONFIRMOU TUDO: a sociedade de 1998 entre os Symington e Bruno Prats, a maceração prolongada à moda bordalesa na pequena adega de Roriz, os catorze meses em barricas novas de 400 litros de carvalho francês no armazém de xisto da quinta, e a explicação do nome — Chryseia é a tradução grega de Douro, literalmente de ouro, e simboliza a união de uma herança vitícola portuguesa nobre com a tradição enológica bordalesa. Da primeira vez eu tinha tirado parte disso de fonte externa; agora está tudo no rótulo. SAFRA HISTÓRICA: o Chryseia 2019 entrou em 52º no Top 100 da Wine Spectator de 2022, com 96 pontos — o primeiro tinto português não fortificado a entrar naquela lista. Não confundir com o Post Scriptum, que é o segundo vinho da mesma dupla. Teor de 14,5%, 75 cl, engarrafado pela Prats & Symington em S. João da Pesqueira, com selo do Instituto dos Vinhos do Douro e do Porto sob o número BT04-845639. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra. PREÇO ESTIMADO: média internacional de US$ 96 a US$ 102 sem impostos; usei US$ 99 a R$ 5,15, dobrados, o que dá ~R$ 1.020. Não achei oferta brasileira. Janela 2024–2034 é a da Wine Spectator: está entrando na melhor fase agora.",
+      "historia": "Em 1998 a família Symington, dona de metade das grandes casas de Porto, chamou Bruno Prats — que fora dono do Château Cos d'Estournel, em Bordeaux — para fazer um tinto de mesa no Douro. Foi um casamento improvável e deu certo: o primeiro Chryseia é de 2000. O nome é a tradução grega de Douro, literalmente de ouro, e resume a ideia toda — herança portuguesa nobre, método bordalês. As iniciais no rótulo, P+S, são dos dois sobrenomes."
     }
   ]
 }
