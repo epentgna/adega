@@ -842,6 +842,100 @@
       "prateleira": "",
       "garrafas": 12,
       "observacoes": "Champagne não safrado: as notas de críticos mudam conforme o lote e o ano-base do corte, e não dá para saber qual vale para esta garrafa — por isso só a do Vivino, que é do rótulo. Teor de 12% e volume de 750 ml lidos no rótulo. Preço de loja brasileira, entre R$ 400 e R$ 550; registrei a mediana R$ 470. Mesmo vinho do AD-0012, que está na geladeira externa. Estas 12 estão fora da geladeira, no armário — sem prateleira definida; dá para nomear as prateleiras do armário em Gestão › Adegas."
+    },
+    {
+      "nome": "Grand Brut",
+      "produtor": "Perrier-Jouët",
+      "safra": null,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Pinot Meunier",
+        "Chardonnay"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Épernay",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "historia": "A casa foi fundada em 1811 por Pierre-Nicolas Perrier e Rose-Adélaïde Jouët — o rótulo junta os dois sobrenomes, e o \"maison fondée en 1811\" está impresso na garrafa. Foi das primeiras a mandar champagne sem dosagem de açúcar para o mercado inglês, no século XIX, quando a região ainda vendia quase tudo doce. As anêmonas douradas do rótulo vêm do desenho art nouveau que Émile Gallé fez para a casa em 1902, e viraram o emblema dela.",
+      "notasDegustacao": "Corte de 40% Pinot Noir, 40% Pinot Meunier e 20% Chardonnay. Flores brancas e fruta branca — maçã e pera —, com cítricos e um fundo tostado; boca leve e fresca, de final seco.",
+      "harmonizacoes": [
+        "Aperitivo",
+        "Frutos do mar",
+        "Peixes",
+        "Queijos frescos",
+        "Salgadinhos fritos"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "8–10 °C",
+      "decantarMin": null,
+      "avaliacoes": [],
+      "precoMercado": 520,
+      "descricaoCardapio": "O champagne das anêmonas de Épernay: flores brancas, maçã e final seco.",
+      "confianca": 0.97,
+      "fontes": [
+        "perrier-jouet.com",
+        "imigrantesbebidas.com.br",
+        "superadega.com.br",
+        "vivino.com"
+      ],
+      "codigo": "AD-0014",
+      "fotos": [
+        "AD-0014-1.webp"
+      ],
+      "adega": "Geladeira externa",
+      "prateleira": "Prateleira 3",
+      "garrafas": 12,
+      "observacoes": "NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO: o rótulo tem mais de 9 mil avaliações lá, mas nenhuma fonte que encontrei trazia o número. Vale conferir no app e acrescentar à mão. Champagne não safrado, então também não registrei notas de críticos — elas mudam conforme o lote e o ano-base do corte. Teor alcoólico não estava legível na foto. Preço: lojas brasileiras de R$ 340 (esgotado, provavelmente preço antigo) a R$ 702; registrei R$ 520, no meio da faixa — vale conferir. Mesmo vinho do AD-0015, que está no armário."
+    },
+    {
+      "nome": "Grand Brut",
+      "produtor": "Perrier-Jouët",
+      "safra": null,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Pinot Meunier",
+        "Chardonnay"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Épernay",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "historia": "A casa foi fundada em 1811 por Pierre-Nicolas Perrier e Rose-Adélaïde Jouët — o rótulo junta os dois sobrenomes, e o \"maison fondée en 1811\" está impresso na garrafa. Foi das primeiras a mandar champagne sem dosagem de açúcar para o mercado inglês, no século XIX, quando a região ainda vendia quase tudo doce. As anêmonas douradas do rótulo vêm do desenho art nouveau que Émile Gallé fez para a casa em 1902, e viraram o emblema dela.",
+      "notasDegustacao": "Corte de 40% Pinot Noir, 40% Pinot Meunier e 20% Chardonnay. Flores brancas e fruta branca — maçã e pera —, com cítricos e um fundo tostado; boca leve e fresca, de final seco.",
+      "harmonizacoes": [
+        "Aperitivo",
+        "Frutos do mar",
+        "Peixes",
+        "Queijos frescos",
+        "Salgadinhos fritos"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "8–10 °C",
+      "decantarMin": null,
+      "avaliacoes": [],
+      "precoMercado": 520,
+      "descricaoCardapio": "O champagne das anêmonas de Épernay: flores brancas, maçã e final seco.",
+      "confianca": 0.97,
+      "fontes": [
+        "perrier-jouet.com",
+        "imigrantesbebidas.com.br",
+        "superadega.com.br",
+        "vivino.com"
+      ],
+      "codigo": "AD-0015",
+      "fotos": [
+        "AD-0015-1.webp"
+      ],
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 13,
+      "observacoes": "NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO: o rótulo tem mais de 9 mil avaliações lá, mas nenhuma fonte que encontrei trazia o número. Vale conferir no app e acrescentar à mão. Champagne não safrado, então também não registrei notas de críticos — elas mudam conforme o lote e o ano-base do corte. Teor alcoólico não estava legível na foto. Preço: lojas brasileiras de R$ 340 (esgotado, provavelmente preço antigo) a R$ 702; registrei R$ 520, no meio da faixa — vale conferir. Mesmo vinho do AD-0014, que está na geladeira externa. Você disse apenas \"fora da geladeira\"; assumi o armário, como no Moët. Se for outro lugar, é só corrigir."
     }
   ]
 }
