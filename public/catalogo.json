@@ -936,6 +936,230 @@
       "prateleira": "",
       "garrafas": 13,
       "observacoes": "NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO: o rótulo tem mais de 9 mil avaliações lá, mas nenhuma fonte que encontrei trazia o número. Vale conferir no app e acrescentar à mão. Champagne não safrado, então também não registrei notas de críticos — elas mudam conforme o lote e o ano-base do corte. Teor alcoólico não estava legível na foto. Preço: lojas brasileiras de R$ 340 (esgotado, provavelmente preço antigo) a R$ 702; registrei R$ 520, no meio da faixa — vale conferir. Mesmo vinho do AD-0014, que está na geladeira externa. Você disse apenas \"fora da geladeira\"; assumi o armário, como no Moët. Se for outro lugar, é só corrigir."
+    },
+    {
+      "codigo": "AD-0016",
+      "fotos": [
+        "AD-0016-1.webp"
+      ],
+      "nome": "Vintage (Magnum 1,5 L)",
+      "produtor": "Dom Pérignon (Moët & Chandon)",
+      "safra": 2004,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Épernay",
+      "teorAlcoolico": 12.5,
+      "volumeMl": 1500,
+      "adega": "Geladeira externa",
+      "prateleira": "Prateleira 4",
+      "garrafas": 2,
+      "historia": "O nome é o do monge Pierre Pérignon, que cuidou da adega da abadia de Hautvillers entre 1668 e 1715 e é lembrado como quem levou o método da região a sério muito antes de existir champagne como conhecemos. \"Altum Villare\", impresso no alto do rótulo, é o nome latino de Hautvillers. A casa só engarrafa em anos que considera à altura — nunca faz corte de safras —, e a 2004 veio de um ciclo longo e frio, na colheita mais abundante já registrada na Champagne. Magnum de 1,5 L. Champagne envelhece melhor e mais devagar em magnum: o volume dobra mas a entrada de oxigênio pela rolha é a mesma, então o vinho evolui na metade do ritmo.",
+      "notasDegustacao": "Corte de 52% Pinot Noir e 48% Chardonnay. Cítrico e mineral na abertura, com brioche, amêndoa e um fundo tostado da maturidade; boca tensa, de acidez firme e final longo.",
+      "harmonizacoes": [
+        "Ostras",
+        "Frutos do mar",
+        "Peixes grelhados",
+        "Aves",
+        "Queijos de casca mole",
+        "Aperitivo"
+      ],
+      "guardaDe": 2012,
+      "guardaAte": 2032,
+      "temperatura": "10–12 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "James Suckling",
+          "nota": 96,
+          "escala": 100,
+          "safra": 2004
+        },
+        {
+          "fonte": "John Gilman",
+          "nota": 96,
+          "escala": 100,
+          "safra": 2004
+        },
+        {
+          "fonte": "Robert Parker",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2004
+        }
+      ],
+      "precoMercado": 8800,
+      "descricaoCardapio": "Safra 2004 do rótulo de Hautvillers: cítrico e mineral, com brioche e final tenso.",
+      "confianca": 0.97,
+      "fontes": [
+        "vinovest.co",
+        "jamessuckling.com",
+        "wine.com",
+        "evino.com.br",
+        "emporiosolera.com.br"
+      ],
+      "observacoes": "Mesma Vintage 2004 do AD-0008 (750 ml), aqui em magnum. Continua sem a nota do Vivino confirmada. Preço: R$ 4.000 na garrafa de 750 ml × 2,2 = ~R$8.800 — é a estimativa mais frágil do catálogo, porque magnum de safra madura costuma ter ágio maior que 2,2×. Preço de magnum: no Brasil o Veuve Clicquot Brut de 1,5 L sai por R$ 850 a R$ 1.310, contra R$ 450 na garrafa de 750 ml — um multiplicador de cerca de 2,2×, que usei para os magnums sem preço próprio encontrado. Magnum de 1,5 L. Champagne envelhece melhor e mais devagar em magnum: o volume dobra mas a entrada de oxigênio pela rolha é a mesma, então o vinho evolui na metade do ritmo."
+    },
+    {
+      "codigo": "AD-0017",
+      "fotos": [
+        "AD-0017-1.webp"
+      ],
+      "nome": "Brut Yellow Label (Magnum 1,5 L)",
+      "produtor": "Veuve Clicquot Ponsardin",
+      "safra": null,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Pinot Meunier",
+        "Chardonnay"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Reims",
+      "teorAlcoolico": 12.0,
+      "volumeMl": 1500,
+      "adega": "Geladeira externa",
+      "prateleira": "Prateleira 4",
+      "garrafas": 1,
+      "notasDegustacao": "Champagne não safrado, com cerca de 35% de vinhos de reserva. Fruta cítrica e maçã, brioche e amêndoa, com perlage fina e final seco.",
+      "harmonizacoes": [
+        "Ostras",
+        "Frutos do mar",
+        "Salgadinhos fritos",
+        "Aperitivo"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "8–10 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.3,
+          "escala": 5
+        }
+      ],
+      "precoMercado": 1000,
+      "descricaoCardapio": "O champagne de rótulo amarelo: cítrico, com brioche e perlage fina.",
+      "confianca": 0.98,
+      "fontes": [
+        "veuveclicquot.com",
+        "vivino.com",
+        "paodeacucar.com"
+      ],
+      "observacoes": "Mesmo Yellow Label do AD-0004 (750 ml), aqui em magnum. Preço vem direto de loja brasileira: R$ 850 a R$ 1.310 no magnum; registrei R$ 1.000. Preço de magnum: no Brasil o Veuve Clicquot Brut de 1,5 L sai por R$ 850 a R$ 1.310, contra R$ 450 na garrafa de 750 ml — um multiplicador de cerca de 2,2×, que usei para os magnums sem preço próprio encontrado. Magnum de 1,5 L. Champagne envelhece melhor e mais devagar em magnum: o volume dobra mas a entrada de oxigênio pela rolha é a mesma, então o vinho evolui na metade do ritmo.",
+      "historia": "Barbe-Nicole Ponsardin ficou viúva aos 27 anos, em 1805, e assumiu a casa do marido numa época em que mulher não dirigia negócio na França. Virou a Veuve — a viúva — Clicquot. Em 1816 inventou a mesa de remuage, que permite retirar as borras sem perder o gás e é usada até hoje em toda a Champagne. O rótulo amarelo, que ela adotou em 1877 para distinguir o Brut, virou a marca visual mais reconhecível da região. Magnum de 1,5 L. Champagne envelhece melhor e mais devagar em magnum: o volume dobra mas a entrada de oxigênio pela rolha é a mesma, então o vinho evolui na metade do ritmo."
+    },
+    {
+      "nome": "Impérial Brut (Magnum 1,5 L)",
+      "produtor": "Moët & Chandon",
+      "safra": null,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Pinot Meunier",
+        "Chardonnay"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Épernay",
+      "teorAlcoolico": 12.0,
+      "volumeMl": 1500,
+      "historia": "A Moët & Chandon foi fundada em 1743 por Claude Moët e é hoje a maior casa da Champagne. O neto dele, Jean-Rémy, fez amizade com Napoleão — que passava pela maison a caminho das campanhas — e foi em homenagem ao imperador que o rótulo ganhou o nome Impérial, em 1869. É um champagne de corte: mistura de mais de cem vinhos de safras diferentes, feito para ter sempre o mesmo perfil, ano após ano. Magnum de 1,5 L. Champagne envelhece melhor e mais devagar em magnum: o volume dobra mas a entrada de oxigênio pela rolha é a mesma, então o vinho evolui na metade do ritmo.",
+      "notasDegustacao": "Corte das três castas da região. Amarelo palha com reflexos dourados e perlage fina; maçã verde, pera e cítricos, com brioche e um toque de nozes; boca fresca e final seco.",
+      "harmonizacoes": [
+        "Aperitivo",
+        "Frutos do mar",
+        "Peixes",
+        "Salgadinhos fritos",
+        "Queijos frescos"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "8–10 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.2,
+          "escala": 5
+        }
+      ],
+      "precoMercado": 1030,
+      "descricaoCardapio": "O champagne de corte da maior casa de Épernay: maçã verde, brioche e final seco.",
+      "confianca": 0.98,
+      "fontes": [
+        "moet.com",
+        "vivino.com",
+        "casadabebida.com.br",
+        "espacoprime.com.br"
+      ],
+      "codigo": "AD-0018",
+      "fotos": [
+        "AD-0018-1.webp"
+      ],
+      "adega": "Geladeira externa",
+      "prateleira": "Prateleira 4",
+      "garrafas": 1,
+      "observacoes": "Mesmo Impérial dos AD-0012 e AD-0013 (750 ml), aqui em magnum. Não achei magnum de Moët à venda no Brasil; apliquei o multiplicador de 2,2× sobre os R$ 470 da garrafa comum. Preço de magnum: no Brasil o Veuve Clicquot Brut de 1,5 L sai por R$ 850 a R$ 1.310, contra R$ 450 na garrafa de 750 ml — um multiplicador de cerca de 2,2×, que usei para os magnums sem preço próprio encontrado. Magnum de 1,5 L. Champagne envelhece melhor e mais devagar em magnum: o volume dobra mas a entrada de oxigênio pela rolha é a mesma, então o vinho evolui na metade do ritmo."
+    },
+    {
+      "codigo": "AD-0019",
+      "fotos": [
+        "AD-0019-1.webp"
+      ],
+      "nome": "Brut La Française (Magnum 1,5 L)",
+      "produtor": "Taittinger",
+      "safra": null,
+      "tipo": "Espumante",
+      "uvas": [
+        "Chardonnay",
+        "Pinot Noir",
+        "Pinot Meunier"
+      ],
+      "pais": "França",
+      "regiao": "Champagne",
+      "subRegiao": "Reims",
+      "teorAlcoolico": null,
+      "volumeMl": 1500,
+      "adega": "Geladeira externa",
+      "prateleira": "Prateleira 4",
+      "garrafas": 1,
+      "historia": "A Taittinger ocupa em Reims as antigas caves de giz dos monges de Saint-Nicaise, escavadas no século IV pelos romanos para tirar pedra e reaproveitadas como adega — estão na lista do patrimônio da UNESCO. A casa leva o nome de Pierre Taittinger, que comprou a propriedade em 1932, e é das poucas grandes da região ainda em mãos da família. O estilo é marcado pela proporção alta de Chardonnay, incomum num brut de entrada. Magnum de 1,5 L. Champagne envelhece melhor e mais devagar em magnum: o volume dobra mas a entrada de oxigênio pela rolha é a mesma, então o vinho evolui na metade do ritmo.",
+      "notasDegustacao": "Corte com predominância de Chardonnay sobre as duas Pinot. Fruta branca e cítricos, com flores, brioche e mel; boca leve, elegante e de final seco.",
+      "harmonizacoes": [
+        "Aperitivo",
+        "Frutos do mar",
+        "Peixes",
+        "Queijos frescos",
+        "Sushi"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "8–10 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.2,
+          "escala": 5
+        }
+      ],
+      "precoMercado": 1050,
+      "descricaoCardapio": "O brut de Reims com mais Chardonnay que o comum: flores, cítricos e final leve.",
+      "confianca": 0.95,
+      "fontes": [
+        "taittinger.com",
+        "vivino.com",
+        "domaineduvin.com.br",
+        "imigrantesbebidas.com.br"
+      ],
+      "observacoes": "\"Brut La Française\" e \"Brut Réserve\" são o mesmo vinho — a casa usa nomes diferentes por mercado e por época. Champagne não safrado, então só a nota do Vivino. Teor alcoólico não estava legível na foto. Preço: a garrafa de 750 ml sai por R$ 428 a R$ 577 no Brasil; não achei o magnum à venda, então apliquei 2,2× sobre a mediana. Preço de magnum: no Brasil o Veuve Clicquot Brut de 1,5 L sai por R$ 850 a R$ 1.310, contra R$ 450 na garrafa de 750 ml — um multiplicador de cerca de 2,2×, que usei para os magnums sem preço próprio encontrado."
     }
   ]
 }
