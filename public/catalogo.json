@@ -1395,6 +1395,54 @@
         "intelivino.com.br"
       ],
       "observacoes": "Teor de 12% e \"método tradicional\" lidos no próprio rótulo. ATENÇÃO À VERSÃO: as fichas que encontrei descrevem o Luiz Porto BRUT — Chardonnay e Pinot Noir, 36 meses sobre borras, R$ 125 a R$ 139. Esta garrafa é o EXTRA BRUT, de dosagem menor. Registrei as castas e o preço a partir do Brut e o tempo sobre borras eu deixei de fora, porque não achei confirmação para o Extra Brut. Vale conferir no contra-rótulo. Sem nota do Vivino nem de crítico: não achei nenhuma para o rótulo. Preço de loja brasileira, sem a regra do dobro."
+    },
+    {
+      "codigo": "AD-0025",
+      "fotos": [
+        "AD-0025-1.webp"
+      ],
+      "nome": "Réserve Brut — rótulo personalizado \"A.A · L'Allume\"",
+      "produtor": "Chandon do Brasil",
+      "safra": null,
+      "tipo": "Espumante",
+      "uvas": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Riesling Itálico"
+      ],
+      "pais": "Brasil",
+      "regiao": "Serra Gaúcha",
+      "subRegiao": "Garibaldi",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "adega": "Armário",
+      "prateleira": "",
+      "garrafas": 1,
+      "historia": "A Chandon foi a primeira das grandes casas de champagne a produzir fora da França, e a vinícola de Garibaldi, na Serra Gaúcha, foi inaugurada em 1973 — os franceses escolheram a região pelo clima e pelo solo, e é a mesma Moët & Chandon de Épernay por trás. Não é champagne, e nem se chama assim: é espumante brasileiro, feito pelo método Charmat, com a segunda fermentação em tanque em vez de na garrafa. Daí o perfil mais frutado e direto.",
+      "notasDegustacao": "Amarelo esverdeado com reflexos dourados, borbulha fina e espuma abundante. Flores brancas, limão, maçã e abacaxi, com pão fresco ao fundo; boca leve, fresca e fácil, de final seco.",
+      "harmonizacoes": [
+        "Aperitivo",
+        "Petiscos fritos",
+        "Frutos do mar",
+        "Peixes",
+        "Queijos frescos",
+        "Sushi"
+      ],
+      "guardaDe": null,
+      "guardaAte": null,
+      "temperatura": "6–8 °C",
+      "decantarMin": null,
+      "avaliacoes": [],
+      "precoMercado": 110,
+      "descricaoCardapio": "Espumante da Serra Gaúcha pelo método Charmat, em garrafa de rótulo comemorativo.",
+      "confianca": 0.97,
+      "fontes": [
+        "chandon.com.br",
+        "evino.com.br",
+        "paodeacucar.com",
+        "wine-searcher.com"
+      ],
+      "observacoes": "MESMO VINHO do AD-0021 (7 garrafas), mas com rótulo personalizado: traz \"A.A\", \"L'Allume\" e florzinhas desenhadas. Cadastrei separado de propósito — garrafa de evento não é garrafa de estoque, e somar as duas faria você abrir a comemorativa sem perceber. Se preferir juntar, é só dizer. Não pesquisei o que é \"L'Allume\": rótulo personalizado costuma ser de casamento ou evento particular, e isso você sabe melhor que qualquer busca — me conta que eu registro na história. O resto da ficha é o do AD-0021: espumante brasileiro de Garibaldi, método Charmat, sem nota do Vivino confirmada, preço de loja daqui sem a regra do dobro."
     }
   ]
 }
