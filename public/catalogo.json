@@ -3153,6 +3153,73 @@
       ],
       "observacoes": "Mesma safra do AD-0001, que é a garrafa avulsa da Prateleira 1 — esta entrada é o lote de quatro garrafas da Prateleira 6. O CONTRARRÓTULO FECHOU UMA LACUNA ANTIGA: teor alcoólico 13%, que estava vazio no AD-0001 desde o primeiro dia do catálogo. Preenchi lá também. Repare que a safra 2016, do AD-0051, tem 13,5% — foi por isso que eu não copiei o número de uma safra para a outra. TODAS AS GARRAFAS SÃO NUMERADAS: esta é a de número 43.261. Do contrarrótulo vêm ainda a vinificação em barrica de carvalho francês e depósito de inox, os doze meses de estágio e os seis meses de garrafa, e o registro de que o Pêra-Manca remonta ao século XV e que a Fundação fez a primeira colheita em 1990. Importado com exclusividade pela Adega Alentejana, de Mauá, São Paulo, em contêiner refrigerado. O 91,6 do CellarTracker é média de 18 avaliações da comunidade, não de crítico. CONTINUO SEM NOTA DE CRÍTICO PARA A SAFRA 2018: a Decanter tem prova registrada, mas não recuperei a pontuação; Parker, Suckling e Wine Enthusiast não aparecem para este ano. A 2016 tem 92 de Parker, a 2018 não tem. PREÇO: R$ 800 é a mediana da faixa brasileira do rótulo, de R$ 690 a R$ 1.050. Ofertas abaixo de R$ 300 costumam ser o Cartuxa Branco, da linha básica, e não o Pêra-Manca. Janela de guarda é estimativa.",
       "historia": "O nome vem de uma encosta de pedras soltas em Évora, terra dos monges do Convento do Espinheiro. Reza a história que foi um Pêra-Manca que Pedro Álvares Cabral levou nas naus e serviu no encontro com os indígenas em 1500. O rótulo desapareceu com a extinção da Casa Soares e só voltou quando o herdeiro cedeu o nome à Fundação Eugénio de Almeida, em 1987; o primeiro Pêra-Manca da Fundação saiu em 1990. O vinho estagia na adega de um mosteiro jesuíta de 1580, e só é engarrafado nos anos em que a colheita justifica."
+    },
+    {
+      "codigo": "AD-0053",
+      "fotos": [
+        "AD-0053-1.webp",
+        "AD-0053-2.webp"
+      ],
+      "nome": "Pêra-Manca Branco",
+      "produtor": "Fundação Eugénio de Almeida (Adega Cartuxa)",
+      "safra": 2020,
+      "tipo": "Branco",
+      "uvas": [
+        "Antão Vaz",
+        "Arinto"
+      ],
+      "pais": "Portugal",
+      "regiao": "Alentejo",
+      "subRegiao": "Évora",
+      "teorAlcoolico": 13.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 6",
+      "garrafas": 3,
+      "notasDegustacao": "Arinto e Antão Vaz, vinificados em parte em barrica de carvalho francês e em parte em inox, sobre borra fina. Melão, caroço de pêssego e limão, com erva fresca e raspa de laranja dando fundo; acidez viva, corpo médio, textura cremosa e um amargor fino no final longo.",
+      "harmonizacoes": [
+        "Peixes grelhados",
+        "Frutos do mar",
+        "Aves assadas",
+        "Queijos curados de ovelha"
+      ],
+      "guardaDe": 2023,
+      "guardaAte": 2032,
+      "temperatura": "10–12 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Vivino",
+          "nota": 4.5,
+          "escala": 5,
+          "safra": 2020
+        },
+        {
+          "fonte": "CellarTracker",
+          "nota": 92,
+          "escala": 100,
+          "safra": 2020
+        },
+        {
+          "fonte": "Jancis Robinson",
+          "nota": 16.5,
+          "escala": 20,
+          "safra": 2020
+        }
+      ],
+      "precoMercado": 800,
+      "descricaoCardapio": "Branco de guarda do Alentejo: fruta seca, casca de cítrico e um final longo e firme.",
+      "confianca": 0.9,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "cartuxa.pt",
+        "jancisrobinson.com",
+        "vivino.com",
+        "cellartracker.com",
+        "wine-searcher.com"
+      ],
+      "observacoes": "TERCEIRA SAFRA DESTE BRANCO NA CASA, junto com a 2016 (AD-0051) e a 2018 (AD-0001 e AD-0052). E ESTA MUDOU A RECEITA: o contrarrótulo diz doze meses sobre borra fina seguidos de DOZE MESES DE GARRAFA antes de sair. Nas safras 2016 e 2018 eram seis meses de garrafa. Dobraram o descanso. Teor alcoólico 13,5%, igual ao da 2016; a 2018 tem 13%. A nota de Jancis Robinson é em escala 20, não 100 — 16,5/20 é nota alta para branco português. O 92 do CellarTracker é média da comunidade, não de crítico. Não achei Parker nem Wine Spectator para esta safra. CUIDADO COM UM NÚMERO QUE CIRCULA: aparece um 4,1 de Vivino atrelado a este vinho, com trezentas mil avaliações. Aquilo não é deste rótulo, é agregado do site. O número desta safra é 4,5. PREÇO: R$ 800 é a mediana da faixa brasileira do rótulo, de R$ 690 a R$ 1.050, a mesma das outras safras. Na Europa esta safra sai entre €59,75 e €76,50, o que, convertido e dobrado, cai dentro da mesma faixa. Importado com exclusividade pela Adega Alentejana, de Mauá, São Paulo, em contêiner refrigerado. Janela de guarda é estimativa: é a mais nova das três, e a que pode esperar mais.",
+      "historia": "O nome vem de uma encosta de pedras soltas em Évora, terra dos monges do Convento do Espinheiro. Reza a história que foi um Pêra-Manca que Pedro Álvares Cabral levou nas naus e serviu no encontro com os indígenas em 1500. O rótulo desapareceu com a extinção da Casa Soares e só voltou quando o herdeiro cedeu o nome à Fundação Eugénio de Almeida, em 1987; a primeira colheita da Fundação, como diz o próprio contrarrótulo, é de 1990. O vinho estagia na adega de um mosteiro jesuíta de 1580, e só é engarrafado nos anos em que a colheita justifica."
     }
   ]
 }
