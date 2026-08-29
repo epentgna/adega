@@ -3480,6 +3480,57 @@
       ],
       "observacoes": "DECANTE ESTA GARRAFA — e é o rótulo que manda. Unfiltered quer dizer engarrafado sem filtragem: o vinho deposita borra e continua evoluindo na garrafa, ao contrário do LBV comum, que sai filtrado e pronto para servir. É a diferença entre este e o seu Graham's LBV do AD-0056: aquele o próprio contrarrótulo diz que está pronto para beber; este pede decantação e se comporta muito mais como um Vintage. Registrei 60 minutos, mas o essencial é separar da borra. Single Vineyard: vem só dos vinhedos da própria Quinta do Noval, em Vale de Mendiz, acima do Pinhão. Cinco anos em casco antes do engarrafamento, contra os dois de um Vintage clássico — é daí que vem o nome Late Bottled. Teor alcoólico 19,5% e o lote 1083 vêm do contrarrótulo. Importado pela Grand Cru, de Osasco. AS CASTAS NÃO ESTÃO NO RÓTULO: Touriga Nacional, Touriga Franca, Tinta Roriz e Tinto Cão vêm da descrição da própria casa para este engarrafamento, não da garrafa. SÓ UMA PONTUAÇÃO: o 89 do Wine-Searcher, que é média de críticos. Não achei nota individual de Parker, Wine Spectator ou Suckling para a safra 2005, nem número do Vivino ou do CellarTracker. Uma prova que li reclamou que a aguardente aparece demais e que os taninos são magros — registro porque é a única leitura de degustação que achei desta safra, mas é opinião de um provador só. PREÇO ESTIMADO: média internacional de US$ 61 sem impostos, a R$ 5,15, dobrados: ~R$ 630. Não achei oferta brasileira apesar de o vinho ter importadora aqui. Janela de guarda é estimativa. LBV não filtrado envelhece bem, e vinte e um anos não é problema.",
       "historia": "Quinta do Noval faz Porto desde 1715 — está impresso no rótulo, embaixo do nome. A propriedade fica em Vale de Mendiz, na encosta acima do Pinhão, e é uma quinta só, o que é raro no mundo do Porto: a maioria das casas compra uva de vários lugares e mistura. Aqui o vinho é feito com o que nasce dentro de casa, e o rótulo faz questão de dizer isso em inglês: Single Vineyard."
+    },
+    {
+      "codigo": "AD-0059",
+      "fotos": [
+        "AD-0059-1.webp",
+        "AD-0059-2.webp"
+      ],
+      "nome": "Late Bottled Vintage Port",
+      "produtor": "Taylor Fladgate & Yeatman",
+      "safra": 2007,
+      "tipo": "Fortificado",
+      "uvas": [],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Porto DOC — Cima Corgo e Douro Superior",
+      "teorAlcoolico": null,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 7",
+      "garrafas": 1,
+      "notasDegustacao": "Cinco anos em madeira antes de engarrafar, em janeiro de 2012. Fruta muito perfumada, macia e elegante: geleia de amora domina, com cereja preta por baixo e taninos macios. Porto licoroso tinto doce, no estilo pronto para servir.",
+      "harmonizacoes": [
+        "Queijos azuis",
+        "Chocolate amargo",
+        "Nozes e frutos secos",
+        "Sozinho, no fim da refeição"
+      ],
+      "guardaDe": 2012,
+      "guardaAte": 2030,
+      "temperatura": "16–18 °C",
+      "decantarMin": null,
+      "avaliacoes": [
+        {
+          "fonte": "Wine-Searcher",
+          "nota": 90,
+          "escala": 100,
+          "safra": 2007
+        }
+      ],
+      "precoMercado": 259,
+      "descricaoCardapio": "O LBV clássico do Porto: geleia de amora e cereja preta, macio e pronto para servir.",
+      "confianca": 0.75,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "taylor.pt",
+        "wineenthusiast.com",
+        "wine-searcher.com",
+        "casadabebida.com.br"
+      ],
+      "observacoes": "TERCEIRO PORTO DA CASA, E O TERCEIRO ESTILO. Vale entender a diferença entre os três: o Graham's do AD-0056 é LBV filtrado, pronto para beber, em garrafa de 200 ml; o Noval do AD-0058 é LBV NÃO filtrado, deposita borra e precisa de decantação; este Taylor's é o LBV clássico filtrado, de garrafa cheia — abre e serve, sem decantar. O rótulo declara a data do engarrafamento, 2012, cinco anos depois da colheita. A crítica precisa mais: janeiro de 2012. TEOR ALCOÓLICO EM BRANCO: o contrarrótulo brasileiro remete ao rótulo principal, e a parte de baixo do rótulo principal ficou fora do enquadramento da foto. Uma foto do pé do rótulo resolve, e eu completo. AS CASTAS NÃO ESTÃO NO RÓTULO, que diz apenas 'uvas viníferas europeias'. A casa informa que o vinho vem de vinhedos próprios e de outras propriedades de topo no Cima Corgo e no Douro Superior, sem listar as castas. Preferi deixar vazio a supor. SÓ UMA PONTUAÇÃO: o 90 do Wine-Searcher, que é média de críticos. O Wine Enthusiast resenhou a safra — é dele a descrição de geleia de amora e cereja preta que usei — mas não recuperei o número. Vivino e CellarTracker também não. PREÇO COM RESSALVA: R$ 259 é a mediana de duas ofertas brasileiras, Casa da Bebida a R$ 220,11 e Sommelier a R$ 298. As duas são da safra corrente, não da 2007; safra antiga costuma custar mais. Produto vendido no Brasil, importado pela Carballo Faro, de Salvador, então nada de dobrar. Lote L2512. Janela de guarda é estimativa: LBV filtrado sai pronto e não pede espera, mas dezenove anos não o estragaram.",
+      "historia": "Taylor Fladgate & Yeatman faz Porto desde 1692 — o brasão com o leão e a data está gravado no vidro do gargalo, não impresso no papel. A casa é uma das poucas que atravessou três séculos sem sair da mesma linhagem de sócios, e foi ela que popularizou o próprio conceito de Late Bottled Vintage nos anos 1970. O rótulo não é modesto quanto a isso: chama a si mesmo de o LBV do Porto."
     }
   ]
 }
