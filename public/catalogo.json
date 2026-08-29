@@ -3880,6 +3880,68 @@
       ],
       "observacoes": "SEGUNDA SAFRA DESTE RÓTULO NA CASA, junto com a 2014 do AD-0063. Agora dá para fazer vertical, e a comparação vale: a 2006 é 70% Cabernet e 30% Malbec, com 14,5% de álcool; a 2014 é 75/25, com 13,5%. Oito anos de diferença, e a casa foi ficando mais Cabernet e menos alcoólica. 97 DE ROBERT PARKER, assinado por Jay Miller — é a nota mais alta de Parker em todo o seu acervo. O contrarrótulo desta safra é mais enxuto que o da 2014: não declara as proporções, só diz que o vinho vem de uma seleção das melhores uvas dos vinhedos Catena Zapata e que só é feito em safras excepcionais. As proporções e os 26 meses de carvalho novo vêm de fora. Wine Enthusiast e Wine Spectator têm ficha desta safra, mas não recuperei os números; o do Wine Spectator está atrás de assinatura. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. Teor alcoólico 14,5% e o lote IL93019230 vêm do contrarrótulo, junto com o importador americano Winebow, de Nova York — a mesma rota da 2014. PREÇO ESTIMADO: média internacional de US$ 114 sem impostos, a R$ 5,15, dobrados: ~R$ 1.180. Curioso que a 2006, com nota maior, saia mais barata que a 2014 (US$ 120). GUARDA: vinte anos de garrafa e uma safra que Parker adorou. Está no auge ou logo depois dele; não é para esperar mais. A janela é estimativa.",
       "historia": "Nicolás Catena é neto do fundador e o homem que, nos anos 1980, resolveu que a Argentina podia fazer vinho fino de verdade — e provou plantando alto, onde ninguém plantava. Este rótulo leva o nome dele e, como diz o próprio contrarrótulo, só é feito em safras excepcionais: não sai todo ano. A 2006 foi uma delas."
+    },
+    {
+      "codigo": "AD-0066",
+      "fotos": [
+        "AD-0066-1.webp",
+        "AD-0066-2.webp",
+        "AD-0066-3.webp"
+      ],
+      "nome": "Clos des Jacobins",
+      "produtor": "Clos des Jacobins (Bernard et Thibaut Decoster)",
+      "safra": 2010,
+      "tipo": "Tinto",
+      "uvas": [
+        "Merlot",
+        "Cabernet Franc",
+        "Cabernet Sauvignon"
+      ],
+      "pais": "França",
+      "regiao": "Bordeaux",
+      "subRegiao": "Saint-Émilion Grand Cru Classé",
+      "teorAlcoolico": 15.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 8",
+      "garrafas": 1,
+      "notasDegustacao": "De um vinhedo de 8,5 hectares em solo argilo-calcário, voltado para o sul — e é isso, diz o próprio rótulo, que dá vinhos amplos, generosos e complexos. Merlot muito maduro no nariz, com frutas vermelhas em compota e carvalho tostado; boca larga e rica, de taninos macios e madeira elegante. Safra grande em Bordeaux.",
+      "harmonizacoes": [
+        "Carnes vermelhas",
+        "Aves",
+        "Queijos"
+      ],
+      "guardaDe": 2015,
+      "guardaAte": 2030,
+      "temperatura": "18 °C, como manda o rótulo",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Robert Parker",
+          "nota": 90,
+          "escala": 100,
+          "safra": 2010
+        },
+        {
+          "fonte": "Wine-Searcher",
+          "nota": 90,
+          "escala": 100,
+          "safra": 2010
+        }
+      ],
+      "precoMercado": 525,
+      "descricaoCardapio": "Saint-Émilion Grand Cru Classé de 2010: Merlot maduro, largo e generoso, com carvalho fino.",
+      "confianca": 0.85,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "medalha de gargalo da própria garrafa",
+        "vertdevin.com",
+        "hachette-vins.com",
+        "wine-searcher.com",
+        "decanter.com"
+      ],
+      "observacoes": "PRIMEIRO BORDEAUX TINTO DO ACERVO. A região já aparecia, mas só no Château Climens do AD-0054, que é doce de Barsac. E é a primeira garrafa francesa da casa que não é champanhe nem sobremesa. A NOTA VEIO DA PRÓPRIA GARRAFA: a medalha no gargalo traz '90 RP · Robert Parker'. É raro um rótulo declarar a pontuação, e aqui ela vem impressa. O Wine-Searcher confirma 90 como média de críticos. O RÓTULO ENSINA COMO BEBER, e eu segui: servir a 18 °C, guardar até vinte anos — daí o 2030 — e harmonizar com carnes vermelhas, aves e queijos. Nada disso é sugestão minha. AS PROPORÇÕES DO CORTE NÃO BATEM. O contrarrótulo diz Merlot 60% e Cabernet Franc 18%, e o terceiro número, do Cabernet Sauvignon, ficou ilegível na foto. As fontes externas trazem, para a safra 2010, Merlot 75%, Cabernet Franc 23% e Cabernet Sauvignon 2%. A explicação provável é que o rótulo declara o plantio do vinhedo e a outra fonte o corte daquele ano. Por isso registrei só as castas, sem percentual. TEOR ALCOÓLICO 15,5%: o número no rótulo começa com 15 mas a casa decimal não deu para ler; a fonte externa fecha em 15,5%. É alto, e combina com a descrição de Merlot muito maduro. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra. A Decanter resenhou, mas não recuperei o número. Produção de 40 mil garrafas. PREÇO ESTIMADO: média internacional de US$ 51 sem impostos, a R$ 5,15, dobrados: ~R$ 525. Não achei oferta brasileira.",
+      "historia": "Clos des Jacobins é Grand Cru Classé de Saint-Émilion e pertence a Bernard e Thibaut Decoster, pai e filho, que assinam juntos no rótulo. São 8,5 hectares de argila e calcário virados para o sul, ao pé da vila — pequeno para os padrões de Bordeaux, e é justamente esse tamanho que permite tratar a vinha talhão por talhão. O nome vem dos frades dominicanos, os jacobinos, que ocupavam a terra antes de ela virar vinhedo."
     }
   ]
 }
