@@ -3773,6 +3773,113 @@
       ],
       "observacoes": "O RÓTULO DE TOPO DA CASA, e o mais bem pontuado dos cinco Catena do acervo. Não confundir com o D.V. Catena do AD-0062, que é a linha abaixo e tem nome parecido, nem com a Bonarda dos AD-0002, AD-0027 e AD-0042. O corte é 75% Cabernet Sauvignon e 25% Malbec, como diz o contrarrótulo em negrito. Uma fonte traz 73/27 especificamente para 2014; fiquei com o número impresso na garrafa. O rótulo fala em seleção planta a planta em talhões históricos dos vinhedos de altitude da família, sem nomeá-los; a casa informa que são La Pirámide, Nicasia e Adrianna — o Adrianna fica a mais de 1.400 metros. Teor alcoólico 13,5% e o lote L17354173SS vêm do contrarrótulo, que também traz Since 1902 e o importador americano Winebow, de Nova York. Mais uma garrafa que veio pelos Estados Unidos. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra, apesar de a Catena Zapata ter sido eleita a vinícola mais premiada do mundo pelo próprio Vivino em 2018, 2019 e 2020. PREÇO ESTIMADO: média internacional de US$ 120 sem impostos no wine-searcher, a R$ 5,15, dobrados: ~R$ 1.240. Não achei oferta brasileira. Janela de guarda é estimativa: o rótulo se gaba justamente da capacidade de envelhecer, e doze anos ainda é pouco para ele.",
       "historia": "Nicolás Catena é neto do fundador e o homem que, nos anos 1980, resolveu que a Argentina podia fazer vinho fino de verdade — e provou plantando alto, onde ninguém plantava, até chegar aos 1.500 metros do vinhedo Adrianna. Foi com ele que Paul Hobbs foi trabalhar em 1988, e dessa parceria nasceu boa parte do que a sua adega tem de argentino: o próprio Hobbs, a Viña Cobos e o renascimento do Malbec. Este é o vinho que leva o nome dele."
+    },
+    {
+      "codigo": "AD-0064",
+      "fotos": [
+        "AD-0064-1.webp",
+        "AD-0064-2.webp"
+      ],
+      "nome": "Pulenta Estate IX Pinot Noir",
+      "produtor": "Bodegas y Viñedos Hugo y Eduardo Pulenta",
+      "safra": 2016,
+      "tipo": "Tinto",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "pais": "Argentina",
+      "regiao": "Mendoza",
+      "subRegiao": "Valle de Uco",
+      "teorAlcoolico": 13.2,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 8",
+      "garrafas": 1,
+      "notasDegustacao": "Rubi claro e translúcido. Frutas vermelhas — cereja, framboesa e morango — num registro delicado, com elegância e taninos muito harmoniosos. Corpo leve para os padrões da casa, e final longo. Produção limitada, de uva própria.",
+      "harmonizacoes": [
+        "Salmão grelhado",
+        "Aves assadas",
+        "Cogumelos",
+        "Queijos de casca lavada"
+      ],
+      "guardaDe": 2018,
+      "guardaAte": 2026,
+      "temperatura": "14–16 °C",
+      "decantarMin": 30,
+      "avaliacoes": [
+        {
+          "fonte": "Wine-Searcher",
+          "nota": 91,
+          "escala": 100,
+          "safra": 2016
+        }
+      ],
+      "precoMercado": 270,
+      "descricaoCardapio": "O único Pinot Noir tinto da casa: cereja e framboesa, leve e elegante, do Valle de Uco.",
+      "confianca": 0.75,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "pulentaestate.com",
+        "wine-searcher.com",
+        "grandcru.com.br",
+        "vivino.com"
+      ],
+      "observacoes": "PRIMEIRO PINOT NOIR TINTO DO ACERVO. A uva já aparecia em dezoito garrafas suas, mas todas champanhe — aqui ela está sozinha e vinificada em tinto. O NÚMERO ROMANO NÃO É ENFEITE: o contrarrótulo explica que cada algarismo identifica uma casta ou um corte feito com uva própria da casa. IX é o Pinot Noir. Existem XIV para o Pinot Gris e XV para o Gran Pinot Noir, entre outros. É um sistema de catálogo do próprio produtor. Teor alcoólico 13,2%, o lote L PN16BR1 e o importador Grand Cru, de São Bernardo do Campo, vêm do contrarrótulo. ATENÇÃO: uma loja brasileira anuncia este rótulo com 14,5% — o número da sua garrafa é 13,2%, e o rótulo manda. Deve ser outra safra. SÓ UMA PONTUAÇÃO: 91 do Wine-Searcher, que é média de críticos. Não consegui confirmar a nota do Vivino para esta safra. PREÇO: R$ 270 é a mediana de três ofertas brasileiras — R$ 264,90, R$ 269,90 na Grand Cru e R$ 414,90 na Banca do Ramon. Produto vendido no Brasil, sem dobrar. Janela de guarda é estimativa e curta de propósito: Pinot Noir argentino de dez anos já está no limite. Vale abrir.",
+      "historia": "A Pulenta Estate é dos irmãos Hugo e Eduardo Pulenta, em Agrelo, Luján de Cuyo, e trabalha só com uva de vinhedo próprio — o contrarrótulo faz questão de dizer isso e de avisar que o número de garrafas é limitado. O Pinot Noir vem do Valle de Uco, mais frio e mais alto que Agrelo, que é onde essa casta consegue existir em Mendoza sem virar caricatura de si mesma."
+    },
+    {
+      "codigo": "AD-0065",
+      "fotos": [
+        "AD-0065-1.webp",
+        "AD-0065-2.webp"
+      ],
+      "nome": "Nicolas Catena Zapata",
+      "produtor": "Bodega Catena Zapata",
+      "safra": 2006,
+      "tipo": "Tinto",
+      "uvas": [
+        "Cabernet Sauvignon",
+        "Malbec"
+      ],
+      "pais": "Argentina",
+      "regiao": "Mendoza",
+      "subRegiao": "Vinhedos de altitude Catena Zapata",
+      "teorAlcoolico": 14.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 8",
+      "garrafas": 1,
+      "notasDegustacao": "Corte de 70% Cabernet Sauvignon e 30% Malbec, com vinte e seis meses em carvalho francês novo. Violeta e flores no nariz, com ameixa ácida e amora silvestre; a madeira longa deu peso e polimento. Vinte anos de garrafa: fruta já em segundo plano, dando lugar ao terciário.",
+      "harmonizacoes": [
+        "Bife alto na brasa",
+        "Cordeiro",
+        "Costela assada",
+        "Queijos duros"
+      ],
+      "guardaDe": 2011,
+      "guardaAte": 2028,
+      "temperatura": "17–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "Robert Parker",
+          "nota": 97,
+          "escala": 100,
+          "safra": 2006
+        }
+      ],
+      "precoMercado": 1180,
+      "descricaoCardapio": "A safra 2006 do topo da Catena: Cabernet e Malbec com dois anos de carvalho novo.",
+      "confianca": 0.8,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "catenazapata.com",
+        "robertparker.com",
+        "wine-searcher.com",
+        "wineenthusiast.com"
+      ],
+      "observacoes": "SEGUNDA SAFRA DESTE RÓTULO NA CASA, junto com a 2014 do AD-0063. Agora dá para fazer vertical, e a comparação vale: a 2006 é 70% Cabernet e 30% Malbec, com 14,5% de álcool; a 2014 é 75/25, com 13,5%. Oito anos de diferença, e a casa foi ficando mais Cabernet e menos alcoólica. 97 DE ROBERT PARKER, assinado por Jay Miller — é a nota mais alta de Parker em todo o seu acervo. O contrarrótulo desta safra é mais enxuto que o da 2014: não declara as proporções, só diz que o vinho vem de uma seleção das melhores uvas dos vinhedos Catena Zapata e que só é feito em safras excepcionais. As proporções e os 26 meses de carvalho novo vêm de fora. Wine Enthusiast e Wine Spectator têm ficha desta safra, mas não recuperei os números; o do Wine Spectator está atrás de assinatura. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. Teor alcoólico 14,5% e o lote IL93019230 vêm do contrarrótulo, junto com o importador americano Winebow, de Nova York — a mesma rota da 2014. PREÇO ESTIMADO: média internacional de US$ 114 sem impostos, a R$ 5,15, dobrados: ~R$ 1.180. Curioso que a 2006, com nota maior, saia mais barata que a 2014 (US$ 120). GUARDA: vinte anos de garrafa e uma safra que Parker adorou. Está no auge ou logo depois dele; não é para esperar mais. A janela é estimativa.",
+      "historia": "Nicolás Catena é neto do fundador e o homem que, nos anos 1980, resolveu que a Argentina podia fazer vinho fino de verdade — e provou plantando alto, onde ninguém plantava. Este rótulo leva o nome dele e, como diz o próprio contrarrótulo, só é feito em safras excepcionais: não sai todo ano. A 2006 foi uma delas."
     }
   ]
 }
