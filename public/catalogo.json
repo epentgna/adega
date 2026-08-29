@@ -3425,6 +3425,61 @@
       ],
       "observacoes": "TERCEIRO BRANCO DO ACERVO, e o primeiro que não é Pêra-Manca. CORTE INCOMUM: Sémillon com Sauvignon Blanc é dupla de Bordeaux, mas com Alvarinho no meio vira coisa só portuguesa. As proporções não estão no rótulo; a casa declara cerca de 50% Sémillon, 25% Sauvignon Blanc e 25% Alvarinho, com uma parte do Sémillon fermentada em barrica nova e cinco meses de bâtonnage. Registrei as castas na ordem da proporção, não na do rótulo. CUIDADO COM O HOMÔNIMO: o Quinta da Bacalhôa famoso é o tinto de Cabernet Sauvignon, que domina as buscas. Este é o branco, outro vinho. NENHUMA PONTUAÇÃO ENCONTRADA: não achei nota de crítico nem do Vivino para esta safra. A página do rótulo existe no Vivino, mas nenhuma busca devolveu o número. PREÇO COM RESSALVA: R$ 321 é a oferta brasileira mais barata que encontrei para a safra 2021. Não consegui reunir uma faixa para tirar mediana, como fiz nos outros, então este número puxa para baixo — o valor real deve ser um pouco maior. Produto vendido no Brasil, importado pela Épice, de Guarulhos, então nada de dobrar. Teor alcoólico 13,5% e toda a descrição de degustação vêm do contrarrótulo, que é bem detalhado. Janela de guarda é estimativa.",
       "historia": "A Quinta da Bacalhôa fica em Vila Fresca de Azeitão, na Península de Setúbal, e o palácio desenhado no rótulo é o da própria propriedade — construção do século XV, famosa pelos azulejos e pelos jardins. A casa é conhecida mundo afora pelo tinto de Cabernet Sauvignon que leva o mesmo nome e que ajudou a mostrar, nos anos 1970, que Portugal podia fazer casta francesa a sério. Este branco é o irmão menos falado, e vai por outro caminho: junta a dupla bordalesa Sémillon e Sauvignon ao Alvarinho do noroeste português."
+    },
+    {
+      "codigo": "AD-0058",
+      "fotos": [
+        "AD-0058-1.webp",
+        "AD-0058-2.webp"
+      ],
+      "nome": "Late Bottled Vintage Unfiltered",
+      "produtor": "Quinta do Noval",
+      "safra": 2005,
+      "tipo": "Fortificado",
+      "uvas": [
+        "Touriga Nacional",
+        "Touriga Franca",
+        "Tinta Roriz",
+        "Tinto Cão"
+      ],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Vale de Mendiz, Pinhão",
+      "teorAlcoolico": 19.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 7",
+      "garrafas": 1,
+      "notasDegustacao": "Cinco anos em casco antes de engarrafar, e sem filtragem nenhuma. Rubi profundo de reflexos roxos. Cassis e amora maduros, com framboesa, cereja, erva selvagem, alcaçuz e café. Fruta concentrada e seca no estilo, com o álcool aparecendo firme. Segue evoluindo na garrafa.",
+      "harmonizacoes": [
+        "Queijos azuis",
+        "Chocolate amargo",
+        "Nozes e frutos secos",
+        "Sozinho, no fim da refeição"
+      ],
+      "guardaDe": 2010,
+      "guardaAte": 2035,
+      "temperatura": "16–18 °C",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Wine-Searcher",
+          "nota": 89,
+          "escala": 100,
+          "safra": 2005
+        }
+      ],
+      "precoMercado": 630,
+      "descricaoCardapio": "Porto de vinhedo único, sem filtragem: cassis, alcaçuz e café, para decantar.",
+      "confianca": 0.75,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "quintadonoval.com",
+        "wine-searcher.com",
+        "cellartracker.com"
+      ],
+      "observacoes": "DECANTE ESTA GARRAFA — e é o rótulo que manda. Unfiltered quer dizer engarrafado sem filtragem: o vinho deposita borra e continua evoluindo na garrafa, ao contrário do LBV comum, que sai filtrado e pronto para servir. É a diferença entre este e o seu Graham's LBV do AD-0056: aquele o próprio contrarrótulo diz que está pronto para beber; este pede decantação e se comporta muito mais como um Vintage. Registrei 60 minutos, mas o essencial é separar da borra. Single Vineyard: vem só dos vinhedos da própria Quinta do Noval, em Vale de Mendiz, acima do Pinhão. Cinco anos em casco antes do engarrafamento, contra os dois de um Vintage clássico — é daí que vem o nome Late Bottled. Teor alcoólico 19,5% e o lote 1083 vêm do contrarrótulo. Importado pela Grand Cru, de Osasco. AS CASTAS NÃO ESTÃO NO RÓTULO: Touriga Nacional, Touriga Franca, Tinta Roriz e Tinto Cão vêm da descrição da própria casa para este engarrafamento, não da garrafa. SÓ UMA PONTUAÇÃO: o 89 do Wine-Searcher, que é média de críticos. Não achei nota individual de Parker, Wine Spectator ou Suckling para a safra 2005, nem número do Vivino ou do CellarTracker. Uma prova que li reclamou que a aguardente aparece demais e que os taninos são magros — registro porque é a única leitura de degustação que achei desta safra, mas é opinião de um provador só. PREÇO ESTIMADO: média internacional de US$ 61 sem impostos, a R$ 5,15, dobrados: ~R$ 630. Não achei oferta brasileira apesar de o vinho ter importadora aqui. Janela de guarda é estimativa. LBV não filtrado envelhece bem, e vinte e um anos não é problema.",
+      "historia": "Quinta do Noval faz Porto desde 1715 — está impresso no rótulo, embaixo do nome. A propriedade fica em Vale de Mendiz, na encosta acima do Pinhão, e é uma quinta só, o que é raro no mundo do Porto: a maioria das casas compra uva de vários lugares e mistura. Aqui o vinho é feito com o que nasce dentro de casa, e o rótulo faz questão de dizer isso em inglês: Single Vineyard."
     }
   ]
 }
