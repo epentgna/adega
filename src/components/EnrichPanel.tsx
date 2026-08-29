@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { db } from '../db/db'
 import { enrichWine, type WineDraft } from '../lib/enrich'
+import { ensureBlob } from '../lib/photoSync'
 import { applyDraft } from '../lib/wine'
 import type { Settings, Wine } from '../types'
 import { WEB_SEARCH_MODELS } from '../types'
@@ -35,8 +36,14 @@ export function EnrichPanel({
     setDraft(null)
     setStage('Preparando…')
     try {
+      // Foto que só está na nuvem precisa descer antes de virar imagem no request.
       const photos = await db.photos.bulkGet(wine.photoIds.slice(0, 3))
-      const images = photos.filter(Boolean).map((p) => p!.blob)
+      const images: Blob[] = []
+      for (const photo of photos) {
+        if (!photo) continue
+        const blob = await ensureBlob(photo)
+        if (blob) images.push(blob)
+      }
       const result = await enrichWine({
         images,
         hint: hint.trim() || undefined,

@@ -1,4 +1,5 @@
 import { db } from '../db/db'
+import { purgeRemotePhotos } from './photoSync'
 import type { Photo } from '../types'
 
 const MAX_EDGE = 1400
@@ -54,8 +55,11 @@ export async function savePhoto(
 }
 
 export async function deletePhoto(id: number): Promise<void> {
+  const photo = await db.photos.get(id)
   revokeUrl(id)
   await db.photos.delete(id)
+  // Apaga também o arquivo na nuvem: senão fica lixo ocupando o storage.
+  if (photo?.path) await purgeRemotePhotos([photo.path])
 }
 
 /** Remove as fotos órfãs (capturadas mas nunca vinculadas a um vinho). */
@@ -70,11 +74,12 @@ export async function purgeOrphanPhotos(): Promise<number> {
 // memória. Uma URL por id, revogada quando a foto é apagada.
 const urlCache = new Map<number, string>()
 
-export function photoUrl(photo: Photo): string {
-  const cached = photo.id != null ? urlCache.get(photo.id) : undefined
+/** Recebe o blob já garantido: uma foto só da nuvem não tem URL local. */
+export function photoUrl(blob: Blob, id?: number): string {
+  const cached = id != null ? urlCache.get(id) : undefined
   if (cached) return cached
-  const url = URL.createObjectURL(photo.blob)
-  if (photo.id != null) urlCache.set(photo.id, url)
+  const url = URL.createObjectURL(blob)
+  if (id != null) urlCache.set(id, url)
   return url
 }
 

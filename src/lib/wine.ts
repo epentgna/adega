@@ -1,4 +1,5 @@
 import { db } from '../db/db'
+import { deletePhoto } from './photos'
 import type { Cellar, Wine } from '../types'
 import type { WineDraft } from './enrich'
 
@@ -104,11 +105,12 @@ export async function saveWine(wine: Wine): Promise<number> {
   return db.wines.add(fresh as Wine)
 }
 
-/** Apaga o vinho e as fotos dele. */
+/** Apaga o vinho e as fotos dele, local e na nuvem. */
 export async function deleteWine(id: number): Promise<void> {
   const wine = await db.wines.get(id)
   if (!wine) return
-  await db.photos.where('wineId').equals(id).delete()
+  const photos = await db.photos.where('wineId').equals(id).toArray()
+  for (const photo of photos) await deletePhoto(photo.id!)
   await db.wines.delete(id)
 }
 

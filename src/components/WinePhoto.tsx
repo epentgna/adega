@@ -1,9 +1,14 @@
+import { useEffect } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db/db'
 import { photoUrl } from '../lib/photos'
+import { ensureBlob } from '../lib/photoSync'
 import { IconBottle } from './icons'
 
-/** Mostra a foto de capa do vinho (ou um marcador quando não há foto). */
+/**
+ * Foto de capa do vinho. Se a foto veio da nuvem e o arquivo ainda não desceu,
+ * baixa sob demanda — a live query redesenha sozinha quando o blob chega.
+ */
 export function WinePhoto({
   photoId,
   alt,
@@ -20,12 +25,20 @@ export function WinePhoto({
     [photoId]
   )
 
-  if (!photoId || !photo) {
+  const needsDownload = Boolean(photo && !photo.blob && photo.path)
+  useEffect(() => {
+    if (photo && needsDownload) void ensureBlob(photo)
+  }, [photo, needsDownload])
+
+  if (!photo?.blob) {
     return (
       <div
         className={`${className} ${rounded} bg-white/[0.03] border border-border
-          flex items-center justify-center text-border`}
-        aria-hidden
+          flex items-center justify-center text-border ${
+            needsDownload ? 'animate-pulse' : ''
+          }`}
+        aria-label={needsDownload ? 'Baixando foto…' : undefined}
+        aria-hidden={needsDownload ? undefined : true}
       >
         <IconBottle width={28} height={28} />
       </div>
@@ -34,7 +47,7 @@ export function WinePhoto({
 
   return (
     <img
-      src={photoUrl(photo)}
+      src={photoUrl(photo.blob, photo.id)}
       alt={alt}
       loading="lazy"
       className={`${className} ${rounded} object-cover bg-white/[0.03]`}

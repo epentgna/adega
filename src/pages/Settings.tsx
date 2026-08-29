@@ -9,6 +9,7 @@ import { downloadBackup, downloadCSV, importBundle, toCSV } from '../lib/export'
 import { BackBar, Sheet } from '../components/Layout'
 import { NumberField, SelectField, TextField, Toggle } from '../components/Field'
 import { Confirm } from '../components/BottomSheet'
+import { AccountPanel } from '../components/AccountPanel'
 import { IconDownload, IconSparkle } from '../components/icons'
 
 export default function Settings() {
@@ -78,6 +79,9 @@ export default function Settings() {
   return (
     <Sheet>
       <BackBar title="Configurações" to="/gestao" />
+
+      <Section title="Conta e sincronização" />
+      <AccountPanel />
 
       <Section title="Preenchimento por IA" />
       <div className="card p-4 mb-4">
@@ -181,11 +185,28 @@ export default function Settings() {
 
       <Section title="Backup" />
       <div className="grid gap-2.5 mb-4">
-        <button className="btn-ghost" onClick={() => downloadBackup(false)}>
+        <button
+          className="btn-ghost"
+          onClick={async () => {
+            await downloadBackup(false)
+            setImporting('Backup dos dados baixado.')
+          }}
+        >
           <IconDownload />
           Backup dos dados (sem fotos)
         </button>
-        <button className="btn-ghost" onClick={() => downloadBackup(true)}>
+        <button
+          className="btn-ghost"
+          onClick={async () => {
+            setImporting('Montando o backup…')
+            const missing = await downloadBackup(true)
+            setImporting(
+              missing
+                ? `Backup baixado, mas ${missing} foto(s) não desceram da nuvem e ficaram de fora.`
+                : 'Backup completo baixado.'
+            )
+          }}
+        >
           <IconDownload />
           Backup completo (com fotos)
         </button>

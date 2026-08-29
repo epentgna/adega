@@ -133,7 +133,13 @@ export interface Wine {
 export interface Photo {
   id?: number
   wineId: number | null
-  blob: Blob
+  /**
+   * Ausente quando a foto veio da nuvem e ainda não foi baixada: o arquivo
+   * só desce quando a foto aparece na tela.
+   */
+  blob?: Blob
+  /** Caminho no Supabase Storage, gravado depois do upload. */
+  path?: string
   kind: 'rotulo' | 'contra' | 'garrafa' | 'outro'
   width: number
   height: number

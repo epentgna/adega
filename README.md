@@ -83,10 +83,20 @@ O iOS só instala PWAs pelo **Safari**:
 
 > O preenchimento por IA é a única parte que precisa de internet.
 
+## Sincronização em nuvem (opcional)
+
+Sem login o app funciona inteiro, só não sincroniza. Entrando com Google (ou
+link por e-mail) em **Gestão › Configurações › Conta e sincronização**, a adega
+passa a acompanhar você entre iPhone, iPad e Mac e sobrevive à troca de
+aparelho: a ficha dos vinhos vai para uma linha `jsonb` no Supabase e as fotos
+para o Storage, baixadas sob demanda.
+
+O passo a passo de configuração (tabelas, bucket e URL de retorno) está em
+[SUPABASE.md](SUPABASE.md). A chave da API **nunca** sai do aparelho.
+
 ## Backup
 
-Tudo vive no navegador deste aparelho — limpar os dados do site apaga a adega.
-Em **Gestão › Configurações**:
+Mesmo com a nuvem ligada, vale ter o arquivo. Em **Gestão › Configurações**:
 
 - **Backup dos dados** (JSON leve, sem fotos)
 - **Backup completo** (JSON com as fotos em base64)
