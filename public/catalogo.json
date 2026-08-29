@@ -2778,6 +2778,67 @@
       ],
       "observacoes": "Mesmo vinho do AD-0006, que é a garrafa da Prateleira 1, e do AD-0045, que é a irmã de rótulo de artista guardada na mesma prateleira que esta. O contrarrótulo desta garrafa também fala do L'Essenza e de Ernesto Neto, porque o nome vale para a colheita inteira; só o rótulo da frente é que muda. Teor alcoólico 13,5% e o importador Folio Fine Wine Partners vêm do contrarrótulo. 2014 foi safra difícil na Toscana — daí a dispersão das notas, de 90 a 95. Preço: média internacional de US$ 234 sem impostos, convertida (US$1≈R$5,16) e dobrada, dá ~R$ 2.415; arredondei para R$ 2.500, dentro da faixa que as importadoras brasileiras praticam.",
       "historia": "Ornellaia nasceu em Bolgheri, na costa toscana, por obra do Marquês Lodovico Antinori, com primeira safra em 1985. Era a época em que um punhado de produtores decidiu plantar castas bordalesas na Toscana e ficou fora da denominação oficial — o que lhes valeu o apelido de Super Toscanos, e mais tarde uma denominação própria, a Bolgheri DOC. A cada safra a casa encomenda a um artista contemporâneo o rótulo da Vendemmia d'Artista. A 2014 foi ano difícil na Toscana, chuvoso e frio, e é justamente por isso que os críticos se dividiram tanto."
+    },
+    {
+      "codigo": "AD-0047",
+      "fotos": [
+        "AD-0047-1.webp",
+        "AD-0047-2.webp"
+      ],
+      "nome": "Tignanello",
+      "produtor": "Marchesi Antinori",
+      "safra": 2003,
+      "tipo": "Tinto",
+      "uvas": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Cabernet Franc"
+      ],
+      "pais": "Itália",
+      "regiao": "Toscana",
+      "subRegiao": "Toscana IGT",
+      "teorAlcoolico": 13.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 5",
+      "garrafas": 1,
+      "notasDegustacao": "Corte de 85% Sangiovese, 10% Cabernet Sauvignon e 5% Cabernet Franc, envelhecido em barricas pequenas de carvalho e depois em garrafa. Rubi intenso já com reflexos granada. Tabaco, curry e geleia de amora e cassis; na boca aparecem a cereja vermelha e o sub-bosque do Sangiovese, num vinho maduro e aberto, mentolado, de taninos densos. Não filtrado.",
+      "harmonizacoes": [
+        "Carne vermelha assada",
+        "Massa com ragu",
+        "Caça",
+        "Queijos curados"
+      ],
+      "guardaDe": 2008,
+      "guardaAte": 2026,
+      "temperatura": "17–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "Robert Parker",
+          "nota": 92,
+          "escala": 100,
+          "safra": 2003
+        },
+        {
+          "fonte": "Wine Spectator",
+          "nota": 91,
+          "escala": 100,
+          "safra": 2003
+        }
+      ],
+      "precoMercado": 2900,
+      "descricaoCardapio": "O Super Toscano que abriu caminho para todos os outros: tabaco, cereja e sub-bosque.",
+      "confianca": 0.85,
+      "fontes": [
+        "rótulo da garrafa",
+        "antinori.it",
+        "wine-searcher.com",
+        "cellartracker.com",
+        "winespectator.com"
+      ],
+      "observacoes": "ABRA ESTA GARRAFA. É de 2003, safra escaldante na Toscana, e já tem mais de vinte anos; o próprio rótulo mostra o granada nas bordas. A crítica da época dizia para beber ao longo da década seguinte — essa década passou. A janela que registrei reflete isso, e é estimativa. Teor alcoólico 13,5%, o 'non filtrato' e o engarrafamento em San Casciano Val di Pesa vêm do rótulo. A tira de importação é britânica, da Allyn & Scott Wines, de Londres: esta garrafa não entrou no Brasil pelo caminho comum. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO desta safra. PREÇO ESTIMADO: não achei oferta brasileira. Média internacional entre US$ 259 no Reino Unido e US$ 300 nos Estados Unidos; usei US$ 280 a R$ 5,15, dobrados, o que dá ~R$ 2.900. É preço de garrafa madura, não de lançamento. Mesma casa do seu AD-0036, o Guado al Tasso — Antinori.",
+      "historia": "Em 1971 os Antinori fizeram uma heresia: puseram Cabernet num Sangiovese do Chianti, envelheceram em barrica francesa pequena e engarrafaram fora da denominação, como vinho de mesa. Nascia o Tignanello, e com ele a ideia inteira dos Super Toscanos — sem ele não existiriam Ornellaia nem Guado al Tasso como os conhecemos. O rótulo conta o resto: a vinha fica em colina, entre 350 e 400 metros, sobre a rocha calcária local chamada alberese, no coração da Toscana, e a família planta uva desde 1385. O lema no brasão, Te duce proficio, é deles: sob a tua condução, eu prospero."
     }
   ]
 }
