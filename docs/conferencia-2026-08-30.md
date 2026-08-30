@@ -64,7 +64,17 @@ Não há campo de capacidade por prateleira no catálogo. Registrado aqui:
 3. ~~Quinta da Leda 2015 em magnum, Prateleira 15~~ — **resolvido**: catalogado como
    **AD-0111**, 1 garrafa. Primeiro rótulo que entra no acervo por conferência física
    em vez de catalogação. Acervo: 310 → 311 garrafas, 111 rótulos.
-4. **Geladeira externa e Armário** — 35 rótulos, 163 garrafas, ainda por conferir.
+4. ~~Geladeira externa e Armário~~ — **conferidos na segunda rodada**. Conferência
+   completa: 110 de 110 rótulos.
+5. **AD-0028, AD-0029 e AD-0030 não foram encontrados** no Armário. Marcados como
+   divergência, quantidade preservada em 1 cada. Na mesma observação o dono relata
+   **três magnums de Quinta do Crasto** no armário. Hipótese principal: são as mesmas
+   garrafas, e o erro é do catálogo — as três fichas têm só foto de frente e o volume
+   de 750 ml foi assumido, nunca lido. Foto prometida; nada criado até lá.
+6. **"Rita 89" do relatório é o Ruta 89 (AD-0105)**, que está no Armário e no catálogo
+   desde 30/08. Não é garrafa fora da lista.
+7. **AD-0014** ganhou teor alcoólico 12%, da anotação da Prateleira 3 da Geladeira.
+   O AD-0019 continua sem teor — está na Prateleira 4, que não teve anotação.
 
 ## Sincronia com o app
 
