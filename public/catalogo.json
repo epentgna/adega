@@ -5779,7 +5779,60 @@
         "wine-searcher.com",
         "wine.com"
       ],
-      "observacoes": "A MESMA MÃO DAS SUAS VEGA SICILIA. Mariano García foi enólogo da Vega Sicilia por décadas antes de fundar a Bodegas Mauro, em 1980, em homenagem ao pai. Você tem três Valbuena dele — safras 2000, 2008 e 2012 — e agora o vinho da casa própria. Vale abrir lado a lado. DE PROPÓSITO FORA DA DENOMINAÇÃO: a bodega e as vinhas ficam em Tudela de Duero, logo depois da linha oficial da Ribera del Duero. Por isso o rótulo diz Vino de la Tierra de Castilla y León e não Ribera del Duero. Não é vinho de segunda: é vinho que não coube na régua. VS quer dizer Vendimia Seleccionada, e é o topo da casa. PRIMEIRO VINHO DE CERTIFICAÇÃO ORGÂNICA DO ACERVO: o contrarrótulo traz o selo de folha da Agricultura UE, o código ES-ECO-031-CL e a inscrição Tempranillo ecológico. O Araujo dos AD-0038 e AD-0072 é feito em biodinâmica, mas ali a informação vem do texto do rótulo, não de selo de certificação. TERCEIRO MAGNUM DE VINHO TRANQUILO DA CASA, todos na Prateleira 15, junto do Batuta 2017 e da Touriga Franca 2017. Estiquei a janela de guarda até 2042 pelo formato. A CASTA VEM DO RÓTULO: variedad Tempranillo. Uma fonte externa fala em Tempranillo com um pouco de Syrah, mas isso pode se referir ao Mauro comum e não ao VS; fiquei com o que está impresso. Os vinte e seis meses de barrica estão no rótulo; a fermentação por parcela com leveduras indígenas vem da casa. PREÇO ESTIMADO: a garrafa de 750 ml sai por US$ 112 de média internacional; aplicando o multiplicador de 2,2 para magnum, chega a US$ 246, que a R$ 5,15 e dobrados dão ~R$ 2.540. Não achei oferta de magnum nem preço brasileiro. É a garrafa mais cara da Prateleira 15.",
+      "observacoes": "A MESMA MÃO DAS SUAS VEGA SICILIA. Mariano García foi enólogo da Vega Sicilia por décadas antes de fundar a Bodegas Mauro, em 1980, em homenagem ao pai. Você tem três Valbuena dele — safras 2000, 2008 e 2012 — e agora o vinho da casa própria. Vale abrir lado a lado. DE PROPÓSITO FORA DA DENOMINAÇÃO: a bodega e as vinhas ficam em Tudela de Duero, logo depois da linha oficial da Ribera del Duero. Por isso o rótulo diz Vino de la Tierra de Castilla y León e não Ribera del Duero. Não é vinho de segunda: é vinho que não coube na régua. VS quer dizer Vendimia Seleccionada, e é o topo da casa. PRIMEIRO VINHO DE CERTIFICAÇÃO ORGÂNICA DO ACERVO: o contrarrótulo traz o selo de folha da Agricultura UE, o código ES-ECO-031-CL e a inscrição Tempranillo ecológico. O Araujo dos AD-0038 e AD-0072 é feito em biodinâmica, mas ali a informação vem do texto do rótulo, não de selo de certificação. TERCEIRO MAGNUM DE VINHO TRANQUILO DA CASA, todos na Prateleira 15, junto do Batuta 2017 e da Touriga Franca 2017. Estiquei a janela de guarda até 2042 pelo formato. CASTA CONFIRMADA: o contrarrótulo da safra 2015, no AD-0099, declara VARIEDAD: TEMPRANILLO 100%. A menção externa a um pouco de Syrah que eu havia registrado com ressalva se refere ao Mauro comum, não ao VS. Dúvida resolvida. Os vinte e seis meses de barrica estão no rótulo; a fermentação por parcela com leveduras indígenas vem da casa. PREÇO ESTIMADO: a garrafa de 750 ml sai por US$ 112 de média internacional; aplicando o multiplicador de 2,2 para magnum, chega a US$ 246, que a R$ 5,15 e dobrados dão ~R$ 2.540. Não achei oferta de magnum nem preço brasileiro. É a garrafa mais cara da Prateleira 15.",
+      "historia": "Mariano García passou décadas como enólogo da Vega Sicilia, a casa mais reverenciada da Espanha, e em 1980 montou a própria bodega em Tudela de Duero, em homenagem ao pai, Mauro. Escolheu ficar do lado de fora da linha da Ribera del Duero — a poucos quilômetros dela — e por isso os vinhos saem como Vino de la Tierra de Castilla y León, categoria mais humilde do que o conteúdo. É um gesto de quem já não precisava provar nada a denominação nenhuma."
+    },
+    {
+      "codigo": "AD-0099",
+      "fotos": [
+        "AD-0099-1.webp",
+        "AD-0099-2.webp"
+      ],
+      "nome": "Mauro VS Vendimia Seleccionada (Magnum 1,5 L)",
+      "produtor": "Bodegas Mauro",
+      "safra": 2015,
+      "tipo": "Tinto",
+      "uvas": [
+        "Tempranillo"
+      ],
+      "pais": "Espanha",
+      "regiao": "Castela e Leão",
+      "subRegiao": "Tudela de Duero, Valladolid",
+      "teorAlcoolico": 14.5,
+      "volumeMl": 1500,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 15",
+      "garrafas": 1,
+      "notasDegustacao": "Tempranillo puro de dois vinhedos, fermentados em separado em inox, e vinte e seis meses em barrica de carvalho francês e americano. Cor de cereja com borda granada. Nariz penetrante e perfumado, de frutos vermelhos, alcaçuz e ervas. Na boca os taninos aparecem cingidos, enérgicos e vivos, com volume e delicadeza ao mesmo tempo.",
+      "harmonizacoes": [
+        "Cordeiro assado",
+        "Carne vermelha na brasa",
+        "Caça",
+        "Queijos curados"
+      ],
+      "guardaDe": 2020,
+      "guardaAte": 2038,
+      "temperatura": "16–18 °C",
+      "decantarMin": 90,
+      "avaliacoes": [
+        {
+          "fonte": "Wine Spectator",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2015
+        }
+      ],
+      "precoMercado": 2225,
+      "descricaoCardapio": "Mauro VS 2015 em magnum: frutos vermelhos, alcaçuz e ervas, de taninos vivos.",
+      "confianca": 0.8,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "winespectator.com",
+        "bodegasmauro.com",
+        "wine-searcher.com",
+        "drinksandco.com"
+      ],
+      "observacoes": "ESTE CONTRARRÓTULO RESOLVEU A DÚVIDA QUE EU TINHA DEIXADO NA SAFRA 2018. Ele diz, com todas as letras, VARIEDAD: TEMPRANILLO 100%. No AD-0098 eu havia registrado a casta a partir do rótulo, mas com a ressalva de que uma fonte externa mencionava um pouco de Syrah. Não há: o VS é Tempranillo puro, e a própria casa declara. Anotei a confirmação lá também. VERTICAL FORMADA, e as duas em magnum: esta 2015 e a 2018 do AD-0098, ambas na Prateleira 15. UMA DIFERENÇA ENTRE OS DOIS RÓTULOS QUE VALE NOTAR: a garrafa de 2018 traz o selo de folha da Agricultura UE e o código ES-ECO-031-CL, de certificação orgânica. Esta de 2015 não traz nada disso. A certificação chegou depois — o vinho de 2018 é orgânico certificado, este não é, ou ao menos não era à época do engarrafamento. A MESMA MÃO DAS SUAS VEGA SICILIA: Mariano García foi enólogo da Vega Sicilia por décadas antes de fundar a Bodegas Mauro, em 1980. Com esta, você tem cinco garrafas dele — três Valbuena e dois Mauro VS. A casa descreve os dois vinhedos desta safra como de Tinto Fino, que é o nome ribereño do Tempranillo; bate com o rótulo. Os vinte e seis meses de barrica estão impressos. SÓ UMA PONTUAÇÃO REGISTRADA: 94 do Wine Spectator. Apareceu também um 93 sem crítico identificado, provavelmente média de agregador, que não registrei. Não consegui confirmar a nota do Vivino nem uma do Wine Advocate para esta safra — a 2018 tem 96 de Parker, esta não achei. Selo da Certificación de Origen Castilla y León, VR nº 427875, com a menção Envejecido en Roble. PREÇO ESTIMADO: o Wine Spectator lista US$ 98 para a garrafa de 750 ml desta safra; aplicando o multiplicador de 2,2 para magnum, chega a US$ 216, que a R$ 5,15 e dobrados dão ~R$ 2.225. Não achei oferta de magnum. Janela de guarda é estimativa, esticada pelo formato.",
       "historia": "Mariano García passou décadas como enólogo da Vega Sicilia, a casa mais reverenciada da Espanha, e em 1980 montou a própria bodega em Tudela de Duero, em homenagem ao pai, Mauro. Escolheu ficar do lado de fora da linha da Ribera del Duero — a poucos quilômetros dela — e por isso os vinhos saem como Vino de la Tierra de Castilla y León, categoria mais humilde do que o conteúdo. É um gesto de quem já não precisava provar nada a denominação nenhuma."
     }
   ]
