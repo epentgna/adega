@@ -66,9 +66,12 @@ Não há campo de capacidade por prateleira no catálogo. Registrado aqui:
 ## Pendências abertas por esta conferência
 
 1. **Motivo das quatro baixas na Prateleira 1** (AD-0001, AD-0002, AD-0004, AD-0006).
-2. **Batuta na Prateleira 9** — a ficha AD-0073 é 2019 e foi para 3 garrafas, mas a
-   observação diz "tem 3 Batuta 2017". Ou são seis garrafas em duas safras, ou a
-   safra da ficha está errada. Foto prometida.
+2. ~~Batuta na Prateleira 9~~ — **resolvido.** A anotação "tem 3 Batuta 2017" era
+   sobre a quantidade, não sobre a safra: são **3 unidades** de
+   **Niepoort · Batuta 2019 · corte de vinhas velhas** (AD-0073). Não há segundo lote
+   por catalogar. A safra 2019 se sustenta: a ficha tem foto da frente e do
+   contrarrótulo, e foi de lá que saíram os 12,5% de álcool. A confusão provável é
+   com **Niepoort · Batuta 2017 · em magnum** (AD-0096, Prateleira 15, 13%).
 3. ~~Quinta da Leda 2015 em magnum, Prateleira 15~~ — **resolvido**: catalogado como
    **AD-0111**, 1 garrafa. Primeiro rótulo que entra no acervo por conferência física
    em vez de catalogação. Acervo: 310 → 311 garrafas, 111 rótulos.
