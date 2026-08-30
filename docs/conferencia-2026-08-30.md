@@ -61,7 +61,9 @@ Não há campo de capacidade por prateleira no catálogo. Registrado aqui:
 2. **Batuta na Prateleira 9** — a ficha AD-0073 é 2019 e foi para 3 garrafas, mas a
    observação diz "tem 3 Batuta 2017". Ou são seis garrafas em duas safras, ou a
    safra da ficha está errada. Foto prometida.
-3. **Quinta da Leda 2015 em magnum, Prateleira 15** — não está no catálogo. Foto prometida.
+3. ~~Quinta da Leda 2015 em magnum, Prateleira 15~~ — **resolvido**: catalogado como
+   **AD-0111**, 1 garrafa. Primeiro rótulo que entra no acervo por conferência física
+   em vez de catalogação. Acervo: 310 → 311 garrafas, 111 rótulos.
 4. **Geladeira externa e Armário** — 35 rótulos, 163 garrafas, ainda por conferir.
 
 ## Sincronia com o app
