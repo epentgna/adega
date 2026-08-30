@@ -17,9 +17,17 @@ externa e o Armário ficaram para outra rodada — 35 rótulos não conferidos.
 | AD-0073 | Batuta 2019 | 1 | **3** | Prateleira 9 |
 | AD-0091 | Cobos Malbec Chañares Vineyard 2014 | 4 | **5** | Prateleira 12 |
 
-As quatro zeradas foram marcadas como divergência sem motivo escrito. As fichas
-foram mantidas inteiras — código, fotos e pesquisa — como histórico. **Falta
-saber se foram bebidas, movidas ou dadas.**
+**Resolvido:** as quatro da Prateleira 1 eram entradas de teste do começo do
+projeto. As garrafas foram movidas para as prateleiras corretas e já estão
+catalogadas sob outros códigos. **As quatro entradas foram removidas do catálogo**,
+com as fotos, a pedido do dono. Contrapartes reais:
+
+| Removido | Vinho | Onde a garrafa está de verdade |
+|---|---|---|
+| AD-0001 | Fundação Eugénio de Almeida · Pêra-Manca Branco 2018 · Antão Vaz, Arinto | AD-0052 (Prat. 6) e AD-0089 (Prat. 12) |
+| AD-0002 | Bodega Catena Zapata · Parcela Nicola Bonarda · Bonarda | AD-0027 (Armário) e AD-0042 (Prat. 4) |
+| AD-0004 | Veuve Clicquot Ponsardin · Brut Yellow Label · Pinot Noir, Meunier, Chardonnay | AD-0020 (Armário) |
+| AD-0006 | Tenuta dell'Ornellaia · Ornellaia Bolgheri Superiore 2014 · corte bordalês | AD-0046 (Prat. 5) |
 
 ## Dados técnicos preenchidos pela conferência
 
@@ -66,11 +74,20 @@ Não há campo de capacidade por prateleira no catálogo. Registrado aqui:
    em vez de catalogação. Acervo: 310 → 311 garrafas, 111 rótulos.
 4. ~~Geladeira externa e Armário~~ — **conferidos na segunda rodada**. Conferência
    completa: 110 de 110 rótulos.
-5. **AD-0028, AD-0029 e AD-0030 não foram encontrados** no Armário. Marcados como
-   divergência, quantidade preservada em 1 cada. Na mesma observação o dono relata
-   **três magnums de Quinta do Crasto** no armário. Hipótese principal: são as mesmas
-   garrafas, e o erro é do catálogo — as três fichas têm só foto de frente e o volume
-   de 750 ml foi assumido, nunca lido. Foto prometida; nada criado até lá.
+5. ~~AD-0028, AD-0029 e AD-0030 não encontrados~~ — **resolvido, e o erro era do
+   catálogo.** As três são **magnums de 1,5 L**, não 750 ml. O volume tinha sido
+   assumido porque só veio foto da frente na catalogação. Corrigidos:
+
+   | Código | Vinho | Volume | Álcool | Lote |
+   |---|---|---|---|---|
+   | AD-0028 | Quinta do Crasto · Touriga Franca 2017 · Touriga Franca | 750 → **1500 ml** | 14,5% | L-01TF20 |
+   | AD-0029 | Quinta do Crasto · Colheita Seleccionada 2013 · Touriga Nacional, Tinta Roriz, Vinhas Velhas | 750 → **1500 ml** | 14,5% | garrafa 429 de 433 |
+   | AD-0030 | Quinta do Crasto · Touriga Franca 2016 · Touriga Franca | 750 → **1500 ml** | 13,5% | L-11TF18 |
+
+   O AD-0029 era a ficha mais vazia do catálogo. O contrarrótulo explicou o mistério:
+   é um lote das três melhores barricas da colheita de 2013 — uma de Touriga Nacional,
+   uma de Tinta Roriz e uma de Vinhas Velhas —, engarrafado em **433 garrafas
+   numeradas à mão**. Por isso não existia em loja nenhuma.
 6. **"Rita 89" do relatório é o Ruta 89 (AD-0105)**, que está no Armário e no catálogo
    desde 30/08. Não é garrafa fora da lista.
 7. **AD-0014** ganhou teor alcoólico 12%, da anotação da Prateleira 3 da Geladeira.
@@ -85,3 +102,10 @@ para não sobrescrever o uso do dia a dia. Os teores alcoólicos e a safra do
 AD-0079 **chegam**, porque preenchem campos vazios. As **quantidades não**.
 
 Mecanismo de revisão de inventário datada: a construir.
+
+## Regra estabelecida nesta conferência
+
+O dono perdeu tempo procurando garrafas porque as telas citavam o vinho só pelo
+nome. **Sempre `produtor · nome · uva`, em todo lugar** — gravado em `CLAUDE.md`
+e no skill de catalogação. A página de conferência escondia o produtor em telas
+estreitas por CSS; corrigido.

@@ -36,6 +36,13 @@ Leia a foto com a ferramenta Read. Depois pesquise na web pelo produtor + nome
 **O rótulo manda.** O que está impresso vale mais que sua memória: produtor,
 nome, safra, denominação, teor alcoólico e volume costumam estar lá.
 
+**Volume não se assume.** Se só veio a foto da frente, o volume não foi lido.
+Peça o contrarrótulo ou registre em `observacoes` que os 750 ml são suposição.
+Três garrafas já entraram no catálogo como 750 ml sendo magnum de 1,5 L.
+
+**Ao falar do vinho, sempre `produtor · nome · uva`** — na conversa e em
+qualquer tela. Ver a regra completa no `CLAUDE.md` da raiz.
+
 **Escreva a `historia`**: de 2 a 4 frases sobre o nome, o produtor ou o
 vinhedo — o que se conta antes de servir. É o que aparece ao tocar no vinho
 dentro do cardápio, então vale pesquisar de verdade. Vale a mesma regra de

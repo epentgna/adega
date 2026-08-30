@@ -4,122 +4,6 @@
   "versao": 1,
   "vinhos": [
     {
-      "codigo": "AD-0001",
-      "fotos": [
-        "AD-0001-1.webp"
-      ],
-      "nome": "Pêra-Manca Branco",
-      "produtor": "Fundação Eugénio de Almeida (Adega Cartuxa)",
-      "safra": 2018,
-      "tipo": "Branco",
-      "uvas": [
-        "Antão Vaz",
-        "Arinto"
-      ],
-      "pais": "Portugal",
-      "regiao": "Alentejo",
-      "subRegiao": "Évora",
-      "teorAlcoolico": 13.0,
-      "volumeMl": 750,
-      "adega": "Adega principal",
-      "prateleira": "Prateleira 1",
-      "garrafas": 0,
-      "notasDegustacao": "Branco de guarda do Alentejo. Cor cítrica, aroma fino e complexo de fruta madura com notas tostadas da barrica; boca cheia, com acidez firme e final longo e mineral.",
-      "harmonizacoes": [
-        "Peixes grelhados",
-        "Frutos do mar",
-        "Aves assadas",
-        "Queijos curados de ovelha"
-      ],
-      "guardaDe": 2021,
-      "guardaAte": 2032,
-      "temperatura": "10–12 °C",
-      "decantarMin": null,
-      "avaliacoes": [
-        {
-          "fonte": "Vivino",
-          "nota": 4.7,
-          "escala": 5,
-          "safra": 2018
-        },
-        {
-          "fonte": "CellarTracker",
-          "nota": 91.6,
-          "escala": 100,
-          "safra": 2018
-        }
-      ],
-      "precoMercado": 800,
-      "descricaoCardapio": "Branco de guarda do Alentejo, de Antão Vaz e Arinto: fruta madura, acidez firme e final longo.",
-      "confianca": 0.95,
-      "fontes": [
-        "vivino.com",
-        "familiascopel.com.br",
-        "casadabebida.com.br",
-        "duartevinhos.com.br",
-        "1001vinhos.com",
-        "wine-searcher.com"
-      ],
-      "observacoes": "CONFERÊNCIA DE 30/08/2026: a garrafa não estava na Prateleira 1. Baixei de 1 para 0 e mantive a ficha inteira — código, fotos e pesquisa — como histórico. Você marcou divergência sem escrever o motivo, então NÃO REGISTREI se foi bebida, movida ou dada. Me diga qual foi e eu anoto; se ela reapareceu em outro lugar, é só falar que eu devolvo a contagem e mudo a prateleira. Das cinco entradas da Prateleira 1, quatro zeraram nesta conferência — só ficaram as garrafas do AD-0005. TEOR ALCOÓLICO PREENCHIDO: 13%, lido no contrarrótulo das garrafas AD-0052, mesma safra. Era a lacuna mais antiga do catálogo. A safra 2016, do AD-0051, tem 13,5%. Outras quatro garrafas desta mesma safra estão na Prateleira 6, sob o código AD-0052. O 91,6 do CellarTracker é média de 18 avaliações da comunidade, não de crítico. Não encontrei nota de crítico (Parker, Suckling, Wine Spectator) para o branco 2018 — a Decanter provou, mas não recuperei a pontuação. A safra 2016 tem 92 de Parker. Preço: lojas brasileiras vão de R$ 690 a R$ 1.050 (Casa da Bebida R$ 729,90, Família Scopel R$ 899, Duarte R$ 1.050). Registrei R$ 800, a mediana da faixa. Confere com o preço em Portugal (~€78) convertido e dobrado pelos impostos de importação. Ofertas abaixo de R$ 300 costumam ser o Cartuxa Branco, da linha básica, e não o Pêra-Manca. Janela de guarda é estimativa, não achei indicação do produtor.",
-      "historia": "O nome vem de uma encosta de pedras soltas em Évora, terra dos monges do Convento do Espinheiro. Reza a história que foi um Pêra-Manca que Pedro Álvares Cabral levou nas naus e serviu no encontro com os indígenas em 1500. O rótulo desapareceu com a extinção da Casa Soares e só voltou quando o herdeiro cedeu o nome à Fundação Eugénio de Almeida, em 1987; o primeiro Pêra-Manca da Fundação saiu em 1990. O vinho estagia na adega de um mosteiro jesuíta de 1580, e só é engarrafado nos anos em que a colheita justifica."
-    },
-    {
-      "codigo": "AD-0002",
-      "fotos": [
-        "AD-0002-1.webp"
-      ],
-      "nome": "Parcela Nicola Catena Bonarda",
-      "produtor": "Bodega Catena Zapata",
-      "safra": null,
-      "tipo": "Tinto",
-      "uvas": [
-        "Bonarda"
-      ],
-      "pais": "Argentina",
-      "regiao": "Mendoza",
-      "subRegiao": "Leste de Mendoza",
-      "teorAlcoolico": null,
-      "volumeMl": 750,
-      "adega": "Adega principal",
-      "prateleira": "Prateleira 1",
-      "garrafas": 0,
-      "notasDegustacao": "Bonarda de vinhas com mais de 80 anos. Frutas vermelhas maduras, amora e especiarias; boca cheia e aveludada, com baunilha e toque de carvalho.",
-      "harmonizacoes": [
-        "Carnes assadas",
-        "Massas com molho de tomate",
-        "Queijos meia-cura"
-      ],
-      "guardaDe": null,
-      "guardaAte": null,
-      "temperatura": "16–18 °C",
-      "decantarMin": 45,
-      "avaliacoes": [
-        {
-          "fonte": "Vivino",
-          "nota": 4.5,
-          "escala": 5,
-          "votos": 41,
-          "safra": 2020
-        },
-        {
-          "fonte": "Wine-Searcher (média de críticos)",
-          "nota": 92,
-          "escala": 100,
-          "safra": 2020
-        }
-      ],
-      "precoMercado": 499,
-      "descricaoCardapio": "Bonarda de vinhas velhas, homenagem ao bisavô italiano da família Catena.",
-      "confianca": 0.85,
-      "fontes": [
-        "catenazapata.com",
-        "vivino.com",
-        "wine-searcher.com"
-      ],
-      "observacoes": "CONFERÊNCIA DE 30/08/2026: a garrafa não estava na Prateleira 1. Baixei de 1 para 0 e mantive a ficha inteira — código, fotos e pesquisa — como histórico. Você marcou divergência sem escrever o motivo, então NÃO REGISTREI se foi bebida, movida ou dada. Me diga qual foi e eu anoto; e note que com esta garrafa fora, a safra desta ficha só pode vir do AD-0027 (14 garrafas, Armário) ou do AD-0042 — as duas outras do mesmo rótulo, ambas 2017; se ela reapareceu em outro lugar, é só falar que eu devolvo a contagem e mudo a prateleira. Das cinco entradas da Prateleira 1, quatro zeraram nesta conferência — só ficaram as garrafas do AD-0005. SAFRA NÃO IDENTIFICADA — a parte de baixo do rótulo não estava legível na foto. Confira na garrafa e corrija no app; os outros lotes deste mesmo rótulo (AD-0027 e AD-0042) são 2017. Notas referem-se à safra 2020. PREÇO CORRIGIDO para R$ 499, que é oferta de loja brasileira — melhor fonte que a estimativa anterior de R$ 460, calculada a partir de €38 dobrados. Teor alcoólico não preenchido porque depende da safra, que ainda não sei.",
-      "historia": "Nicola Catena nasceu em Belforte del Chienti, nas Marcas italianas, em 1882 — é o que está escrito no alto do rótulo, sobre o retrato dele. Emigrou para a Argentina e plantou seu primeiro vinhedo em Mendoza, às margens do rio Tunuyán, em 1902. Gerações depois, ao descobrirem que a uva predileta do bisavô era a Bonarda, os descendentes foram atrás de uma parcela à altura: vinhas com mais de 80 anos no leste de Mendoza, onde o sol forte amadurece por inteiro essa casta tardia."
-    },
-    {
       "codigo": "AD-0003",
       "fotos": [
         "AD-0003-1.webp",
@@ -176,57 +60,6 @@
       ],
       "observacoes": "CORTE CORRIGIDO PELO CONTRARRÓTULO: 63% Cabernet Sauvignon e 37% Malbec (eu tinha registrado 67/33 a partir de fonte secundária). O contrarrótulo também confirma a dedicação — 'In honor of Don Nico Marchiori' — e traz o importador americano Paul Hobbs Imports, de Sebastopol, Califórnia; a etiqueta de loja colada na garrafa é de 26/08/2011. NÃO CONSEGUI LER O TEOR ALCOÓLICO com segurança: o número aparece nas duas fotos mas borrado, e as duas leituras não batem entre si. Preferi deixar vazio; uma foto mais fechada no canto do contrarrótulo resolve. Rótulo 'Nico', nome antigo do corte uNico — hoje chamado Volturno. Preço: média internacional de US$ 279 sem impostos, convertida (US$1≈R$5,16) e dobrada, dá ~R$2.880; não achei à venda no Brasil, é safra antiga e rara. Janela de guarda é estimativa. Garrafa de 2006: pode já estar no fim da janela, vale abrir. A nota 4,7 do Vivino é do rótulo Corte uNico como um todo, não da safra 2006 isolada — o Vivino não separa essa safra.",
       "historia": "Em 1999 o californiano Paul Hobbs se juntou a Andrea Marchiori e Luis Barraud para fazer Malbec em Mendoza. O vinhedo Marchiori, em Perdriel, era da família dela. Deste corte, tirado dos quadrantes mais velhos do vinhedo, saiu o vinho batizado em homenagem ao patriarca Don Nico Marchiori. Chamou-se Corte uNico e, em algumas safras, apenas Nico — como nesta garrafa. Hoje o mesmo vinho leva o nome do meio de Don Nico: Volturno."
-    },
-    {
-      "codigo": "AD-0004",
-      "fotos": [
-        "AD-0004-1.webp"
-      ],
-      "nome": "Brut Yellow Label",
-      "produtor": "Veuve Clicquot Ponsardin",
-      "safra": null,
-      "tipo": "Espumante",
-      "uvas": [
-        "Pinot Noir",
-        "Pinot Meunier",
-        "Chardonnay"
-      ],
-      "pais": "França",
-      "regiao": "Champagne",
-      "subRegiao": "Reims",
-      "teorAlcoolico": 12.0,
-      "volumeMl": 750,
-      "adega": "Adega principal",
-      "prateleira": "Prateleira 1",
-      "garrafas": 0,
-      "notasDegustacao": "Champagne não safrado, com cerca de 35% de vinhos de reserva. Fruta cítrica e maçã, brioche e amêndoa, com perlage fina e final seco.",
-      "harmonizacoes": [
-        "Ostras",
-        "Frutos do mar",
-        "Salgadinhos fritos",
-        "Aperitivo"
-      ],
-      "guardaDe": null,
-      "guardaAte": null,
-      "temperatura": "8–10 °C",
-      "decantarMin": null,
-      "avaliacoes": [
-        {
-          "fonte": "Vivino",
-          "nota": 4.3,
-          "escala": 5
-        }
-      ],
-      "precoMercado": 450,
-      "descricaoCardapio": "O champagne de rótulo amarelo: cítrico, com brioche e perlage fina.",
-      "confianca": 0.98,
-      "fontes": [
-        "veuveclicquot.com",
-        "vivino.com",
-        "paodeacucar.com"
-      ],
-      "observacoes": "CONFERÊNCIA DE 30/08/2026: a garrafa não estava na Prateleira 1. Baixei de 1 para 0 e mantive a ficha inteira — código, fotos e pesquisa — como histórico. Você marcou divergência sem escrever o motivo, então NÃO REGISTREI se foi bebida, movida ou dada. Me diga qual foi e eu anoto; se ela reapareceu em outro lugar, é só falar que eu devolvo a contagem e mudo a prateleira. Das cinco entradas da Prateleira 1, quatro zeraram nesta conferência — só ficaram as garrafas do AD-0005. Sem safra (não safrado), como é padrão do Yellow Label. Teor de 12% lido no próprio rótulo. Preço R$ 450 é de loja brasileira (Pão de Açúcar), não estimativa. Champagne não safrado: as notas de críticos variam conforme o lote e o ano-base do corte, e não dá para saber qual vale para esta garrafa. Por isso registrei só a do Vivino, que é do rótulo como um todo.",
-      "historia": "Barbe-Nicole Ponsardin ficou viúva aos 27 anos, em 1805, e assumiu a casa do marido numa época em que mulher não dirigia negócio na França. Virou a Veuve — a viúva — Clicquot. Em 1816 inventou a mesa de remuage, que permite retirar as borras sem perder o gás e é usada até hoje em toda a Champagne. O rótulo amarelo, que ela adotou em 1877 para distinguir o Brut, virou a marca visual mais reconhecível da região."
     },
     {
       "codigo": "AD-0005",
@@ -302,96 +135,6 @@
       ],
       "observacoes": "Teor alcoólico 14,4% vem do contrarrótulo (lote L-BVUMB17, engarrafado por Viña Cobos em Perdriel, Luján de Cuyo). Mesmo rótulo e safra do AD-0031, que é o lote de 14 garrafas do armário; esta entrada é o lote da Adega principal. Preço: lojas brasileiras entre R$ 437 e R$ 546 (Grand Cru R$ 546 na safra 2018); registrei a mediana R$ 490. Janela de guarda é estimativa.",
       "historia": "Bramare é palavra italiana para desejar com ardor, ansiar. Paul Hobbs escolheu o nome para a linha que nasceu nos anos duros do começo da Viña Cobos, quando, nas palavras dele, ninguém tinha dinheiro — só vontade. É a linha que explora o lado mais fino do Malbec, vinhedo por vinhedo, entre Luján de Cuyo e o Valle de Uco."
-    },
-    {
-      "codigo": "AD-0006",
-      "fotos": [
-        "AD-0006-1.webp"
-      ],
-      "nome": "Ornellaia Bolgheri Superiore",
-      "produtor": "Tenuta dell'Ornellaia",
-      "safra": 2014,
-      "tipo": "Tinto",
-      "uvas": [
-        "Cabernet Sauvignon",
-        "Merlot",
-        "Petit Verdot",
-        "Cabernet Franc"
-      ],
-      "pais": "Itália",
-      "regiao": "Toscana",
-      "subRegiao": "Bolgheri",
-      "teorAlcoolico": 13.5,
-      "volumeMl": 750,
-      "adega": "Adega principal",
-      "prateleira": "Prateleira 1",
-      "garrafas": 0,
-      "notasDegustacao": "Corte de 34% Cabernet Sauvignon, 32% Merlot, 20% Petit Verdot e 14% Cabernet Franc. Fruta escura, grafite e ervas mediterrâneas, com taninos polidos e final salino.",
-      "harmonizacoes": [
-        "Cordeiro",
-        "Carne de caça",
-        "Massas com ragu",
-        "Queijos curados"
-      ],
-      "guardaDe": 2019,
-      "guardaAte": 2032,
-      "temperatura": "17–18 °C",
-      "decantarMin": 90,
-      "avaliacoes": [
-        {
-          "fonte": "Vivino",
-          "nota": 4.6,
-          "escala": 5,
-          "safra": 2014
-        },
-        {
-          "fonte": "James Suckling",
-          "nota": 95,
-          "escala": 100,
-          "safra": 2014
-        },
-        {
-          "fonte": "Jeb Dunnuck",
-          "nota": 95,
-          "escala": 100,
-          "safra": 2014
-        },
-        {
-          "fonte": "Robert Parker",
-          "nota": 94,
-          "escala": 100,
-          "safra": 2014
-        },
-        {
-          "fonte": "Decanter",
-          "nota": 91,
-          "escala": 100,
-          "safra": 2014
-        },
-        {
-          "fonte": "Wine Enthusiast",
-          "nota": 91,
-          "escala": 100,
-          "safra": 2014
-        },
-        {
-          "fonte": "Wine Spectator",
-          "nota": 90,
-          "escala": 100,
-          "safra": 2014
-        }
-      ],
-      "precoMercado": 2500,
-      "descricaoCardapio": "O clássico de Bolgheri: corte bordalês mediterrâneo, de taninos polidos e final salino.",
-      "confianca": 0.97,
-      "fontes": [
-        "ornellaia.com",
-        "wine-searcher.com",
-        "cellartracker.com",
-        "99bottlzblog.wordpress.com"
-      ],
-      "observacoes": "CONFERÊNCIA DE 30/08/2026: a garrafa não estava na Prateleira 1. Baixei de 1 para 0 e mantive a ficha inteira — código, fotos e pesquisa — como histórico. Você marcou divergência sem escrever o motivo, então NÃO REGISTREI se foi bebida, movida ou dada. Me diga qual foi e eu anoto; se ela reapareceu em outro lugar, é só falar que eu devolvo a contagem e mudo a prateleira. Das cinco entradas da Prateleira 1, quatro zeraram nesta conferência — só ficaram as garrafas do AD-0005. Teor alcoólico 13,5% veio do contrarrótulo das garrafas AD-0045 e AD-0046, mesma safra. Outros dois lotes do mesmo vinho estão na Prateleira 5: o AD-0046, de rótulo comum, e o AD-0045, com o rótulo de artista de Ernesto Neto. 2014 foi safra difícil na Toscana — daí a dispersão das notas (90 a 95). Preço: média internacional de US$ 234 sem impostos, convertida (US$1≈R$5,16) e dobrada, dá ~R$ 2.415; arredondei para R$ 2.500, dentro da faixa que as importadoras brasileiras praticam.",
-      "historia": "Ornellaia nasceu em Bolgheri, na costa toscana, por obra do Marquês Lodovico Antinori, com primeira safra em 1985. Era a época em que um punhado de produtores decidiu plantar castas bordalesas na Toscana e ficou fora da denominação oficial — o que lhes valeu o apelido de Super Toscanos, e mais tarde uma denominação própria, a Bolgheri DOC. A cada safra a casa encomenda a um artista contemporâneo o rótulo da Vendemmia d'Artista. A 2014 foi ano difícil na Toscana, chuvoso e frio, e é justamente por isso que os críticos se dividiram tanto."
     },
     {
       "codigo": "AD-0007",
@@ -1560,9 +1303,10 @@
     {
       "codigo": "AD-0028",
       "fotos": [
-        "AD-0028-1.webp"
+        "AD-0028-1.webp",
+        "AD-0028-2.webp"
       ],
-      "nome": "Touriga Franca",
+      "nome": "Touriga Franca (Magnum 1,5 L)",
       "produtor": "Quinta do Crasto",
       "safra": 2017,
       "tipo": "Tinto",
@@ -1573,7 +1317,7 @@
       "regiao": "Douro",
       "subRegiao": "Douro DOC",
       "teorAlcoolico": 14.5,
-      "volumeMl": 750,
+      "volumeMl": 1500,
       "adega": "Armário",
       "prateleira": "",
       "garrafas": 1,
@@ -1619,28 +1363,33 @@
         "wineenthusiast.com",
         "portugalvineyards.com"
       ],
-      "observacoes": "NÃO ENCONTRADA NA CONFERÊNCIA DE 30/08/2026. Você marcou divergência e escreveu, na observação do Armário, que não achou as três: AD-0028, AD-0029 e AD-0030. NÃO ZEREI A QUANTIDADE, porque você também não zerou — deixou como divergência, e leio isso como 'não achei', não como 'não existe mais'. E existe uma hipótese forte, que é ERRO MEU. Na mesma observação você escreveu que há três magnums de Quinta do Crasto no armário. São três garrafas do Crasto que eu não acho e três magnums do Crasto que você acha, no mesmo lugar. Isto aqui pode não ser garrafa sumida: pode ser esta ficha, com o formato errado. AS TRÊS FICHAS TÊM UMA FOTO SÓ, do rótulo da frente — nunca vi contrarrótulo nem marca de volume nelas, e registrei 750 ml por padrão, não por leitura. Se forem magnums, o erro é meu e é de origem. Estou esperando a foto para decidir entre corrigir o volume destas três fichas ou criar entradas novas. NÃO CRIEI NADA ainda, justamente para não duplicar o acervo. Outras três garrafas deste mesmo vinho estão na Prateleira 10, sob o código AD-0082, e o contrarrótulo delas saiu legível: de lá vieram o teor alcoólico de 14,5%, que estava vazio aqui, e a fermentação em inox antes dos dezoito meses de barrica francesa. MEDALHA CONFIRMADA: Grand Gold no Wines of Portugal Challenge de 2022, além do Destaque Douro da Adega Magazine. São medalha e destaque, não pontuação, por isso não entram na lista de avaliações. A Touriga Nacional 2017 da mesma casa (AD-0080) também aparece nas fontes com Grand Gold de 2022 — as duas ganharam, não é confusão minha como cheguei a suspeitar. PREÇO CORRIGIDO PARA R$ 800, e vale explicar. Não achei este varietal à venda no Brasil, mas os irmãos de linha estão: a Tinta Roriz sai por R$ 799,90 no Caçador de Vinhos, e a Quinta do Crasto vende os varietais pelo mesmo preço. O caminho do dólar dava ~R$ 460 (US$ 45 dobrados), bem abaixo — preferi o preço brasileiro real de um vinho da mesma linha à conta feita sobre um preço internacional. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. Janela de guarda é estimativa."
+      "observacoes": "CONFERÊNCIA DE 30/08/2026: ERRO MEU, CORRIGIDO: esta garrafa é MAGNUM DE 1,5 LITRO, não 750 ml. Você não a encontrou na lista porque eu a tinha registrado no formato errado. Quando catalogamos, veio só a foto do rótulo da frente, e eu assumi 750 ml em vez de deixar em branco ou perguntar. O contrarrótulo que você mandou agora diz '1500 ml' com todas as letras. Corrigi também o teor para 14,5%, agora lido no rótulo, e não mais emprestado do AD-0082. O lote é L-01TF20 e o selo do Instituto dos Vinhos do Douro e do Porto é o FA01-232657. MESMO LOTE DO AD-0097: as duas magnums da Prateleira 15 saíram da mesma leva desta. Continuam em fichas separadas porque estão em lugares diferentes, como manda a regra da casa. A CASA TEM AGORA TRÊS MAGNUMS DESTE VINHO: duas no AD-0097 e esta no Armário. NÃO ENCONTRADA NA CONFERÊNCIA DE 30/08/2026. Você marcou divergência e escreveu, na observação do Armário, que não achou as três: AD-0028, AD-0029 e AD-0030. NÃO ZEREI A QUANTIDADE, porque você também não zerou — deixou como divergência, e leio isso como 'não achei', não como 'não existe mais'. E existe uma hipótese forte, que é ERRO MEU. Na mesma observação você escreveu que há três magnums de Quinta do Crasto no armário. São três garrafas do Crasto que eu não acho e três magnums do Crasto que você acha, no mesmo lugar. Isto aqui pode não ser garrafa sumida: pode ser esta ficha, com o formato errado. AS TRÊS FICHAS TÊM UMA FOTO SÓ, do rótulo da frente — nunca vi contrarrótulo nem marca de volume nelas, e registrei 750 ml por padrão, não por leitura. Se forem magnums, o erro é meu e é de origem. Estou esperando a foto para decidir entre corrigir o volume destas três fichas ou criar entradas novas. NÃO CRIEI NADA ainda, justamente para não duplicar o acervo. Outras três garrafas deste mesmo vinho estão na Prateleira 10, sob o código AD-0082, e o contrarrótulo delas saiu legível: de lá vieram o teor alcoólico de 14,5%, que estava vazio aqui, e a fermentação em inox antes dos dezoito meses de barrica francesa. MEDALHA CONFIRMADA: Grand Gold no Wines of Portugal Challenge de 2022, além do Destaque Douro da Adega Magazine. São medalha e destaque, não pontuação, por isso não entram na lista de avaliações. A Touriga Nacional 2017 da mesma casa (AD-0080) também aparece nas fontes com Grand Gold de 2022 — as duas ganharam, não é confusão minha como cheguei a suspeitar. PREÇO CORRIGIDO PARA R$ 800, e vale explicar. Não achei este varietal à venda no Brasil, mas os irmãos de linha estão: a Tinta Roriz sai por R$ 799,90 no Caçador de Vinhos, e a Quinta do Crasto vende os varietais pelo mesmo preço. O caminho do dólar dava ~R$ 460 (US$ 45 dobrados), bem abaixo — preferi o preço brasileiro real de um vinho da mesma linha à conta feita sobre um preço internacional. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. Janela de guarda é estimativa."
     },
     {
       "codigo": "AD-0029",
       "fotos": [
-        "AD-0029-1.webp"
+        "AD-0029-1.webp",
+        "AD-0029-2.webp"
       ],
-      "nome": "Colheita Seleccionada",
+      "nome": "Colheita Seleccionada (Magnum 1,5 L)",
       "produtor": "Quinta do Crasto",
       "safra": 2013,
       "tipo": "Tinto",
-      "uvas": [],
+      "uvas": [
+        "Touriga Nacional",
+        "Tinta Roriz",
+        "Vinhas Velhas"
+      ],
       "pais": "Portugal",
       "regiao": "Douro",
       "subRegiao": "Douro DOC",
-      "teorAlcoolico": null,
-      "volumeMl": 750,
+      "teorAlcoolico": 14.5,
+      "volumeMl": 1500,
       "adega": "Armário",
       "prateleira": "",
       "garrafas": 1,
       "historia": "A Quinta do Crasto fica na margem direita do Douro, entre a Régua e o Pinhão: 130 hectares, 70 deles de vinha. Esta garrafa não tem rótulo de papel — o nome vem serigrafado direto no vidro, com o selo de garantia do Douro no gargalo.",
-      "notasDegustacao": "",
+      "notasDegustacao": "Lote das três melhores barricas da colheita de 2013 da casa: uma de Touriga Nacional, uma de Tinta Roriz e uma de vinho de Vinhas Velhas. É o perfil do Douro de topo — fruta preta densa, especiaria e a mineralidade xistosa da região —, com a complexidade e a persistência que a casa reivindica no próprio rótulo. Sem resenha publicada de crítico, e com treze anos de garrafa, o que se pode dizer com honestidade é isto: é vinho de barrica selecionada, em magnum, feito para durar.",
       "harmonizacoes": [
         "Carne vermelha",
         "Cordeiro",
@@ -1648,23 +1397,26 @@
       ],
       "guardaDe": null,
       "guardaAte": null,
-      "temperatura": "16–18 °C",
+      "temperatura": "16–18 °C, como manda o rótulo",
       "decantarMin": 60,
       "avaliacoes": [],
       "precoMercado": null,
-      "descricaoCardapio": "Douro de 2013 da Quinta do Crasto, em garrafa serigrafada.",
-      "confianca": 0.6,
+      "descricaoCardapio": "Lote de três barricas escolhidas da colheita de 2013 do Crasto, em magnum numerado: 429 de 433.",
+      "confianca": 0.75,
       "fontes": [
-        "quintadocrasto.wine"
+        "rótulo e contrarrótulo da garrafa",
+        "conferência física de 30/08/2026",
+        "quintadocrasto.pt"
       ],
-      "observacoes": "NÃO ENCONTRADA NA CONFERÊNCIA DE 30/08/2026. Você marcou divergência e escreveu, na observação do Armário, que não achou as três: AD-0028, AD-0029 e AD-0030. NÃO ZEREI A QUANTIDADE, porque você também não zerou — deixou como divergência, e leio isso como 'não achei', não como 'não existe mais'. E existe uma hipótese forte, que é ERRO MEU. Na mesma observação você escreveu que há três magnums de Quinta do Crasto no armário. São três garrafas do Crasto que eu não acho e três magnums do Crasto que você acha, no mesmo lugar. Isto aqui pode não ser garrafa sumida: pode ser esta ficha, com o formato errado. AS TRÊS FICHAS TÊM UMA FOTO SÓ, do rótulo da frente — nunca vi contrarrótulo nem marca de volume nelas, e registrei 750 ml por padrão, não por leitura. Se forem magnums, o erro é meu e é de origem. Estou esperando a foto para decidir entre corrigir o volume destas três fichas ou criar entradas novas. NÃO CRIEI NADA ainda, justamente para não duplicar o acervo. RÓTULO QUE NÃO CONSEGUI DOCUMENTAR. Procurei e não achei \"Colheita Seleccionada\" na linha publicada da Quinta do Crasto nem em loja nenhuma. Pode ser engarrafamento especial para importador ou para o mercado brasileiro. Por isso ficaram em branco as castas, as notas de degustação, as avaliações e O PREÇO — preferi deixar vazio a inventar número. O que está registrado veio do que dá para ler na garrafa: Quinta do Crasto, Colheita Seleccionada, Douro D.O.C., 2013, Produto de Portugal. Se você souber de onde veio ou quanto custou, me diga que eu completo. Com 13 anos, é garrafa para conferir o estado antes de guardar mais."
+      "observacoes": "CONFERÊNCIA DE 30/08/2026: A FICHA MAIS VAZIA DO CATÁLOGO ACABOU DE SER PREENCHIDA, e a explicação do mistério estava no contrarrótulo o tempo todo. É MAGNUM DE 1,5 LITRO, e é GARRAFA NUMERADA À MÃO: 429 de 433. Só quatrocentas e trinta e três garrafas existem deste engarrafamento. Era por isso que eu não achava este rótulo em loja nenhuma nem na linha publicada da casa — não é vinho de linha, é lote único. Eu tinha escrito que 'pode ser engarrafamento especial para importador'. Estava errado no motivo e certo no instinto: é engarrafamento especial, mas da própria quinta. O QUE É, NAS PALAVRAS DO RÓTULO: 'o resultado de um lote das três melhores barricas' da colheita de 2013 — uma barrica de Touriga Nacional, uma de Tinta Roriz e uma de Vinhas Velhas. As castas, que estavam em branco, vêm daí. Teor alcoólico 14,5%, também do contrarrótulo, e temperatura de serviço de 16 a 18 °C. Engarrafado pela Quinta do Crasto S.A., Gouvinhas, 5060-063 Sabrosa. PREÇO CONTINUA EM BRANCO, e agora eu sei por quê: com 433 garrafas no mundo, não existe preço de mercado a consultar. Se você souber quanto custou ou de onde veio, me diga — é a última lacuna desta ficha. AINDA SEM NOTA DE CRÍTICO, pelo mesmo motivo: crítico não resenha o que não circula. Não é omissão, é ausência real. NÃO ENCONTRADA NA CONFERÊNCIA DE 30/08/2026. Você marcou divergência e escreveu, na observação do Armário, que não achou as três: AD-0028, AD-0029 e AD-0030. NÃO ZEREI A QUANTIDADE, porque você também não zerou — deixou como divergência, e leio isso como 'não achei', não como 'não existe mais'. E existe uma hipótese forte, que é ERRO MEU. Na mesma observação você escreveu que há três magnums de Quinta do Crasto no armário. São três garrafas do Crasto que eu não acho e três magnums do Crasto que você acha, no mesmo lugar. Isto aqui pode não ser garrafa sumida: pode ser esta ficha, com o formato errado. AS TRÊS FICHAS TÊM UMA FOTO SÓ, do rótulo da frente — nunca vi contrarrótulo nem marca de volume nelas, e registrei 750 ml por padrão, não por leitura. Se forem magnums, o erro é meu e é de origem. Estou esperando a foto para decidir entre corrigir o volume destas três fichas ou criar entradas novas. NÃO CRIEI NADA ainda, justamente para não duplicar o acervo. Com 13 anos, é garrafa para conferir o estado antes de guardar mais."
     },
     {
       "codigo": "AD-0030",
       "fotos": [
-        "AD-0030-1.webp"
+        "AD-0030-1.webp",
+        "AD-0030-2.webp"
       ],
-      "nome": "Touriga Franca",
+      "nome": "Touriga Franca (Magnum 1,5 L)",
       "produtor": "Quinta do Crasto",
       "safra": 2016,
       "tipo": "Tinto",
@@ -1674,8 +1426,8 @@
       "pais": "Portugal",
       "regiao": "Douro",
       "subRegiao": "Douro DOC",
-      "teorAlcoolico": null,
-      "volumeMl": 750,
+      "teorAlcoolico": 13.5,
+      "volumeMl": 1500,
       "adega": "Armário",
       "prateleira": "",
       "garrafas": 1,
@@ -1727,7 +1479,7 @@
         "jamessuckling.com",
         "wineenthusiast.com"
       ],
-      "observacoes": "NÃO ENCONTRADA NA CONFERÊNCIA DE 30/08/2026. Você marcou divergência e escreveu, na observação do Armário, que não achou as três: AD-0028, AD-0029 e AD-0030. NÃO ZEREI A QUANTIDADE, porque você também não zerou — deixou como divergência, e leio isso como 'não achei', não como 'não existe mais'. E existe uma hipótese forte, que é ERRO MEU. Na mesma observação você escreveu que há três magnums de Quinta do Crasto no armário. São três garrafas do Crasto que eu não acho e três magnums do Crasto que você acha, no mesmo lugar. Isto aqui pode não ser garrafa sumida: pode ser esta ficha, com o formato errado. AS TRÊS FICHAS TÊM UMA FOTO SÓ, do rótulo da frente — nunca vi contrarrótulo nem marca de volume nelas, e registrei 750 ml por padrão, não por leitura. Se forem magnums, o erro é meu e é de origem. Estou esperando a foto para decidir entre corrigir o volume destas três fichas ou criar entradas novas. NÃO CRIEI NADA ainda, justamente para não duplicar o acervo. Mesma Touriga Franca do AD-0028, safra anterior. O 18,5 é do Guia de Vinhos do Douro de João Paulo Martins, em escala 20. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. PREÇO ESTIMADO pelo mesmo caminho do AD-0028 (~US$ 45 dobrados): ~R$480, estimativa frágil. Janela de guarda é estimativa. Teor alcoólico não estava legível na foto."
+      "observacoes": "CONFERÊNCIA DE 30/08/2026: ERRO MEU, CORRIGIDO: esta garrafa é MAGNUM DE 1,5 LITRO, não 750 ml — assumi o formato porque só tinha vindo foto da frente. O contrarrótulo confirma 1500 ml. Teor alcoólico 13,5%, agora lido no rótulo; estava em branco desde a catalogação. Lote L-11TF18, selo FA01-106337. REPARE NA DIFERENÇA ENTRE AS SAFRAS: esta 2016 tem 13,5% e a 2017 do AD-0028 tem 14,5%. Um grau inteiro de diferença no mesmo vinho, em anos seguidos. NÃO ENCONTRADA NA CONFERÊNCIA DE 30/08/2026. Você marcou divergência e escreveu, na observação do Armário, que não achou as três: AD-0028, AD-0029 e AD-0030. NÃO ZEREI A QUANTIDADE, porque você também não zerou — deixou como divergência, e leio isso como 'não achei', não como 'não existe mais'. E existe uma hipótese forte, que é ERRO MEU. Na mesma observação você escreveu que há três magnums de Quinta do Crasto no armário. São três garrafas do Crasto que eu não acho e três magnums do Crasto que você acha, no mesmo lugar. Isto aqui pode não ser garrafa sumida: pode ser esta ficha, com o formato errado. AS TRÊS FICHAS TÊM UMA FOTO SÓ, do rótulo da frente — nunca vi contrarrótulo nem marca de volume nelas, e registrei 750 ml por padrão, não por leitura. Se forem magnums, o erro é meu e é de origem. Estou esperando a foto para decidir entre corrigir o volume destas três fichas ou criar entradas novas. NÃO CRIEI NADA ainda, justamente para não duplicar o acervo. Mesma Touriga Franca do AD-0028, safra anterior. O 18,5 é do Guia de Vinhos do Douro de João Paulo Martins, em escala 20. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. PREÇO ESTIMADO pelo mesmo caminho do AD-0028 (~US$ 45 dobrados): ~R$480, estimativa frágil. Janela de guarda é estimativa. Teor alcoólico não estava legível na foto."
     },
     {
       "codigo": "AD-0031",
@@ -5743,7 +5495,7 @@
         "jancisrobinson.com",
         "cacadordevinhos.com.br"
       ],
-      "observacoes": "CONFERÊNCIA DE 30/08/2026: RESSALVA ACRESCENTADA: a contagem de 'seis garrafas do mesmo lote em três formatos' que está mais abaixo inclui o AD-0028, do Armário, como 750 ml. Aquela garrafa não foi encontrada na conferência e pode ser, na verdade, um magnum — o volume dela nunca foi lido, foi assumido. Se for, esta soma muda. MAGNUM DE 1,5 LITRO. É o segundo formato grande de vinho tranquilo do acervo, junto do Batuta 2017 do AD-0096, também na Prateleira 15. Vinho envelhece mais devagar em magnum, e por isso estiquei a janela de guarda até 2040 — na garrafa de 750 ml ela vai até 2035. MESMO VINHO E MESMO ENGARRAFAMENTO DO AD-0082: o lote é idêntico, L-01TF20, o que significa que estas duas magnums saíram da mesma leva que as três garrafas de 750 ml da Prateleira 10 e a do armário, no AD-0028. Seis garrafas do mesmo lote em três formatos de guarda diferentes — dá para abrir uma 750 agora e guardar a magnum por mais dez anos. Teor alcoólico 14,5%, a fermentação em cubas de inox com temperatura controlada antes dos dezoito meses de barrica francesa, a temperatura de serviço de 16–18 °C e o lote vêm do contrarrótulo. Selo do Instituto dos Vinhos do Douro e do Porto, FA01-232661, com a faixa de volume declarada como maior que 1 litro e até 2 litros — o selo do magnum é diferente do da garrafa comum. VARIETAL RARO: a Touriga Franca é a casta mais plantada do Douro, base de praticamente todo Porto e todo tinto da região, mas quase sempre como coadjuvante. Engarrafá-la sozinha é incomum; em magnum, mais ainda. MEDALHA CONFIRMADA: Grand Gold no Wines of Portugal Challenge de 2022, além do Destaque Douro da Adega Magazine. São medalha e destaque, não pontuação, por isso não entram na lista de avaliações. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. A nota 16 de Jancis Robinson é em escala 20. PREÇO ESTIMADO: R$ 1.760, que é o preço da garrafa de 750 ml (R$ 800) multiplicado por 2,2 — a proporção de magnum que calibrei com dados reais de Veuve Clicquot no Brasil. Não achei oferta de magnum deste rótulo. Ao contrário da Touriga Nacional e da Tinta Roriz da mesma casa, este contrarrótulo NÃO menciona engarrafamento sem filtração. Não assumi que seja igual às irmãs.",
+      "observacoes": "CONFERÊNCIA DE 30/08/2026: SOMA DO LOTE CORRIGIDA: o AD-0028, do Armário, era magnum e não 750 ml — eu tinha assumido o formato errado. O lote L-01TF20 rendeu então TRÊS MAGNUMS (estas duas mais a do Armário) e as três garrafas de 750 ml do AD-0082, na Prateleira 10. Seis garrafas do mesmo engarrafamento em dois formatos, não três. MAGNUM DE 1,5 LITRO. É o segundo formato grande de vinho tranquilo do acervo, junto do Batuta 2017 do AD-0096, também na Prateleira 15. Vinho envelhece mais devagar em magnum, e por isso estiquei a janela de guarda até 2040 — na garrafa de 750 ml ela vai até 2035. MESMO VINHO E MESMO ENGARRAFAMENTO DO AD-0082: o lote é idêntico, L-01TF20, o que significa que estas duas magnums saíram da mesma leva que as três garrafas de 750 ml da Prateleira 10 e a do armário, no AD-0028. Seis garrafas do mesmo lote em três formatos de guarda diferentes — dá para abrir uma 750 agora e guardar a magnum por mais dez anos. Teor alcoólico 14,5%, a fermentação em cubas de inox com temperatura controlada antes dos dezoito meses de barrica francesa, a temperatura de serviço de 16–18 °C e o lote vêm do contrarrótulo. Selo do Instituto dos Vinhos do Douro e do Porto, FA01-232661, com a faixa de volume declarada como maior que 1 litro e até 2 litros — o selo do magnum é diferente do da garrafa comum. VARIETAL RARO: a Touriga Franca é a casta mais plantada do Douro, base de praticamente todo Porto e todo tinto da região, mas quase sempre como coadjuvante. Engarrafá-la sozinha é incomum; em magnum, mais ainda. MEDALHA CONFIRMADA: Grand Gold no Wines of Portugal Challenge de 2022, além do Destaque Douro da Adega Magazine. São medalha e destaque, não pontuação, por isso não entram na lista de avaliações. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. A nota 16 de Jancis Robinson é em escala 20. PREÇO ESTIMADO: R$ 1.760, que é o preço da garrafa de 750 ml (R$ 800) multiplicado por 2,2 — a proporção de magnum que calibrei com dados reais de Veuve Clicquot no Brasil. Não achei oferta de magnum deste rótulo. Ao contrário da Touriga Nacional e da Tinta Roriz da mesma casa, este contrarrótulo NÃO menciona engarrafamento sem filtração. Não assumi que seja igual às irmãs.",
       "historia": "A Quinta do Crasto fica em Gouvinhas, Sabrosa, debruçada sobre uma curva do Douro. A linha de varietais existe para mostrar cada casta sozinha, fora do corte tradicional — e a Touriga Franca é a que menos costuma aparecer assim: é uma das castas mais plantadas da região, base de praticamente todo Porto e todo tinto do Douro, mas quase sempre como coadjuvante. Aqui ela aparece sozinha, e o rótulo diz o que está tentando fazer: mostrar a verdadeira essência da Touriga Franca."
     },
     {
