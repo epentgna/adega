@@ -1572,7 +1572,7 @@
       "pais": "Portugal",
       "regiao": "Douro",
       "subRegiao": "Douro DOC",
-      "teorAlcoolico": null,
+      "teorAlcoolico": 14.5,
       "volumeMl": 750,
       "adega": "Armário",
       "prateleira": "",
@@ -1610,7 +1610,7 @@
           "safra": 2017
         }
       ],
-      "precoMercado": 480,
+      "precoMercado": 800,
       "descricaoCardapio": "Touriga Franca pura do Douro: fruta vermelha, violeta e taninos sedosos.",
       "confianca": 0.95,
       "fontes": [
@@ -1619,7 +1619,7 @@
         "wineenthusiast.com",
         "portugalvineyards.com"
       ],
-      "observacoes": "Levou também Grand Gold no Wines of Portugal Challenge de 2022 — medalha, não nota, por isso não entrou na lista. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. PREÇO ESTIMADO: não achei este rótulo à venda no Brasil. Parti de ~US$ 45 lá fora, convertidos (US$1≈R$5,16) e dobrados pelos impostos, o que dá ~R$480. É estimativa frágil — se você souber quanto pagou, vale corrigir. Janela de guarda é estimativa. Teor alcoólico não estava legível na foto. ATENÇÃO — POSSÍVEL CONFUSÃO NA MEDALHA: o Grand Gold do Wines of Portugal Challenge de 2022 que registrei aqui aparece, em busca posterior, ligado à Touriga Nacional 2017 da mesma casa (AD-0080). Pode ser que as duas tenham ganhado, pode ser que eu tenha atribuído à garrafa errada. Fica o aviso nas duas fichas."
+      "observacoes": "Outras três garrafas deste mesmo vinho estão na Prateleira 10, sob o código AD-0082, e o contrarrótulo delas saiu legível: de lá vieram o teor alcoólico de 14,5%, que estava vazio aqui, e a fermentação em inox antes dos dezoito meses de barrica francesa. MEDALHA CONFIRMADA: Grand Gold no Wines of Portugal Challenge de 2022, além do Destaque Douro da Adega Magazine. São medalha e destaque, não pontuação, por isso não entram na lista de avaliações. A Touriga Nacional 2017 da mesma casa (AD-0080) também aparece nas fontes com Grand Gold de 2022 — as duas ganharam, não é confusão minha como cheguei a suspeitar. PREÇO CORRIGIDO PARA R$ 800, e vale explicar. Não achei este varietal à venda no Brasil, mas os irmãos de linha estão: a Tinta Roriz sai por R$ 799,90 no Caçador de Vinhos, e a Quinta do Crasto vende os varietais pelo mesmo preço. O caminho do dólar dava ~R$ 460 (US$ 45 dobrados), bem abaixo — preferi o preço brasileiro real de um vinho da mesma linha à conta feita sobre um preço internacional. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. Janela de guarda é estimativa."
     },
     {
       "codigo": "AD-0029",
@@ -4704,7 +4704,7 @@
         "wine-searcher.com",
         "cacadordevinhos.com.br"
       ],
-      "observacoes": "QUARTO RÓTULO DA QUINTA DO CRASTO NO ACERVO, e o primeiro varietal de Touriga Nacional. Os outros são as Touriga Franca 2017 e 2016 (AD-0028 e AD-0030) e a Colheita Seleccionada 2013 (AD-0029). Aqui a casta vem sozinha. ENGARRAFADO SEM QUALQUER FILTRAÇÃO em janeiro de 2020, e o próprio contrarrótulo avisa que pode criar depósito ao envelhecer. Sirva com cuidado ou decante — pelo mesmo motivo do Porto Noval do AD-0058. Teor alcoólico 14,5%, os dezoito meses de barrica francesa, a data do engarrafamento, a temperatura de serviço de 16–18 °C e o lote L-11TN18 vêm todos do contrarrótulo, que é exemplar. Selo do Instituto dos Vinhos do Douro e do Porto, BQ04-B70432. A nota 19 é da Grandes Escolhas, revista portuguesa, em escala 20, não 100. ATENÇÃO A UMA POSSÍVEL CONFUSÃO MINHA: a medalha Grand Gold do Wines of Portugal Challenge de 2022 aparece nas fontes ligada a ESTA Touriga Nacional 2017, mas eu a tinha registrado nas observações do AD-0028, a Touriga Franca 2017. Pode ser que as duas tenham ganhado, pode ser que eu tenha atribuído à garrafa errada. Deixo o aviso nas duas fichas em vez de escolher. PREÇO: R$ 800. Não achei oferta brasileira deste varietal, mas o irmão Tinta Roriz sai por R$ 799,90 no Caçador de Vinhos e a linha de varietais é vendida pelo mesmo preço. O caminho europeu confere: €56,90, convertidos e dobrados, dão ~R$ 686, na mesma faixa. Janela de guarda é estimativa, mas o próprio rótulo diz em inglês que o vinho recompensa guarda longa.",
+      "observacoes": "QUARTO RÓTULO DA QUINTA DO CRASTO NO ACERVO, e o primeiro varietal de Touriga Nacional. Os outros são as Touriga Franca 2017 e 2016 (AD-0028 e AD-0030) e a Colheita Seleccionada 2013 (AD-0029). Aqui a casta vem sozinha. ENGARRAFADO SEM QUALQUER FILTRAÇÃO em janeiro de 2020, e o próprio contrarrótulo avisa que pode criar depósito ao envelhecer. Sirva com cuidado ou decante — pelo mesmo motivo do Porto Noval do AD-0058. Teor alcoólico 14,5%, os dezoito meses de barrica francesa, a data do engarrafamento, a temperatura de serviço de 16–18 °C e o lote L-11TN18 vêm todos do contrarrótulo, que é exemplar. Selo do Instituto dos Vinhos do Douro e do Porto, BQ04-B70432. A nota 19 é da Grandes Escolhas, revista portuguesa, em escala 20, não 100. MEDALHA: Grand Gold no Wines of Portugal Challenge de 2022 — medalha, não nota, por isso não entra na lista de avaliações. A Touriga Franca 2017 da mesma casa também aparece nas fontes com Grand Gold do mesmo ano; as duas ganharam. Cheguei a suspeitar que tivesse atribuído à garrafa errada, e busca posterior confirmou as duas. PREÇO: R$ 800. Não achei oferta brasileira deste varietal, mas o irmão Tinta Roriz sai por R$ 799,90 no Caçador de Vinhos e a linha de varietais é vendida pelo mesmo preço. O caminho europeu confere: €56,90, convertidos e dobrados, dão ~R$ 686, na mesma faixa. Janela de guarda é estimativa, mas o próprio rótulo diz em inglês que o vinho recompensa guarda longa.",
       "historia": "A Quinta do Crasto fica em Gouvinhas, Sabrosa, sobre uma curva do Douro, e é uma das quintas mais fotografadas de Portugal por causa da piscina infinita debruçada sobre o rio. A linha de varietais existe para mostrar cada casta do Douro sozinha, fora do corte tradicional — e a Touriga Nacional é a rainha delas, reconhecida há muito tempo, como diz o contrarrótulo, como a principal casta da Região Demarcada."
     },
     {
@@ -4796,6 +4796,71 @@
       ],
       "observacoes": "A GARRAFA MAIS PREMIADA DE TODO O SEU ACERVO em número de críticos: sete fontes independentes, duas delas com 96 — Robert Parker e Decanter. Nenhum outro vinho da casa reúne tanta gente concordando. Repare que duas notas são em escala 20, não 100: a Revista de Vinhos deu 18 e Jancis Robinson 16,5++, que é nota alta na escala dela. ENGARRAFADO SEM QUALQUER FILTRAÇÃO em outubro de 2018, e o contrarrótulo avisa que pode criar depósito. Sirva com cuidado ou decante. MEIAS PIPAS, não barricas: o contrarrótulo em português especifica meias pipas de carvalho francês, formato maior que a barrica bordalesa comum e tradicional no Douro. A casa informa que são três vinhedos fermentados em separado e de dezesseis a dezoito meses de madeira nova, conforme a parcela. Teor alcoólico 14,5%, a temperatura de 16–18 °C e o lote L-01TR19 vêm do contrarrótulo. Selo do Instituto dos Vinhos do Douro e do Porto, BB04-867755. Tinta Roriz é o nome português do Tempranillo espanhol — e é a mesma casta que aparece nos seus Vega Sicilia, do outro lado da fronteira. Vale abrir os dois lado a lado algum dia. PREÇO: R$ 799,90 no Caçador de Vinhos, arredondado para R$ 800. Havia R$ 759,91 no pix, que descartei — desconto de pagamento não é preço de mercado. Produto vendido no Brasil, sem dobrar. Janela de guarda é estimativa; o rótulo diz que o vinho recompensa guarda longa.",
       "historia": "A Quinta do Crasto fica em Gouvinhas, Sabrosa, debruçada sobre uma curva do Douro. A linha de varietais existe para mostrar cada casta sozinha, fora do corte tradicional da região, e esta é a Tinta Roriz — que atravessando a fronteira vira Tempranillo e faz os grandes da Ribera del Duero. No Douro ela dá vinhos de fruta escura e taninos firmes, e aqui vem de três vinhedos vinificados em separado antes de se juntarem na garrafa."
+    },
+    {
+      "codigo": "AD-0082",
+      "fotos": [
+        "AD-0082-1.webp",
+        "AD-0082-2.webp"
+      ],
+      "nome": "Touriga Franca",
+      "produtor": "Quinta do Crasto",
+      "safra": 2017,
+      "tipo": "Tinto",
+      "uvas": [
+        "Touriga Franca"
+      ],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Gouvinhas, Sabrosa",
+      "teorAlcoolico": 14.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 10",
+      "garrafas": 3,
+      "notasDegustacao": "Seleção das melhores uvas da casta, fermentadas em cubas de aço inox com temperatura controlada e depois dezoito meses em barricas de carvalho francês. Cor violeta escura. Aroma de excelente intensidade de frutos silvestres, com ameixa, violeta, especiaria e um toque de madeira. Na boca é compacto e de excelente estrutura, com taninos de textura sedutora e final fresco e persistente.",
+      "harmonizacoes": [
+        "Carne vermelha assada",
+        "Cabrito",
+        "Caça",
+        "Queijos curados"
+      ],
+      "guardaDe": 2021,
+      "guardaAte": 2035,
+      "temperatura": "16–18 °C, como manda o rótulo",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Adega Magazine",
+          "nota": 95,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 93,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "Jancis Robinson",
+          "nota": 16,
+          "escala": 20,
+          "safra": 2017
+        }
+      ],
+      "precoMercado": 800,
+      "descricaoCardapio": "Touriga Franca sozinha, coisa rara: frutos silvestres, violeta e taninos sedutores.",
+      "confianca": 0.9,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "quintadocrasto.wine",
+        "wineenthusiast.com",
+        "jancisrobinson.com",
+        "cacadordevinhos.com.br"
+      ],
+      "observacoes": "MESMO VINHO DO AD-0028, que é a garrafa avulsa do armário; esta entrada é o lote de três da Prateleira 10. Com ela, a Quinta do Crasto chega a seis entradas no acervo. ESTE CONTRARRÓTULO SAIU MUITO MAIS LEGÍVEL que o da primeira garrafa e fechou lacunas: teor alcoólico 14,5%, que estava vazio no AD-0028; a fermentação em cubas de inox com temperatura controlada antes dos dezoito meses de barrica francesa; a temperatura de serviço de 16–18 °C; e o lote L-01TF20. Selo do Instituto dos Vinhos do Douro e do Porto, BN04-047305. Preenchi o teor no AD-0028 também. VARIETAL RARO: o próprio rótulo lembra que a Touriga Franca é uma das castas mais tradicionais do Douro, muito adaptada às condições extremas da região, mas quase sempre usada em corte — engarrafá-la sozinha é incomum. DIFERENÇA EM RELAÇÃO ÀS IRMÃS DA PRATELEIRA: ao contrário da Touriga Nacional (AD-0080) e da Tinta Roriz (AD-0081), este contrarrótulo NÃO menciona engarrafamento sem filtração. Não assumi que seja igual às outras. MEDALHA CONFIRMADA: Grand Gold no Wines of Portugal Challenge de 2022, além do Destaque Douro da Adega Magazine. São medalha e destaque, não pontuação, por isso não entram na lista de avaliações. A Touriga Nacional 2017 da mesma casa (AD-0080) também aparece nas fontes com Grand Gold de 2022 — as duas ganharam, não é confusão minha como cheguei a suspeitar. PREÇO CORRIGIDO PARA R$ 800, e vale explicar. Não achei este varietal à venda no Brasil, mas os irmãos de linha estão: a Tinta Roriz sai por R$ 799,90 no Caçador de Vinhos, e a Quinta do Crasto vende os varietais pelo mesmo preço. O caminho do dólar dava ~R$ 460 (US$ 45 dobrados), bem abaixo — preferi o preço brasileiro real de um vinho da mesma linha à conta feita sobre um preço internacional. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. A nota 16 de Jancis Robinson é em escala 20. Janela de guarda é estimativa.",
+      "historia": "A Quinta do Crasto fica em Gouvinhas, Sabrosa, debruçada sobre uma curva do Douro. A linha de varietais existe para mostrar cada casta sozinha, fora do corte tradicional — e a Touriga Franca é a que menos costuma aparecer assim: é uma das castas mais plantadas da região, base de praticamente todo Porto e todo tinto do Douro, mas quase sempre como coadjuvante. Aqui ela aparece sozinha, e o rótulo diz o que está tentando fazer: mostrar a verdadeira essência da Touriga Franca."
     }
   ]
 }
