@@ -1619,7 +1619,7 @@
         "wineenthusiast.com",
         "portugalvineyards.com"
       ],
-      "observacoes": "Levou também Grand Gold no Wines of Portugal Challenge de 2022 — medalha, não nota, por isso não entrou na lista. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. PREÇO ESTIMADO: não achei este rótulo à venda no Brasil. Parti de ~US$ 45 lá fora, convertidos (US$1≈R$5,16) e dobrados pelos impostos, o que dá ~R$480. É estimativa frágil — se você souber quanto pagou, vale corrigir. Janela de guarda é estimativa. Teor alcoólico não estava legível na foto."
+      "observacoes": "Levou também Grand Gold no Wines of Portugal Challenge de 2022 — medalha, não nota, por isso não entrou na lista. NÃO CONSEGUI CONFIRMAR A NOTA DO VIVINO. PREÇO ESTIMADO: não achei este rótulo à venda no Brasil. Parti de ~US$ 45 lá fora, convertidos (US$1≈R$5,16) e dobrados pelos impostos, o que dá ~R$480. É estimativa frágil — se você souber quanto pagou, vale corrigir. Janela de guarda é estimativa. Teor alcoólico não estava legível na foto. ATENÇÃO — POSSÍVEL CONFUSÃO NA MEDALHA: o Grand Gold do Wines of Portugal Challenge de 2022 que registrei aqui aparece, em busca posterior, ligado à Touriga Nacional 2017 da mesma casa (AD-0080). Pode ser que as duas tenham ganhado, pode ser que eu tenha atribuído à garrafa errada. Fica o aviso nas duas fichas."
     },
     {
       "codigo": "AD-0029",
@@ -4647,6 +4647,155 @@
       ],
       "observacoes": "SAFRA NÃO IDENTIFICADA — e aqui isso pesa mais que de costume. Nenhuma das três fotos mostra o ano: o rótulo é todo tomado pela gravura, e o contrarrótulo traz só o lote (L-K065 08:43 3-20195, INV.M-1711732). Numa garrafa deste nível a safra muda tudo, inclusive a nota. Uma foto do gargalo, da cápsula ou do pé do rótulo resolve. POR ISSO NÃO REGISTREI NENHUMA PONTUAÇÃO, apesar de existirem e serem altíssimas. Veja o que está em jogo: a safra 2019 levou 99 de James Suckling; a 2021, 96 de Suckling e 96 do Wine Advocate; a 2022, 98 de Suckling e 93 do Wine Advocate. São notas muito diferentes entre si — colar qualquer uma sem saber o ano seria inventar. Me diga a safra e eu completo a ficha na hora. O RÓTULO É UMA OBRA, e ganhou prêmio por isso: Best Wine Design & Packaging no The Drinks Business Awards de 2018. A gravura conta a história da uva em faixas — Eleanor of Aquitaine, the immigrant, early 1800's, phylloxera late 1800's, e o renascimento — sob a legenda de dez séculos de vida, morte e renascimento do Malbec. Teor alcoólico 14% e o engarrafamento em Vista Flores, Tunuyán, vêm do contrarrótulo. Os vinhedos Angélica e Nicasia vêm da casa, não do rótulo. Repare que o Angélica é o mesmo vinhedo de onde sai o Malbec do seu D.V. Catena, no AD-0062 — o vinhedo batizado com o nome de Angélica Zapata. PREÇO COM RESSALVA: R$ 1.200 vem da Oásis Bebidas, a partir de R$ 1.201,75, e é a única oferta brasileira que encontrei — sem faixa para tirar mediana, e sem safra declarada. Produto vendido no Brasil, sem dobrar. JANELA DE GUARDA VAZIA de propósito: sem saber a safra, qualquer intervalo seria chute. SÉTIMO RÓTULO DA CATENA ZAPATA NO ACERVO, a família mais numerosa da sua adega.",
       "historia": "O rótulo é uma gravura que conta dez séculos de Malbec em faixas: Eleanor da Aquitânia no começo, quando a uva era do sudoeste da França; o imigrante que a levou para a Argentina no início do século XIX; a filoxera que a matou na Europa no fim daquele século, desenhada como um esqueleto coroado; e o renascimento do outro lado do Atlântico. A legenda resume: vida, morte e renascimento. É a tese da casa impressa na garrafa — que o Malbec só sobreviveu porque atravessou o oceano, e que a Argentina é hoje a casa dele."
+    },
+    {
+      "codigo": "AD-0080",
+      "fotos": [
+        "AD-0080-1.webp",
+        "AD-0080-2.webp"
+      ],
+      "nome": "Touriga Nacional",
+      "produtor": "Quinta do Crasto",
+      "safra": 2017,
+      "tipo": "Tinto",
+      "uvas": [
+        "Touriga Nacional"
+      ],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Gouvinhas, Sabrosa",
+      "teorAlcoolico": 14.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 10",
+      "garrafas": 2,
+      "notasDegustacao": "Touriga Nacional pura, dezoito meses em barrica de carvalho francês. Buquê tostado e defumado, com especiaria intensa e frutos vermelhos típicos da região. Na boca é longo, focado e muito elegante, de fruta madura concentrada, madeira bem integrada e taninos finamente estruturados.",
+      "harmonizacoes": [
+        "Carne vermelha assada",
+        "Cabrito",
+        "Caça",
+        "Queijos curados"
+      ],
+      "guardaDe": 2022,
+      "guardaAte": 2037,
+      "temperatura": "16–18 °C, como manda o rótulo",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2017
+        },
+        {
+          "fonte": "Grandes Escolhas",
+          "nota": 19,
+          "escala": 20,
+          "safra": 2017
+        }
+      ],
+      "precoMercado": 800,
+      "descricaoCardapio": "A casta rainha do Douro sozinha: tostado, especiaria e frutos vermelhos, muito elegante.",
+      "confianca": 0.85,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "quintadocrasto.wine",
+        "wineenthusiast.com",
+        "wine-searcher.com",
+        "cacadordevinhos.com.br"
+      ],
+      "observacoes": "QUARTO RÓTULO DA QUINTA DO CRASTO NO ACERVO, e o primeiro varietal de Touriga Nacional. Os outros são as Touriga Franca 2017 e 2016 (AD-0028 e AD-0030) e a Colheita Seleccionada 2013 (AD-0029). Aqui a casta vem sozinha. ENGARRAFADO SEM QUALQUER FILTRAÇÃO em janeiro de 2020, e o próprio contrarrótulo avisa que pode criar depósito ao envelhecer. Sirva com cuidado ou decante — pelo mesmo motivo do Porto Noval do AD-0058. Teor alcoólico 14,5%, os dezoito meses de barrica francesa, a data do engarrafamento, a temperatura de serviço de 16–18 °C e o lote L-11TN18 vêm todos do contrarrótulo, que é exemplar. Selo do Instituto dos Vinhos do Douro e do Porto, BQ04-B70432. A nota 19 é da Grandes Escolhas, revista portuguesa, em escala 20, não 100. ATENÇÃO A UMA POSSÍVEL CONFUSÃO MINHA: a medalha Grand Gold do Wines of Portugal Challenge de 2022 aparece nas fontes ligada a ESTA Touriga Nacional 2017, mas eu a tinha registrado nas observações do AD-0028, a Touriga Franca 2017. Pode ser que as duas tenham ganhado, pode ser que eu tenha atribuído à garrafa errada. Deixo o aviso nas duas fichas em vez de escolher. PREÇO: R$ 800. Não achei oferta brasileira deste varietal, mas o irmão Tinta Roriz sai por R$ 799,90 no Caçador de Vinhos e a linha de varietais é vendida pelo mesmo preço. O caminho europeu confere: €56,90, convertidos e dobrados, dão ~R$ 686, na mesma faixa. Janela de guarda é estimativa, mas o próprio rótulo diz em inglês que o vinho recompensa guarda longa.",
+      "historia": "A Quinta do Crasto fica em Gouvinhas, Sabrosa, sobre uma curva do Douro, e é uma das quintas mais fotografadas de Portugal por causa da piscina infinita debruçada sobre o rio. A linha de varietais existe para mostrar cada casta do Douro sozinha, fora do corte tradicional — e a Touriga Nacional é a rainha delas, reconhecida há muito tempo, como diz o contrarrótulo, como a principal casta da Região Demarcada."
+    },
+    {
+      "codigo": "AD-0081",
+      "fotos": [
+        "AD-0081-1.webp",
+        "AD-0081-2.webp"
+      ],
+      "nome": "Tinta Roriz",
+      "produtor": "Quinta do Crasto",
+      "safra": 2016,
+      "tipo": "Tinto",
+      "uvas": [
+        "Tinta Roriz"
+      ],
+      "pais": "Portugal",
+      "regiao": "Douro",
+      "subRegiao": "Gouvinhas, Sabrosa",
+      "teorAlcoolico": 14.5,
+      "volumeMl": 750,
+      "adega": "Adega principal",
+      "prateleira": "Prateleira 10",
+      "garrafas": 2,
+      "notasDegustacao": "Tinta Roriz pura, de três vinhedos fermentados separadamente, dezesseis a dezoito meses em meias pipas de carvalho francês novo conforme a parcela. Aromas intensos de frutos silvestres, especiaria e pimenta. Boca de textura rica e fruta madura concentrada, com a madeira bem integrada, boa acidez e taninos firmes. Longo e muito elegante.",
+      "harmonizacoes": [
+        "Carne vermelha assada",
+        "Cordeiro",
+        "Caça",
+        "Queijos curados"
+      ],
+      "guardaDe": 2021,
+      "guardaAte": 2036,
+      "temperatura": "16–18 °C, como manda o rótulo",
+      "decantarMin": 60,
+      "avaliacoes": [
+        {
+          "fonte": "Robert Parker",
+          "nota": 96,
+          "escala": 100,
+          "safra": 2016
+        },
+        {
+          "fonte": "Decanter",
+          "nota": 96,
+          "escala": 100,
+          "safra": 2016
+        },
+        {
+          "fonte": "Wine Enthusiast",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2016
+        },
+        {
+          "fonte": "Wine Spectator",
+          "nota": 94,
+          "escala": 100,
+          "safra": 2016
+        },
+        {
+          "fonte": "James Suckling",
+          "nota": 92,
+          "escala": 100,
+          "safra": 2016
+        },
+        {
+          "fonte": "Revista de Vinhos",
+          "nota": 18,
+          "escala": 20,
+          "safra": 2016
+        },
+        {
+          "fonte": "Jancis Robinson",
+          "nota": 16.5,
+          "escala": 20,
+          "safra": 2016
+        }
+      ],
+      "precoMercado": 800,
+      "descricaoCardapio": "Tinta Roriz sozinha, de três vinhedos: frutos silvestres, pimenta e taninos firmes.",
+      "confianca": 0.9,
+      "fontes": [
+        "rótulo e contrarrótulo da garrafa",
+        "quintadocrasto.wine",
+        "robertparker.com",
+        "decanter.com",
+        "wineenthusiast.com",
+        "cacadordevinhos.com.br"
+      ],
+      "observacoes": "A GARRAFA MAIS PREMIADA DE TODO O SEU ACERVO em número de críticos: sete fontes independentes, duas delas com 96 — Robert Parker e Decanter. Nenhum outro vinho da casa reúne tanta gente concordando. Repare que duas notas são em escala 20, não 100: a Revista de Vinhos deu 18 e Jancis Robinson 16,5++, que é nota alta na escala dela. ENGARRAFADO SEM QUALQUER FILTRAÇÃO em outubro de 2018, e o contrarrótulo avisa que pode criar depósito. Sirva com cuidado ou decante. MEIAS PIPAS, não barricas: o contrarrótulo em português especifica meias pipas de carvalho francês, formato maior que a barrica bordalesa comum e tradicional no Douro. A casa informa que são três vinhedos fermentados em separado e de dezesseis a dezoito meses de madeira nova, conforme a parcela. Teor alcoólico 14,5%, a temperatura de 16–18 °C e o lote L-01TR19 vêm do contrarrótulo. Selo do Instituto dos Vinhos do Douro e do Porto, BB04-867755. Tinta Roriz é o nome português do Tempranillo espanhol — e é a mesma casta que aparece nos seus Vega Sicilia, do outro lado da fronteira. Vale abrir os dois lado a lado algum dia. PREÇO: R$ 799,90 no Caçador de Vinhos, arredondado para R$ 800. Havia R$ 759,91 no pix, que descartei — desconto de pagamento não é preço de mercado. Produto vendido no Brasil, sem dobrar. Janela de guarda é estimativa; o rótulo diz que o vinho recompensa guarda longa.",
+      "historia": "A Quinta do Crasto fica em Gouvinhas, Sabrosa, debruçada sobre uma curva do Douro. A linha de varietais existe para mostrar cada casta sozinha, fora do corte tradicional da região, e esta é a Tinta Roriz — que atravessando a fronteira vira Tempranillo e faz os grandes da Ribera del Duero. No Douro ela dá vinhos de fruta escura e taninos firmes, e aqui vem de três vinhedos vinificados em separado antes de se juntarem na garrafa."
     }
   ]
 }
